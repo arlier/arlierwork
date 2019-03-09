@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Brief Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Typical waveform and charge spectrum}{7}{0}{2}
+\beamer@sectionintoc {3}{statistical results of paramaters}{17}{0}{3}
+\beamer@sectionintoc {4}{总结}{31}{0}{4}

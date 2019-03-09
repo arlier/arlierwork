@@ -1,0 +1,225 @@
+% !TEX TS-program = LuaLaTeX
+\documentclass[11pt,compress,xcolor=x11names,UTF8]{beamer}
+\usetheme{Boadilla}
+\usecolortheme{seahorse}
+\useinnertheme[shadow]{rounded}  
+\useoutertheme[subsection=false]{smoothbars}
+\usecolortheme{spruce}
+\usecolortheme[named=SpringGreen4]{structure}
+\usefonttheme{structurebold}
+\useinnertheme{circles}
+\usecolortheme{rose}
+\usepackage{pifont}
+\usepackage{academicons}
+\usepackage{fontawesome}
+\usepackage{iitem}
+%\usepackage{graphicx}
+%\usepackage{tabular}
+\setbeamertemplate{itemize item}{\ding{108}}
+\setbeamertemplate{itemize subitem}{\ding{109}}
+\setbeamertemplate{navigation symbols}{}
+\setbeamercovered{transparent}  
+\renewcommand\appendixname{附录}
+\renewcommand\abstractname{摘要}
+\graphicspath{{figure/}} % 图片路径
+\usepackage{calligra} % Thank you
+\usepackage{ctex} % 加入中文
+%\setCJKsansfont{Noto Sans CJK SC}
+\setsansfont{Lato} % Lato Roboto Fira Sans
+\usepackage{makecell}
+\newcommand{\tabincell}[2]{\begin{tabular}{@{}#1@{}}#2\end{tabular}}
+\usepackage{url}					
+\usepackage{natbib} % 参考文献
+%\title[Spatial Generalized Linear Mixed Models]{Spatial Generalized Linear Mixed Models with Application to Prevalence Mapping}
+\title{PDE Analysis of Container System Using Drawer "Self-calibration" Method}
+%\subtitle{奖助金申请答辩}
+\author[Rong. Zhao]{Email：zhaor25@mail2.sysu.edu.cn \and  } % \\ 专业：统计学 \\ 方向：数据分析与统计计算
+\institute[Sun Yat-Sen University]{School of Physics\and } % 理学院\\
+\date[\today]{\includegraphics[width=.5\textwidth]{logo}}
+
+\begin{document}
+
+\maketitle
+
+%\begin{frame}{Outline}
+%\tableofcontents
+%\end{frame}
+
+\section{Introduction}
+
+%\subsection{研究意义}
+
+\begin{frame}{PDE evaluation method}
+%\textsf{例} \textbf{例}  \textit{例} 
+% \texttt{例}  % 调出仿宋字体了
+Based on our PMT testing equiptments, the traditional PDE of one PMT can be calculated from container's result:
+\begin{equation}
+PDE={\color{red}PDE_c}\cdot f_{cs}+constant
+\end{equation}
+where $PDE_c$ is the internal PDE result from container, $f_{cs}$ is PDE transform coefficient between Container and Scanning station\footnote{we believe that PDE from container and scanning station are linear related.}.
+\vspace{.5cm}
+
+The factor  $f_{cs}$ can be obtained by fitting the PDE results from both system, hence this factor will be more precise as we test more tubes\footnote{also the constant}. 
+%\begin{table}[]  
+%\caption{PMT typical performance}  
+%\resizebox{.8\textwidth}{!}{%
+%\begin{tabular*}{.98\textwidth}{l|cccc}
+%%\toprule  
+%\hline  
+%\hline  
+%Performance & PDE &DCR & TTS& uniformity \\  
+%\hline  
+%HAMAMATSU &  lower\% & 20 kHz& 3ns& worse \\  
+%NNVT  & higher\% & 40kHz & 7ns& better \\  
+%\hline  
+%\end{tabular*}  
+%%}
+%\end{table} 
+%\begin{figure}
+%\centering
+%\includegraphics[width=0.78\textwidth]{typical_hittime} % 单图
+%\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Determination of $PDE_{c}$}
+The parameter $PDE_c$ is container's own PDE result and need to be mapped to a final PDE. 
+\vspace{.5cm}
+
+For each drawer in the container, we get $PDE_c$ by:
+\begin{equation}
+PDE_c=\mu_{test}\cdot {\color{red}drawer_{factor}}
+\end{equation}
+where $\mu_{test}$ is the average photon number measured by one PMT, and drawer$_{factor}$ is the coefficient mapping the $\mu_{test}$ to $PDE_c$.
+
+\vspace{.5cm}
+So the key step to access $PDE_c$ is to calibrate each drawer by measuring the drawer$_{factor}$.
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{calibration of each drawer}
+Generally, we put several PMTs with known PDE value\footnote{or QE value}  into one drawer and linearly fit the PDE-$\mu_{test}$ data to get \alert{drawer$_{factor}$}. 
+\vspace{.5cm}
+\hrule{\textwidth}
+\vspace{.5cm}
+
+While an alternative way to access the drawer$_{factor}$ is fitting PDE-$\mu_{test}$ data {\color{red}from all the PMTs tested in one drawer rather than the mannual selected ones.} Then once we finish one PMT test in a drawer we will get one more statistical sample in the PDE-$\mu_{test}$ fitting, and we could expect that the fitted drawer$_{factor}$ will get more stable as we testing more PMTs.
+
+\vspace{.5cm}
+The advantage of this "self-calibration" method is that we could {\color{red}decrease the statistical error as much as possible}; and the remained fluctuation of drawer$_{factor}$ can be the system error. 
+\end{frame}
+\section{calibration of drawer}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{how to calibrate}
+The HAMAMATSU company has provided us with QE value of part of the PMTs, If we suppose the collection efficiency is same for all the HAMAMATSU PMTs we could use these QE values to calibrate drawers in the container.
+
+\vspace{.5cm}
+\hrule{\textwidth}
+\vspace{.5cm}
+In order to make sure the PDE-$\mu_{test}$ fitting results reasonable, only the PMT pass the test will be used for fitting.
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{fitting example using 30 tubes}
+\begin{figure}
+\centering
+\includegraphics[width=0.58\textwidth]{pat5} % 单图
+\end{figure}
+results of more drawers can be found in the back-up part.
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%~~!!!!!!!!!!!!!!!!!!put two figures to illustrate!!!!!
+\begin{frame}{drawer$_{factor}$ vs. PMT number drawer ###}
+\begin{figure}
+\centering
+\includegraphics[width=0.58\textwidth]{pat3} % 单图
+\end{figure}
+more results can be found in the back-up part.
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{discuss the results}
+the relative error $e_{r}=\frac{f_{i}-f_{r}}{f_r}$ of one draw:
+\begin{figure}
+\centering
+\includegraphics[width=0.58\textwidth]{pat4} % 单图
+\end{figure}
+define the first number that $|e_r|<1\%$ as $N_0$, we could get the $N_0$ value for each drawer.
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{discuss the results}
+\begin{figure}
+\centering
+\includegraphics[width=0.58\textwidth]{pat4} % 单图
+\end{figure}
+This means we need to calibrate each drawer with  at least 30 PMTs to get a reliable drawer$_{factor}$.
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{ JUNO offline}
+compare detector performance with the different PMT paterns, especially the time and energy resolution and reconstruction results.
+
+\hrule{\textwidth}
+
+how to:add method to the PMT class then each PMT can get its performance according to the layout pattern and its own ID. 
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{PMT orientation}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{HAMAMATSU PMTs}
+the PDE uniformity of HAMAMATSU PMTs are not so good
+\hrule{\textwidth}
+we can artificially correct the PDE if these PMTs have fixed orientation and we can extract the light incident angle using reconstraction information.
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{frame}
+\centering {\zihao{0} \color{red} \calligra{Thank You}}
+
+\end{frame}
+
+
+%\begin{frame}[allowframebreaks]
+%\frametitle{References}
+%\scriptsize
+%\bibliographystyle{authordate1}
+%\bibliography{R-GLMM-pkgs}
+%\end{frame}
+
+\appendix
+
+\section*{附录}
+
+%\begin{frame}{Softwares and Tools}
+
+%\includegraphics[width=.2\textwidth]{software/r}\qquad
+%\includegraphics[width=.16\textwidth]{software/stan} \\ 
+%\includegraphics[width=.45\textwidth]{software/bioconductor}
+%\includegraphics[width=.45\textwidth]{software/PyMC3} 
+
+%\end{frame}
+%% OpenBUGS  WinBUGS  JAGS
+% library(R2OpenBUGS) # 2017-2-20 version 3.2-3.2
+% library(R2WinBUGS) # 2015-07-29 version 2.1-21
+% library(rjags) # 2016-02-19 version 4-6
+% library(BRugs) # OpenBUGS 2017-06-26  version 0.9-0
+% library(glmmBUGS) # Generalised Linear Mixed Models with BUGS and JAGS 2016-09-22 version 2.4.0
+% library(R2jags) # Using R to Run 'JAGS'  2015-08-23	 version 0.5-7
+
+% network
+	% diagram DiagrammeR DiagrammeRsvg
+ % library(help=graph)
+
+ % library(help=Rgraphviz)
+ % library(help=igraph)
+
+
+%\begin{frame}{Ack}
+%\begin{itemize}
+%\item[\faGithub] \href{https://github.com/Cloud2016}{Cloud2016} \faAt Github
+%\item[\aiOverleaf] \href{https://www.overleaf.com/}{Xiangyun} \faAt Overleaf
+%\item[\aiarXiv] \href{https://arxiv.org/}{arXiv}
+%\end{itemize}
+%\end{frame}
+
+\end{document} 
+
+

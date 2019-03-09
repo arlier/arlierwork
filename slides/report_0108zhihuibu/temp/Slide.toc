@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{背景简介}{3}{0}{1}
+\beamer@sectionintoc {2}{数据质量检查}{5}{0}{2}
+\beamer@sectionintoc {3}{参数计算和结果分析}{7}{0}{3}
+\beamer@sectionintoc {4}{各个参数的统计结果}{10}{0}{4}
+\beamer@sectionintoc {5}{总结}{26}{0}{5}

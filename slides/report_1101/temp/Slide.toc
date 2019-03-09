@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{new method to calibrate drawers}{6}{0}{2}
+\beamer@sectionintoc {3}{calculation of PDE using this method}{10}{0}{3}
+\beamer@sectionintoc {4}{summary}{15}{0}{4}

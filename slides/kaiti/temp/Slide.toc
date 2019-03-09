@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{背景简介}{3}{0}{1}
+\beamer@sectionintoc {2}{JUNO近点探测器-TAO}{10}{0}{2}
+\beamer@sectionintoc {3}{探测器硬件以及模拟研究}{12}{0}{3}
+\beamer@sectionintoc {4}{已有工作和进度安排}{18}{0}{4}
+\beamer@sectionintoc {5}{总结}{19}{0}{5}

@@ -1,0 +1,2 @@
+\beamer@sectionintoc {1}{PMT layout}{2}{0}{1}
+\beamer@sectionintoc {2}{PMT orientation}{13}{0}{2}

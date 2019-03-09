@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{背景简介}{3}{0}{1}
+\beamer@sectionintoc {2}{集装箱抽屉的刻度}{6}{0}{2}
+\beamer@sectionintoc {3}{PDE的计算}{10}{0}{3}
+\beamer@sectionintoc {4}{总结}{16}{0}{4}
