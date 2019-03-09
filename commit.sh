@@ -1,3 +1,5 @@
 git add .
-git commit -m "test commit"
+mydate= date +%F 
+echo $mydate
+git commit -m '$mydate'
 git push -u origin master
