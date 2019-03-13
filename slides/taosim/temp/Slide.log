@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  13 MAR 2019 11:15
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  13 MAR 2019 12:03
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2249,7 +2249,7 @@ File: currentfig/Chemical_formula_for_polyvinyl_tolulene.png Graphic file (type
 
 ]
 LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
-(Font)              scaled to size 60.70688pt on input line 433.
+(Font)              scaled to size 60.70688pt on input line 434.
  [15
 
 ]
@@ -2262,11 +2262,11 @@ LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
 \tf@snm=\write8
 \openout8 = `Slide.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 477.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 477.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 478.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 478.
  (temp/Slide.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 477.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 477.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 478.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 478.
 Package rerunfilecheck Info: File `Slide.out' has not changed.
 (rerunfilecheck)             Checksum: ED07E3FBD1F1AAB97D746D3149CA9453.
  ) 
