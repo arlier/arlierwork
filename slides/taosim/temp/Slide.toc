@@ -1,4 +1,4 @@
 \beamer@sectionintoc {1}{Brief Introduction}{3}{0}{1}
-\beamer@sectionintoc {2}{physcis and scoring}{13}{0}{2}
-\beamer@sectionintoc {3}{simulation output }{14}{0}{3}
-\beamer@sectionintoc {4}{summary}{14}{0}{4}
+\beamer@sectionintoc {2}{physcis and scoring}{14}{0}{2}
+\beamer@sectionintoc {3}{simulation output }{15}{0}{3}
+\beamer@sectionintoc {4}{summary}{15}{0}{4}
