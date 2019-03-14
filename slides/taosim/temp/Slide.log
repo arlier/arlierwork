@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  13 MAR 2019 16:24
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  14 MAR 2019 16:57
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2238,23 +2238,19 @@ File: currentfig/backing.png Graphic file (type bmp)
 ] [11
 
 ]
-File: currentfig/Chemical_formula_for_polyvinyl_tolulene.png Graphic file (type
- bmp)
-<currentfig/Chemical_formula_for_polyvinyl_tolulene.png>
-
-./Slide.tex:284: Missing number, treated as zero.
+./Slide.tex:271: Missing number, treated as zero.
 <to be read again> 
                    }
-l.284 \end{frame}
+l.271 \end{frame}
                  
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./Slide.tex:284: Illegal unit of measure (pt inserted).
+./Slide.tex:271: Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.284 \end{frame}
+l.271 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, bp, or sp; but yours is a new one!
@@ -2265,16 +2261,44 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 [12
 
-] [13
+]
+File: currentfig/Chemical_formula_for_polyvinyl_tolulene.png Graphic file (type
+ bmp)
+<currentfig/Chemical_formula_for_polyvinyl_tolulene.png>
+
+./Slide.tex:302: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.302 \end{frame}
+                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./Slide.tex:302: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.302 \end{frame}
+                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+[13
 
 ] [14
 
 ] [15
 
+] [16
+
 ]
 LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
-(Font)              scaled to size 60.70688pt on input line 442.
- [16
+(Font)              scaled to size 60.70688pt on input line 461.
+ [17
 
 ]
 \tf@nav=\write6
@@ -2286,21 +2310,21 @@ LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
 \tf@snm=\write8
 \openout8 = `Slide.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 486.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 486.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 505.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 505.
  (temp/Slide.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 486.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 486.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 505.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 505.
 Package rerunfilecheck Info: File `Slide.out' has not changed.
 (rerunfilecheck)             Checksum: ED07E3FBD1F1AAB97D746D3149CA9453.
  ) 
 Here is how much of TeX's memory you used:
- 36342 strings out of 492970
- 736703 string characters out of 6133939
- 826859 words of memory out of 5000000
- 39666 multiletter control sequences out of 15000+600000
+ 36344 strings out of 492970
+ 736719 string characters out of 6133939
+ 828068 words of memory out of 5000000
+ 39668 multiletter control sequences out of 15000+600000
  537142 words of font info for 80 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  57i,20n,76p,10413b,793s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on temp/Slide.pdf (16 pages).
+Output written on temp/Slide.pdf (17 pages).

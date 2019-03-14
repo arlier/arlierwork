@@ -2,7 +2,7 @@
 \documentclass[11pt,compress,xcolor=x11names,UTF8]{beamer}
 \usetheme{Boadilla}
 \usecolortheme{seahorse}
-\useinnertheme[shadow]{rounded}  
+\useinnertheme[shadow]{rounded}
 \useoutertheme[subsection=false]{smoothbars}
 \usecolortheme{spruce}
 \usecolortheme[named=SpringGreen4]{structure}
@@ -19,7 +19,7 @@
 \setbeamertemplate{itemize item}{\ding{108}}
 \setbeamertemplate{itemize subitem}{\ding{109}}
 \setbeamertemplate{navigation symbols}{}
-\setbeamercovered{transparent}  
+\setbeamercovered{transparent}
 \renewcommand\appendixname{附录}
 \renewcommand\abstractname{摘要}
 \graphicspath{{figure/}} % 图片路径
@@ -29,7 +29,7 @@
 \setsansfont{Lato} % Lato Roboto Fira Sans
 \usepackage{makecell}
 \newcommand{\tabincell}[2]{\begin{tabular}{@{}#1@{}}#2\end{tabular}}
-\usepackage{url}					
+\usepackage{url}
 \usepackage{natbib} % 参考文献
 %\title[Spatial Generalized Linear Mixed Models]{Spatial Generalized Linear Mixed Models with Application to Prevalence Mapping}
 \title{Simulation Geometry in GEANT4}
@@ -86,9 +86,9 @@
 \end{frame}
 
 \begin{frame}{Details about the Geometry Set-up}
-%\textsf{例} \textbf{例}  \textit{例} 
+%\textsf{例} \textbf{例}  \textit{例}
 % \texttt{例}  % 调出仿宋字体了
-%The cubic detector contains 10$\times$10$\times$10 small scintillators with size 6cm$\times$6cm$\times$6cm; two arrays of SiPMs is 1mm away from the scintillator surface. 
+%The cubic detector contains 10$\times$10$\times$10 small scintillators with size 6cm$\times$6cm$\times$6cm; two arrays of SiPMs is 1mm away from the scintillator surface.
 The structure of one dimention detector:
 \begin{columns}
 \begin{column}{1.05\textwidth}
@@ -234,7 +234,7 @@ The resulting triton and alpha particle are detected by ZnS:Ag phosphor with the
 \item attach correct material to each logical volume.
 \item other components
 \end{itemize}
-\item adjustment of physis list 
+\item adjustment of physis list
 \begin{itemize}
 \item  about scitillator material and their \alert{optical properties}
 \item  optical performance of lightguides
@@ -247,9 +247,27 @@ The resulting triton and alpha particle are detected by ZnS:Ag phosphor with the
 \item alter the particle type,position,momentum,energy etc.\\
 \item  use gps to control theparticle source
 \end{itemize}
-\item sensitive detector and scoring 
+\item sensitive detector and scoring
 \item more useractions for output and analyze.
 \end{itemize}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{ update of work}
+	\textbf{finished}
+	\begin{itemize}
+		\item finish the geometry.
+\item finish the material
+		\item add GPS
+\item add sensitive detector (SD)
+\item priliminary analyze codes
+	\end{itemize}
+	\hrule{\textwidth}
+	\vspace{.8cm}
+	\textbf{next to be done}
+	\begin{itemize}
+		\item more details about the optical photons(optical properties and optical boundaries)
+		\item update the analyzing class
+	\end{itemize}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}{ material of detector components}
@@ -273,7 +291,7 @@ The resulting triton and alpha particle are detected by ZnS:Ag phosphor with the
 	\vspace{.5cm}
 	\hrule{\textwidth}
 	\vspace{.5cm}
-		
+
 	\item thermal neutron scintillator:EJ-426HD2\\
 	$^6LiF:ZnS \ Mass Ratio 1:3$\\
 		$^6Li $ Density(atoms/cm$^3$)  : 8.81$\times 10^{21}$\\
@@ -284,6 +302,7 @@ The resulting triton and alpha particle are detected by ZnS:Ag phosphor with the
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}{ material of detector components}
+
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\vspace{-.5cm}
@@ -305,7 +324,7 @@ The resulting triton and alpha particle are detected by ZnS:Ag phosphor with the
 %\end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\begin{frame}{calibration of each drawer}
-%Generally, we put several PMTs with known PDE value\footnote{or QE value}  into one drawer and linearly fit the PDE-$\mu_{test}$ data to get \alert{drawer$_{factor}$}. 
+%Generally, we put several PMTs with known PDE value\footnote{or QE value}  into one drawer and linearly fit the PDE-$\mu_{test}$ data to get \alert{drawer$_{factor}$}.
 %\vspace{.5cm}
 %\hrule{\textwidth}
 %\vspace{.5cm}
@@ -313,7 +332,7 @@ The resulting triton and alpha particle are detected by ZnS:Ag phosphor with the
 %While an alternative way to access the drawer$_{factor}$ is fitting PDE-$\mu_{test}$ data {\color{red}from all the PMTs tested in one drawer rather than the mannual selected ones.} Then once we finish one PMT test in a drawer we will get one more statistical sample in the PDE-$\mu_{test}$ fitting, and we could expect that the fitted drawer$_{factor}$ will get more stable as we testing more PMTs.
 %
 %\vspace{.5cm}
-%The advantage of this "self-calibration" method is that we could {\color{red}decrease the statistical error as much as possible}; and the remained fluctuation of drawer$_{factor}$ can be the system error. 
+%The advantage of this "self-calibration" method is that we could {\color{red}decrease the statistical error as much as possible}; and the remained fluctuation of drawer$_{factor}$ can be the system error.
 %\end{frame}
 \section{physcis and scoring}
 %\begin{frame}{一个抽屉的刻度结果}
@@ -483,6 +502,4 @@ The resulting triton and alpha particle are detected by ZnS:Ag phosphor with the
 %\end{itemize}
 %\end{frame}
 
-\end{document} 
-
-
+\end{document}

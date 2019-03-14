@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1552465497 "Slide.tex" "temp/Slide.pdf" "Slide" 1552465515
+["pdflatex"] 1552553834 "Slide.tex" "temp/Slide.pdf" "Slide" 1552553851
   "/dev/null" 1552277858 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1480098689 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -226,7 +226,7 @@
   "/usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf" 1522066949 33362 cf75436e19743e94a92a6b1b9183c434 ""
   "/usr/local/texlive/2018/texmf-var/web2c/xetex/xelatex.fmt" 1552130843 3731942 6896b9129c8be84d817a5c866a9ee221 ""
   "/usr/local/texlive/2018/texmf.cnf" 1552130826 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "Slide.tex" 1552465496 15630 c9bc7453e1eba27e7903ecb3f6b1ea9a ""
+  "Slide.tex" 1552553845 16104 f4e0e81f6c822d0a828e005092943d1c ""
   "currentfig/3dg.eps" 1552132062 5822129 220e1589e090c4354517b3376811cbe2 ""
   "currentfig/Chemical_formula_for_polyvinyl_tolulene.png" 1552444023 3283 22672e1a7c328e0a9c7b6fe070dd0466 ""
   "currentfig/backing.png" 1552132063 75401 a73d215a795f53cff65cfddad4f07ad2 ""
@@ -243,10 +243,10 @@
   "currentfig/onedim.eps" 1552132061 2027651 ce30803223a16db73746c692076d882b ""
   "currentfig/twodim.eps" 1552132061 8777297 d35b308525d740f5faf6b7a1215d35c5 ""
   "logo" 0 -1 0 ""
-  "temp/Slide.aux" 1552465515 4782 de3e0656ff1b48929974deaf85214e28 ""
-  "temp/Slide.nav" 1552465515 2379 62c612b963873b8759147838bbc7de16 ""
-  "temp/Slide.out" 1552465515 497 ed07e3fbd1f1aab97d746d3149ca9453 ""
-  "temp/Slide.toc" 1552465515 209 208a302d6229650fded19495b7264b91 ""
+  "temp/Slide.aux" 1552553850 4953 9e4c6f6596b8b6884423b5de1281d2af ""
+  "temp/Slide.nav" 1552553850 2472 7b192d668c45287fb2a257097273eb74 ""
+  "temp/Slide.out" 1552553850 497 ed07e3fbd1f1aab97d746d3149ca9453 ""
+  "temp/Slide.toc" 1552553850 209 d47403ba02ffb7fabf810de5f53ee535 ""
   "temp/logo" 0 -1 0 ""
   (generated)
   "temp/Slide.log"
