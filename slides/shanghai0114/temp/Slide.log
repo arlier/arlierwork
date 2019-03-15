@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.6.12)  10 JAN 2019 21:12
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  15 MAR 2019 13:01
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -1110,6 +1110,28 @@ Package: fontawesome 2016/05/15 v4.6.3.1 font awesome icons
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-ge
 neric.tex)
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+/usr/local/texlive/2018/texmf-dist/tex/latex/fontawesome/fontawesome.sty:45: fo
+ntspec error: "font-not-found"
+! 
+! The font "FontAwesome" cannot be found.
+! 
+! See the fontspec documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.45 \newfontfamily{\FA}{FontAwesome}
+                                     
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| A font might not be found for many reasons.
+|  Check the spelling, where the font is installed etc. etc.
+| 
+|  When in doubt, ask someone for help!
+|...............................................
+
 .................................................
 . fontspec info: "no-scripts"
 . 
@@ -1131,6 +1153,50 @@ neric.tex)
 . 
 . Could not resolve font "FontAwesome/I" (it probably doesn't exist).
 .................................................
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+/usr/local/texlive/2018/texmf-dist/tex/latex/fontawesome/fontawesome.sty:45: fo
+ntspec error: "font-not-found"
+! 
+! The font "FontAwesome" cannot be found.
+! 
+! See the fontspec documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.45 \newfontfamily{\FA}{FontAwesome}
+                                     
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| A font might not be found for many reasons.
+|  Check the spelling, where the font is installed etc. etc.
+| 
+|  When in doubt, ask someone for help!
+|...............................................
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+/usr/local/texlive/2018/texmf-dist/tex/latex/fontawesome/fontawesome.sty:45: fo
+ntspec error: "font-not-found"
+! 
+! The font "FontAwesome" cannot be found.
+! 
+! See the fontspec documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.45 \newfontfamily{\FA}{FontAwesome}
+                                     
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| A font might not be found for many reasons.
+|  Check the spelling, where the font is installed etc. etc.
+| 
+|  When in doubt, ask someone for help!
+|...............................................
+
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1138,8 +1204,8 @@ neric.tex)
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
-. - 'normal' (m/n) with NFSS spec.: <->"FontAwesome/OT"
-. - 'small caps'  (m/sc) with NFSS spec.: 
+. - 'normal' (m/n) with NFSS spec.: <->"FontAwesome"
+. - 'small caps'  (m/sc) with NFSS spec.: <->"FontAwesome"
 .................................................
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-xe
@@ -2055,21 +2121,21 @@ LaTeX Info: Redefining \selectfont on input line 40.
 .................................................
 
 (temp/Slide.nav)
-Overfull \hbox (54.2715pt too wide) in paragraph at lines 40--40
+Overfull \hbox (55.54643pt too wide) in paragraph at lines 40--40
  [][][][]  
  []
 
 File: figure/logo.png Graphic file (type bmp)
 <figure/logo.png>
 
-Overfull \hbox (54.2715pt too wide) has occurred while \output is active
+Overfull \hbox (55.54643pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [1
 
 ] (temp/Slide.toc)
-Overfull \hbox (54.2715pt too wide) has occurred while \output is active
+Overfull \hbox (55.54643pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2168,7 +2234,7 @@ Underfull \hbox (badness 10000) in alignment at lines 82--82
  []
 
 
-Overfull \hbox (54.2715pt too wide) has occurred while \output is active
+Overfull \hbox (55.54643pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2178,11 +2244,11 @@ Overfull \hbox (54.2715pt too wide) has occurred while \output is active
 File: figures/program.pdf Graphic file (type pdf)
 <use figures/program.pdf>
 
-Overfull \vbox (41.46255pt too high) detected at line 92
+Overfull \vbox (41.63126pt too high) detected at line 92
  []
 
 
-Overfull \hbox (54.2715pt too wide) has occurred while \output is active
+Overfull \hbox (55.54643pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2193,11 +2259,11 @@ File: figures/sys1_mass10244_channel122_snEA4828_lt2.png Graphic file (type bmp
 )
 <figures/sys1_mass10244_channel122_snEA4828_lt2.png>
 
-Overfull \vbox (0.86653pt too high) detected at line 99
+Overfull \vbox (1.03523pt too high) detected at line 99
  []
 
 
-Overfull \hbox (54.2715pt too wide) has occurred while \output is active
+Overfull \hbox (55.54643pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2207,11 +2273,11 @@ Overfull \hbox (54.2715pt too wide) has occurred while \output is active
 File: figures/SN_EA0283_pde1_dcr1_HV1_pv1_rt1_tag1.png Graphic file (type bmp)
 <figures/SN_EA0283_pde1_dcr1_HV1_pv1_rt1_tag1.png>
 
-Overfull \vbox (8.67754pt too high) detected at line 108
+Overfull \vbox (8.84624pt too high) detected at line 108
  []
 
 
-Overfull \hbox (54.2715pt too wide) has occurred while \output is active
+Overfull \hbox (55.54643pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2223,7 +2289,7 @@ File: figures/hamwave.png Graphic file (type bmp)
 File: figures/mcpwave.png Graphic file (type bmp)
 <figures/mcpwave.png>
 
-Overfull \hbox (54.2715pt too wide) has occurred while \output is active
+Overfull \hbox (55.54643pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2235,11 +2301,11 @@ File: figures/wave2d.png Graphic file (type bmp)
 File: figures/mcpwave2d.png Graphic file (type bmp)
 <figures/mcpwave2d.png>
 
-Overfull \vbox (5.43298pt too high) detected at line 184
+Overfull \vbox (5.60168pt too high) detected at line 184
  []
 
 
-Overfull \hbox (54.2715pt too wide) has occurred while \output is active
+Overfull \hbox (55.54643pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2251,7 +2317,7 @@ File: figures/hambaseline2d.png Graphic file (type bmp)
 File: figures/mcpbaseline2d.png Graphic file (type bmp)
 <figures/mcpbaseline2d.png>
 
-Overfull \hbox (54.2715pt too wide) has occurred while \output is active
+Overfull \hbox (55.54643pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2263,11 +2329,11 @@ File: figures/hamampspe.png Graphic file (type bmp)
 File: figures/mcpampspe.png Graphic file (type bmp)
 <figures/mcpampspe.png>
 
-Overfull \vbox (2.76802pt too high) detected at line 229
+Overfull \vbox (2.93672pt too high) detected at line 229
  []
 
 
-Overfull \hbox (54.2715pt too wide) has occurred while \output is active
+Overfull \hbox (55.54643pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2279,7 +2345,7 @@ File: figures/hamaligned2d.png Graphic file (type bmp)
 File: figures/mcpaligned2d.png Graphic file (type bmp)
 <figures/mcpaligned2d.png>
 
-Overfull \hbox (54.2715pt too wide) has occurred while \output is active
+Overfull \hbox (55.54643pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2291,11 +2357,11 @@ File: figures/avewave.png Graphic file (type bmp)
 File: figures/mcpavewave.png Graphic file (type bmp)
 <figures/mcpavewave.png>
 
-Overfull \vbox (7.8812pt too high) detected at line 274
+Overfull \vbox (8.0499pt too high) detected at line 274
  []
 
 
-Overfull \hbox (54.2715pt too wide) has occurred while \output is active
+Overfull \hbox (55.54643pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2307,11 +2373,11 @@ File: figures/riseposition.png Graphic file (type bmp)
 File: figures/hitpositionmcp.png Graphic file (type bmp)
 <figures/hitpositionmcp.png>
 
-Overfull \vbox (5.33415pt too high) detected at line 296
+Overfull \vbox (5.50285pt too high) detected at line 296
  []
 
 
-Overfull \hbox (54.2715pt too wide) has occurred while \output is active
+Overfull \hbox (55.54643pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2323,11 +2389,11 @@ File: figures/hamampqdc.png Graphic file (type bmp)
 File: figures/mcpampqdc.png Graphic file (type bmp)
 <figures/mcpampqdc.png>
 
-Overfull \vbox (4.52689pt too high) detected at line 317
+Overfull \vbox (4.69559pt too high) detected at line 317
  []
 
 
-Overfull \hbox (54.2715pt too wide) has occurred while \output is active
+Overfull \hbox (55.54643pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2339,7 +2405,7 @@ File: figures/hamrtft.png Graphic file (type bmp)
 File: figures/mcprtft.png Graphic file (type bmp)
 <figures/mcprtft.png>
 
-Overfull \hbox (54.2715pt too wide) has occurred while \output is active
+Overfull \hbox (55.54643pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2351,7 +2417,7 @@ File: figures/hamcharge.png Graphic file (type bmp)
 File: figures/mcpcharge.png Graphic file (type bmp)
 <figures/mcpcharge.png>
 
-Overfull \hbox (54.2715pt too wide) has occurred while \output is active
+Overfull \hbox (55.54643pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2380,7 +2446,7 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-Overfull \hbox (54.2715pt too wide) has occurred while \output is active
+Overfull \hbox (55.54643pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2390,7 +2456,7 @@ Overfull \hbox (54.2715pt too wide) has occurred while \output is active
 File: figures/pde.png Graphic file (type bmp)
 <figures/pde.png>
 
-Overfull \hbox (54.2715pt too wide) has occurred while \output is active
+Overfull \hbox (55.54643pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2402,7 +2468,7 @@ File: figures/pdecomparation.png Graphic file (type bmp)
 File: figures/pdedifference.png Graphic file (type bmp)
 <figures/pdedifference.png>
 
-Overfull \hbox (54.2715pt too wide) has occurred while \output is active
+Overfull \hbox (55.54643pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2412,7 +2478,7 @@ Overfull \hbox (54.2715pt too wide) has occurred while \output is active
 File: figures/dcr.png Graphic file (type bmp)
 <figures/dcr.png>
 
-Overfull \hbox (54.2715pt too wide) has occurred while \output is active
+Overfull \hbox (55.54643pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2422,7 +2488,7 @@ Overfull \hbox (54.2715pt too wide) has occurred while \output is active
 File: figures/gain.png Graphic file (type bmp)
 <figures/gain.png>
 
-Overfull \hbox (54.2715pt too wide) has occurred while \output is active
+Overfull \hbox (55.54643pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2432,7 +2498,7 @@ Overfull \hbox (54.2715pt too wide) has occurred while \output is active
 File: figures/pv.png Graphic file (type bmp)
 <figures/pv.png>
 
-Overfull \hbox (54.2715pt too wide) has occurred while \output is active
+Overfull \hbox (55.54643pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2442,7 +2508,7 @@ Overfull \hbox (54.2715pt too wide) has occurred while \output is active
 File: figures/rt.png Graphic file (type bmp)
 <figures/rt.png>
 
-Overfull \hbox (54.2715pt too wide) has occurred while \output is active
+Overfull \hbox (55.54643pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2452,7 +2518,7 @@ Overfull \hbox (54.2715pt too wide) has occurred while \output is active
 File: figures/ft.png Graphic file (type bmp)
 <figures/ft.png>
 
-Overfull \hbox (54.2715pt too wide) has occurred while \output is active
+Overfull \hbox (55.54643pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2462,7 +2528,7 @@ Overfull \hbox (54.2715pt too wide) has occurred while \output is active
 File: figures/fwhm.png Graphic file (type bmp)
 <figures/fwhm.png>
 
-Overfull \hbox (54.2715pt too wide) has occurred while \output is active
+Overfull \hbox (55.54643pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2472,7 +2538,7 @@ Overfull \hbox (54.2715pt too wide) has occurred while \output is active
 File: figures/res.png Graphic file (type bmp)
 <figures/res.png>
 
-Overfull \hbox (54.2715pt too wide) has occurred while \output is active
+Overfull \hbox (55.54643pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2482,7 +2548,7 @@ Overfull \hbox (54.2715pt too wide) has occurred while \output is active
 File: figures/snr.png Graphic file (type bmp)
 <figures/snr.png>
 
-Overfull \hbox (54.2715pt too wide) has occurred while \output is active
+Overfull \hbox (55.54643pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2492,7 +2558,7 @@ Overfull \hbox (54.2715pt too wide) has occurred while \output is active
 File: figures/vendorHV.png Graphic file (type bmp)
 <figures/vendorHV.png>
 
-Overfull \hbox (54.2715pt too wide) has occurred while \output is active
+Overfull \hbox (55.54643pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2521,7 +2587,7 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-Overfull \hbox (54.2715pt too wide) has occurred while \output is active
+Overfull \hbox (55.54643pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2531,14 +2597,14 @@ Overfull \hbox (54.2715pt too wide) has occurred while \output is active
 File: figures/SN_EA0302_pde0_dcr1_HV1_pv0_rt1_tag0.png Graphic file (type bmp)
 <figures/SN_EA0302_pde0_dcr1_HV1_pv0_rt1_tag0.png>
 
-Overfull \hbox (54.2715pt too wide) has occurred while \output is active
+Overfull \hbox (55.54643pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [30
 
 ]
-Overfull \hbox (54.2715pt too wide) has occurred while \output is active
+Overfull \hbox (55.54643pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2548,14 +2614,14 @@ Overfull \hbox (54.2715pt too wide) has occurred while \output is active
 LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
 (Font)              scaled to size 60.70688pt on input line 588.
 
-Overfull \hbox (54.2715pt too wide) has occurred while \output is active
+Overfull \hbox (55.54643pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [32
 
 ]
-Overfull \hbox (54.2715pt too wide) has occurred while \output is active
+Overfull \hbox (55.54643pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2587,7 +2653,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (54.2715pt too wide) has occurred while \output is active
+Overfull \hbox (55.54643pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2619,7 +2685,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (54.2715pt too wide) has occurred while \output is active
+Overfull \hbox (55.54643pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2629,11 +2695,11 @@ Overfull \hbox (54.2715pt too wide) has occurred while \output is active
 File: figure/drawerfactors.png Graphic file (type bmp)
 <figure/drawerfactors.png>
 
-Overfull \vbox (14.80171pt too high) detected at line 723
+Overfull \vbox (14.97041pt too high) detected at line 723
  []
 
 
-Overfull \hbox (54.2715pt too wide) has occurred while \output is active
+Overfull \hbox (55.54643pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2643,7 +2709,7 @@ Overfull \hbox (54.2715pt too wide) has occurred while \output is active
 File: figure/ref_sta.png Graphic file (type bmp)
 <figure/ref_sta.png>
 
-Overfull \hbox (54.2715pt too wide) has occurred while \output is active
+Overfull \hbox (55.54643pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2653,7 +2719,7 @@ Overfull \hbox (54.2715pt too wide) has occurred while \output is active
 File: figure/ref_HV_sta.png Graphic file (type bmp)
 <figure/ref_HV_sta.png>
 
-Overfull \hbox (54.2715pt too wide) has occurred while \output is active
+Overfull \hbox (55.54643pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2665,7 +2731,7 @@ File: figure/vendordcr_mcp.png Graphic file (type bmp)
 File: figure/vendordcr_hmp.png Graphic file (type bmp)
 <figure/vendordcr_hmp.png>
 
-Overfull \hbox (54.2715pt too wide) has occurred while \output is active
+Overfull \hbox (55.54643pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2677,7 +2743,7 @@ File: figure/risetime.png Graphic file (type bmp)
 File: figure/falltime.png Graphic file (type bmp)
 <figure/falltime.png>
 
-Overfull \hbox (54.2715pt too wide) has occurred while \output is active
+Overfull \hbox (55.54643pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2702,11 +2768,11 @@ Package rerunfilecheck Info: File `Slide.out' has not changed.
 (rerunfilecheck)             Checksum: EA9EF904A175A4543DA6D9F6432A47B5.
  ) 
 Here is how much of TeX's memory you used:
- 36588 strings out of 492970
- 745643 string characters out of 6133938
- 855719 words of memory out of 5000000
+ 36583 strings out of 492970
+ 745592 string characters out of 6133939
+ 855714 words of memory out of 5000000
  39874 multiletter control sequences out of 15000+600000
- 541731 words of font info for 119 fonts, out of 8000000 for 9000
+ 541715 words of font info for 117 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  57i,20n,76p,10413b,793s stack positions out of 5000i,500n,10000p,200000b,80000s
 
