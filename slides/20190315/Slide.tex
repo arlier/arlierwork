@@ -3,7 +3,7 @@
 \documentclass[11pt,compress,xcolor=x11names,UTF8]{beamer}
 \usetheme{Boadilla}
 \usecolortheme{seahorse}
-\useinnertheme[shadow]{rounded}  
+\useinnertheme[shadow]{rounded}
 \useoutertheme[subsection=false]{smoothbars}
 \usecolortheme{spruce}
 \usecolortheme[named=SpringGreen4]{structure}
@@ -19,7 +19,7 @@
 \setbeamertemplate{itemize item}{\ding{108}}
 \setbeamertemplate{itemize subitem}{\ding{109}}
 \setbeamertemplate{navigation symbols}{}
-\setbeamercovered{transparent}  
+\setbeamercovered{transparent}
 \renewcommand\appendixname{附录}
 \renewcommand\abstractname{摘要}
 \graphicspath{{figure/}} % 图片路径
@@ -27,10 +27,10 @@
 \usepackage{ctex} % 加入中文
 %\setCJKsansfont{Noto Sans CJK SC}
 %\setsansfont{DejaVu} % Lato Roboto Fira Sans
-\setsansfont{DejaVu Sans Condensed} % Lato Roboto Fira Sans
+\setsansfont{Lato} % Lato Roboto Fira Sans
 \usepackage{makecell}
 \newcommand{\tabincell}[2]{\begin{tabular}{@{}#1@{}}#2\end{tabular}}
-\usepackage{url}					
+\usepackage{url}
 \usepackage{natbib} % 参考文献
 %\title[Spatial Generalized Linear Mixed Models]{Spatial Generalized Linear Mixed Models with Application to Prevalence Mapping}
 \title{Performance of 20inch PMTs Based on the Container Testing Data}
@@ -50,32 +50,39 @@
 \section{Brief Introduction}
 
 %\subsection{研究意义}
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \begin{frame}{20 inch PMT}
+% \begin{figure}
+% \centering
+% \includegraphics[width=0.60\textwidth]{figures/lpmt.png}
+% \caption{20 inch PMT in JUNO CD}
+% \end{figure}
+% \end{frame}
 \begin{frame}{PMT testing data analysis}
-%\textsf{例} \textbf{例}  \textit{例} 
+%\textsf{例} \textbf{例}  \textit{例}
 % \texttt{例}  % 调出仿宋字体了
 We have tested \alert{5k HAMAMATSU PMTs} and about \alert{7k NNVT PMTs} in the container system. We can obtain the following  paramaters:
-\begin{table}[]  
-\caption{PMT performance qualification standard}  
+\begin{table}[]
+\caption{PMT performance qualification standard}
 \resizebox{.8\textwidth}{!}{%
 \begin{tabular*}{.98\textwidth}{l|c|c}
-%\toprule  
-\hline  
-\hline  
-parameter & HAMAMATSU PMT&NNVT PMT\\  
-\hline  
-HV@Gain=$10^7$ &  <2350 V&<2800V \\  
- PDE & >24\%& >24\%\\  
- DCR & <50kHz& <100kHz\\  
- PV & >2.5& >2.5\\  
- rise time & <8.5ns& --\\  
- fall time & <12ns&-- \\  
- FWHM & ----& --\\  
- resolution & <0.4&<0.4 \\  
-\hline  
-\end{tabular*}  
+%\toprule
+\hline
+\hline
+parameter & HAMAMATSU PMT&NNVT PMT\\
+\hline
+HV@Gain=$10^7$ &  <2350 V&<2800V \\
+ PDE & >24\%& >24\%\\
+ DCR & <50kHz& <100kHz\\
+ PV & >2.5& >2.5\\
+ rise time & <8.5ns& --\\
+ fall time & <12ns&-- \\
+ FWHM & ----& --\\
+ resolution & <0.4&<0.4 \\
+\hline
+\end{tabular*}
 }
-\end{table} 
+\end{table}
 \alert{The Main aim of testing data analysis is to evaluate theses parameters and check wave quality of one PMT.}
 %\begin{figure}
 %\centering
@@ -110,7 +117,7 @@ We have generated testing report for each qualified PMT.
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\begin{frame}{calibration of each drawer}
-%Generally, we put several PMTs with known PDE value\footnote{or QE value}  into one drawer and linearly fit the PDE-$\mu_{test}$ data to get \alert{drawer$_{factor}$}. 
+%Generally, we put several PMTs with known PDE value\footnote{or QE value}  into one drawer and linearly fit the PDE-$\mu_{test}$ data to get \alert{drawer$_{factor}$}.
 %\vspace{.5cm}
 %\hrule{\textwidth}
 %\vspace{.5cm}
@@ -118,7 +125,7 @@ We have generated testing report for each qualified PMT.
 %While an alternative way to access the drawer$_{factor}$ is fitting PDE-$\mu_{test}$ data {\color{red}from all the PMTs tested in one drawer rather than the mannual selected ones.} Then once we finish one PMT test in a drawer we will get one more statistical sample in the PDE-$\mu_{test}$ fitting, and we could expect that the fitted drawer$_{factor}$ will get more stable as we testing more PMTs.
 %
 %\vspace{.5cm}
-%The advantage of this "self-calibration" method is that we could {\color{red}decrease the statistical error as much as possible}; and the remained fluctuation of drawer$_{factor}$ can be the system error. 
+%The advantage of this "self-calibration" method is that we could {\color{red}decrease the statistical error as much as possible}; and the remained fluctuation of drawer$_{factor}$ can be the system error.
 %\end{frame}
 \section{Waveform and Charge Spectrum}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -254,7 +261,7 @@ Aligning all signals according to their maximum: signal profile of HAMAMATSU PMT
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}{Average waveform (@$gain=10^7\&\&\mu\simeq 1.3$)}
-The average waveform of NNVT PMT has faster rising edge and lower falling edge. 
+The average waveform of NNVT PMT has faster rising edge and lower falling edge.
 \vspace{-.3cm}
 \begin{columns}
 \begin{column}{.5\textwidth}
@@ -511,8 +518,8 @@ CD will use $\sim$13k NNVT\footnote{with $\sim$11k high QE PMT and 2k low QE PMT
 \begin{frame}{summary}
 \begin{itemize}
 \item  the charge and amplitude stability of HAMAMATSU PMT is better.
-\item  $\sim$6k NNVT PMTs and 5k HAMAMATSU PMTs has been tested in container system, test results and test reports are avaliable from PMTDataBase\footnote{pmtdb.juno.ihep.ac.cn}. 
-\item we reject or accept one PMT according to its perfomance test results from container and scanning station. 
+\item  $\sim$6k NNVT PMTs and 5k HAMAMATSU PMTs has been tested in container system, test results and test reports are avaliable from PMTDataBase\footnote{pmtdb.juno.ihep.ac.cn}.
+\item we reject or accept one PMT according to its perfomance test results from container and scanning station.
 \item  {\color{red}we need to study the "delay signal" of HAMAMATSU PMT and "big signal" of NNVT PMT\footnote{especially when PMT working in the multi-photon case}} in detail\footnote{one option is to transport several PMTs to SYSU for detailed study}.
 \item the expected mean PDE value is 30.4\% and mean DCR value is $\sim$34kHz\footnote{will decrease after installation} in CD.
 %\item 保存重要的测试信息和输出结果到PMT数据库，所有测试结果\footnote{包含集装测试历史数据}可以直接通过http://pmtdb.juno.ihep.ac.cn/\footnote{Query::LPMT Tested Reports} 查询得到
@@ -528,21 +535,21 @@ CD will use $\sim$13k NNVT\footnote{with $\sim$11k high QE PMT and 2k low QE PMT
 \centering {\zihao{0} \color{red} {BACK-UP}}
 \end{frame}
 
-%\begin{table}[htbp]  
-%\caption{PMT typical performance}  
+%\begin{table}[htbp]
+%\caption{PMT typical performance}
 %\resizebox{.8\textwidth}{!}{%
 %\begin{tabular*}{.98\textwidth}{l|cccc}
-%%\toprule  
-%\hline  
-%\hline  
-%Performance & PDE &DCR & TTS& uniformity \\  
-%\hline  
-%HAMAMATSU &  lower\% & 20 kHz& 3ns& worse \\  
-%NNVT  & higher\% & 40kHz & 7ns& better \\  
-%\hline  
-%\end{tabular*}  
+%%\toprule
+%\hline
+%\hline
+%Performance & PDE &DCR & TTS& uniformity \\
+%\hline
+%HAMAMATSU &  lower\% & 20 kHz& 3ns& worse \\
+%NNVT  & higher\% & 40kHz & 7ns& better \\
+%\hline
+%\end{tabular*}
 %%}
-%\end{table} 
+%\end{table}
 
 %\end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -664,7 +671,7 @@ CD will use $\sim$13k NNVT\footnote{with $\sim$11k high QE PMT and 2k low QE PMT
 %\item 各个参数的计算结果、拟合信息
 %\item 集装箱测试的历史记录、扫描站的测试结果
 %\item 最终合格与否的结论标签
-%\end{itemize} 
+%\end{itemize}
 %\vspace{.5cm}
 %\hrule{\textwidth}
 %\vspace{.5cm}
@@ -738,63 +745,63 @@ CD will use $\sim$13k NNVT\footnote{with $\sim$11k high QE PMT and 2k low QE PMT
 %\end{frame}
 %\begin{frame}{drawer-calibration}
 %\vspace{-.5cm}
-%\includegraphics[width=0.45\textwidth]{sta101-0} 
-%\includegraphics[width=0.45\textwidth]{sta101-1} 
-%\includegraphics[width=0.45\textwidth]{sta101-2} 
-%\includegraphics[width=0.45\textwidth]{sta101-3} 
-%\includegraphics[width=0.45\textwidth]{sta101-4} 
-%\includegraphics[width=0.45\textwidth]{sta101-5} 
+%\includegraphics[width=0.45\textwidth]{sta101-0}
+%\includegraphics[width=0.45\textwidth]{sta101-1}
+%\includegraphics[width=0.45\textwidth]{sta101-2}
+%\includegraphics[width=0.45\textwidth]{sta101-3}
+%\includegraphics[width=0.45\textwidth]{sta101-4}
+%\includegraphics[width=0.45\textwidth]{sta101-5}
 %\end{frame}
 %\begin{frame}{drawer-calibration}
 %\vspace{-.5cm}
-%\includegraphics[width=0.45\textwidth]{sta101-6} 
-%\includegraphics[width=0.45\textwidth]{sta101-7} 
-%\includegraphics[width=0.45\textwidth]{sta101-8} 
-%\includegraphics[width=0.45\textwidth]{sta101-9} 
-%\includegraphics[width=0.45\textwidth]{sta101-10} 
-%\includegraphics[width=0.45\textwidth]{sta101-11} 
+%\includegraphics[width=0.45\textwidth]{sta101-6}
+%\includegraphics[width=0.45\textwidth]{sta101-7}
+%\includegraphics[width=0.45\textwidth]{sta101-8}
+%\includegraphics[width=0.45\textwidth]{sta101-9}
+%\includegraphics[width=0.45\textwidth]{sta101-10}
+%\includegraphics[width=0.45\textwidth]{sta101-11}
 %\end{frame}
 %\begin{frame}{drawer-calibration}
 %\vspace{-.5cm}
-%\includegraphics[width=0.45\textwidth]{sta101-12} 
-%\includegraphics[width=0.45\textwidth]{sta101-13} 
-%\includegraphics[width=0.45\textwidth]{sta101-14} 
-%\includegraphics[width=0.45\textwidth]{sta101-15} 
-%\includegraphics[width=0.45\textwidth]{sta101-16} 
-%\includegraphics[width=0.45\textwidth]{sta101-17} 
+%\includegraphics[width=0.45\textwidth]{sta101-12}
+%\includegraphics[width=0.45\textwidth]{sta101-13}
+%\includegraphics[width=0.45\textwidth]{sta101-14}
+%\includegraphics[width=0.45\textwidth]{sta101-15}
+%\includegraphics[width=0.45\textwidth]{sta101-16}
+%\includegraphics[width=0.45\textwidth]{sta101-17}
 %\end{frame}
 %\begin{frame}{drawer-calibration}
 %\vspace{-.5cm}
-%\includegraphics[width=0.45\textwidth]{sta101-18} 
-%\includegraphics[width=0.45\textwidth]{sta101-19} 
-%\includegraphics[width=0.45\textwidth]{sta101-20} 
-%\includegraphics[width=0.45\textwidth]{sta101-21} 
-%\includegraphics[width=0.45\textwidth]{sta101-22} 
-%\includegraphics[width=0.45\textwidth]{sta101-23} 
+%\includegraphics[width=0.45\textwidth]{sta101-18}
+%\includegraphics[width=0.45\textwidth]{sta101-19}
+%\includegraphics[width=0.45\textwidth]{sta101-20}
+%\includegraphics[width=0.45\textwidth]{sta101-21}
+%\includegraphics[width=0.45\textwidth]{sta101-22}
+%\includegraphics[width=0.45\textwidth]{sta101-23}
 %\end{frame}
 %\begin{frame}{drawer-calibration}
 %\vspace{-.5cm}
-%\includegraphics[width=0.45\textwidth]{sta101-24} 
-%\includegraphics[width=0.45\textwidth]{sta101-25} 
-%\includegraphics[width=0.45\textwidth]{sta101-26} 
-%\includegraphics[width=0.45\textwidth]{sta101-27} 
-%\includegraphics[width=0.45\textwidth]{sta101-28} 
-%\includegraphics[width=0.45\textwidth]{sta101-29} 
+%\includegraphics[width=0.45\textwidth]{sta101-24}
+%\includegraphics[width=0.45\textwidth]{sta101-25}
+%\includegraphics[width=0.45\textwidth]{sta101-26}
+%\includegraphics[width=0.45\textwidth]{sta101-27}
+%\includegraphics[width=0.45\textwidth]{sta101-28}
+%\includegraphics[width=0.45\textwidth]{sta101-29}
 %\end{frame}
 %\begin{frame}{drawer-calibration}
 %\vspace{-.5cm}
-%\includegraphics[width=0.45\textwidth]{sta101-30} 
-%\includegraphics[width=0.45\textwidth]{sta101-31} 
-%\includegraphics[width=0.45\textwidth]{sta101-32} 
-%\includegraphics[width=0.45\textwidth]{sta101-33} 
-%\includegraphics[width=0.45\textwidth]{sta101-34} 
+%\includegraphics[width=0.45\textwidth]{sta101-30}
+%\includegraphics[width=0.45\textwidth]{sta101-31}
+%\includegraphics[width=0.45\textwidth]{sta101-32}
+%\includegraphics[width=0.45\textwidth]{sta101-33}
+%\includegraphics[width=0.45\textwidth]{sta101-34}
 %\end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}{抽屉因子的比较}
 factor\_1是我的结果，factor\_2是张海琼的结果。$y=1.148x+0.998$
 \vspace{-.05cm}
 \begin{figure}
-\includegraphics[width=0.72\textwidth]{drawerfactors} 
+\includegraphics[width=0.72\textwidth]{drawerfactors}
 \caption{抽屉因子和现场使用值的对比}
 \end{figure}
 \end{frame}
@@ -900,6 +907,4 @@ factor\_1是我的结果，factor\_2是张海琼的结果。$y=1.148x+0.998$
 %\end{itemize}
 %\end{frame}
 
-\end{document} 
-
-
+\end{document}
