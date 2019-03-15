@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1552634331 "Slide.tex" "temp/Slide.pdf" "Slide" 1552634356
+["pdflatex"] 1552634433 "Slide.tex" "temp/Slide.pdf" "Slide" 1552634457
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1480098689 1408 5937f58aa508ea2cea4901c07d10f5fe ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1480098689 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -192,12 +192,11 @@
   "figures/sim.png" 1547344701 39940 9ccd95906be72e39c1d1c909f0cd618d ""
   "figures/snr.png" 1547125385 28687 99ff1a1ab8b9a714ce23545fc9806bb6 ""
   "figures/vendorHV.png" 1547125385 32622 43e0cc3c95f591f365c523e20f387e71 ""
-  "temp/Slide.aux" 1552634355 10083 6b38293257d00ded2f6ab44e33f0123a ""
+  "temp/Slide.aux" 1552634456 10083 6b38293257d00ded2f6ab44e33f0123a ""
   (generated)
+  "temp/Slide.pdf"
+  "temp/Slide.toc"
   "temp/Slide.aux"
-  "temp/Slide.snm"
+  "temp/Slide.nav"
   "temp/Slide.log"
   "temp/Slide.out"
-  "temp/Slide.nav"
-  "temp/Slide.toc"
-  "temp/Slide.pdf"
