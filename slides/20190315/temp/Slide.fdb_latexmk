@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1552633290 "Slide.tex" "temp/Slide.pdf" "Slide" 1552633315
+["pdflatex"] 1552633408 "Slide.tex" "temp/Slide.pdf" "Slide" 1552633434
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1480098689 1408 5937f58aa508ea2cea4901c07d10f5fe ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1480098689 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -212,14 +212,15 @@
   "figures/rt.png" 1547125386 27468 4760a8241e8d338afcd3ecc391b8663b ""
   "figures/sim.png" 1547344701 39940 9ccd95906be72e39c1d1c909f0cd618d ""
   "figures/snr.png" 1547125385 28687 99ff1a1ab8b9a714ce23545fc9806bb6 ""
+  "figures/sys1_mass10244_channel122_snEA4828_lt2.png" 1547125385 772434 fc33da1911c5c2541402cc986c2f0703 ""
   "figures/vendorHV.png" 1547125385 32622 43e0cc3c95f591f365c523e20f387e71 ""
   "figures/wave2d.png" 1547125386 109865 a86e972df715fc61ad50a687e1ed4534 ""
-  "temp/Slide.aux" 1552633314 10083 6b38293257d00ded2f6ab44e33f0123a ""
+  "temp/Slide.aux" 1552633433 10083 6b38293257d00ded2f6ab44e33f0123a ""
   (generated)
-  "temp/Slide.aux"
+  "temp/Slide.out"
   "temp/Slide.snm"
   "temp/Slide.log"
-  "temp/Slide.out"
-  "temp/Slide.nav"
   "temp/Slide.toc"
+  "temp/Slide.nav"
+  "temp/Slide.aux"
   "temp/Slide.pdf"
