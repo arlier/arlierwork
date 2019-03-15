@@ -1,4 +1,0 @@
-\beamer@sectionintoc {1}{Brief Introduction}{3}{0}{1}
-\beamer@sectionintoc {2}{Waveform and Charge Spectrum}{7}{0}{2}
-\beamer@sectionintoc {3}{Statistical Sesults of Paramaters}{19}{0}{3}
-\beamer@sectionintoc {4}{Summary}{23}{0}{4}
