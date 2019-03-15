@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1552634736 "Slide.tex" "temp/Slide.pdf" "Slide" 1552634761
+["pdflatex"] 1552634787 "Slide.tex" "temp/Slide.pdf" "Slide" 1552634812
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1480098689 1408 5937f58aa508ea2cea4901c07d10f5fe ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1480098689 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -216,6 +216,7 @@
   "figure/risetime.png" 1547125384 33626 2b62f537676f1b1a47bff352116d35bf ""
   "figure/vendordcr_hmp.png" 1547125384 37703 e912b18615251b3721a96716d47b87fc ""
   "figure/vendordcr_mcp.png" 1547125384 38935 b517c3e05431c4e8e518ffb30070b30d ""
+  "figures/SN_EA0283_pde1_dcr1_HV1_pv1_rt1_tag1.png" 1547125385 710934 10973e6430d2713591cf83561f468e53 ""
   "figures/avewave.png" 1547125386 82366 f77b8a00a017cb2ebe9838b58487a230 ""
   "figures/dcr.png" 1547125385 30378 048ebb3260ccd62494d355c8044aff37 ""
   "figures/dcr_p.png" 1547344701 30305 3a88c51357de431c4e7b83464eb96181 ""
@@ -256,10 +257,10 @@
   "figures/sys1_mass10244_channel122_snEA4828_lt2.png" 1547125385 772434 fc33da1911c5c2541402cc986c2f0703 ""
   "figures/vendorHV.png" 1547125385 32622 43e0cc3c95f591f365c523e20f387e71 ""
   "figures/wave2d.png" 1547125386 109865 a86e972df715fc61ad50a687e1ed4534 ""
-  "temp/Slide.aux" 1552634759 10083 6b38293257d00ded2f6ab44e33f0123a ""
-  "temp/Slide.nav" 1552634759 5277 9e58a595babac64070c48acf7ebe3d2d ""
-  "temp/Slide.out" 1552634759 747 37febd4893a2efd8a92d350c366167c9 ""
-  "temp/Slide.toc" 1552634759 232 199febd8b3e465105a00e1c0b368361d ""
+  "temp/Slide.aux" 1552634811 10083 6b38293257d00ded2f6ab44e33f0123a ""
+  "temp/Slide.nav" 1552634811 5277 9e58a595babac64070c48acf7ebe3d2d ""
+  "temp/Slide.out" 1552634811 747 37febd4893a2efd8a92d350c366167c9 ""
+  "temp/Slide.toc" 1552634811 232 199febd8b3e465105a00e1c0b368361d ""
   (generated)
   "temp/Slide.aux"
   "temp/Slide.snm"
