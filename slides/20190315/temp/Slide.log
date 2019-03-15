@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  15 MAR 2019 15:21
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  15 MAR 2019 15:22
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -1982,6 +1982,10 @@ LaTeX Info: Redefining \nameref on input line 42.
 \@outlinefile=\write5
 \openout5 = `Slide.out'.
 
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 42.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
@@ -2192,5 +2196,4 @@ Overfull \hbox (55.54643pt too wide) has occurred while \output is active
 [5
 
 ]
-File: figures/SN_EA0283_pde1_dcr1_HV1_pv1_rt1_tag1.png Graphic file (type bmp)
-<figures/SN_EA0283_pde1_dcr1_HV
+File: figures/SN_EA0283_pde1_dcr1_HV1_pv1_rt1_tag
