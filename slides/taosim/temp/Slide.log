@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  14 MAR 2019 18:52
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  17 MAR 2019 20:11
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2291,16 +2291,26 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 ] [14
 
-] [15
+]
+Overfull \hbox (4.79543pt too wide) in paragraph at lines 323--323
+[]\TU/Lato(0)/m/n/10.95 density:(6.0151*.95+7.0160*0.05+18.9984)*3*0.139/6.022=
+1.7355/cm$[]$  
+ []
+
+[15
 
 ] [16
 
 ] [17
 
+] [18
+
+] [19
+
 ]
 LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
-(Font)              scaled to size 60.70688pt on input line 477.
- [18
+(Font)              scaled to size 60.70688pt on input line 501.
+ [20
 
 ]
 \tf@nav=\write6
@@ -2312,21 +2322,21 @@ LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
 \tf@snm=\write8
 \openout8 = `Slide.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 521.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 521.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 545.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 545.
  (temp/Slide.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 521.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 521.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 545.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 545.
 Package rerunfilecheck Info: File `Slide.out' has not changed.
 (rerunfilecheck)             Checksum: ED07E3FBD1F1AAB97D746D3149CA9453.
  ) 
 Here is how much of TeX's memory you used:
- 36346 strings out of 492970
- 736735 string characters out of 6133939
- 829330 words of memory out of 5000000
- 39670 multiletter control sequences out of 15000+600000
+ 36350 strings out of 492970
+ 736767 string characters out of 6133939
+ 832780 words of memory out of 5000000
+ 39674 multiletter control sequences out of 15000+600000
  537142 words of font info for 80 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  57i,20n,76p,10413b,793s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on temp/Slide.pdf (18 pages).
+Output written on temp/Slide.pdf (20 pages).
