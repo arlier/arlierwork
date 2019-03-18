@@ -4,7 +4,7 @@ import numpy as np
 from scipy import interpolate
 import pylab as pl
 
-f = open('/media/tao/_dde_data/arlierwork/simulation/taosim/ej200.txt')
+f = open('/media/tao/_dde_data/arlierwork/simulation/tao/opticalpar/ej200.txt')
 s = f.readline()
 a1=[]
 a2=[]
