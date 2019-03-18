@@ -55,5 +55,5 @@ for kind in ["nearest"]:#插值方式
     ynew=f(xnew)
     pl.plot(xnew,ynew,label=str(kind)+ ' interpolated data',color='g',markersize=.31)
 pl.legend(loc="upper right")
+pl.savefig("test.eps")
 pl.show()
-pl.savefig("test.png")
