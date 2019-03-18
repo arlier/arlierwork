@@ -42,7 +42,7 @@ pl.style.use('ggplot')
 pl.grid(True)
 #pl.grid(color='g',linewidth=2,alpha=0.2,ls='--',lw=1)
 #pl.axis([350,550,0,1])
-pl.xlabel('wave lenght [nm]',color='k',fontsize=15,rotation=0) 
+pl.xlabel('wave length [nm]',color='k',fontsize=15,rotation=0) 
 pl.ylabel('light yield [A.U]',color='k',fontsize=15,rotation=90) 
 pl.xticks([420,440,460,480],['420','440','490','480']) 
 for kind in ["nearest"]:#插值方式
