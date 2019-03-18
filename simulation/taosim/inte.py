@@ -34,7 +34,7 @@ xnew=np.linspace(402,499,107)
 
 pl.figure(figsize=(8,8))
 #axes = pl.plot(111)
-pl.plot(x,y,"o",label='the original data',c=(0,0.0,0.0),alpha=0.5)
+pl.plot(x,y,"o",label='the original data',c=(0,0.0,0.0),alpha=0.5,title='EJ-200 emission spectrum and interpolation')
 #pl.plot(x,y,"ro",label='the original data',c=(1,0.2,0.5),alpha=0.5)
 pl.style.use('ggplot')
 #pl.grid(axis='x')
