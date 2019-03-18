@@ -56,4 +56,4 @@ for kind in ["nearest"]:#插值方式
     pl.plot(xnew,ynew,label=str(kind)+ ' interpolated data',color='g',markersize=.31)
 pl.legend(loc="upper right")
 pl.show()
-fig.savefig("test.png")
+pl.savefig("test.png")
