@@ -34,16 +34,13 @@ xnew=np.linspace(402,499,107)
 
 pl.figure(figsize=(8,8))
 #axes = pl.plot(111)
-pl.plot(x,y,"o",label='the original data',c=(0,0.0,0.0),alpha=0.5)
-#pl.plot(x,y,"ro",label='the original data',c=(1,0.2,0.5),alpha=0.5)
-pl.style.use('ggplot')
+pl.plot(x,y,"ro",label='the original data',c=(1,0.2,0.5),alpha=0.5)
 #pl.grid(axis='x')
-pl.grid(True)
-#pl.grid(color='g',linewidth=2,alpha=0.2,ls='--',lw=1)
+pl.grid(color='g',linewidth=2,alpha=0.2,ls='--',lw=1)
 #pl.axis([350,550,0,1])
 pl.xlabel('wave lenght [nm]',color='k',fontsize=15,rotation=0) 
 pl.ylabel('light yield [A.U]',color='k',fontsize=15,rotation=90) 
-pl.xticks([420,440,460,480],['420','440','490','480']) 
+pl.xticks([420,440,460,480],['cπ','π','234','ds']) 
 for kind in ["nearest"]:#插值方式
 #for kind in ["nearest","zero","slinear","quadratic","cubic"]:#插值方式
     #"nearest","zero"为阶梯插值
@@ -52,7 +49,6 @@ for kind in ["nearest"]:#插值方式
     f=interpolate.interp1d(x,y,kind=kind)
     # ‘slinear’, ‘quadratic’ and ‘cubic’ refer to a spline interpolation of first, second or third order)
     ynew=f(xnew)
-    pl.plot(xnew,ynew,label=str(kind)+ ' interpolated data',color='g',markersize=.31)
+    pl.plot(xnew,ynew,label=str(kind)+ 'interpolated data')
 pl.legend(loc="upper right")
 pl.show()
-pl.savefig("test.png")
