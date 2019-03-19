@@ -10,7 +10,7 @@ a1=[]
 a2=[]
 count=0
 #print(s)
-while (count<149):
+while (count<144):
      arr=s.split(' ')
 #     print arr
 #     print arr[1]
