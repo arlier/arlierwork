@@ -59,8 +59,8 @@ pl.legend(loc="upper right")
 pl.savefig("pmttest.eps")
 pf = open("pmtout.txt","w")
 i=1
-while i<=len(xnew)
-    print >> f, "%3d %0.5f" % (xnew[i-1], ynew[i-1])
+while i<=len(xnew):
+    print >> pf, "%3d %0.5f" % (xnew[i-1], ynew[i-1])
     i += 1
 pf.close()
 
