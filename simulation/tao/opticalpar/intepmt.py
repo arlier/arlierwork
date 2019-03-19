@@ -4,7 +4,7 @@ import numpy as np
 from scipy import interpolate
 import pylab as pl
 
-f = open('/media/tao/_dde_data/arlierwork/simulation/tao/opticalpar/PMTxp3232.txt')
+f = open('/media/tao/_dde_data/arlierwork/simulation/taosim/PMTxp3232.txt')
 s = f.readline()
 a1=[]
 a2=[]
@@ -29,7 +29,7 @@ x=np.array(a1)
 y=np.array(a2)
 print(x)
 #xnew=np.linspace(0,10,101)
-xnew=np.linspace(300,600,300)
+xnew=np.linspace(300,650,350)
 
 
 pl.figure(figsize=(8,8))
