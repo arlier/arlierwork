@@ -55,5 +55,11 @@ for kind in ["slinear"]:#插值方式
     ynew=f(xnew)
     pl.plot(xnew,ynew,label=str(kind)+ ' interpolated data',color='g',markersize=.31)
 pl.legend(loc="upper right")
-pl.savefig("test.eps")
+pl.savefig("emissionej200.eps")
+pf = open("ej200out.txt","w")
+i=1
+while i<=len(xnew):
+    print >> pf, "%3d %0.5f" % (xnew[i-1], ynew[i-1])
+    i += 1
+pf.close()
 pl.show()
