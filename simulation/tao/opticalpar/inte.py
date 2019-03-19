@@ -44,8 +44,8 @@ pl.grid(True)
 #pl.axis([350,550,0,1])
 pl.xlabel('wave length [nm]',color='k',fontsize=15,rotation=0) 
 pl.ylabel('light output [A.U]',color='k',fontsize=15,rotation=90) 
-pl.xticks([420,440,460,480],['420','440','490','480']) 
-for kind in ["nearest"]:#插值方式
+#pl.xticks([420,440,460,480],['420','440','490','480']) 
+for kind in ["slinear"]:#插值方式
 #for kind in ["nearest","zero","slinear","quadratic","cubic"]:#插值方式
     #"nearest","zero"为阶梯插值
     #slinear 线性插值
