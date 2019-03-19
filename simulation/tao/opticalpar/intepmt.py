@@ -20,8 +20,8 @@ while (count<149):
      s=f.readline()
      count+=1
 
-print(a1)
-print(a2)
+#print(a1)
+#print(a2)
 #x=np.linspace(0,10,11)
 #x=[  0.   1.   2.   3.   4.   5.   6.   7.   8.   9.  10.]
 x=np.array(a1)
@@ -54,6 +54,7 @@ for kind in ["nearest"]:#插值方式
     # ‘slinear’, ‘quadratic’ and ‘cubic’ refer to a spline interpolation of first, second or third order)
     ynew=f(xnew)
     pl.plot(xnew,ynew,label=str(kind)+ ' interpolated data',color='g',markersize=.31)
+print(xnew,ynew)
 pl.legend(loc="upper right")
 pl.savefig("pmttest.eps")
 pl.show()
