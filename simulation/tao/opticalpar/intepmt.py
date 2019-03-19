@@ -29,7 +29,7 @@ x=np.array(a1)
 y=np.array(a2)
 #print(x)
 #xnew=np.linspace(0,10,101)
-xnew=np.linspace(300,600,300)
+xnew=np.linspace(300,600,301)
 
 
 pl.figure(figsize=(8,8))
@@ -57,4 +57,11 @@ for kind in ["nearest"]:#插值方式
 print(xnew,ynew)
 pl.legend(loc="upper right")
 pl.savefig("pmttest.eps")
+with open("pmtout.txt","w") as po:
+    for i in range(len(xnew)):
+        print(xnew[i])
+        po.write(xnew[i],ynew[i],'\n')  #这句话自带文件关闭功能，不需要再写f.close()
+
+
+
 pl.show()
