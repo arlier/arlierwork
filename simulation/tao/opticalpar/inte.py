@@ -9,7 +9,7 @@ s = f.readline()
 a1=[]
 a2=[]
 count=0
-while (count<207):
+while (count<218):
      arr=s.split(' ')
 #     print arr
 #     print arr[1]
@@ -29,7 +29,7 @@ x=np.array(a1)
 y=np.array(a2)
 print(x)
 #xnew=np.linspace(0,10,101)
-xnew=np.linspace(402,499,107)
+xnew=np.linspace(300,600,301)
 
 
 pl.figure(figsize=(8,8))
