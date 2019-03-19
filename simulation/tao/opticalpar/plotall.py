@@ -21,7 +21,7 @@ while (count<301):
      a1.append(float(arr[0]))
      b1.append(float(arr1[0]))
      a2.append(float(arr[1].replace('\r\n',''))) #readline 读取文件的时候，默认加上“\n"
-     b2.append(float(arr1[1].replace('\r\n',''))) #readline 读取文件的时候，默认加上“\n"
+     b2.append(float(arr1[1].replace('\r\n',''))/100.) #readline 读取文件的时候，默认加上“\n"
 #     a2=arr[1].replace('\n','') #readline 读取文件的时候，默认加上“\n"
      s=f.readline()
      s1=f1.readline()
