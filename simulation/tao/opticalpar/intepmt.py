@@ -60,7 +60,7 @@ pl.savefig("pmttest.eps")
 with open("pmtout.txt","w") as po:
     for i in range(len(xnew)):
         print(xnew[i])
-        po.write(xnew[i]\n)  #这句话自带文件关闭功能，不需要再写f.close()
+#        po.write(xnew[i])  #这句话自带文件关闭功能，不需要再写f.close()
 
 
 
