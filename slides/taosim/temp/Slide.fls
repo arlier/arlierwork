@@ -435,7 +435,10 @@ INPUT currentfig/ej426spec.png
 INPUT currentfig/ej426formula.png
 INPUT currentfig/backing.png
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm
+INPUT currentfig/geofinished.png
 INPUT currentfig/Chemical_formula_for_polyvinyl_tolulene.png
+INPUT currentfig/allplot.eps
+INPUT currentfig/allplot.eps
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/calligra/callig15.tfm
 OUTPUT temp/Slide.nav
 OUTPUT temp/Slide.toc

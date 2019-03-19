@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  18 MAR 2019 15:06
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  19 MAR 2019 10:46
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2262,23 +2262,32 @@ two letters. (See Chapter 27 of The TeXbook.)
 [12
 
 ]
+File: currentfig/geofinished.png Graphic file (type bmp)
+<currentfig/geofinished.png>
+
+Overfull \vbox (35.45596pt too high) detected at line 281
+ []
+
+[13
+
+]
 File: currentfig/Chemical_formula_for_polyvinyl_tolulene.png Graphic file (type
  bmp)
 <currentfig/Chemical_formula_for_polyvinyl_tolulene.png>
 
-./Slide.tex:302: Missing number, treated as zero.
+./Slide.tex:312: Missing number, treated as zero.
 <to be read again> 
                    }
-l.302 \end{frame}
+l.312 \end{frame}
                  
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./Slide.tex:302: Illegal unit of measure (pt inserted).
+./Slide.tex:312: Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.302 \end{frame}
+l.312 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, bp, or sp; but yours is a new one!
@@ -2287,30 +2296,39 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-[13
+[14
 
-] [14
+] [15
 
 ]
-Overfull \hbox (4.79543pt too wide) in paragraph at lines 323--323
+Overfull \hbox (4.79543pt too wide) in paragraph at lines 333--333
 []\TU/Lato(0)/m/n/10.95 density:(6.0151*.95+7.0160*0.05+18.9984)*3*0.139/6.022=
 1.7355/cm$[]$  
  []
 
-[15
-
-] [16
+[16
 
 ] [17
 
 ] [18
 
-] [19
+]
+File: currentfig/allplot.eps Graphic file (type eps)
+<currentfig/allplot.eps>
+
+Overfull \vbox (34.82375pt too high) detected at line 461
+ []
+
+[19
+
+] [20
+
+] [21
 
 ]
 LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
-(Font)              scaled to size 60.70688pt on input line 503.
- [20
+(Font)              scaled to size 60.70688pt on input line 532.
+ [22
 
 ]
 \tf@nav=\write6
@@ -2322,21 +2340,21 @@ LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
 \tf@snm=\write8
 \openout8 = `Slide.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 547.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 547.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 576.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 576.
  (temp/Slide.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 547.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 547.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 576.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 576.
 Package rerunfilecheck Info: File `Slide.out' has not changed.
 (rerunfilecheck)             Checksum: ED07E3FBD1F1AAB97D746D3149CA9453.
  ) 
 Here is how much of TeX's memory you used:
- 36350 strings out of 492970
- 736767 string characters out of 6133939
- 832780 words of memory out of 5000000
- 39674 multiletter control sequences out of 15000+600000
+ 36361 strings out of 492970
+ 736973 string characters out of 6133939
+ 836230 words of memory out of 5000000
+ 39683 multiletter control sequences out of 15000+600000
  537142 words of font info for 80 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  57i,20n,76p,10413b,793s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on temp/Slide.pdf (20 pages).
+Output written on temp/Slide.pdf (22 pages).
