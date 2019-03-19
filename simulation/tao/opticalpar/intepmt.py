@@ -9,10 +9,10 @@ s = f.readline()
 a1=[]
 a2=[]
 count=0
-print(s)
+#print(s)
 while (count<149):
      arr=s.split(' ')
-     print arr
+#     print arr
 #     print arr[1]
      a1.append(float(arr[0]))
      a2.append(float(arr[1].replace('\r\n',''))) #readline 读取文件的时候，默认加上“\n"
@@ -27,7 +27,7 @@ print(a2)
 x=np.array(a1)
 #y=np.sin(x)
 y=np.array(a2)
-print(x)
+#print(x)
 #xnew=np.linspace(0,10,101)
 xnew=np.linspace(300,650,350)
 
