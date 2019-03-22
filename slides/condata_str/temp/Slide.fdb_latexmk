@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1553246764 "Slide.tex" "temp/Slide.pdf" "Slide" 1553246787
+["pdflatex"] 1553249181 "Slide.tex" "temp/Slide.pdf" "Slide" 1553249202
   "/dev/null" 1552277858 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1480098689 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -279,14 +279,13 @@
   "figures/rt.png" 1553244347 27468 4760a8241e8d338afcd3ecc391b8663b ""
   "figures/sim.png" 1553244347 39940 9ccd95906be72e39c1d1c909f0cd618d ""
   "figures/snr.png" 1553244347 28687 99ff1a1ab8b9a714ce23545fc9806bb6 ""
-  "figures/sys1_mass10244_channel122_snEA4828_lt2.png" 1553244347 772434 fc33da1911c5c2541402cc986c2f0703 ""
   "figures/vendorHV.png" 1553244347 32622 43e0cc3c95f591f365c523e20f387e71 ""
   "figures/wave2d.png" 1553244347 109865 a86e972df715fc61ad50a687e1ed4534 ""
-  "temp/Slide.aux" 1553246786 10059 f8c084ebdb62a146963a3fe592849648 ""
-  "temp/Slide.nav" 1553246786 5261 8cf1e8b6853f179f57bcbcc7ba8766c4 ""
-  "temp/Slide.out" 1553246786 704 f315eee141a8c5f951e8d4e060356492 ""
-  "temp/Slide.toc" 1553246786 224 8ed40c36a1a9fdff4d4d231a173d2921 ""
-  "thiscontent.tex" 1553246764 27591 9d81ff2fa044448c9f429b912026ad5b ""
+  "temp/Slide.aux" 1553249201 10059 f8c084ebdb62a146963a3fe592849648 ""
+  "temp/Slide.nav" 1553249201 5261 8cf1e8b6853f179f57bcbcc7ba8766c4 ""
+  "temp/Slide.out" 1553249201 704 f315eee141a8c5f951e8d4e060356492 ""
+  "temp/Slide.toc" 1553249201 224 8ed40c36a1a9fdff4d4d231a173d2921 ""
+  "thiscontent.tex" 1553249179 27587 3332cfdf1e1674d0eba72a7a7702223d ""
   (generated)
   "temp/Slide.pdf"
   "temp/Slide.snm"
