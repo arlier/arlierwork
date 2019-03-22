@@ -42,3 +42,4 @@ pl.plot(b1,b2,".",label='PDE of PMT XP3232',color='g',alpha=0.5,linestyle="-")
 pl.legend(loc="upper right")
 pl.savefig("allplot.eps")
 pl.show()
+
