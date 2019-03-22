@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1553250245 "Slide.tex" "temp/Slide.pdf" "Slide" 1553250265
+["pdflatex"] 1553250463 "Slide.tex" "temp/Slide.pdf" "Slide" 1553250484
   "/dev/null" 1552277858 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1480098689 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -254,7 +254,6 @@
   "figures/hamcharge.png" 1553244347 186896 714aad600f2dfc96908a7fc5a142eb32 ""
   "figures/hamrtft.png" 1553244347 184741 3f17f9d8c0e1f430e2bdf32f7e3bf5fe ""
   "figures/hamtts.JPG" 1553244347 264855 1f5ba8b2c11504ebc49361473ee5820b ""
-  "figures/hamwave.png" 1553244347 192472 aca4a62010ea707c6b8f8f119afbacb4 ""
   "figures/hitpositionmcp.png" 1553244347 171077 f083e5ca8542698ce332f355a8947712 ""
   "figures/mcpaligned2d.png" 1553244347 241932 139b0f78dac18a341a8e1a1949ded92e ""
   "figures/mcpampqdc.png" 1553244347 309923 ebc518a3317569d437c98376668042ed ""
@@ -264,7 +263,6 @@
   "figures/mcpcharge.png" 1553244347 234310 a1620129f440f285cda1a4436aa15256 ""
   "figures/mcprtft.png" 1553244347 112490 b6578e900a7057bac258ede6a567da37 ""
   "figures/mcptts.JPG" 1553244347 296530 e1baec88a2c0e1027e91f4c33a055ff4 ""
-  "figures/mcpwave.png" 1553244347 194127 fe9d814dde987ad4df1e96d7ada34c74 ""
   "figures/mcpwave2d.png" 1553244347 569080 63ac1fd09553568e4ecb538a09f76811 ""
   "figures/mucal.JPG" 1553244347 133164 727095c81ea519ae2664a0b0a136c4c1 ""
   "figures/pde.png" 1553244347 30107 5e0028f2b044616f9860c1d9efa51dd1 ""
@@ -280,11 +278,11 @@
   "figures/snr.png" 1553244347 28687 99ff1a1ab8b9a714ce23545fc9806bb6 ""
   "figures/vendorHV.png" 1553244347 32622 43e0cc3c95f591f365c523e20f387e71 ""
   "figures/wave2d.png" 1553244347 109865 a86e972df715fc61ad50a687e1ed4534 ""
-  "temp/Slide.aux" 1553250264 10059 f8c084ebdb62a146963a3fe592849648 ""
-  "temp/Slide.nav" 1553250264 5261 8cf1e8b6853f179f57bcbcc7ba8766c4 ""
-  "temp/Slide.out" 1553250264 704 f315eee141a8c5f951e8d4e060356492 ""
-  "temp/Slide.toc" 1553250264 224 8ed40c36a1a9fdff4d4d231a173d2921 ""
-  "thiscontent.tex" 1553250245 27949 b62781844cecca1a0bf3e0983a06b6af ""
+  "temp/Slide.aux" 1553250483 9739 abb3b82be52ee1adefe91ca0f154f55b ""
+  "temp/Slide.nav" 1553250483 5077 4a533d79c6805d16159c80fde9e8a5e3 ""
+  "temp/Slide.out" 1553250483 512 ddd0b9bf6d2f143fbdfccc67dd8bbb00 ""
+  "temp/Slide.toc" 1553250483 160 a1a7b74ba986612005baba87ed956c0f ""
+  "thiscontent.tex" 1553250445 27385 2aff1e5f091dbd4f036b6f7431b51312 ""
   (generated)
   "temp/Slide.pdf"
   "temp/Slide.snm"
