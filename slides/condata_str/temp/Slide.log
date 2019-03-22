@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  22 MAR 2019 18:16
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  22 MAR 2019 18:24
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2235,6 +2235,15 @@ Overfull \hbox (68.11044pt too wide) has occurred while \output is active
 [4
 
 ]
+LaTeX Font Info:    Try loading font information for U+msa on input line 61.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 61.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 Overfull \hbox (68.11044pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -2249,15 +2258,6 @@ Overfull \hbox (68.11044pt too wide) has occurred while \output is active
 [6
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 120.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 120.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
 File: figures/hamwave.png Graphic file (type bmp)
 <figures/hamwave.png>
 File: figures/mcpwave.png Graphic file (type bmp)
@@ -2275,7 +2275,7 @@ File: figures/wave2d.png Graphic file (type bmp)
 File: figures/mcpwave2d.png Graphic file (type bmp)
 <figures/mcpwave2d.png>
 
-Overfull \vbox (5.60168pt too high) detected at line 143
+Overfull \vbox (5.60168pt too high) detected at line 144
  []
 
 
@@ -2303,7 +2303,7 @@ File: figures/hamampspe.png Graphic file (type bmp)
 File: figures/mcpampspe.png Graphic file (type bmp)
 <figures/mcpampspe.png>
 
-Overfull \vbox (2.93672pt too high) detected at line 188
+Overfull \vbox (2.93672pt too high) detected at line 189
  []
 
 
@@ -2331,7 +2331,7 @@ File: figures/avewave.png Graphic file (type bmp)
 File: figures/mcpavewave.png Graphic file (type bmp)
 <figures/mcpavewave.png>
 
-Overfull \vbox (8.0499pt too high) detected at line 233
+Overfull \vbox (8.0499pt too high) detected at line 234
  []
 
 
@@ -2347,7 +2347,7 @@ File: figures/riseposition.png Graphic file (type bmp)
 File: figures/hitpositionmcp.png Graphic file (type bmp)
 <figures/hitpositionmcp.png>
 
-Overfull \vbox (5.50285pt too high) detected at line 255
+Overfull \vbox (5.50285pt too high) detected at line 256
  []
 
 
@@ -2363,7 +2363,7 @@ File: figures/hamampqdc.png Graphic file (type bmp)
 File: figures/mcpampqdc.png Graphic file (type bmp)
 <figures/mcpampqdc.png>
 
-Overfull \vbox (4.69559pt too high) detected at line 276
+Overfull \vbox (4.69559pt too high) detected at line 277
  []
 
 
@@ -2415,19 +2415,19 @@ Overfull \hbox (68.11044pt too wide) has occurred while \output is active
 [18
 
 ]
-./thiscontent.tex:400: Missing number, treated as zero.
+./thiscontent.tex:401: Missing number, treated as zero.
 <to be read again> 
                    }
-l.400 \end{frame}
+l.401 \end{frame}
                  
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./thiscontent.tex:400: Illegal unit of measure (pt inserted).
+./thiscontent.tex:401: Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.400 \end{frame}
+l.401 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, bp, or sp; but yours is a new one!
@@ -2445,25 +2445,25 @@ Overfull \hbox (68.11044pt too wide) has occurred while \output is active
 
 ]
 
-./thiscontent.tex:421: Package xcolor Error: Undefined color `Blue'.
+./thiscontent.tex:422: Package xcolor Error: Undefined color `Blue'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.421 \end{frame}
+l.422 \end{frame}
                  
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./thiscontent.tex:421: Package xcolor Error: Undefined color `Blue'.
+./thiscontent.tex:422: Package xcolor Error: Undefined color `Blue'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.421 \end{frame}
+l.422 \end{frame}
                  
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2524,7 +2524,7 @@ Overfull \hbox (68.11044pt too wide) has occurred while \output is active
 File: figures/hamtts.JPG Graphic file (type bmp)
 <figures/hamtts.JPG>
 
-Overfull \vbox (21.10675pt too high) detected at line 513
+Overfull \vbox (21.10675pt too high) detected at line 514
  []
 
 
@@ -2538,7 +2538,7 @@ Overfull \hbox (68.11044pt too wide) has occurred while \output is active
 File: figures/mcptts.JPG Graphic file (type bmp)
 <figures/mcptts.JPG>
 
-Overfull \vbox (20.378pt too high) detected at line 522
+Overfull \vbox (20.378pt too high) detected at line 523
  []
 
 
@@ -2664,7 +2664,7 @@ Overfull \hbox (68.11044pt too wide) has occurred while \output is active
 File: figure/drawerfactors.png Graphic file (type bmp)
 <figure/drawerfactors.png>
 
-Overfull \vbox (14.97041pt too high) detected at line 757
+Overfull \vbox (14.97041pt too high) detected at line 758
  []
 
 
