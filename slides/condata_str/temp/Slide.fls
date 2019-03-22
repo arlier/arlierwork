@@ -392,7 +392,6 @@ INPUT temp/Slide.toc
 INPUT thiscontent.tex
 INPUT thiscontent.tex
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm
-INPUT figures/SN_EA0283_pde1_dcr1_HV1_pv1_rt1_tag1.png
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm

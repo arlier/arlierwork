@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  22 MAR 2019 18:13
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  22 MAR 2019 18:16
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2242,13 +2242,6 @@ Overfull \hbox (68.11044pt too wide) has occurred while \output is active
 [5
 
 ]
-File: figures/SN_EA0283_pde1_dcr1_HV1_pv1_rt1_tag1.png Graphic file (type bmp)
-<figures/SN_EA0283_pde1_dcr1_HV1_pv1_rt1_tag1.png>
-
-Overfull \vbox (8.84624pt too high) detected at line 69
- []
-
-
 Overfull \hbox (68.11044pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -2256,11 +2249,11 @@ Overfull \hbox (68.11044pt too wide) has occurred while \output is active
 [6
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 122.
+LaTeX Font Info:    Try loading font information for U+msa on input line 120.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 122.
+LaTeX Font Info:    Try loading font information for U+msb on input line 120.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -2282,7 +2275,7 @@ File: figures/wave2d.png Graphic file (type bmp)
 File: figures/mcpwave2d.png Graphic file (type bmp)
 <figures/mcpwave2d.png>
 
-Overfull \vbox (5.60168pt too high) detected at line 145
+Overfull \vbox (5.60168pt too high) detected at line 143
  []
 
 
@@ -2310,7 +2303,7 @@ File: figures/hamampspe.png Graphic file (type bmp)
 File: figures/mcpampspe.png Graphic file (type bmp)
 <figures/mcpampspe.png>
 
-Overfull \vbox (2.93672pt too high) detected at line 190
+Overfull \vbox (2.93672pt too high) detected at line 188
  []
 
 
@@ -2338,7 +2331,7 @@ File: figures/avewave.png Graphic file (type bmp)
 File: figures/mcpavewave.png Graphic file (type bmp)
 <figures/mcpavewave.png>
 
-Overfull \vbox (8.0499pt too high) detected at line 235
+Overfull \vbox (8.0499pt too high) detected at line 233
  []
 
 
@@ -2354,7 +2347,7 @@ File: figures/riseposition.png Graphic file (type bmp)
 File: figures/hitpositionmcp.png Graphic file (type bmp)
 <figures/hitpositionmcp.png>
 
-Overfull \vbox (5.50285pt too high) detected at line 257
+Overfull \vbox (5.50285pt too high) detected at line 255
  []
 
 
@@ -2370,7 +2363,7 @@ File: figures/hamampqdc.png Graphic file (type bmp)
 File: figures/mcpampqdc.png Graphic file (type bmp)
 <figures/mcpampqdc.png>
 
-Overfull \vbox (4.69559pt too high) detected at line 278
+Overfull \vbox (4.69559pt too high) detected at line 276
  []
 
 
@@ -2422,19 +2415,19 @@ Overfull \hbox (68.11044pt too wide) has occurred while \output is active
 [18
 
 ]
-./thiscontent.tex:402: Missing number, treated as zero.
+./thiscontent.tex:400: Missing number, treated as zero.
 <to be read again> 
                    }
-l.402 \end{frame}
+l.400 \end{frame}
                  
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./thiscontent.tex:402: Illegal unit of measure (pt inserted).
+./thiscontent.tex:400: Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.402 \end{frame}
+l.400 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, bp, or sp; but yours is a new one!
@@ -2452,25 +2445,25 @@ Overfull \hbox (68.11044pt too wide) has occurred while \output is active
 
 ]
 
-./thiscontent.tex:423: Package xcolor Error: Undefined color `Blue'.
+./thiscontent.tex:421: Package xcolor Error: Undefined color `Blue'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.423 \end{frame}
+l.421 \end{frame}
                  
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./thiscontent.tex:423: Package xcolor Error: Undefined color `Blue'.
+./thiscontent.tex:421: Package xcolor Error: Undefined color `Blue'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.423 \end{frame}
+l.421 \end{frame}
                  
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2531,7 +2524,7 @@ Overfull \hbox (68.11044pt too wide) has occurred while \output is active
 File: figures/hamtts.JPG Graphic file (type bmp)
 <figures/hamtts.JPG>
 
-Overfull \vbox (21.10675pt too high) detected at line 515
+Overfull \vbox (21.10675pt too high) detected at line 513
  []
 
 
@@ -2545,7 +2538,7 @@ Overfull \hbox (68.11044pt too wide) has occurred while \output is active
 File: figures/mcptts.JPG Graphic file (type bmp)
 <figures/mcptts.JPG>
 
-Overfull \vbox (20.378pt too high) detected at line 524
+Overfull \vbox (20.378pt too high) detected at line 522
  []
 
 
@@ -2671,7 +2664,7 @@ Overfull \hbox (68.11044pt too wide) has occurred while \output is active
 File: figure/drawerfactors.png Graphic file (type bmp)
 <figure/drawerfactors.png>
 
-Overfull \vbox (14.97041pt too high) detected at line 759
+Overfull \vbox (14.97041pt too high) detected at line 757
  []
 
 
@@ -2744,10 +2737,10 @@ Package rerunfilecheck Info: File `Slide.out' has not changed.
 (rerunfilecheck)             Checksum: F315EEE141A8C5F951E8D4E060356492.
  ) 
 Here is how much of TeX's memory you used:
- 36610 strings out of 492970
- 744509 string characters out of 6133939
+ 36606 strings out of 492970
+ 744312 string characters out of 6133939
  863854 words of memory out of 5000000
- 39897 multiletter control sequences out of 15000+600000
+ 39894 multiletter control sequences out of 15000+600000
  541625 words of font info for 115 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  57i,20n,76p,10413b,793s stack positions out of 5000i,500n,10000p,200000b,80000s

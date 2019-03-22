@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1553249606 "Slide.tex" "temp/Slide.pdf" "Slide" 1553249627
+["pdflatex"] 1553249793 "Slide.tex" "temp/Slide.pdf" "Slide" 1553249814
   "/dev/null" 1552277858 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1480098689 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -241,7 +241,6 @@
   "figure/risetime.png" 1553244347 33626 2b62f537676f1b1a47bff352116d35bf ""
   "figure/vendordcr_hmp.png" 1553244347 37703 e912b18615251b3721a96716d47b87fc ""
   "figure/vendordcr_mcp.png" 1553244347 38935 b517c3e05431c4e8e518ffb30070b30d ""
-  "figures/SN_EA0283_pde1_dcr1_HV1_pv1_rt1_tag1.png" 1553244347 710934 10973e6430d2713591cf83561f468e53 ""
   "figures/avewave.png" 1553244347 82366 f77b8a00a017cb2ebe9838b58487a230 ""
   "figures/dcr.png" 1553244347 30378 048ebb3260ccd62494d355c8044aff37 ""
   "figures/dcr_p.png" 1553244347 30305 3a88c51357de431c4e7b83464eb96181 ""
@@ -281,11 +280,11 @@
   "figures/snr.png" 1553244347 28687 99ff1a1ab8b9a714ce23545fc9806bb6 ""
   "figures/vendorHV.png" 1553244347 32622 43e0cc3c95f591f365c523e20f387e71 ""
   "figures/wave2d.png" 1553244347 109865 a86e972df715fc61ad50a687e1ed4534 ""
-  "temp/Slide.aux" 1553249626 10059 f8c084ebdb62a146963a3fe592849648 ""
-  "temp/Slide.nav" 1553249626 5261 8cf1e8b6853f179f57bcbcc7ba8766c4 ""
-  "temp/Slide.out" 1553249626 704 f315eee141a8c5f951e8d4e060356492 ""
-  "temp/Slide.toc" 1553249626 224 8ed40c36a1a9fdff4d4d231a173d2921 ""
-  "thiscontent.tex" 1553249605 27822 c9d3f5213e7cbdfb73eb63467e670b91 ""
+  "temp/Slide.aux" 1553249813 10059 f8c084ebdb62a146963a3fe592849648 ""
+  "temp/Slide.nav" 1553249813 5261 8cf1e8b6853f179f57bcbcc7ba8766c4 ""
+  "temp/Slide.out" 1553249813 704 f315eee141a8c5f951e8d4e060356492 ""
+  "temp/Slide.toc" 1553249813 224 8ed40c36a1a9fdff4d4d231a173d2921 ""
+  "thiscontent.tex" 1553249792 27741 4e3483452e44b086e55b8402a1106030 ""
   (generated)
   "temp/Slide.pdf"
   "temp/Slide.snm"
