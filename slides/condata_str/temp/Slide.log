@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  22 MAR 2019 18:24
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  22 MAR 2019 18:27
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2258,11 +2258,6 @@ Overfull \hbox (68.11044pt too wide) has occurred while \output is active
 [6
 
 ]
-File: figures/hamwave.png Graphic file (type bmp)
-<figures/hamwave.png>
-File: figures/mcpwave.png Graphic file (type bmp)
-<figures/mcpwave.png>
-
 Overfull \hbox (68.11044pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -2275,7 +2270,7 @@ File: figures/wave2d.png Graphic file (type bmp)
 File: figures/mcpwave2d.png Graphic file (type bmp)
 <figures/mcpwave2d.png>
 
-Overfull \vbox (5.60168pt too high) detected at line 144
+Overfull \vbox (5.60168pt too high) detected at line 126
  []
 
 
@@ -2303,7 +2298,7 @@ File: figures/hamampspe.png Graphic file (type bmp)
 File: figures/mcpampspe.png Graphic file (type bmp)
 <figures/mcpampspe.png>
 
-Overfull \vbox (2.93672pt too high) detected at line 189
+Overfull \vbox (2.93672pt too high) detected at line 171
  []
 
 
@@ -2331,7 +2326,7 @@ File: figures/avewave.png Graphic file (type bmp)
 File: figures/mcpavewave.png Graphic file (type bmp)
 <figures/mcpavewave.png>
 
-Overfull \vbox (8.0499pt too high) detected at line 234
+Overfull \vbox (8.0499pt too high) detected at line 216
  []
 
 
@@ -2347,402 +2342,8 @@ File: figures/riseposition.png Graphic file (type bmp)
 File: figures/hitpositionmcp.png Graphic file (type bmp)
 <figures/hitpositionmcp.png>
 
-Overfull \vbox (5.50285pt too high) detected at line 256
+Overfull \vbox (5.50285pt too high) detected at line 238
  []
 
 
-Overfull \hbox (68.11044pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[13
-
-]
-File: figures/hamampqdc.png Graphic file (type bmp)
-<figures/hamampqdc.png>
-File: figures/mcpampqdc.png Graphic file (type bmp)
-<figures/mcpampqdc.png>
-
-Overfull \vbox (4.69559pt too high) detected at line 277
- []
-
-
-Overfull \hbox (68.11044pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[14
-
-]
-File: figures/hamrtft.png Graphic file (type bmp)
-<figures/hamrtft.png>
-File: figures/mcprtft.png Graphic file (type bmp)
-<figures/mcprtft.png>
-
-Overfull \hbox (68.11044pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[15
-
-]
-File: figures/hamcharge.png Graphic file (type bmp)
-<figures/hamcharge.png>
-File: figures/mcpcharge.png Graphic file (type bmp)
-<figures/mcpcharge.png>
-
-Overfull \hbox (68.11044pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[16
-
-]
-Overfull \hbox (68.11044pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[17
-
-]
-File: figures/mucal.JPG Graphic file (type bmp)
-<figures/mucal.JPG>
-
-Overfull \hbox (68.11044pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[18
-
-]
-./thiscontent.tex:401: Missing number, treated as zero.
-<to be read again> 
-                   }
-l.401 \end{frame}
-                 
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./thiscontent.tex:401: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.401 \end{frame}
-                 
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-Overfull \hbox (68.11044pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[19
-
-]
-
-./thiscontent.tex:422: Package xcolor Error: Undefined color `Blue'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.422 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./thiscontent.tex:422: Package xcolor Error: Undefined color `Blue'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.422 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (68.11044pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[20
-
-]
-File: figures/pde1pe.png Graphic file (type bmp)
-<figures/pde1pe.png>
-File: figures/pdemcp.png Graphic file (type bmp)
-<figures/pdemcp.png>
-
-Overfull \hbox (68.11044pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[21
-
-]
-File: figures/sim.png Graphic file (type bmp)
-<figures/sim.png>
-File: figures/dcr_p.png Graphic file (type bmp)
-<figures/dcr_p.png>
-
-Overfull \hbox (68.11044pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[22
-
-]
-Overfull \hbox (68.11044pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[23
-
-]
-Overfull \hbox (68.11044pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[24
-
-]
-Overfull \hbox (68.11044pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[25
-
-]
-File: figures/hamtts.JPG Graphic file (type bmp)
-<figures/hamtts.JPG>
-
-Overfull \vbox (21.10675pt too high) detected at line 514
- []
-
-
-Overfull \hbox (68.11044pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[26
-
-]
-File: figures/mcptts.JPG Graphic file (type bmp)
-<figures/mcptts.JPG>
-
-Overfull \vbox (20.378pt too high) detected at line 523
- []
-
-
-Overfull \hbox (68.11044pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[27
-
-]
-File: figures/pde.png Graphic file (type bmp)
-<figures/pde.png>
-
-Overfull \hbox (68.11044pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[28
-
-]
-File: figures/pdecomparation.png Graphic file (type bmp)
-<figures/pdecomparation.png>
-File: figures/pdedifference.png Graphic file (type bmp)
-<figures/pdedifference.png>
-
-Overfull \hbox (68.11044pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[29
-
-]
-File: figures/dcr.png Graphic file (type bmp)
-<figures/dcr.png>
-
-Overfull \hbox (68.11044pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[30
-
-]
-File: figures/gain.png Graphic file (type bmp)
-<figures/gain.png>
-
-Overfull \hbox (68.11044pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[31
-
-]
-File: figures/pv.png Graphic file (type bmp)
-<figures/pv.png>
-
-Overfull \hbox (68.11044pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[32
-
-]
-File: figures/rt.png Graphic file (type bmp)
-<figures/rt.png>
-
-Overfull \hbox (68.11044pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[33
-
-]
-File: figures/ft.png Graphic file (type bmp)
-<figures/ft.png>
-
-Overfull \hbox (68.11044pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[34
-
-]
-File: figures/fwhm.png Graphic file (type bmp)
-<figures/fwhm.png>
-
-Overfull \hbox (68.11044pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[35
-
-]
-File: figures/res.png Graphic file (type bmp)
-<figures/res.png>
-
-Overfull \hbox (68.11044pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[36
-
-]
-File: figures/snr.png Graphic file (type bmp)
-<figures/snr.png>
-
-Overfull \hbox (68.11044pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[37
-
-]
-File: figures/vendorHV.png Graphic file (type bmp)
-<figures/vendorHV.png>
-
-Overfull \hbox (68.11044pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[38
-
-]
-File: figure/drawerfactors.png Graphic file (type bmp)
-<figure/drawerfactors.png>
-
-Overfull \vbox (14.97041pt too high) detected at line 758
- []
-
-
-Overfull \hbox (68.11044pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[39
-
-]
-File: figure/ref_sta.png Graphic file (type bmp)
-<figure/ref_sta.png>
-
-Overfull \hbox (68.11044pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[40
-
-]
-File: figure/ref_HV_sta.png Graphic file (type bmp)
-<figure/ref_HV_sta.png>
-
-Overfull \hbox (68.11044pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[41
-
-]
-File: figure/vendordcr_mcp.png Graphic file (type bmp)
-<figure/vendordcr_mcp.png>
-File: figure/vendordcr_hmp.png Graphic file (type bmp)
-<figure/vendordcr_hmp.png>
-
-Overfull \hbox (68.11044pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[42
-
-]
-File: figure/risetime.png Graphic file (type bmp)
-<figure/risetime.png>
-File: figure/falltime.png Graphic file (type bmp)
-<figure/falltime.png>
-
-Overfull \hbox (68.11044pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[43
-
-])
-\tf@nav=\write6
-\openout6 = `Slide.nav'.
-
-\tf@toc=\write7
-\openout7 = `Slide.toc'.
-
-\tf@snm=\write8
-\openout8 = `Slide.snm'.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 52.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 52.
- (temp/Slide.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 52.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 52.
-Package rerunfilecheck Info: File `Slide.out' has not changed.
-(rerunfilecheck)             Checksum: F315EEE141A8C5F951E8D4E060356492.
- ) 
-Here is how much of TeX's memory you used:
- 36606 strings out of 492970
- 744312 string characters out of 6133939
- 863854 words of memory out of 5000000
- 39894 multiletter control sequences out of 15000+600000
- 541625 words of font info for 115 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 57i,20n,76p,10413b,793s stack positions out of 5000i,500n,10000p,200000b,80000s
-
-Output written on temp/Slide.pdf (43 pages).
+Overfull \hbox (6
