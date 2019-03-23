@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex temp/elegantbook"] 1553348782 "temp/elegantbook.aux" "temp/elegantbook.bbl" "temp/elegantbook" 1553348783
+["bibtex temp/elegantbook"] 1553348782 "temp/elegantbook.aux" "temp/elegantbook.bbl" "temp/elegantbook" 1553348829
   "/usr/local/texlive/2018/texmf-dist/bibtex/bst/economic/aer.bst" 1480098434 26812 2ae6e48450a8c17a93d98067b7084a7a ""
   "reference.bib" 1547548560 7231 d53dfa70db403c4112df251619a29f11 ""
   "temp/elegantbook.aux" 1553348783 3205 860cbc4da24855a28ea5633e3f03d886 ""
   (generated)
-  "temp/elegantbook.blg"
   "temp/elegantbook.bbl"
-["pdflatex"] 1553348782 "elegantbook.tex" "temp/elegantbook.pdf" "elegantbook" 1553348783
+  "temp/elegantbook.blg"
+["pdflatex"] 1553348782 "elegantbook.tex" "temp/elegantbook.pdf" "elegantbook" 1553348829
   "/dev/null" 1552277858 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1480098689 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -285,9 +285,9 @@
   "temp/elegantbook.out" 1553348783 1371 80e79cca68df8f94da9578ba6a04ba01 ""
   "temp/elegantbook.toc" 1553348783 834 47c99436ab2676d69feef098b5ca4cf6 ""
   (generated)
-  "temp/elegantbook.toc"
-  "temp/elegantbook.log"
-  "temp/elegantbook.thm"
   "temp/elegantbook.out"
-  "temp/elegantbook.pdf"
+  "temp/elegantbook.thm"
+  "temp/elegantbook.toc"
   "temp/elegantbook.aux"
+  "temp/elegantbook.pdf"
+  "temp/elegantbook.log"
