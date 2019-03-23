@@ -1,14 +1,14 @@
 \contentsline {chapter}{\numberline {1}数据处理背景简介 }{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}读取波形}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}未来更新计划}{1}{section.1.2}
-\contentsline {chapter}{\numberline {2}ElegantBook 设置说明}{3}{chapter.2}
-\contentsline {section}{\numberline {2.1}编译方式}{3}{section.2.1}
-\contentsline {section}{\numberline {2.2}选项设置}{3}{section.2.2}
-\contentsline {section}{\numberline {2.3}数学环境简介}{4}{section.2.3}
-\contentsline {section}{\numberline {2.4}可编辑的字段}{4}{section.2.4}
-\contentsline {section}{\numberline {2.5}参考文献}{4}{section.2.5}
-\contentsline {chapter}{\numberline {3}ElegantBook 写作示例}{5}{chapter.3}
-\contentsline {section}{\numberline {3.1}Lebesgue 积分}{5}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}积分的定义}{5}{subsection.3.1.1}
-\contentsline {chapter}{\numberline {A}线性代数}{9}{appendix.A}
-\contentsline {section}{\numberline {A.1}矩阵的分块}{9}{section.A.1}
+\contentsline {section}{\numberline {1.2}计算电荷积分}{1}{section.1.2}
+\contentsline {chapter}{\numberline {2}ElegantBook 设置说明}{2}{chapter.2}
+\contentsline {section}{\numberline {2.1}编译方式}{2}{section.2.1}
+\contentsline {section}{\numberline {2.2}选项设置}{2}{section.2.2}
+\contentsline {section}{\numberline {2.3}数学环境简介}{3}{section.2.3}
+\contentsline {section}{\numberline {2.4}可编辑的字段}{3}{section.2.4}
+\contentsline {section}{\numberline {2.5}参考文献}{3}{section.2.5}
+\contentsline {chapter}{\numberline {3}ElegantBook 写作示例}{4}{chapter.3}
+\contentsline {section}{\numberline {3.1}Lebesgue 积分}{4}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}积分的定义}{4}{subsection.3.1.1}
+\contentsline {chapter}{\numberline {A}线性代数}{8}{appendix.A}
+\contentsline {section}{\numberline {A.1}矩阵的分块}{8}{section.A.1}
