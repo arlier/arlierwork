@@ -533,10 +533,10 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newtx/ntx-Bold-tlf-t1.
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/newtxtt/t1newtxtt.fd
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/newtxtt/t1newtxtt.fd
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newtxtt/newtxtta.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newtx/ntx-Italic-tlf-t1.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/tex-gyre/ts1-qtmr.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newtx/ntx-Italic-tlf-t1.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newtx/ntx-Bold-tlf-t1.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-t1.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/knuth-lib/manfnt.tfm
