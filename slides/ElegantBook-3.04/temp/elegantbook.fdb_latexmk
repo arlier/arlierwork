@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex temp/elegantbook"] 1553323705 "temp/elegantbook.aux" "temp/elegantbook.bbl" "temp/elegantbook" 1553324185
+["bibtex temp/elegantbook"] 1553324536 "temp/elegantbook.aux" "temp/elegantbook.bbl" "temp/elegantbook" 1553324537
   "/usr/local/texlive/2018/texmf-dist/bibtex/bst/economic/aer.bst" 1480098434 26812 2ae6e48450a8c17a93d98067b7084a7a ""
   "reference.bib" 1547548560 7231 d53dfa70db403c4112df251619a29f11 ""
-  "temp/elegantbook.aux" 1553324185 3761 bd25c6ee44f924fad91f83c5beb36b1e ""
+  "temp/elegantbook.aux" 1553324537 3761 da8445acae6123901e828d148361b26a ""
   (generated)
   "temp/elegantbook.blg"
   "temp/elegantbook.bbl"
-["pdflatex"] 1553324184 "elegantbook.tex" "temp/elegantbook.pdf" "elegantbook" 1553324185
+["pdflatex"] 1553324536 "elegantbook.tex" "temp/elegantbook.pdf" "elegantbook" 1553324537
   "/dev/null" 1552277858 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1480098689 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -277,13 +277,13 @@
   "/usr/local/texlive/2018/texmf.cnf" 1552130826 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
   "base.tex" 1547548560 1096 c13918220cf650e90b48e746abac3a2f ""
   "elegantbook.cls" 1553323010 10349 232fcb28a9ca0efb5480c20ad7ea2523 ""
-  "elegantbook.tex" 1553324182 15969 e0a9085bc727d77016f83ef775a030aa ""
+  "elegantbook.tex" 1553324532 15697 ed0087e42ed1b7732b0c212b0e0f3194 ""
   "figure/ElegantLaTeX_green.pdf" 1547548560 775811 6f87196fe9876938d5ce1951e73754f1 ""
-  "image/mpg.png" 1547548560 93513 1da50203c37c6051ed55b83243809cb1 ""
-  "temp/elegantbook.aux" 1553324185 3761 bd25c6ee44f924fad91f83c5beb36b1e ""
-  "temp/elegantbook.bbl" 1553323705 954 48102f7472068cc2b43b87df8171add5 "bibtex temp/elegantbook"
-  "temp/elegantbook.out" 1553324185 1714 268be5b4b2066f644d6cf8dc75e76217 ""
-  "temp/elegantbook.toc" 1553324185 1053 a66e1a03139ef335911a9ca8ca1dfebf ""
+  "image/expdata.png" 1553324480 13787 83549900cb3201550740d184effad482 ""
+  "temp/elegantbook.aux" 1553324537 3761 da8445acae6123901e828d148361b26a ""
+  "temp/elegantbook.bbl" 1553324536 954 48102f7472068cc2b43b87df8171add5 "bibtex temp/elegantbook"
+  "temp/elegantbook.out" 1553324537 1714 268be5b4b2066f644d6cf8dc75e76217 ""
+  "temp/elegantbook.toc" 1553324537 1053 1aed9ae0b03190320565166082b1e775 ""
   (generated)
   "temp/elegantbook.toc"
   "temp/elegantbook.log"

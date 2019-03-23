@@ -40,14 +40,15 @@
 由于我们要处理的波形数量比较多，需要进行简单的编程来计算和统计；python，MATLAB，C++等都可以满足需求\footnote{可以参考附录的python，ROOT程序}。
 \section{读取波形}
 我们存储下来的lvm文件每行只有一个数字，代表一个电压值（单位mV);如果你在labview中设置采样长度是1000，那么每1000行就组成一个波形；每一个点的时间间隔是1ns。
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.6\textwidth]{expdata.png}
+	\caption{MPG 和 Weight 的关系图\label{fig:mpg}}
+\end{figure}
 
 \begin{enumerate}[noitemsep]
    \item 删除了自定义字体设置，改用 \texttt{ctex} 宏包用以支持中文；
    \item 使用 \texttt{tcolorbox} 宏包改写了原先的定理类环境，目前定理环境等均可以跨页；
-   \item 重新命名了定理类环境的名称（theorem，definition，proposition 等）；
-   \item 重新命名了颜色的名字（first，second，third）；
-   \item 重新绘制 ElegantLaTeX 的 Logo；
-   \item 更新类定理环境，包括其交叉引用；
    \item 特别修正附录相关内容。
 \end{enumerate}
 
@@ -189,11 +190,6 @@ Lebesgue 积分有几种不同的定义方式。我们将采用逐步定义非�
 
 考虑函数 $y=a+bx$, 其中 $a$ 和 $b$ 是待定常数。如果离散点完全的在一直线上，可以认为变量之间的关系为一元函数。但一般说来，这些点不可能在同一直线上。但是它只能用直线来描述时，计算值与实际值会产生偏差。当然要求偏差越小越好，但由于偏差可正可负，因此不能认为总偏差时，拟合函数很好地反映了变量之间的关系，但是因为此时每个偏差的绝对值可能很大。为了改进这一缺陷，就考虑用平均值来代替。但是由于绝对值不易作解析运算，因此，进一步用残差平方和函数来度量总偏差。偏差的平方和最小可以保证每个偏差都不会很大。于是问题归结为确定拟合函数中的常数和使残差平方和函数最小。 
 
-\begin{figure}[!htbp]
-	\centering
-	\includegraphics[width=0.6\textwidth]{mpg.png}
-	\caption{MPG 和 Weight 的关系图\label{fig:mpg}}
-\end{figure}
 
 
 
