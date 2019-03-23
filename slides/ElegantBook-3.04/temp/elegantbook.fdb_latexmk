@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex temp/elegantbook"] 1553325670 "temp/elegantbook.aux" "temp/elegantbook.bbl" "temp/elegantbook" 1553325691
+["bibtex temp/elegantbook"] 1553332802 "temp/elegantbook.aux" "temp/elegantbook.bbl" "temp/elegantbook" 1553332803
   "/usr/local/texlive/2018/texmf-dist/bibtex/bst/economic/aer.bst" 1480098434 26812 2ae6e48450a8c17a93d98067b7084a7a ""
   "reference.bib" 1547548560 7231 d53dfa70db403c4112df251619a29f11 ""
-  "temp/elegantbook.aux" 1553325691 3725 59041b0fcddeb965bb66b3ba504cfba4 ""
+  "temp/elegantbook.aux" 1553332803 3206 dc10591b468f9926c04867cf6d2f78bb ""
   (generated)
   "temp/elegantbook.blg"
   "temp/elegantbook.bbl"
-["pdflatex"] 1553325690 "elegantbook.tex" "temp/elegantbook.pdf" "elegantbook" 1553325691
+["pdflatex"] 1553332802 "elegantbook.tex" "temp/elegantbook.pdf" "elegantbook" 1553332803
   "/dev/null" 1552277858 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1480098689 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -276,14 +276,14 @@
   "/usr/local/texlive/2018/texmf-var/web2c/xetex/xelatex.fmt" 1552130843 3731942 6896b9129c8be84d817a5c866a9ee221 ""
   "/usr/local/texlive/2018/texmf.cnf" 1552130826 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
   "base.tex" 1547548560 1096 c13918220cf650e90b48e746abac3a2f ""
-  "elegantbook.cls" 1553323010 10349 232fcb28a9ca0efb5480c20ad7ea2523 ""
-  "elegantbook.tex" 1553325688 15911 57c677bc072d6acfc890bfcc331e92c8 ""
+  "elegantbook.cls" 1553332775 10349 ced06db8e9771449f1478c046c447cfc ""
+  "elegantbook.tex" 1553332798 15682 4d5a2b1ddd4b9927b156728a99c4c5a7 ""
   "figure/ElegantLaTeX_green.pdf" 1547548560 775811 6f87196fe9876938d5ce1951e73754f1 ""
   "image/expdata1.png" 1553324895 27411 0f64a0983fa8a7960e666c6dc5441d0b ""
-  "temp/elegantbook.aux" 1553325691 3725 59041b0fcddeb965bb66b3ba504cfba4 ""
-  "temp/elegantbook.bbl" 1553325670 954 48102f7472068cc2b43b87df8171add5 "bibtex temp/elegantbook"
-  "temp/elegantbook.out" 1553325691 1714 85af346c8a0823431f578cf60a0881e1 ""
-  "temp/elegantbook.toc" 1553325691 1053 dd7124cf2bb7c5b563ff7865ec326126 ""
+  "temp/elegantbook.aux" 1553332803 3206 dc10591b468f9926c04867cf6d2f78bb ""
+  "temp/elegantbook.bbl" 1553332802 954 48102f7472068cc2b43b87df8171add5 "bibtex temp/elegantbook"
+  "temp/elegantbook.out" 1553332803 1371 80e79cca68df8f94da9578ba6a04ba01 ""
+  "temp/elegantbook.toc" 1553332803 834 47c99436ab2676d69feef098b5ca4cf6 ""
   (generated)
   "temp/elegantbook.toc"
   "temp/elegantbook.log"

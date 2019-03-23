@@ -51,8 +51,13 @@
 %\end{enumerate}
 
 \section{计算电荷积分}
-数据采集ADC的阻抗是50$\Omega$，我们用波形的面积($\int UT$) 除以电阻可以得到每一个信号的电荷量大小。实验中我们看到的信号来自于$\mu$子在闪烁体中沉积能量产生的发光，我们简单假设每个$mu$子事件平均产生光子数为5000个，系统总的的探测效率是10\%，那么我们预期看到的PMT信号就是$5000\times 10\%=500$个电子被放大之后的结果。
-
+数据采集ADC的阻抗是50$\Omega$，我们用波形的面积($\int UT$) 除以电阻可以得到每一个信号的电荷量大小。实验中我们看到的信号来自于$\mu$子在闪烁体中沉积能量产生的发光，我们简单假设每个$\mu$子事件平均产生光子数为5000个，系统总的的探测效率是10\%，那么我们预期看到的PMT信号就是$5000\times 10\%=500$个电子被放大之后的结果。PMT对电子的放大倍数，也就是增益可以用公式\ref{e1}来计算：
+\begin{definition}{增益计算}{int}
+\begin{equation}
+   \label{e1}
+   \int_{E} f dx = \sum_{i=1}^k a_i m(A_i).
+\end{equation}
+\end{definition}
 
 \begin{enumerate}[noitemsep]
    \item 重新设计 base 图标；
@@ -64,44 +69,44 @@
 \chapter{ElegantBook 设置说明}
 
 
-\section{编译方式}
-
-本模板基于基础的 book 文类，所以 book 的选项对于本模板也是有效的。默认编码为 UTF-8，推荐使用 \TeX{} Live 编译。作者编写环境为 Win10(64bit) + \TeX{} Live 2018。由于使用的是 \texttt{ctex} 宏包，所以支持 \texttt{pdflatex} 以及 \texttt{xelatex} 编译。
-
-
-\section{选项设置}
-本文特殊选项设置共有 2 类，分为 {\color{main}主题颜色}设置 以及 {\color{main}章标题显示风格}设置。
-
-第 1 类为{\color{main}主题颜色}设置，内置 3 组颜色主题，分别为 \verb|green|（默认）、\verb|cyan|、\verb|blue|，另外还有一个自定义的选项  \verb|nocolor|。调用颜色主题 \verb|green| 的方法为 \\
-\verb|\documentclass[green]{elegantbook}| 或者 \verb|\documentclass[color=green]{elegantbook}|。需要改变颜色的话请选择 \verb|nocolor| 选项或者使用 \verb|color=none|，然后在导言区定义 main、second、third 颜色，具体的方法如下：
-
-\begin{verbatim}
-\definecolor{main}{RGB}{70,70,70}    %定义 main 颜色值
-\definecolor{second}{RGB}{115,45,2}    %定义 second 颜色值
-\definecolor{third}{RGB}{0,80,80}     %定义 third 颜色值
-\end{verbatim}
-
-\begin{table}[htp]
-\caption{ElegantBook 模板中的三套颜色主题\label{tab:color thm}}
-\centering
-\begin{tabular}{ccccc}
-\toprule
-	  & green & cyan & blue & 主要使用的环境\\
-\midrule
-main & \makecell{{\color{main1}\rule{1cm}{1cm}}}& \makecell{{\color{main2}\rule{1cm}{1cm}}}&\makecell{ {\color{main3}\rule{1cm}{1cm}}}& definition \\
-
-second &\makecell{ {\color{second1}\rule{1cm}{1cm}}}& \makecell{{\color{second2}\rule{1cm}{1cm}}}&\makecell{ {\color{second3}\rule{1cm}{1cm}}}&theorem \ lemma \ corollary\\
-
-third &\makecell{ {\color{third1}\rule{1cm}{1cm}}}& \makecell{{\color{third2}\rule{1cm}{1cm}}}&\makecell{ {\color{third3}\rule{1cm}{1cm}}}&proposition\\
-\bottomrule
-\end{tabular}
-\end{table}
-
-第 2 类为{\color{main} 章标题显示风格}，包含 \verb|hang|（默认）与 \verb|display| 两种风格，区别在于章标题单行显示（\verb|hang|）与双行显示（\verb|display|），本说明使用了 \verb|hang|。调用方式为 \verb|\documentclass[hang]{elegantbook}| 或者 \verb|\documentclass[titlestyle=hang]{elegantbook}|。
-
-综合起来，同时调用三个选项使用 \verb|\documentclass[color=X,titlestyle=Y]{elegantbook}|。其中 \verb|X| 可以选择 \verb|green|,\verb|cyan|,\verb|blue|,\verb|none|；\verb|Z| 可以选择 \verb|hang| 或者 \verb|display|。
-
-\section{数学环境简介}
+%\section{编译方式}
+%
+%本模板基于基础的 book 文类，所以 book 的选项对于本模板也是有效的。默认编码为 UTF-8，推荐使用 \TeX{} Live 编译。作者编写环境为 Win10(64bit) + \TeX{} Live 2018。由于使用的是 \texttt{ctex} 宏包，所以支持 \texttt{pdflatex} 以及 \texttt{xelatex} 编译。
+%
+%
+%\section{选项设置}
+%本文特殊选项设置共有 2 类，分为 {\color{main}主题颜色}设置 以及 {\color{main}章标题显示风格}设置。
+%
+%第 1 类为{\color{main}主题颜色}设置，内置 3 组颜色主题，分别为 \verb|green|（默认）、\verb|cyan|、\verb|blue|，另外还有一个自定义的选项  \verb|nocolor|。调用颜色主题 \verb|green| 的方法为 \\
+%\verb|\documentclass[green]{elegantbook}| 或者 \verb|\documentclass[color=green]{elegantbook}|。需要改变颜色的话请选择 \verb|nocolor| 选项或者使用 \verb|color=none|，然后在导言区定义 main、second、third 颜色，具体的方法如下：
+%
+%\begin{verbatim}
+%\definecolor{main}{RGB}{70,70,70}    %定义 main 颜色值
+%\definecolor{second}{RGB}{115,45,2}    %定义 second 颜色值
+%\definecolor{third}{RGB}{0,80,80}     %定义 third 颜色值
+%\end{verbatim}
+%
+%\begin{table}[htp]
+%\caption{ElegantBook 模板中的三套颜色主题\label{tab:color thm}}
+%\centering
+%\begin{tabular}{ccccc}
+%\toprule
+%	  & green & cyan & blue & 主要使用的环境\\
+%\midrule
+%main & \makecell{{\color{main1}\rule{1cm}{1cm}}}& \makecell{{\color{main2}\rule{1cm}{1cm}}}&\makecell{ {\color{main3}\rule{1cm}{1cm}}}& definition \\
+%
+%second &\makecell{ {\color{second1}\rule{1cm}{1cm}}}& \makecell{{\color{second2}\rule{1cm}{1cm}}}&\makecell{ {\color{second3}\rule{1cm}{1cm}}}&theorem \ lemma \ corollary\\
+%
+%third &\makecell{ {\color{third1}\rule{1cm}{1cm}}}& \makecell{{\color{third2}\rule{1cm}{1cm}}}&\makecell{ {\color{third3}\rule{1cm}{1cm}}}&proposition\\
+%\bottomrule
+%\end{tabular}
+%\end{table}
+%
+%第 2 类为{\color{main} 章标题显示风格}，包含 \verb|hang|（默认）与 \verb|display| 两种风格，区别在于章标题单行显示（\verb|hang|）与双行显示（\verb|display|），本说明使用了 \verb|hang|。调用方式为 \verb|\documentclass[hang]{elegantbook}| 或者 \verb|\documentclass[titlestyle=hang]{elegantbook}|。
+%
+%综合起来，同时调用三个选项使用 \verb|\documentclass[color=X,titlestyle=Y]{elegantbook}|。其中 \verb|X| 可以选择 \verb|green|,\verb|cyan|,\verb|blue|,\verb|none|；\verb|Z| 可以选择 \verb|hang| 或者 \verb|display|。
+%
+%\section{数学环境简介}
 
 在我们这个模板中，定义了三大类环境
 
@@ -137,14 +142,6 @@ Lebesgue 积分有几种不同的定义方式。我们将采用逐步定义非�
 
 我们将通过三个步骤定义可测函数的积分。首先定义非负简单函数的积分。以下设 $E$ 是 $\mathcal{R}^n$ 中的可测集。
 
-\begin{definition}{可积性}{int}
-设 $ f(x)=\sum\limits_{i=1}^{k} a_i \chi_{A_i}(x)$ 是 $E$ 上的非负简单函数，其中 $\{A_1,A_2,\ldots,A_k\}$ 是 $E$ 上的一个可测分割，$a_1,a_2,\ldots,a_k$ 是非负实数。定义 $f$ 在 $E$ 上的积分为
-\begin{equation}
-   \label{inter}
-   \int_{E} f dx = \sum_{i=1}^k a_i m(A_i).
-\end{equation}
-一般情况下 $0 \leq \int_{E} f dx \leq \infty$。若 $\int_{E} f dx < \infty$，则称 $f$ 在 $E$ 上可积。
-\end{definition}
 
 一个自然的问题是，Lebesgue 积分与我们所熟悉的 Riemann 积分有什么联系和区别？在 4.4 在我们将详细讨论 Riemann 积分与 Lebesgue 积分的关系。这里只看一个简单的例子。设 $D(x)$ 是区间 $[0,1]$ 上的 Dirichlet 函数。即 $D(x)=\chi_{Q_0}(x)$，其中 $Q_0$ 表示 $[0,1]$ 中的有理数的全体。根据非负简单函数积分的定义，$D(x)$ 在 $[0,1]$ 上的 Lebesgue 积分为
 \begin{equation}

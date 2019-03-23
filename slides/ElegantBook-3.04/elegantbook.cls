@@ -252,7 +252,7 @@
     },
 }
 
-\newtcbtheorem[auto counter,number within=chapter]{definition}{定义}{defstyle}{def}
+\newtcbtheorem[auto counter,number within=chapter]{definition}{公式}{defstyle}{def}
 \newtcbtheorem[auto counter,number within=chapter]{theorem}{定理}{thmstyle}{thm}
 \newtcbtheorem[auto counter,number within=chapter]{proposition}{命题}{propstyle}{pro}
 \newtcbtheorem[auto counter,number within=chapter]{corollary}{推论}{thmstyle}{cor}
