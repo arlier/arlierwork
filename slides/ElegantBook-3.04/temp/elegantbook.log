@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  24 MAR 2019 12:37
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  24 MAR 2019 12:38
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -3011,35 +3011,1989 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 240.
+
+
+./elegantbook.tex:240: Package xcolor Error: Undefined color `backcolour'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.240 ...ng.}, label={lst:simple},language=Python]
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:240: Package xcolor Error: Undefined color `backcolour'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.240 ...ng.}, label={lst:simple},language=Python]
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:240: Package xcolor Error: Undefined color `backcolour'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.240 ...ng.}, label={lst:simple},language=Python]
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 6.0pt on input line 241.
+
+./elegantbook.tex:241: Package xcolor Error: Undefined color `codegray'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.241 #
+       !/usr/bin/env python
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:241: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.241 #
+       !/usr/bin/env python
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:241: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.241 #!/us
+           r/bin/env python
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:241: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.241 #!/usr/
+             bin/env python
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:241: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.241 #!/usr/b
+              in/env python
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:241: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.241 #!/usr/bin/
+                 env python
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:241: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.241 #!/usr/bin/e
+                  nv python
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:241: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.241 #!/usr/bin/env 
+                     python
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:241: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.241 #!/usr/bin/env 
+                     python
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:241: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.241 #!/usr/bin/env python
+                           
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:242: Package xcolor Error: Undefined color `codegray'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.242 #
+        -*-coding:utf-8 -*-
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:242: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.242 #
+        -*-coding:utf-8 -*-
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:242: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.242 # 
+        -*-coding:utf-8 -*-
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:242: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.242 # -*-c
+            oding:utf-8 -*-
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 242.
+
 LaTeX Font Info:    Try loading font information for TS1+ntxtlf on input line 2
 42.
-
 (/usr/local/texlive/2018/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
-LaTeX Font Info:    Font shape `TS1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 242.
-
-Overfull \hbox (254.5441pt too wide) in paragraph at lines 247--248
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (52.94205pt too wide) in paragraph at lines 248--249
-[][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 255.
-[5
+(Font)              scaled to size 10.0pt on input line 242.
 
-]
+
+./elegantbook.tex:242: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.242 # -*-coding:
+                  utf-8 -*-
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:242: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.242 # -*-coding:ut
+                    f-8 -*-
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:242: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.242 # -*-coding:utf-
+                      8 -*-
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:242: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.242 # -*-coding:utf-8 
+                        -*-
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:242: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.242 # -*-coding:utf-8 
+                        -*-
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:242: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.242 # -*-coding:utf-8 -*-
+                           
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:243: Package xcolor Error: Undefined color `codegray'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.243 import 
+             numpy as np
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:244: Package xcolor Error: Undefined color `codegray'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.244 from 
+           scipy import interpolate
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:245: Package xcolor Error: Undefined color `codegray'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.245 import 
+             pylab as pl
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:247: Package xcolor Error: Undefined color `codegray'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 f 
+        = open('/media/tao/_dde_data/arlierwork/simulation/tao/exp220/exampl...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:247: Package xcolor Error: Undefined color `codegray'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 f 
+        = open('/media/tao/_dde_data/arlierwork/simulation/tao/exp220/exampl...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:247: Package xcolor Error: Undefined color `codepurple'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 f = open('/
+                 media/tao/_dde_data/arlierwork/simulation/tao/exp220/exampl...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:247: Package xcolor Error: Undefined color `codepurple'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 f = open('/m
+                  edia/tao/_dde_data/arlierwork/simulation/tao/exp220/exampl...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:247: Package xcolor Error: Undefined color `codepurple'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 f = open('/media/
+                       tao/_dde_data/arlierwork/simulation/tao/exp220/exampl...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:247: Package xcolor Error: Undefined color `codepurple'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 f = open('/media/t
+                        ao/_dde_data/arlierwork/simulation/tao/exp220/exampl...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:247: Package xcolor Error: Undefined color `codepurple'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 f = open('/media/tao/
+                           _dde_data/arlierwork/simulation/tao/exp220/exampl...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:247: Package xcolor Error: Undefined color `codepurple'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 f = open('/media/tao/_
+                            dde_data/arlierwork/simulation/tao/exp220/exampl...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:247: Package xcolor Error: Undefined color `codepurple'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 f = open('/media/tao/_dde_data/
+                                     arlierwork/simulation/tao/exp220/exampl...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:247: Package xcolor Error: Undefined color `codepurple'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 f = open('/media/tao/_dde_data/a
+                                      rlierwork/simulation/tao/exp220/exampl...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:247: Package xcolor Error: Undefined color `codepurple'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 f = open('/media/tao/_dde_data/arlierwork/
+                                                simulation/tao/exp220/exampl...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:247: Package xcolor Error: Undefined color `codepurple'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 f = open('/media/tao/_dde_data/arlierwork/s
+                                                 imulation/tao/exp220/exampl...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:247: Package xcolor Error: Undefined color `codepurple'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 ...edia/tao/_dde_data/arlierwork/simulation/
+                                                  tao/exp220/example.lvm') #...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:247: Package xcolor Error: Undefined color `codepurple'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 ...dia/tao/_dde_data/arlierwork/simulation/t
+                                                  ao/exp220/example.lvm') #换...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:247: Package xcolor Error: Undefined color `codepurple'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 .../tao/_dde_data/arlierwork/simulation/tao/
+                                                  exp220/example.lvm') #换成你自...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:247: Package xcolor Error: Undefined color `codepurple'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 ...tao/_dde_data/arlierwork/simulation/tao/e
+                                                  xp220/example.lvm') #换成你自己...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:247: Package xcolor Error: Undefined color `codepurple'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 ...de_data/arlierwork/simulation/tao/exp220/
+                                                  example.lvm') #换成你自己的文件名
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:247: Package xcolor Error: Undefined color `codepurple'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 ...e_data/arlierwork/simulation/tao/exp220/e
+                                                  xample.lvm') #换成你自己的文件名
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:247: Package xcolor Error: Undefined color `codepurple'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 ...arlierwork/simulation/tao/exp220/example.
+                                                  lvm') #换成你自己的文件名
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:247: Package xcolor Error: Undefined color `codepurple'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 ...rlierwork/simulation/tao/exp220/example.l
+                                                  vm') #换成你自己的文件名
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:247: Package xcolor Error: Undefined color `codepurple'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 ...rwork/simulation/tao/exp220/example.lvm')
+                                                   #换成你自己的文件名
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:247: Package xcolor Error: Undefined color `codepurple'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 ...rwork/simulation/tao/exp220/example.lvm')
+                                                   #换成你自己的文件名
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:247: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 ...ork/simulation/tao/exp220/example.lvm') #
+                                                  换成你自己的文件名
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:247: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 ...k/simulation/tao/exp220/example.lvm') #换成
+                                                  你自己的文件名
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:247: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 .../simulation/tao/exp220/example.lvm') #换成你
+                                                  自己的文件名
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:247: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 ...simulation/tao/exp220/example.lvm') #换成你自
+                                                  己的文件名
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:247: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 ...imulation/tao/exp220/example.lvm') #换成你自己
+                                                  的文件名
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:247: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 ...mulation/tao/exp220/example.lvm') #换成你自己的
+                                                  文件名
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:247: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 ...ulation/tao/exp220/example.lvm') #换成你自己的文
+                                                  件名
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:247: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 ...lation/tao/exp220/example.lvm') #换成你自己的文件
+                                                  名
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:247: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 ...ation/tao/exp220/example.lvm') #换成你自己的文件名
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:247: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 ...ation/tao/exp220/example.lvm') #换成你自己的文件名
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:248: Package xcolor Error: Undefined color `codegray'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.248 s 
+        = f.readline(/media/tao/_dde_data/arlierwork/simulation/tao/exp220)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:249: Package xcolor Error: Undefined color `codegray'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.249 a1=
+         []
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:250: Package xcolor Error: Undefined color `codegray'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.250 a2=
+         []
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:251: Package xcolor Error: Undefined color `codegray'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.251 nevent=
+             1
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:252: Package xcolor Error: Undefined color `codegray'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.252 rec_length=
+                 2002   #2002ns 是取数时的采样长度。
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:252: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.252 rec_length=2002   #
+                         2002ns 是取数时的采样长度。
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:252: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.252 rec_length=2002   #
+                         2002ns 是取数时的采样长度。
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:252: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.252 rec_length=2002   #2002n
+                              s 是取数时的采样长度。
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:252: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.252 rec_length=2002   #2002ns 
+                                是取数时的采样长度。
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:252: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.252 rec_length=2002   #2002ns 
+                                是取数时的采样长度。
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:252: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.252 rec_length=2002   #2002ns 是取
+                                  数时的采样长度。
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:252: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.252 rec_length=2002   #2002ns 是取数
+                                   时的采样长度。
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:252: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.252 rec_length=2002   #2002ns 是取数时
+                                    的采样长度。
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:252: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.252 rec_length=2002   #2002ns 是取数时的
+                                     采样长度。
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:252: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.252 rec_length=2002   #2002ns 是取数时的采
+                                      样长度。
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:252: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.252 rec_length=2002   #2002ns 是取数时的采样
+                                       长度。
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:252: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.252 rec_length=2002   #2002ns 是取数时的采样长
+                                        度。
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:252: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.252 rec_length=2002   #2002ns 是取数时的采样长度
+                                         。
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:252: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.252 rec_length=2002   #2002ns 是取数时的采样长度。
+                                          
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:253: Package xcolor Error: Undefined color `codegray'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.253 count=
+            0
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:254: Package xcolor Error: Undefined color `codegray'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.254 eventnum=
+               0
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:255: Package xcolor Error: Undefined color `codegray'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.255 while 
+            (count<rec_length*nevent):
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:256: Package xcolor Error: Undefined color `codegray'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.256      arr=
+               s.split(' ')
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:256: Package xcolor Error: Undefined color `codepurple'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.256      arr=s.split(' 
+                         ')
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:256: Package xcolor Error: Undefined color `codepurple'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.256      arr=s.split(' 
+                         ')
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:256: Package xcolor Error: Undefined color `codepurple'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.256      arr=s.split(' ')
+                           
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:257: Package xcolor Error: Undefined color `codegray'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.257 #
+            print arr
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:257: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.257 #
+            print arr
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:257: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.257 # 
+            print arr
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:257: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.257 #     print 
+                  arr
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:257: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.257 #     print 
+                  arr
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:257: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.257 #     print 
+                  arr
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:257: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.257 #     print arr
+                     
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:258: Package xcolor Error: Undefined color `codegray'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.258      a1.
+              append(float(arr[0]))
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:259: Package xcolor Error: Undefined color `codegray'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.259      a2.
+              append(count)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:260: Package xcolor Error: Undefined color `codegray'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.260      s=
+             f.readline()
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:261: Package xcolor Error: Undefined color `codegray'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.261      count+
+                 =1
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:262: Package xcolor Error: Undefined color `codegray'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.262 #
+       print(a1)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:262: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.262 #
+       print(a1)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:262: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.262 #print(
+             a1)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:262: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.262 #print(a
+              1)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:262: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.262 #print(a1)
+                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:262: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.262 #print(a1)
+                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:263: Package xcolor Error: Undefined color `codegray'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.263 #
+       print(a2)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:263: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.263 #
+       print(a2)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:263: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.263 #print(
+             a2)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:263: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.263 #print(a
+              2)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:263: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.263 #print(a2)
+                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:263: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.263 #print(a2)
+                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:264: Package xcolor Error: Undefined color `codegray'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.264 #
+       x=np.linspace(0,10,11)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:264: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.264 #
+       x=np.linspace(0,10,11)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:264: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.264 #x=
+         np.linspace(0,10,11)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:264: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.264 #x=n
+          p.linspace(0,10,11)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:264: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.264 #x=np.
+            linspace(0,10,11)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:264: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.264 #x=np.l
+             inspace(0,10,11)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:264: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.264 #x=np.linspace(
+                     0,10,11)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:264: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.264 #x=np.linspace(0,10,11)
+                             
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:265: Package xcolor Error: Undefined color `codegray'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 #
+       x=[  0.   1.   2.   3.   4.   5.   6.   7.   8.   9.  10.]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:265: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 #
+       x=[  0.   1.   2.   3.   4.   5.   6.   7.   8.   9.  10.]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:265: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 #x=
+         [  0.   1.   2.   3.   4.   5.   6.   7.   8.   9.  10.]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:265: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 #x=[ 
+            0.   1.   2.   3.   4.   5.   6.   7.   8.   9.  10.]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:265: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 #x=[ 
+            0.   1.   2.   3.   4.   5.   6.   7.   8.   9.  10.]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:265: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 #x=[  0. 
+                 1.   2.   3.   4.   5.   6.   7.   8.   9.  10.]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:265: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 #x=[  0. 
+                 1.   2.   3.   4.   5.   6.   7.   8.   9.  10.]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:265: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 #x=[  0. 
+                 1.   2.   3.   4.   5.   6.   7.   8.   9.  10.]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:265: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 #x=[  0.   1. 
+                      2.   3.   4.   5.   6.   7.   8.   9.  10.]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:265: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 #x=[  0.   1. 
+                      2.   3.   4.   5.   6.   7.   8.   9.  10.]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:265: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 #x=[  0.   1. 
+                      2.   3.   4.   5.   6.   7.   8.   9.  10.]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:265: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 #x=[  0.   1.   2. 
+                           3.   4.   5.   6.   7.   8.   9.  10.]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:265: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 #x=[  0.   1.   2. 
+                           3.   4.   5.   6.   7.   8.   9.  10.]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:265: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 #x=[  0.   1.   2. 
+                           3.   4.   5.   6.   7.   8.   9.  10.]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:265: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 #x=[  0.   1.   2.   3. 
+                                4.   5.   6.   7.   8.   9.  10.]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:265: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 #x=[  0.   1.   2.   3. 
+                                4.   5.   6.   7.   8.   9.  10.]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:265: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 #x=[  0.   1.   2.   3. 
+                                4.   5.   6.   7.   8.   9.  10.]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:265: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 #x=[  0.   1.   2.   3.   4. 
+                                     5.   6.   7.   8.   9.  10.]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:265: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 #x=[  0.   1.   2.   3.   4. 
+                                     5.   6.   7.   8.   9.  10.]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:265: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 #x=[  0.   1.   2.   3.   4. 
+                                     5.   6.   7.   8.   9.  10.]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:265: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 #x=[  0.   1.   2.   3.   4.   5. 
+                                          6.   7.   8.   9.  10.]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:265: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 #x=[  0.   1.   2.   3.   4.   5. 
+                                          6.   7.   8.   9.  10.]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:265: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 #x=[  0.   1.   2.   3.   4.   5. 
+                                          6.   7.   8.   9.  10.]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:265: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 #x=[  0.   1.   2.   3.   4.   5.   6. 
+                                               7.   8.   9.  10.]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:265: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 #x=[  0.   1.   2.   3.   4.   5.   6. 
+                                               7.   8.   9.  10.]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:265: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 #x=[  0.   1.   2.   3.   4.   5.   6. 
+                                               7.   8.   9.  10.]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:265: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 #x=[  0.   1.   2.   3.   4.   5.   6.   7. 
+                                                    8.   9.  10.]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:265: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 #x=[  0.   1.   2.   3.   4.   5.   6.   7. 
+                                                    8.   9.  10.]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:265: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 #x=[  0.   1.   2.   3.   4.   5.   6.   7. 
+                                                    8.   9.  10.]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:265: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 ...   1.   2.   3.   4.   5.   6.   7.   8. 
+                                                    9.  10.]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:265: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 ...   1.   2.   3.   4.   5.   6.   7.   8. 
+                                                    9.  10.]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:265: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 ...   1.   2.   3.   4.   5.   6.   7.   8. 
+                                                    9.  10.]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:265: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 ...   2.   3.   4.   5.   6.   7.   8.   9. 
+                                                   10.]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:265: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 ...   2.   3.   4.   5.   6.   7.   8.   9. 
+                                                   10.]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:265: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 ...   2.   3.   4.   5.   6.   7.   8.   9. 
+                                                   10.]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:265: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 ...   3.   4.   5.   6.   7.   8.   9.  10.]
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:265: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 ...   3.   4.   5.   6.   7.   8.   9.  10.]
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:266: Package xcolor Error: Undefined color `codegray'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.266 x=
+        np.array(a1)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:267: Package xcolor Error: Undefined color `codegray'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.267 y=
+        np.array(a2)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:268: Package xcolor Error: Undefined color `codegray'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.268 #
+       print(x)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:268: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.268 #
+       print(x)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:268: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.268 #print(
+             x)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:268: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.268 #print(x
+              )
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:268: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.268 #print(x)
+               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:268: Package xcolor Error: Undefined color `codegreen'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.268 #print(x)
+               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:271: Package xcolor Error: Undefined color `codegray'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.271 \end{lstlisting}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./elegantbook.tex:271: Package xcolor Error: Undefined color `codegray'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.271 \end{lstlisting}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 
 Package natbib Warning: There were undefined citations.
 
 
 AED: lastpage setting LastPage
-[6]
+[5
+
+]
 \tf@thm=\write8
 \openout8 = `elegantbook.thm'.
 
@@ -3060,12 +5014,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 46176 strings out of 492970
- 944302 string characters out of 6133939
- 1205681 words of memory out of 5000000
- 49391 multiletter control sequences out of 15000+600000
- 604198 words of font info for 170 fonts, out of 8000000 for 9000
+ 46265 strings out of 492970
+ 946094 string characters out of 6133939
+ 1247782 words of memory out of 5000000
+ 49473 multiletter control sequences out of 15000+600000
+ 617872 words of font info for 206 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 70i,12n,103p,10446b,1393s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,11n,103p,10446b,1463s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on temp/elegantbook.pdf (6 pages).
+Output written on temp/elegantbook.pdf (5 pages).
