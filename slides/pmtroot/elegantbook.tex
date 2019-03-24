@@ -54,9 +54,13 @@
 \tableofcontents
 %\mainmatter
 \chapter{General Introduction }
-For each PMT, the following information is available from the '.root' file:
+For each PMT, the following information is available from a '.root' file:
+\begin{note}
 \begin{enumerate}
+	\item waveforms raw data @linght intensity about 0.1pe  
+	\item waveforms raw data @linght intensity about 1pe  
 \end{enumerate}
+\end{note}
 
 \section{读取波形文件}
 我们存储下来的lvm文件如图\ref{fig:g}每行只有一个数字，代表一个电压值（单位mV);如果你在labview中设置采样长度是1000，那么每1000行就组成一个波形；每一个点的时间间隔是1ns。
