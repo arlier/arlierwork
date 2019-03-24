@@ -565,6 +565,8 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT ./image/wave.eps
 INPUT ./image/wave.eps
+INPUT ./image/avewave.eps
+INPUT ./image/avewave.eps
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newtx/ntxmi.tfm

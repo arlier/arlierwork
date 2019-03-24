@@ -57,20 +57,23 @@
 实验过程中我们给PMT设置合理的高压，设置合理的ADC采集参数，通过ADC模块采集数据并存储到一个lvm格式的文件。这个文件存储了大量（取决于你设置的事件数）的波形信息，我们需要计算每一个信号波形的积分面积，并算出此工作电压下PMT的增益大小。
 
 由于我们要处理的波形数量比较多，需要进行简单的编程来计算和统计；python，MATLAB，C++等都可以满足需求\footnote{可以参考附录的python，ROOT程序}。
-\section{读取波形}
-我们存储下来的lvm文件每行只有一个数字，代表一个电压值（单位mV);如果你在labview中设置采样长度是1000，那么每1000行就组成一个波形；每一个点的时间间隔是1ns。
+\section{读取波形文件}
+我们存储下来的lvm文件如图\ref{fig:g}每行只有一个数字，代表一个电压值（单位mV);如果你在labview中设置采样长度是1000，那么每1000行就组成一个波形；每一个点的时间间隔是1ns。
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=1.016\textwidth]{expdata1.png}
 	\caption{lvm 文件\label{fig:g}}
 \end{figure}
 
+%lvm 文件的行数很多，一般的编辑器都可以直接打开查看；如果要进行数据处理就
 %\begin{enumerate}[noitemsep]
 %   \item 特别修正附录相关内容。
 %\end{enumerate}
 
-\section{计算PMT的增益}
-数据采集ADC的阻抗是50$\Omega$，我们用波形的面积($\int UT$) 除以电阻可以得到每一个信号的电荷量大小。实验中我们看到的信号来自于$\mu$子在闪烁体中沉积能量产生的发光，我们简单假设每个$\mu$子事件平均产生光子数为5000个，系统总的的探测效率是10\%，那么我们预期看到的PMT信号就是$5000\times 10\%=500$个电子被放大之后的结果。PMT对电子的放大倍数，也就是增益可以用公式\ref{e1}来计算：
+\section{计算PMT的增益的方法}
+我们从lvm文件读取到很多波形的信息，根据这些波形的统计特征来计算对应的PMT增益。
+
+数据采集ADC的阻抗是50$\Omega$，我们用波形的面积($\int UT$) 除以电阻可以得到每一个信号的电荷量大小。实验中我们看到的PMT信号来自于$\mu$子在闪烁体中沉积能量产生的发光，我们简单假设每个$\mu$子事件平均产生光子数为5000个，系统总的的探测效率是10\%，那么我们预期看到的PMT信号就是$5000\times 10\%=500$个电子被放大之后的结果。PMT对电子的放大倍数，也就是增益可以用公式\ref{e1}来计算：
 \begin{definition}{增益计算}{it}
 \begin{equation}
    \label{e1}
@@ -190,22 +193,28 @@
 %\end{theorem}
 %
 \section{波形和积分}
-在example文件中，采样长度是2002ns，也就是每2002点组成一个波形。我们需要算出没有信号时的基线的大小，再用基线值减去对应的信号大小积分出信号的面积。
+在example文件中，采样长度是1999ns，也就是每1999点组成一个波形。我们需要算出没有信号时的基线的大小，再用基线值减去对应的信号大小积分出信号的面积。
 
-对于每一个波形，我们都可以计算出一个积分面积，然后算出所有波形\footnote{取决于事件数}积分面积的平均值\footenote{也可以填充直方图进行拟合}作为期望的电荷积分；再利用公式\ref{e1}就可以计算出当前工作电压下的增益大小。
+对于每一个波形，我们都可以计算出一个积分面积，然后算出所有波形\footnote{取决于事件数}积分面积的平均值\footnote{也可以填充直方图进行拟合}作为期望的电荷积分；再利用公式\ref{e1}就可以计算出当前工作电压下的增益大小。
 \begin{note}
 选择合理的时间范围进行积分，不要让信号超出积分的区间。
 \end{note}
 \section{电压和增益的关系}
 调节不同的PMT工作电压，计算相应的增益大小，可以做出一条增益和电压相关的曲线，并在一定范围内可以用直线对其拟合。
-\section{$\mu$子的能量和通量测量}
+\section{$\mu$子的通量测量}
 %通过查询PMT的文档可以得到厂家测出的电压和增益关系，在固定PMT的工作电压时我们可以知道其增益大小。此时可以算出每一个$\mu$子事件产生的电子数，假设PMT收集的电子数与$\mu$子的沉积能量
 当我们同时\footnote{信号时间差小于一定范围}在闪烁体两端的PMT看到信号时，我们认为测到了一个$\mu$子的信号，通过统计一定时间的符合计数并结合探测器的有效探测面积就可以估算$\mu$子的通量大小。
 
+为了确定信号的到达时间，可以在labview中设置触发阈值读取触发时间；也可以在数据处理时寻找波形过阈时间。
 \begin{figure}[!htbp]
 	\centering
-	\includegraphics[width=1.016\textwidth]{wave.eps}
+	\includegraphics[width=.716\textwidth]{wave.eps}
 	\caption{一个PMT信号波形\label{fig:wave}}
+\end{figure}
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=.716\textwidth]{avewave.eps}
+	\caption{PMT信号平均波形\label{fig:avewave}}
 \end{figure}
 %
 %
@@ -232,7 +241,7 @@
 \appendix
 \chapter{读取example文件的python程序}
 
-\section{python}
+\section{python读取一个波形}
 %\begin{listings}
 \begin{lstlisting}[label={lst:simple},language=python]
 #!/usr/bin/env python
@@ -241,11 +250,11 @@ import numpy as np
 from scipy import interpolate
 import pylab as pl
 f = open('/media/tao/_dde_data/arlierwork/simulation/tao/exp220/example.lvm') #换成你自己的文件名
-s = f.readline(/media/tao/_dde_data/arlierwork/simulation/tao/exp220)
+s = f.readline()
 a1=[]
 a2=[]
 nevent=1
-rec_length=2002   #2002ns 是取数时的采样长度。
+rec_length=1999   #1999ns 是取数时的采样长度。
 count=0
 eventnum=0
 while (count<rec_length*nevent):  
@@ -267,8 +276,46 @@ pl.ylabel('voltage [mV]',color='k',fontsize=15,rotation=90)
 pl.legend(loc="upper right")
 pl.savefig("wave.eps")
 pl.show()
-
-
+\end{lstlisting}
+\section{python计算平均波形}
+\begin{lstlisting}[label={lst:simple},language=python]
+#!/usr/bin/env python
+# -*-coding:utf-8 -*-
+import numpy as np
+from scipy import interpolate
+import pylab as pl
+f = open('/media/tao/_dde_data/arlierwork/simulation/tao/exp220/example.lvm')#换成你自己的文件名
+s = f.readline()
+a1=[]
+nevent=580
+rec_length=1999   #1999ns 是取数时的采样长度。
+count=0
+eventnum=0
+time=0
+avewave=np.zeros( rec_length )
+while (count<rec_length*nevent):
+     arr=s.split(' ')
+     a1.append(float(arr[0]))
+     s=f.readline()
+     avewave[time]+=float(arr[0])/nevent
+     time+=1
+     if(count%rec_length==0):
+         eventum=eventnum+1
+         time=0
+     count+=1
+x=np.array(a1)
+y=np.linspace(1,rec_length,rec_length)
+pl.figure(figsize=(8,8))
+fig=pl.plot(y,avewave,"r.",label='the average waveform ',c=(0,0.0,0.0),alpha=0.5,linestyle='-')
+pl.suptitle('example average waveform')
+pl.style.use('ggplot')
+pl.grid(True)
+pl.grid(color='g',linewidth=2,alpha=0.2,ls='--',lw=1)
+pl.xlabel('time  [ns]',color='k',fontsize=15,rotation=0)
+pl.ylabel('voltage [mV]',color='k',fontsize=15,rotation=90)
+pl.legend(loc="upper right")
+pl.savefig("avewave.eps")
+pl.show()
 \end{lstlisting}
 
 参考上面的程序，处理多个波形的电荷积分。
