@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  23 MAR 2019 23:43
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  24 MAR 2019 12:26
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -3007,6 +3007,33 @@ Package natbib Warning: Citation `Havrylchyk2018' undefined on input line 208.
 [3] [4]
 附录 A.
 
+./elegantbook.tex:217: LaTeX Error: Environment defination undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.217 \begin{defination}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./elegantbook.tex:218: LaTeX Error: \begin{document} ended by \end{defination}.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.218 \end{defination}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
 Package natbib Warning: There were undefined citations.
 
 
@@ -3017,11 +3044,11 @@ AED: lastpage setting LastPage
 \tf@thm=\write8
 \openout8 = `elegantbook.thm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 219.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 219.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 221.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 221.
  (temp/elegantbook.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 219.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 219.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 221.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 221.
 Package rerunfilecheck Info: File `elegantbook.out' has not changed.
 (rerunfilecheck)             Checksum: 2D1EADCB83D997CBFE25E219229C8464.
 
@@ -3034,10 +3061,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 45942 strings out of 492970
- 940950 string characters out of 6133939
+ 45943 strings out of 492970
+ 940963 string characters out of 6133939
  1169592 words of memory out of 5000000
- 49166 multiletter control sequences out of 15000+600000
+ 49167 multiletter control sequences out of 15000+600000
  603410 words of font info for 168 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  70i,11n,103p,10446b,1201s stack positions out of 5000i,500n,10000p,200000b,80000s
