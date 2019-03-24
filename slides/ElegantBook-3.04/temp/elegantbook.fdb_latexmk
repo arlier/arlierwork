@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1553402440 "elegantbook.tex" "temp/elegantbook.pdf" "elegantbook" 1553402441
+["pdflatex"] 1553402493 "elegantbook.tex" "temp/elegantbook.pdf" "elegantbook" 1553402494
   "/dev/null" 1552277858 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1480098689 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -40,7 +40,6 @@
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm" 1480098717 688 37338d6ab346c2f1466b29e195316aa4 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/rsfs/rsfs7.tfm" 1480098717 692 1b6510779f0f05e9cbf03e0f6c8361e6 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/tex-gyre/ts1-qtmr.tfm" 1480098718 1600 20cdf11dab97d5d39e847571f9314407 ""
-  "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/tex-gyre/ts1-qtmri.tfm" 1480098718 1744 236018a0ac3444bdc221f881182030d8 ""
   "/usr/local/texlive/2018/texmf-dist/tex/generic/beebe/texnames.sty" 1480098812 12423 a295ce453c297ca4713f98c31ff3d77f ""
   "/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty" 1480098815 1458 43ab4710dc82f3edeabecd0d099626b2 ""
   "/usr/local/texlive/2018/texmf-dist/tex/generic/kastrup/binhex.tex" 1480098815 2553 4b99aa9667b708dd355926023d705446 ""
@@ -271,12 +270,12 @@
   "/usr/local/texlive/2018/texmf.cnf" 1552130826 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
   "base.tex" 1547548560 1096 c13918220cf650e90b48e746abac3a2f ""
   "elegantbook.cls" 1553332775 10349 ced06db8e9771449f1478c046c447cfc ""
-  "elegantbook.tex" 1553402437 15513 6c3e0a2439d198264950570d69bd856a ""
+  "elegantbook.tex" 1553402493 15541 262c58270e8a6713ec1f29e9da37df2c ""
   "figure/ElegantLaTeX_green.pdf" 1547548560 775811 6f87196fe9876938d5ce1951e73754f1 ""
   "image/expdata1.png" 1553324895 27411 0f64a0983fa8a7960e666c6dc5441d0b ""
   "image/wave.eps" 1553355601 105878 c00ddb691332c6ddf2b21632d746c265 ""
-  "temp/elegantbook.aux" 1553402441 2476 9341d7ebf76add9216cbaa3823493f87 ""
-  "temp/elegantbook.out" 1553402441 1054 2d1eadcb83d997cbfe25e219229c8464 ""
+  "temp/elegantbook.aux" 1553402494 2476 9341d7ebf76add9216cbaa3823493f87 ""
+  "temp/elegantbook.out" 1553402494 1054 2d1eadcb83d997cbfe25e219229c8464 ""
   (generated)
   "temp/elegantbook.log"
   "temp/elegantbook.aux"
