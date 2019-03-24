@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1553355782 "elegantbook.tex" "temp/elegantbook.pdf" "elegantbook" 1553355784
+["pdflatex"] 1553355782 "elegantbook.tex" "temp/elegantbook.pdf" "elegantbook" 1553401550
   "/dev/null" 1552277858 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1480098689 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -274,9 +274,9 @@
   "temp/elegantbook.aux" 1553355783 2308 615eddceba401168716d51523cd52540 ""
   "temp/elegantbook.out" 1553355783 1054 2d1eadcb83d997cbfe25e219229c8464 ""
   (generated)
-  "temp/elegantbook.out"
-  "temp/elegantbook.thm"
-  "temp/elegantbook.toc"
+  "temp/elegantbook.log"
   "temp/elegantbook.aux"
   "temp/elegantbook.pdf"
-  "temp/elegantbook.log"
+  "temp/elegantbook.toc"
+  "temp/elegantbook.out"
+  "temp/elegantbook.thm"
