@@ -1,4 +1,4 @@
-PWD /media/tao/_dde_data/arlierwork/slides/ElegantBook-3.04
+PWD /media/tao/_dde_data/arlierwork/slides/pmtroot
 INPUT /usr/local/texlive/2018/texmf.cnf
 INPUT /usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2018/texmf-var/web2c/xetex/xelatex.fmt
@@ -518,6 +518,9 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newtx/ntx-Bold-tlf-t1.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newtx/ntx-Bold-tlf-t1.tfm
+INPUT temp/elegantbook.toc
+INPUT temp/elegantbook.toc
+OUTPUT temp/elegantbook.toc
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/newtx/t1ntxsups.fd
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/newtx/t1ntxsups.fd
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newtx/ntxsups-Regular-t1.tfm
