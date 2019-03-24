@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  24 MAR 2019 12:38
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  24 MAR 2019 12:39
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -3019,7 +3019,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.240 ...ng.}, label={lst:simple},language=Python]
+l.240 ...ng.}, label={lst:simple},language=python]
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3031,7 +3031,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.240 ...ng.}, label={lst:simple},language=Python]
+l.240 ...ng.}, label={lst:simple},language=python]
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3043,7 +3043,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.240 ...ng.}, label={lst:simple},language=Python]
+l.240 ...ng.}, label={lst:simple},language=python]
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
