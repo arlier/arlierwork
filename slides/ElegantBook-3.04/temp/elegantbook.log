@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  24 MAR 2019 12:35
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  24 MAR 2019 12:36
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -3006,18 +3006,22 @@ Package natbib Warning: Citation `Havrylchyk2018' undefined on input line 230.
 
 [3] [4]
 附录 A.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 240.
 LaTeX Font Info:    Try loading font information for TS1+ntxtlf on input line 2
 42.
+
 (/usr/local/texlive/2018/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
-LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
+LaTeX Font Info:    Font shape `TS1/ntxtlf/m/it' will be
 (Font)              scaled to size 12.0pt on input line 242.
 
 Overfull \hbox (254.5441pt too wide) in paragraph at lines 247--248
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
@@ -3025,6 +3029,8 @@ Overfull \hbox (52.94205pt too wide) in paragraph at lines 248--249
 [][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
+LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 255.
 [5
 
 ]
@@ -3054,12 +3060,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 45988 strings out of 492970
- 942221 string characters out of 6133939
- 1180963 words of memory out of 5000000
- 49208 multiletter control sequences out of 15000+600000
- 603786 words of font info for 169 fonts, out of 8000000 for 9000
+ 46176 strings out of 492970
+ 944302 string characters out of 6133939
+ 1205681 words of memory out of 5000000
+ 49391 multiletter control sequences out of 15000+600000
+ 604198 words of font info for 170 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 70i,12n,103p,10446b,1201s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,12n,103p,10446b,1393s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on temp/elegantbook.pdf (6 pages).
