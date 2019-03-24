@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  24 MAR 2019 21:49
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  24 MAR 2019 21:51
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2499,6 +2499,19 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+File: ./figure/ElegantLaTeX_green.pdf Graphic file (type pdf)
+<use ./figure/ElegantLaTeX_green.pdf>
+./elegantbook.tex:53: Undefined control sequence.
+\maketitle ...t \centering \color {bule}\@myquote 
+                                                  \end {minipage} \end {cent...
+l.53 \maketitle
+               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 LaTeX Font Info:    Try loading font information for TU+ntxtlf on input line 53
 .
 LaTeX Font Info:    No file TUntxtlf.fd. on input line 53.
@@ -2544,14 +2557,6 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 53.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-
-LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <18.2> not available
-(Font)              size <17.28> substituted on input line 53.
-
-
-LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <13.7> not available
-(Font)              size <14.4> substituted on input line 53.
-
 (/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
@@ -2567,47 +2572,6 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 Package microtype Info: Character `\AE ' is missing
-(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/24.88'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\quotesinglbase ' is missing
-(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/24.88'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\quotedblbase ' is missing
-(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/24.88'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\guilsinglleft ' is missing
-(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/24.88'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\guilsinglright ' is missing
-(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/24.88'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\guillemotleft ' is missing
-(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/24.88'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\guillemotright ' is missing
-(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/24.88'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textexclamdown ' is missing
-(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/24.88'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textquestiondown ' is missing
-(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/24.88'.
-(microtype)             Ignoring protrusion settings for this character.
-File: ./figure/ElegantLaTeX_green.pdf Graphic file (type pdf)
-<use ./figure/ElegantLaTeX_green.pdf>
-
-./elegantbook.tex:53: Undefined control sequence.
-\maketitle ...t \centering \color {bule}\@myquote 
-                                                  \end {minipage} \end {cent...
-l.53 \maketitle
-               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Package microtype Info: Character `\AE ' is missing
 (microtype)             in font `\TU/FandolSong-Regular(0)/m/n/12'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `\quotesinglbase ' is missing
@@ -2634,7 +2598,7 @@ Package microtype Info: Character `\textexclamdown ' is missing
 Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/FandolSong-Regular(0)/m/n/12'.
 (microtype)             Ignoring protrusion settings for this character.
-[1
+ [1
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <12> not available
@@ -2672,7 +2636,8 @@ Package microtype Info: Character `\textexclamdown ' is missing
 Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/20.74'.
 (microtype)             Ignoring protrusion settings for this character.
- (temp/elegantbook.toc
+
+(temp/elegantbook.toc
 Package microtype Info: Character `\AE ' is missing
 (microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/12'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -3067,7 +3032,7 @@ Package rerunfilecheck Info: File `elegantbook.out' has not changed.
 
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 0.92pt have occurred.
+(Font)              up to 0.5pt have occurred.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -3077,11 +3042,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 46297 strings out of 492970
- 946466 string characters out of 6133939
- 1300848 words of memory out of 5000000
- 49501 multiletter control sequences out of 15000+600000
- 615064 words of font info for 205 fonts, out of 8000000 for 9000
+ 46211 strings out of 492970
+ 944517 string characters out of 6133939
+ 1300785 words of memory out of 5000000
+ 49419 multiletter control sequences out of 15000+600000
+ 603051 words of font info for 166 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  70i,12n,103p,10446b,1475s stack positions out of 5000i,500n,10000p,200000b,80000s
 
