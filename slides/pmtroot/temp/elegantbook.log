@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  24 MAR 2019 21:56
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  24 MAR 2019 21:58
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2673,10 +2673,6 @@ Package microtype Info: Character `\textquestiondown ' is missing
 
 ]
 第 1\tmspace +\thickmuskip {.2777em}章 1.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 58.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 58.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 65.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
@@ -2915,6 +2911,10 @@ Package microtype Info: Character `\textexclamdown ' is missing
 Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/FandolSong-Regular(0)/m/n/10'.
 (microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 204.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 12.0pt on input line 204.
 Package microtype Info: Character `\AE ' is missing
 (microtype)             in font `\TU/FandolSong-Regular(0)/m/it/12'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -3024,30 +3024,4 @@ AED: lastpage setting LastPage
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 327.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 327.
- (temp/elegantbook.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 327.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 327.
-Package rerunfilecheck Info: File `elegantbook.out' has not changed.
-(rerunfilecheck)             Checksum: CDBFC124BCB1BFB988CDBFF3631C17C9.
-
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 0.5pt have occurred.
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
-Here is how much of TeX's memory you used:
- 46193 strings out of 492970
- 943109 string characters out of 6133939
- 1300885 words of memory out of 5000000
- 49401 multiletter control sequences out of 15000+600000
- 603051 words of font info for 166 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 70i,12n,103p,10446b,1475s stack positions out of 5000i,500n,10000p,200000b,80000s
-
-Output written on temp/elegantbook.pdf (7 pages).
+ (temp/ele
