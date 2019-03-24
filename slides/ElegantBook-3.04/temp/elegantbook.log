@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  24 MAR 2019 12:27
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  24 MAR 2019 12:28
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -3007,14 +3007,14 @@ Package natbib Warning: Citation `Havrylchyk2018' undefined on input line 208.
 [3] [4]
 附录 A.
 
-./elegantbook.tex:217: LaTeX Error: Environment defination undefined.
+./elegantbook.tex:217: LaTeX Error: Environment listings undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.217 \begin{defination}
-                        
+l.217 \begin{listings}
+                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -3200,15 +3200,14 @@ it/12 :\OT1/cmr/m/n/12 1\OML/ntxmi/m/it/12 :\OT1/cmr/m/n/12 2\OML/ntxmi/m/it/12
  []
 
 
-./elegantbook.tex:247: LaTeX Error: \begin{document} ended by \end{defination}.
-
+./elegantbook.tex:247: LaTeX Error: \begin{document} ended by \end{listings}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.247 \end{defination}
-                      
+l.247 \end{listings}
+                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -3242,7 +3241,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
  45943 strings out of 492970
- 940963 string characters out of 6133939
+ 940961 string characters out of 6133939
  1169592 words of memory out of 5000000
  49167 multiletter control sequences out of 15000+600000
  603410 words of font info for 168 fonts, out of 8000000 for 9000
