@@ -25,7 +25,7 @@
 
 %\zhtitle{$mu$子探测实验数据处理补充材料}
 %\zhend{模板}
-\entitle{Container PMT Testing Data in Root Format}
+\entitle{Container PMT Testing Data in ROOT Format}
 %\enend{Template}
 \version{1.0}
 %\myquote{Victory won\rq t come to us unless we go to it.}
@@ -53,10 +53,11 @@
 \maketitle
 \tableofcontents
 %\mainmatter
-\chapter{实验数据处理 }
-实验过程中我们给PMT设置合理的高压，设置合理的ADC采集参数，通过ADC模块采集数据并存储到一个lvm格式的文件。这个文件存储了大量（取决于你设置的事件数）的波形信息，我们需要计算每一个信号波形的积分面积，并算出此工作电压下PMT的增益大小。
+\chapter{general info }
+For each PMT, the following information is available from the '.root' file:
+\begin{enumerate}
+\end{enumerate}
 
-由于我们要处理的波形数量比较多，需要进行简单的编程来计算和统计；python，MATLAB，C++等都可以满足需求\footnote{可以参考附录的python，ROOT程序}。
 \section{读取波形文件}
 我们存储下来的lvm文件如图\ref{fig:g}每行只有一个数字，代表一个电压值（单位mV);如果你在labview中设置采样长度是1000，那么每1000行就组成一个波形；每一个点的时间间隔是1ns。
 \begin{figure}[!htbp]
