@@ -4,6 +4,8 @@
 \date{\today}
 \email{zhaor25@mail2.sysu.edu.cn}
 \usepackage{ntheorem}
+\usepackage{lstcustom}
+
 \zhtitle{$mu$子探测实验数据处理补充材料}
 %\zhend{模板}
 %\entitle{Elegant\LaTeX{} Book}
@@ -214,7 +216,8 @@
 \chapter{读取example文件的python程序}
 
 \section{python}
-\begin{listings}
+%\begin{listings}
+\begin{lstlisting}[caption={A simple listing.}, label={lst:simple}]
 #!/usr/bin/env python
 # -*-coding:utf-8 -*-
 import numpy as np
@@ -244,7 +247,7 @@ x=np.array(a1)
 y=np.array(a2)
 #print(x)
 
-\end{listings}
+\end{lstlisting}
 
 参考上面的程序，处理多个波形的电荷积分。
 \end{document}
