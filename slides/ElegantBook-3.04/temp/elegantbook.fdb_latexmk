@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1553401885 "elegantbook.tex" "temp/elegantbook.pdf" "elegantbook" 1553401886
+["pdflatex"] 1553401945 "elegantbook.tex" "temp/elegantbook.pdf" "elegantbook" 1553401946
   "/dev/null" 1552277858 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1480098689 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -211,7 +211,7 @@
   "/usr/local/texlive/2018/texmf-var/web2c/xetex/xelatex.fmt" 1552130843 3731942 6896b9129c8be84d817a5c866a9ee221 ""
   "/usr/local/texlive/2018/texmf.cnf" 1552130826 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
   "elegantbook.cls" 1553332775 10349 ced06db8e9771449f1478c046c447cfc ""
-  "elegantbook.tex" 1553401885 15039 ff2490782fba0479a79d9197243f16b6 ""
+  "elegantbook.tex" 1553401944 15043 916405c60b8046249e162a74e125bc23 ""
   "lstcustom.sty" 0 -1 0 ""
   "temp/elegantbook.aux" 1553401725 2308 615eddceba401168716d51523cd52540 ""
   "temp/lstcustom.sty" 0 -1 0 ""
