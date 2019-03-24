@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1553435760 "elegantbook.tex" "temp/elegantbook.pdf" "elegantbook" 1553435761
+["pdflatex"] 1553435880 "elegantbook.tex" "temp/elegantbook.pdf" "elegantbook" 1553435881
   "/dev/null" 1552277858 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1480098689 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -275,14 +275,14 @@
   "/usr/local/texlive/2018/texmf.cnf" 1552130826 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
   "base.tex" 1553435179 1096 c13918220cf650e90b48e746abac3a2f ""
   "elegantbook.cls" 1553435179 10349 ced06db8e9771449f1478c046c447cfc ""
-  "elegantbook.tex" 1553435760 17355 856b26dee3b4c43ebee90c7d495e3338 ""
+  "elegantbook.tex" 1553435878 17389 34258a3f649884adb0faa33bb73324a9 ""
   "figure/ElegantLaTeX_green.pdf" 1553435179 437608 5f2d6b40b03015c58d09795f0463b189 ""
   "image/avewave.eps" 1553435179 100722 5a0d35e7e04c81fababadd08c3e8460e ""
   "image/expdata1.png" 1553435179 27411 0f64a0983fa8a7960e666c6dc5441d0b ""
   "image/wave.eps" 1553435179 105878 c00ddb691332c6ddf2b21632d746c265 ""
-  "temp/elegantbook.aux" 1553435761 2743 97e41e442517727a98f82c20e179281a ""
-  "temp/elegantbook.out" 1553435761 1312 cdbfc124bcb1bfb988cdbff3631c17c9 ""
-  "temp/elegantbook.toc" 1553435761 735 717b299916efe694f4775f14a34f811a ""
+  "temp/elegantbook.aux" 1553435881 2743 97e41e442517727a98f82c20e179281a ""
+  "temp/elegantbook.out" 1553435881 1312 cdbfc124bcb1bfb988cdbff3631c17c9 ""
+  "temp/elegantbook.toc" 1553435881 735 717b299916efe694f4775f14a34f811a ""
   (generated)
   "temp/elegantbook.pdf"
   "temp/elegantbook.log"
