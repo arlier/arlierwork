@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  24 MAR 2019 21:58
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  24 MAR 2019 22:10
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2674,103 +2674,9 @@ Package microtype Info: Character `\textquestiondown ' is missing
 ]
 第 1\tmspace +\thickmuskip {.2777em}章 1.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 65.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 66.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 17.28pt on input line 65.
-Package microtype Info: Character `\AE ' is missing
-(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/17.28'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\quotesinglbase ' is missing
-(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/17.28'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\quotedblbase ' is missing
-(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/17.28'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\guilsinglleft ' is missing
-(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/17.28'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\guilsinglright ' is missing
-(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/17.28'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\guillemotleft ' is missing
-(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/17.28'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\guillemotright ' is missing
-(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/17.28'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textexclamdown ' is missing
-(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/17.28'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textquestiondown ' is missing
-(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/17.28'.
-(microtype)             Ignoring protrusion settings for this character.
-File: ./image/expdata1.png Graphic file (type bmp)
-<./image/expdata1.png>
-
-Overfull \hbox (7.10468pt too wide) in paragraph at lines 69--70
- [][][] 
- []
-
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 70.
-LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 70.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.95pt on input line 70.
-Package microtype Info: Character `\AE ' is missing
-(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/10.95'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\quotesinglbase ' is missing
-(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/10.95'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\quotedblbase ' is missing
-(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/10.95'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\guilsinglleft ' is missing
-(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/10.95'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\guilsinglright ' is missing
-(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/10.95'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\guillemotleft ' is missing
-(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/10.95'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\guillemotright ' is missing
-(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/10.95'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textexclamdown ' is missing
-(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/10.95'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textquestiondown ' is missing
-(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/10.95'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\AE ' is missing
-(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/10.95'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\quotesinglbase ' is missing
-(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/10.95'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\quotedblbase ' is missing
-(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/10.95'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\guilsinglleft ' is missing
-(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/10.95'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\guilsinglright ' is missing
-(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/10.95'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\guillemotleft ' is missing
-(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/10.95'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\guillemotright ' is missing
-(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/10.95'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textexclamdown ' is missing
-(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/10.95'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textquestiondown ' is missing
-(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/10.95'.
-(microtype)             Ignoring protrusion settings for this character.
+(Font)              scaled to size 17.28pt on input line 66.
 *************************************************
 * fontspec warning: "script-not-exist"
 * 
@@ -2788,16 +2694,13 @@ Package microtype Info: Character `\textquestiondown ' is missing
 . - 'normal' (m/n) with NFSS spec.: <->"[FandolKai-Regular.otf]/OT"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
-[3
-
-]
 LaTeX Font Info:    Try loading font information for T1+ntxsups on input line 8
-8.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/newtx/t1ntxsups.fd
+3.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/newtx/t1ntxsups.fd
 File: t1ntxsups.fd 2015/01/17 v1.0
 )
 LaTeX Font Info:    Font shape `T1/ntxsups/m/n' will be
-(Font)              scaled to size 12.0pt on input line 88.
+(Font)              scaled to size 12.0pt on input line 83.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `ntxsups' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
@@ -2842,9 +2745,9 @@ Package microtype Info: Character `textquestiondown ' is missing
 (microtype)             in font `T1/ntxsups/m/n/12'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 88.
+(Font)              scaled to size 10.0pt on input line 83.
 LaTeX Font Info:    Font shape `T1/ntxsups/m/n' will be
-(Font)              scaled to size 10.0pt on input line 88.
+(Font)              scaled to size 10.0pt on input line 83.
 Package microtype Info: Character `textendash ' is missing
 (microtype)             in font `T1/ntxsups/m/n/10'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -2911,10 +2814,37 @@ Package microtype Info: Character `\textexclamdown ' is missing
 Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/FandolSong-Regular(0)/m/n/10'.
 (microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/17.28'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/17.28'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/17.28'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/17.28'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/17.28'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/17.28'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/17.28'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/17.28'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/17.28'.
+(microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 204.
+(Font)              scaled to size 8.0pt on input line 199.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 204.
+(Font)              scaled to size 12.0pt on input line 199.
 Package microtype Info: Character `\AE ' is missing
 (microtype)             in font `\TU/FandolSong-Regular(0)/m/it/12'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -2942,42 +2872,105 @@ Package microtype Info: Character `\textexclamdown ' is missing
 Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/FandolSong-Regular(0)/m/it/12'.
 (microtype)             Ignoring protrusion settings for this character.
+ [3
 
+]
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <12.5> not available
-(Font)              size <12> substituted on input line 209.
+(Font)              size <12> substituted on input line 204.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 209.
+(hyperref)                removing `math shift' on input line 204.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mu' on input line 209.
+(hyperref)                removing `\mu' on input line 204.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 209.
+(hyperref)                removing `math shift' on input line 204.
 
 File: ./image/wave.eps Graphic file (type eps)
 <./image/wave.eps>
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.95pt on input line 212.
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 212.
+
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 10.95pt on input line 212.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
 File: ./image/avewave.eps Graphic file (type eps)
 <./image/avewave.eps>
 
-Package natbib Warning: Citation `EINAV2010' undefined on input line 241.
+Package natbib Warning: Citation `EINAV2010' undefined on input line 236.
 
 
-Package natbib Warning: Citation `Havrylchyk2018' undefined on input line 241.
+Package natbib Warning: Citation `Havrylchyk2018' undefined on input line 236.
 
 [4] [5]
 附录 A.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-./elegantbook.tex:251: Undefined control sequence.
+./elegantbook.tex:246: Undefined control sequence.
 \lst@basicstyle ->\footnotesize \monaco 
                                         
-l.251 ...ting}[label={lst:simple},language=python]
+l.246 ...ting}[label={lst:simple},language=python]
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2987,25 +2980,25 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 253.
+(Font)              size <5> substituted on input line 248.
 
 LaTeX Font Info:    Try loading font information for TS1+ntxtlf on input line 2
-53.
+48.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 253.
+(Font)              scaled to size 10.0pt on input line 248.
 
 Underfull \vbox (badness 2608) has occurred while \output is active []
 
  [6
 
 ]
-./elegantbook.tex:286: Undefined control sequence.
+./elegantbook.tex:281: Undefined control sequence.
 \lst@basicstyle ->\footnotesize \monaco 
                                         
-l.286 ...ting}[label={lst:simple},language=python]
+l.281 ...ting}[label={lst:simple},language=python]
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3022,13 +3015,13 @@ AED: lastpage setting LastPage
 \tf@thm=\write9
 \openout9 = `elegantbook.thm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 327.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 327.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 322.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 322.
  (temp/elegantbook.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 327.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 327.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 322.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 322.
 Package rerunfilecheck Info: File `elegantbook.out' has not changed.
-(rerunfilecheck)             Checksum: CDBFC124BCB1BFB988CDBFF3631C17C9.
+(rerunfilecheck)             Checksum: 2BD96AF5F536B87CF2288B9B278B70EB.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -3042,10 +3035,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 46193 strings out of 492970
- 943109 string characters out of 6133939
- 1300891 words of memory out of 5000000
- 49401 multiletter control sequences out of 15000+600000
+ 46169 strings out of 492970
+ 942150 string characters out of 6133939
+ 1300651 words of memory out of 5000000
+ 49387 multiletter control sequences out of 15000+600000
  603051 words of font info for 166 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  70i,12n,103p,10446b,1475s stack positions out of 5000i,500n,10000p,200000b,80000s

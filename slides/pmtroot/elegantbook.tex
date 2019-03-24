@@ -62,23 +62,18 @@ For each PMT, the following information is available from a '.root' file:
 	\item auxilary information about the testing conditions
 \end{enumerate}
 
-\section{读取波形文件}
-我们存储下来的lvm文件如图\ref{fig:g}每行只有一个数字，代表一个电压值（单位mV);如果你在labview中设置采样长度是1000，那么每1000行就组成一个波形；每一个点的时间间隔是1ns。
-\begin{figure}[!htbp]
-	\centering
-	\includegraphics[width=1.016\textwidth]{expdata1.png}
-	\caption{lvm 文件\label{fig:g}}
-\end{figure}
+If you are interested in the testing data of one specific PMT, you just need to process a root file which contains all testing raw data.
+\section{how to access one ROOT file}
+sever domain:
+data directory:
+%\begin{itemize}
+%	\item login to the PMT testing server 'login.pmt.ihep.ac.cn'  
+%	\item go to the directory:  
+%	\item 
+%\end{itemize}
 
-%lvm 文件的行数很多，一般的编辑器都可以直接打开查看；如果要进行数据处理就
-%\begin{enumerate}[noitemsep]
-%   \item 特别修正附录相关内容。
-%\end{enumerate}
 
-\section{计算PMT的增益的方法}
-我们从lvm文件读取到很多波形的信息，根据这些波形的统计特征来计算对应的PMT增益。
-
-数据采集ADC的阻抗是50$\Omega$，我们用波形的面积($\int UT$) 除以电阻可以得到每一个信号的电荷量大小。实验中我们看到的PMT信号来自于$\mu$子在闪烁体中沉积能量产生的发光，我们简单假设每个$\mu$子事件平均产生光子数为5000个，系统总的的探测效率是10\%，那么我们预期看到的PMT信号就是$5000\times 10\%=500$个电子被放大之后的结果。PMT对电子的放大倍数，也就是增益可以用公式\ref{e1}来计算：
+\section{structure of the root file}
 \begin{definition}{增益计算}{it}
 \begin{equation}
    \label{e1}
