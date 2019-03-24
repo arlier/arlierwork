@@ -215,6 +215,35 @@
 
 \section{python}
 \begin{defination}
+#!/usr/bin/env python
+# -*-coding:utf-8 -*-
+import numpy as np
+from scipy import interpolate
+import pylab as pl
+
+f = open('/media/tao/_dde_data/arlierwork/simulation/tao/exp220/example.lvm') #换成你自己的文件名
+s = f.readline(/media/tao/_dde_data/arlierwork/simulation/tao/exp220)
+a1=[]
+a2=[]
+nevent=1
+rec_length=2002   #2002ns 是取数时的采样长度。
+count=0
+eventnum=0
+while (count<rec_length*nevent):  
+     arr=s.split(' ')
+#     print arr
+     a1.append(float(arr[0]))
+     a2.append(count)
+     s=f.readline()
+     count+=1
+#print(a1)
+#print(a2)
+#x=np.linspace(0,10,11)
+#x=[  0.   1.   2.   3.   4.   5.   6.   7.   8.   9.  10.]
+x=np.array(a1)
+y=np.array(a2)
+#print(x)
+
 \end{defination}
 
 参考上面的程序，处理多个波形的电荷积分。

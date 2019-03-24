@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  24 MAR 2019 12:26
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  24 MAR 2019 12:27
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -3019,15 +3019,195 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+./elegantbook.tex:218: You can't use `macro parameter character #' in vertical 
+mode.
+l.218 #
+       !/usr/bin/env python
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
 
-./elegantbook.tex:218: LaTeX Error: \begin{document} ended by \end{defination}.
+./elegantbook.tex:219: You can't use `macro parameter character #' in horizonta
+l mode.
+l.219 #
+        -*-coding:utf-8 -*-
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./elegantbook.tex:224: Missing $ inserted.
+<inserted text> 
+                $
+l.224 f = open('/media/tao/_
+                            dde_data/arlierwork/simulation/tao/exp220/exampl...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./elegantbook.tex:224: You can't use `macro parameter character #' in math mode
+.
+l.224 ...ork/simulation/tao/exp220/example.lvm') #
+                                                  换成你自己的文件名
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./elegantbook.tex:229: You can't use `macro parameter character #' in math mode
+.
+l.229 rec_length=2002   #
+                         2002ns 是取数时的采样长度。
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./elegantbook.tex:233: Double superscript.
+<recently read> ^
+                 
+l.233      arr=s.split(' '
+                          )
+I treat `x^1^2' essentially like `x^1{}^2'.
+
+./elegantbook.tex:234: You can't use `macro parameter character #' in math mode
+.
+l.234 #
+            print arr
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./elegantbook.tex:239: You can't use `macro parameter character #' in math mode
+.
+l.239 #
+       print(a1)
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./elegantbook.tex:240: You can't use `macro parameter character #' in math mode
+.
+l.240 #
+       print(a2)
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./elegantbook.tex:241: You can't use `macro parameter character #' in math mode
+.
+l.241 #
+       x=np.linspace(0,10,11)
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./elegantbook.tex:242: You can't use `macro parameter character #' in math mode
+.
+l.242 #
+       x=[  0.   1.   2.   3.   4.   5.   6.   7.   8.   9.  10.]
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./elegantbook.tex:245: You can't use `macro parameter character #' in math mode
+.
+l.245 #
+       print(x)
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./elegantbook.tex:246: Missing $ inserted.
+<inserted text> 
+                $
+l.246 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no 换 in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no 成 in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no 你 in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no 自 in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no 己 in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no 的 in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no 文 in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no 件 in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no 名 in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no 是 in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no 取 in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no 数 in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no 时 in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no 的 in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no 采 in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no 样 in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no 长 in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no 度 in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no 。 in font [lmroman12-regular]:mapping=tex-text;!
+
+Overfull \hbox (35.0125pt too wide) in paragraph at lines 224--246
+[][]\T1/ntxtlf/m/n/12 f = open('/media/tao/$[]\OML/ntxmi/m/it/12 de[]ata\OT1/cm
+r/m/n/12 /\OML/ntxmi/m/it/12 arlierwork\OT1/cmr/m/n/12 /\OML/ntxmi/m/it/12 simu
+lation\OT1/cmr/m/n/12 /\OML/ntxmi/m/it/12 tao\OT1/cmr/m/n/12 /\OML/ntxmi/m/it/1
+2 exp\OT1/cmr/m/n/12 220/\OML/ntxmi/m/it/12 example:lvm[]\OT1/cmr/m/n/12 )[][][
+][][][][][][]\OML/ntxmi/m/it/12 s \OT1/cmr/m/n/12 =
+ []
+
+
+Overfull \hbox (28.14613pt too wide) in paragraph at lines 224--246
+\OML/ntxmi/m/it/12 f:readline\OT1/cmr/m/n/12 (/\OML/ntxmi/m/it/12 media\OT1/cmr
+/m/n/12 /\OML/ntxmi/m/it/12 tao\OT1/cmr/m/n/12 /[]\OML/ntxmi/m/it/12 de[]ata\OT
+1/cmr/m/n/12 /\OML/ntxmi/m/it/12 arlierwork\OT1/cmr/m/n/12 /\OML/ntxmi/m/it/12 
+simulation\OT1/cmr/m/n/12 /\OML/ntxmi/m/it/12 tao\OT1/cmr/m/n/12 /\OML/ntxmi/m/
+it/12 exp\OT1/cmr/m/n/12 220)\OML/ntxmi/m/it/12 a\OT1/cmr/m/n/12 1 = []\OML/ntx
+mi/m/it/12 a\OT1/cmr/m/n/12 2 = []\OML/ntxmi/m/it/12 nevent \OT1/cmr/m/n/12 =
+ []
+
+
+Overfull \hbox (82.71924pt too wide) in paragraph at lines 224--246
+\OML/ntxmi/m/it/12 nevent\OT1/cmr/m/n/12 ) : \OML/ntxmi/m/it/12 arr \OT1/cmr/m/
+n/12 = \OML/ntxmi/m/it/12 s:split\OT1/cmr/m/n/12 ([][])\OML/ntxmi/m/it/12 print
+arra\OT1/cmr/m/n/12 1\OML/ntxmi/m/it/12 :append\OT1/cmr/m/n/12 (\OML/ntxmi/m/it
+/12 float\OT1/cmr/m/n/12 (\OML/ntxmi/m/it/12 arr\OT1/cmr/m/n/12 [0]))\OML/ntxmi
+/m/it/12 a\OT1/cmr/m/n/12 2\OML/ntxmi/m/it/12 :append\OT1/cmr/m/n/12 (\OML/ntxm
+i/m/it/12 count\OT1/cmr/m/n/12 )\OML/ntxmi/m/it/12 s \OT1/cmr/m/n/12 = \OML/ntx
+mi/m/it/12 f:readline\OT1/cmr/m/n/12 ()\OML/ntxmi/m/it/12 count\OT1/cmr/m/n/12 
++ =
+ []
+
+
+Overfull \hbox (29.66768pt too wide) in paragraph at lines 224--246
+\OT1/cmr/m/n/12 1\OML/ntxmi/m/it/12 print\OT1/cmr/m/n/12 (\OML/ntxmi/m/it/12 a\
+OT1/cmr/m/n/12 1)\OML/ntxmi/m/it/12 print\OT1/cmr/m/n/12 (\OML/ntxmi/m/it/12 a\
+OT1/cmr/m/n/12 2)\OML/ntxmi/m/it/12 x \OT1/cmr/m/n/12 = \OML/ntxmi/m/it/12 np:l
+inspace\OT1/cmr/m/n/12 (0\OML/ntxmi/m/it/12 ; \OT1/cmr/m/n/12 10\OML/ntxmi/m/it
+/12 ; \OT1/cmr/m/n/12 11)\OML/ntxmi/m/it/12 x \OT1/cmr/m/n/12 = [0\OML/ntxmi/m/
+it/12 :\OT1/cmr/m/n/12 1\OML/ntxmi/m/it/12 :\OT1/cmr/m/n/12 2\OML/ntxmi/m/it/12
+ :\OT1/cmr/m/n/12 3\OML/ntxmi/m/it/12 :\OT1/cmr/m/n/12 4\OML/ntxmi/m/it/12 :\OT
+1/cmr/m/n/12 5\OML/ntxmi/m/it/12 :\OT1/cmr/m/n/12 6\OML/ntxmi/m/it/12 :\OT1/cmr
+/m/n/12 7\OML/ntxmi/m/it/12 :\OT1/cmr/m/n/12 8\OML/ntxmi/m/it/12 :\OT1/cmr/m/n/
+12 9\OML/ntxmi/m/it/12 :\OT1/cmr/m/n/12 10\OML/ntxmi/m/it/12 :\OT1/cmr/m/n/12 ]
+\OML/ntxmi/m/it/12 x \OT1/cmr/m/n/12 = \OML/ntxmi/m/it/12 np:array\OT1/cmr/m/n/
+12 (\OML/ntxmi/m/it/12 a\OT1/cmr/m/n/12 1)\OML/ntxmi/m/it/12 y \OT1/cmr/m/n/12 
+=
+ []
+
+
+./elegantbook.tex:247: LaTeX Error: \begin{document} ended by \end{defination}.
 
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.218 \end{defination}
+l.247 \end{defination}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3044,11 +3224,11 @@ AED: lastpage setting LastPage
 \tf@thm=\write8
 \openout8 = `elegantbook.thm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 221.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 221.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 250.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 250.
  (temp/elegantbook.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 221.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 221.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 250.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 250.
 Package rerunfilecheck Info: File `elegantbook.out' has not changed.
 (rerunfilecheck)             Checksum: 2D1EADCB83D997CBFE25E219229C8464.
 
