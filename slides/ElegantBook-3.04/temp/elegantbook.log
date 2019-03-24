@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  24 MAR 2019 12:34
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  24 MAR 2019 12:35
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2243,28 +2243,823 @@ Package: ntheorem 2011/08/15 1.33
 \qedsymbol=\toks67
 \thm@topsep=\skip99
 \thm@topsepadd=\skip100
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/04/07 v2.4g Tabular extension package (FMi)
+\col@sep=\dimen350
+\ar@mcellbox=\box108
+\extrarowheight=\dimen351
+\NC@list=\toks68
+\extratabsurround=\skip101
+\backup@length=\skip102
+\ar@cellbox=\box109
+)
+\rotheadsize=\dimen352
+\c@nlinenum=\count365
+\TeXr@lab=\toks69
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count366
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/beebe/texnames.sty
+This is texnames.sty, Version 1.10 <02 March 1998>
+) (/usr/local/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
+Package: xeCJK-listings 2018/04/07 v3.7.0 xeCJK patch file for listings
+\l__xeCJK_listings_max_char_int=\count367
+\l__xeCJK_listings_flag_int=\count368
+)
+LaTeX Font Info:    Try loading font information for T1+ntxtlf on input line 55
+.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/newtx/t1ntxtlf.fd
+File: t1ntxtlf.fd 2015/01/17 v1.0 font definition file for T1/ntx/tlf
+)
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 55.
+
+(temp/elegantbook.aux)
+\openout1 = `elegantbook.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 55.
+LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 55
+.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/newtx/omlntxmi.fd
+File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
+)
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 55.
+LaTeX Font Info:    Try loading font information for U+ntxexa on input line 55.
+
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/newtx/untxexa.fd
+File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
+)
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 55.
+LaTeX Font Info:    Try loading font information for LMS+ntxsy on input line 55
+.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/newtx/lmsntxsy.fd
+File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
+)
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 55.
+LaTeX Font Info:    Try loading font information for LMX+ntxexx on input line 5
+5.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/newtx/lmxntxexx.fd
+File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
+)
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 55.
+.................................................
+. fontspec info: "setup-math"
+. 
+. Adjusting the maths setup (use [no-math] to avoid this).
+.................................................
+\symlegacymaths=\mathgroup12
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 55.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 55.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 55.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 55.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 55.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 55.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 55.
+LaTeX Font Info:    Redeclaring math accent \check on input line 55.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 55.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 55.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 55.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 55.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 55.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 55.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 55.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 55.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 55.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 55.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 55.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 55.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 55.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 55.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 55.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 55.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 55.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/ntxtlf/m/n --> TU/ntxtlf/m/n on input line 55.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 55.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/ntxtlf/b/n --> TU/ntxtlf/m/n on input line 55.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/ntxtlf/m/n --> TU/ntxtlf/m/n on input line 55.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/ntxtlf/m/it --> TU/ntxtlf/m/it on input line 55.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/ntxtlf/b/n --> TU/ntxtlf/bx/n on input line 55.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  T1/qhv/m/n --> TU/qhv/m/n on input line 55.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  T1/ntxtt/m/n --> TU/newtxtt/m/n on input line 55.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/ntxtlf/m/n --> TU/ntxtlf/bx/n on input line 55.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/ntxtlf/b/it --> TU/ntxtlf/bx/it on input line 55.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  T1/qhv/b/n --> TU/qhv/bx/n on input line 55.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  T1/ntxtt/b/n --> TU/newtxtt/bx/n on input line 55.
+\c@mv@tabular=\count369
+\c@mv@boldtabular=\count370
+ (./base.tex)
+LaTeX Info: Redefining \microtypecontext on input line 55.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-ptm.cfg
+File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(76.82243pt, 443.863pt, 76.82243pt)
+* v-part:(T,H,B)=(72.26997pt, 700.5069pt, 72.26997pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=443.863pt
+* \textheight=700.5069pt
+* \oddsidemargin=4.55244pt
+* \evensidemargin=4.55244pt
+* \topmargin=-73.12352pt
+* \headheight=61.74242pt
+* \headsep=11.38109pt
+* \topskip=12.0pt
+* \footskip=34.1433pt
+* \marginparwidth=88.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\AtBeginShipoutBox=\box110
+Package hyperref Info: Link coloring ON on input line 55.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count371
+)
+LaTeX Info: Redefining \ref on input line 55.
+LaTeX Info: Redefining \pageref on input line 55.
+LaTeX Info: Redefining \nameref on input line 55.
+
+(temp/elegantbook.out) (temp/elegantbook.out)
+\@outlinefile=\write7
+\openout7 = `elegantbook.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+ABD: EveryShipout initializing macros
+\c@lstlisting=\count372
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/04/06 v1.3b Input encoding file
+\inpenc@prehook=\toks70
+\inpenc@posthook=\toks71
+)
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 55.
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \Pifont with sig. 'm' on line 55.
+.................................................
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 24.88pt on input line 56.
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 56.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 24.88pt on input line 56.
+
+
+./elegantbook.tex:56: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.56 \maketitle
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+LaTeX Font Info:    Try loading font information for TU+ntxtlf on input line 56
+.
+LaTeX Font Info:    No file TUntxtlf.fd. on input line 56.
+
+LaTeX Font Warning: Font shape `TU/ntxtlf/m/n' undefined
+(Font)              using `TU/lmr/m/n' instead on input line 56.
+
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg
+File: mt-LatinModernRoman.cfg 2013/03/13 v1.0 microtype config. file: Latin Mod
+ern Roman (RS)
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `ntxtlf' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+
+Package microtype Warning: One or more slots in the configuration are unknown.
+(microtype)                Make sure that no text commands are used.
+(microtype)                See the documentation for details (the note
+(microtype)                on `xeCJK' in section 9: `Hints and caveats').
+
+LaTeX Font Info:    Try loading font information for U+ntxmia on input line 56.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/newtx/untxmia.fd
+File: untxmia.fd 2016/01/31 Fontinst v1.933 font definitions for U/ntxmia.
+)
+LaTeX Font Info:    Try loading font information for U+ntxsym on input line 56.
+
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/newtx/untxsym.fd
+File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
+)
+LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 56.
+
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/newtx/untxsyc.fd
+File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
+)
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 56.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 
-! LaTeX Error: File `lstcustom.sty' not found.
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <18.2> not available
+(Font)              size <17.28> substituted on input line 56.
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
 
-Enter file name: 
-./elegantbook.tex:8: Emergency stop.
-<read *> 
-         
-l.8 \usepackage
-               {listings}^^M
-*** (cannot \read from terminal in nonstop modes)
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <13.7> not available
+(Font)              size <14.4> substituted on input line 56.
 
- 
+(/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `FandolSong-Regular' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/24.88'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/24.88'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/24.88'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/24.88'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/24.88'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/24.88'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/24.88'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/24.88'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/24.88'.
+(microtype)             Ignoring protrusion settings for this character.
+File: ./figure/ElegantLaTeX_green.pdf Graphic file (type pdf)
+<use ./figure/ElegantLaTeX_green.pdf>
+
+./elegantbook.tex:56: Undefined control sequence.
+\maketitle ...t \centering \color {bule}\@myquote 
+                                                  \end {minipage} \end {cent...
+l.56 \maketitle
+               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+[1
+
+]
+第 1\tmspace +\thickmuskip {.2777em}章 1.
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <12> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 59.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 12.0pt on input line 59.
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <20.74> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 59.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 20.74pt on input line 59.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/20.74'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/20.74'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/20.74'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/20.74'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/20.74'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/20.74'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/20.74'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/20.74'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/20.74'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Try loading font information for T1+ntxsups on input line 6
+2.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/newtx/t1ntxsups.fd
+File: t1ntxsups.fd 2015/01/17 v1.0
+)
+LaTeX Font Info:    Font shape `T1/ntxsups/m/n' will be
+(Font)              scaled to size 12.0pt on input line 62.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `ntxsups' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Package microtype Info: Character `textendash ' is missing
+(microtype)             in font `T1/ntxsups/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textemdash ' is missing
+(microtype)             in font `T1/ntxsups/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblleft ' is missing
+(microtype)             in font `T1/ntxsups/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblright ' is missing
+(microtype)             in font `T1/ntxsups/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `T1/ntxsups/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `T1/ntxsups/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `T1/ntxsups/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `T1/ntxsups/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `T1/ntxsups/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `T1/ntxsups/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `T1/ntxsups/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `T1/ntxsups/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `T1/ntxsups/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.0pt on input line 62.
+LaTeX Font Info:    Font shape `T1/ntxsups/m/n' will be
+(Font)              scaled to size 10.0pt on input line 62.
+Package microtype Info: Character `textendash ' is missing
+(microtype)             in font `T1/ntxsups/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textemdash ' is missing
+(microtype)             in font `T1/ntxsups/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblleft ' is missing
+(microtype)             in font `T1/ntxsups/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblright ' is missing
+(microtype)             in font `T1/ntxsups/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `AE ' is missing
+(microtype)             in font `T1/ntxsups/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotesinglbase ' is missing
+(microtype)             in font `T1/ntxsups/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `quotedblbase ' is missing
+(microtype)             in font `T1/ntxsups/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `T1/ntxsups/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `T1/ntxsups/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotleft ' is missing
+(microtype)             in font `T1/ntxsups/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guillemotright ' is missing
+(microtype)             in font `T1/ntxsups/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textexclamdown ' is missing
+(microtype)             in font `T1/ntxsups/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquestiondown ' is missing
+(microtype)             in font `T1/ntxsups/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 63.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 17.28pt on input line 63.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/17.28'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/17.28'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/17.28'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/17.28'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/17.28'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/17.28'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/17.28'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/17.28'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/17.28'.
+(microtype)             Ignoring protrusion settings for this character.
+File: ./image/expdata1.png Graphic file (type bmp)
+<./image/expdata1.png>
+
+Overfull \hbox (7.10468pt too wide) in paragraph at lines 67--68
+ [][][] 
+ []
+
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.95pt on input line 68.
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 68.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 10.95pt on input line 68.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/bx/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+*************************************************
+* fontspec warning: "script-not-exist"
+* 
+* Font 'FandolKai-Regular' does not contain script 'CJK'.
+*************************************************
+\g__fontspec_family_FandolKai-Regular_int=\count373
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'FandolKai-Regular(0)' created for font 'FandolKai-Regular' with
+. options [Script={CJK},Extension={.otf}].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.: <->"[FandolKai-Regular.otf]/OT"
+. - 'small caps'  (m/sc) with NFSS spec.: 
+.................................................
+[2
+
+]
+./elegantbook.tex:198: Undefined control sequence.
+l.198 ...算出所有波形\footnote{取决于事件数}积分面积的平均值\footenote
+                                                  {也可以填充直方图进行拟合}作为期望的电荷积分；再利...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 199.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 12.0pt on input line 199.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/it/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/it/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/it/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglleft ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/it/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guilsinglright ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/it/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotleft ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/it/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\guillemotright ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/it/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/it/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/FandolSong-Regular(0)/m/it/12'.
+(microtype)             Ignoring protrusion settings for this character.
+
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <12.5> not available
+(Font)              size <12> substituted on input line 204.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 204.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mu' on input line 204.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 204.
+
+File: ./image/wave.eps Graphic file (type eps)
+<./image/wave.eps>
+
+Overfull \hbox (7.10468pt too wide) in paragraph at lines 210--211
+ [][][] 
+ []
+
+
+Package natbib Warning: Citation `EINAV2010' undefined on input line 230.
+
+
+Package natbib Warning: Citation `Havrylchyk2018' undefined on input line 230.
+
+[3] [4]
+附录 A.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 240.
+LaTeX Font Info:    Try loading font information for TS1+ntxtlf on input line 2
+42.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
+File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
+)
+LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 242.
+
+Overfull \hbox (254.5441pt too wide) in paragraph at lines 247--248
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (52.94205pt too wide) in paragraph at lines 248--249
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[5
+
+]
+
+Package natbib Warning: There were undefined citations.
+
+
+AED: lastpage setting LastPage
+[6]
+\tf@thm=\write8
+\openout8 = `elegantbook.thm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 274.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 274.
+ (temp/elegantbook.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 274.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 274.
+Package rerunfilecheck Info: File `elegantbook.out' has not changed.
+(rerunfilecheck)             Checksum: 2D1EADCB83D997CBFE25E219229C8464.
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.92pt have occurred.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
 Here is how much of TeX's memory you used:
- 44182 strings out of 492970
- 900253 string characters out of 6133939
- 1046841 words of memory out of 5000000
- 47589 multiletter control sequences out of 15000+600000
- 534475 words of font info for 33 fonts, out of 8000000 for 9000
+ 45988 strings out of 492970
+ 942221 string characters out of 6133939
+ 1180963 words of memory out of 5000000
+ 49208 multiletter control sequences out of 15000+600000
+ 603786 words of font info for 169 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 70i,2n,103p,10446b,280s stack positions out of 5000i,500n,10000p,200000b,80000s
-No pages of output.
+ 70i,12n,103p,10446b,1201s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on temp/elegantbook.pdf (6 pages).
