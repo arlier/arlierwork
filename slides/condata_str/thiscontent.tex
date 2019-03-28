@@ -1,5 +1,5 @@
 
-\section{Motivation}
+\section{converting raw data to root file}
 \begin{frame}{ motivation}
 %\textsf{例} \textbf{例}  \textit{例}
 % \texttt{例}  % 调出仿宋字体了
@@ -48,22 +48,45 @@
 \item \alert{one ane acquire almost all the data needed for analysis(of one PMT) from only one file} rather than collecting the details from server.
 
 \end{enumerate}
-beloew is the figure about 
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{prliminary file structure and stretages}
+\begin{frame}{prliminary file structure and strategies}
 \begin{itemize}
 \item each PMT have one root file named in "SN\_rawdata.root"
-\item In a specific root file, we have several trees and a auxilary data class
-\item if one PMT go through several tests in the container, all the data will be saved still in only one root file but with different name of trees\footnote{distiguished by a unique tag}. 
+\item In a specific root file, we have several waveform waveform trees and a auxilary data tree
+\item if one PMT go through several tests in the container, all the data will be saved still in only one root file but with different name of wave trees\footnote{distiguished by a unique tag}; their auxilary information will be filled several times in the same tree. 
 \end{itemize}
+\begin{figure}
+\centering
+\includegraphics[width=0.98\textwidth]{figures/tree.png} % 单图
+\end{figure}
 
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{results}
-current file path:
-the folder MCP contains all the MCP PMT data files;
-the folder HAMAMATSU contains all the  HAMAMATSU data files;
+\begin{frame}{ restore the waveforms}
+all the aveforms were stored as a vetor with 521 length, one can easily read and analysis the data, for example : 
+\begin{figure}
+\centering
+\includegraphics[width=0.98\textwidth]{figures/exam.png} % 单图
+\end{figure}
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{ current states}
+%current file path:
+%the folder MCP contains all the MCP PMT data files;
+%the folder HAMAMATSU contains all the  HAMAMATSU data files;
+finished:
+\begin{itemize}
+\item basic structure of root file and TTree
+\item example rawdata root file
+\item example cpp program to access the waveforms from the generated root file
+\end{itemize}
+still working on :
+\begin{itemize}
+\item refine the root file contents and structure
+\item writing the doucument for potential users
+\end{itemize}
  
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -98,7 +121,8 @@ the folder HAMAMATSU contains all the  HAMAMATSU data files;
 %\end{figure}
 %\end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{example C++ code of reading the file}
+\section{update of container test results}
+\begin{frame}{file}
 listing
 figure
 \end{frame}
@@ -108,11 +132,11 @@ figure
 
 \begin{frame}{summary}
 \begin{itemize}
-\item  the charge and amplitude stability of HAMAMATSU PMT is better.
-\item  $\sim$6k NNVT PMTs and 5k HAMAMATSU PMTs has been tested in container system, test results and test reports are avaliable from PMTDataBase\footnote{pmtdb.juno.ihep.ac.cn}.
-\item we reject or accept one PMT according to its perfomance test results from container and scanning station.
-\item  {\color{red}we need to study the "delay signal" of HAMAMATSU PMT and "big signal" of NNVT PMT\footnote{especially when PMT working in the multi-photon case}} in detail\footnote{one option is to transport several PMTs to SYSU for detailed study}.
-\item the expected mean PDE value is 30.4\% and mean DCR value is $\sim$34kHz\footnote{will decrease after installation} in CD.
+\item the converting of raw data from binary to root format is almost done  
+\item one can easily restore the test waveforms with no loss of information
+\item  the file size\footnote{the total additional disk space requirement for 20k, so is less than 2T, this not a problem} decrease about 20\% after transform\footnote{about 50MB for one PMT of one light intensity}.
+%\item  {\color{red}we need to study the "delay signal" of HAMAMATSU PMT and "big signal" of NNVT PMT\footnote{especially when PMT working in the multi-photon case}} in detail\footnote{one option is to transport several PMTs to SYSU for detailed study}.
+\item the update of container results
 %\item 保存重要的测试信息和输出结果到PMT数据库，所有测试结果\footnote{包含集装测试历史数据}可以直接通过http://pmtdb.juno.ihep.ac.cn/\footnote{Query::LPMT Tested Reports} 查询得到
 %\item 初步结论：目前现场5002支滨松PMT，382支外观检测不合格，5支HV不合格，2支波形较差，24支DCR不合格，9支PDE不合格。
 \end{itemize}

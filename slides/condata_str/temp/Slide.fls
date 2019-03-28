@@ -423,6 +423,8 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+INPUT figures/tree.png
+INPUT figures/exam.png
 INPUT figures/hamtts.JPG
 OUTPUT temp/Slide.nav
 OUTPUT temp/Slide.toc

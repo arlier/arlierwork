@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1553411049 "Slide.tex" "temp/Slide.pdf" "Slide" 1553435237
+["pdflatex"] 1553745557 "Slide.tex" "temp/Slide.pdf" "Slide" 1553745572
   "/dev/null" 1552277858 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1480098689 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -232,12 +232,14 @@
   "/usr/local/texlive/2018/texmf.cnf" 1552130826 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
   "Slide.tex" 1553244927 1697 1ec00c0c6bad5502e247530497fc04b7 ""
   "figure/logo.png" 1553244347 44622 8a6b9554a933fedfb2f94afb9466fa71 ""
+  "figures/exam.png" 1553745066 100833 f71f39d9907ad7d9ae4e6c79acd8d29d ""
   "figures/hamtts.JPG" 1553244347 264855 1f5ba8b2c11504ebc49361473ee5820b ""
-  "temp/Slide.aux" 1553411064 3299 5f8a2ec7c84e04e9fea8dcf7ba0aeb9d ""
-  "temp/Slide.nav" 1553411064 1550 c8ff8665d83f989e40b921661a985342 ""
-  "temp/Slide.out" 1553411064 171 d502babbb998b8cc8171e5865a12781e ""
-  "temp/Slide.toc" 1553411064 89 117064e19f3b6d3f96aa435ef071e668 ""
-  "thiscontent.tex" 1553411060 6595 b6137b8f9f67c0d3cc8e3912f3bb4c29 ""
+  "figures/tree.png" 1553744109 10426 166ffe1728dfa32ed0c6cacd9336fb3b ""
+  "temp/Slide.aux" 1553745572 3871 80e145e3ea9bfa3ee1ce4862540b50ba ""
+  "temp/Slide.nav" 1553745572 1882 cf7de2ce00b3f8832479cd9867bcaa12 ""
+  "temp/Slide.out" 1553745572 511 1624bbeb14243fc4d025326a78062b22 ""
+  "temp/Slide.toc" 1553745572 179 38ef633183d2b16e3948865e87437a08 ""
+  "thiscontent.tex" 1553745555 7390 6563fa2ba34cbb68488a70b27d49924a ""
   (generated)
   "temp/Slide.aux"
   "temp/Slide.toc"

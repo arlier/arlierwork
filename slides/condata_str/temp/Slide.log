@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  24 MAR 2019 15:04
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  28 MAR 2019 11:59
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2149,78 +2149,78 @@ Overfull \hbox (68.11044pt too wide) has occurred while \output is active
 [3
 
 ]
-./thiscontent.tex:52: Illegal parameter number in definition of \iterate.
+./thiscontent.tex:51: Illegal parameter number in definition of \iterate.
 <to be read again> 
                    ,
-l.52 \end{frame}
+l.51 \end{frame}
                 
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-./thiscontent.tex:52: Illegal parameter number in definition of \iterate.
+./thiscontent.tex:51: Illegal parameter number in definition of \iterate.
 <to be read again> 
                    ,
-l.52 \end{frame}
+l.51 \end{frame}
                 
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-./thiscontent.tex:52: Illegal parameter number in definition of \iterate.
+./thiscontent.tex:51: Illegal parameter number in definition of \iterate.
 <to be read again> 
                    ,
-l.52 \end{frame}
+l.51 \end{frame}
                 
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-./thiscontent.tex:52: Illegal parameter number in definition of \iterate.
+./thiscontent.tex:51: Illegal parameter number in definition of \iterate.
 <to be read again> 
                    ,
-l.52 \end{frame}
+l.51 \end{frame}
                 
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-./thiscontent.tex:52: Illegal parameter number in definition of \beamer@doifinf
+./thiscontent.tex:51: Illegal parameter number in definition of \beamer@doifinf
 rame.
 <to be read again> 
                    ,
-l.52 \end{frame}
+l.51 \end{frame}
                 
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-./thiscontent.tex:52: Illegal parameter number in definition of \beamer@doifinf
+./thiscontent.tex:51: Illegal parameter number in definition of \beamer@doifinf
 rame.
 <to be read again> 
                    ,
-l.52 \end{frame}
+l.51 \end{frame}
                 
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-./thiscontent.tex:52: You can't use `macro parameter character #' in horizontal
+./thiscontent.tex:51: You can't use `macro parameter character #' in horizontal
  mode.
 \beamer@doifinframe ...ng information(container ##
                                                   , mass##, HV, DCR. etc). \...
-l.52 \end{frame}
+l.51 \end{frame}
                 
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-./thiscontent.tex:52: You can't use `macro parameter character #' in horizontal
+./thiscontent.tex:51: You can't use `macro parameter character #' in horizontal
  mode.
 <recently read> ##
                   
-l.52 \end{frame}
+l.51 \end{frame}
                 
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2235,15 +2235,22 @@ Overfull \hbox (68.11044pt too wide) has occurred while \output is active
 [4
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 61.
+LaTeX Font Info:    Try loading font information for U+msa on input line 64.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 61.
+LaTeX Font Info:    Try loading font information for U+msb on input line 64.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+File: figures/tree.png Graphic file (type bmp)
+<figures/tree.png>
+
+Overfull \vbox (95.12822pt too high) detected at line 64
+ []
+
+
 Overfull \hbox (68.11044pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -2251,6 +2258,9 @@ Overfull \hbox (68.11044pt too wide) has occurred while \output is active
 [5
 
 ]
+File: figures/exam.png Graphic file (type bmp)
+<figures/exam.png>
+
 Overfull \hbox (68.11044pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -2286,10 +2296,17 @@ Overfull \hbox (68.11044pt too wide) has occurred while \output is active
 [10
 
 ]
+Overfull \hbox (68.11044pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[11
+
+]
 File: figures/hamtts.JPG Graphic file (type bmp)
 <figures/hamtts.JPG>
 
-Overfull \vbox (21.10675pt too high) detected at line 154
+Overfull \vbox (21.10675pt too high) detected at line 178
  []
 
 
@@ -2297,7 +2314,7 @@ Overfull \hbox (68.11044pt too wide) has occurred while \output is active
  [][][][]  
  []
 
-[11
+[12
 
 ])
 \tf@nav=\write6
@@ -2315,15 +2332,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 52.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 52.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 52.
 Package rerunfilecheck Info: File `Slide.out' has not changed.
-(rerunfilecheck)             Checksum: D502BABBB998B8CC8171E5865A12781E.
+(rerunfilecheck)             Checksum: 1624BBEB14243FC4D025326A78062B22.
  ) 
 Here is how much of TeX's memory you used:
- 36264 strings out of 492970
- 735775 string characters out of 6133939
- 821544 words of memory out of 5000000
- 39610 multiletter control sequences out of 15000+600000
+ 36268 strings out of 492970
+ 735713 string characters out of 6133939
+ 819961 words of memory out of 5000000
+ 39612 multiletter control sequences out of 15000+600000
  538946 words of font info for 94 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  57i,20n,76p,10413b,793s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on temp/Slide.pdf (11 pages).
+Output written on temp/Slide.pdf (12 pages).
