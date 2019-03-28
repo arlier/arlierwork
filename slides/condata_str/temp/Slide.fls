@@ -425,6 +425,7 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT figures/tree.png
 INPUT figures/exam.png
+INPUT figures/zr01.PNG
 INPUT figures/hamtts.JPG
 OUTPUT temp/Slide.nav
 OUTPUT temp/Slide.toc

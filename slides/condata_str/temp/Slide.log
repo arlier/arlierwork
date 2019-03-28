@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  28 MAR 2019 13:22
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  28 MAR 2019 15:09
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2275,6 +2275,13 @@ Overfull \hbox (68.11044pt too wide) has occurred while \output is active
 [7
 
 ]
+File: figures/zr01.png Graphic file (type bmp)
+<figures/zr01.png>
+
+Overfull \vbox (4.04659pt too high) detected at line 130
+ []
+
+
 Overfull \hbox (68.11044pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -2306,7 +2313,7 @@ Overfull \hbox (68.11044pt too wide) has occurred while \output is active
 File: figures/hamtts.JPG Graphic file (type bmp)
 <figures/hamtts.JPG>
 
-Overfull \vbox (21.10675pt too high) detected at line 176
+Overfull \vbox (21.10675pt too high) detected at line 180
  []
 
 
@@ -2335,10 +2342,10 @@ Package rerunfilecheck Info: File `Slide.out' has not changed.
 (rerunfilecheck)             Checksum: 1624BBEB14243FC4D025326A78062B22.
  ) 
 Here is how much of TeX's memory you used:
- 36268 strings out of 492970
- 735713 string characters out of 6133939
+ 36273 strings out of 492970
+ 735786 string characters out of 6133939
  819961 words of memory out of 5000000
- 39612 multiletter control sequences out of 15000+600000
+ 39615 multiletter control sequences out of 15000+600000
  538946 words of font info for 94 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  57i,20n,76p,10413b,793s stack positions out of 5000i,500n,10000p,200000b,80000s
