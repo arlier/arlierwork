@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1553756975 "Slide.tex" "temp/Slide.pdf" "Slide" 1553756990
+["pdflatex"] 1553757033 "Slide.tex" "temp/Slide.pdf" "Slide" 1553757048
   "/dev/null" 1552277858 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1480098689 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -236,11 +236,13 @@
   "figures/hamtts.JPG" 1553244347 264855 1f5ba8b2c11504ebc49361473ee5820b ""
   "figures/tree.png" 1553744109 10426 166ffe1728dfa32ed0c6cacd9336fb3b ""
   "figures/zr01.PNG" 1553756872 182532 853f181dd1449439368f6b978fd3e33e ""
-  "temp/Slide.aux" 1553756990 3871 80e145e3ea9bfa3ee1ce4862540b50ba ""
-  "temp/Slide.nav" 1553756990 1882 cf7de2ce00b3f8832479cd9867bcaa12 ""
-  "temp/Slide.out" 1553756990 511 1624bbeb14243fc4d025326a78062b22 ""
-  "temp/Slide.toc" 1553756990 179 38ef633183d2b16e3948865e87437a08 ""
-  "thiscontent.tex" 1553756975 7518 837a9c278fb6deecbdafc93a312e7c06 ""
+  "figures/zr02.PNG" 1553756876 162104 ef00291fc1fd8f44d0dc459a7204c7c6 ""
+  "figures/zr03.PNG" 1553756874 144374 bcb975d13e0d52c61a16004ca659e2b9 ""
+  "temp/Slide.aux" 1553757048 4891 e84091b75a6bbc7c27d23a3da50c5e34 ""
+  "temp/Slide.nav" 1553757048 2464 c040a28febee3ffdbd50477f8e0418b4 ""
+  "temp/Slide.out" 1553757048 941 05e1097c96fc97caf131ae29366a65ce ""
+  "temp/Slide.toc" 1553757048 317 e9a32c738ab80bcc14107485530d69c8 ""
+  "thiscontent.tex" 1553757017 8044 ff1c47d3714c9ec182304ffe46ca422a ""
   (generated)
   "temp/Slide.aux"
   "temp/Slide.toc"

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  28 MAR 2019 15:09
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  28 MAR 2019 15:10
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2125,8 +2125,18 @@ Overfull \hbox (68.11044pt too wide) in paragraph at lines 42--42
  [][][][]  
  []
 
+
+Overfull \hbox (35.94502pt too wide) detected at line 42
+  [] [][][][][][] [][] [][] [][] [][][][][]  
+ []
+
 File: figure/logo.png Graphic file (type bmp)
 <figure/logo.png>
+
+Overfull \hbox (35.94502pt too wide) has occurred while \output is active
+  [] [][][][][][] [][] [][] [][] [][][][][]  
+ []
+
 
 Overfull \hbox (68.11044pt too wide) has occurred while \output is active
  [][][][]  
@@ -2135,6 +2145,11 @@ Overfull \hbox (68.11044pt too wide) has occurred while \output is active
 [1
 
 ] (temp/Slide.toc)
+Overfull \hbox (35.94502pt too wide) has occurred while \output is active
+  [] [][][][][][] [][] [][] [][] [][][][][]  
+ []
+
+
 Overfull \hbox (68.11044pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -2142,6 +2157,11 @@ Overfull \hbox (68.11044pt too wide) has occurred while \output is active
 [2
 
 ] (./thiscontent.tex
+Overfull \hbox (35.94502pt too wide) has occurred while \output is active
+  [] [][][][][][] [][] [][] [][] [][][][][]  
+ []
+
+
 Overfull \hbox (68.11044pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -2228,6 +2248,11 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
+Overfull \hbox (35.94502pt too wide) has occurred while \output is active
+  [] [][][][][][] [][] [][] [][] [][][][][]  
+ []
+
+
 Overfull \hbox (68.11044pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -2251,6 +2276,11 @@ Overfull \vbox (95.12822pt too high) detected at line 64
  []
 
 
+Overfull \hbox (35.94502pt too wide) has occurred while \output is active
+  [] [][][][][][] [][] [][] [][] [][][][][]  
+ []
+
+
 Overfull \hbox (68.11044pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -2261,6 +2291,11 @@ Overfull \hbox (68.11044pt too wide) has occurred while \output is active
 File: figures/exam.png Graphic file (type bmp)
 <figures/exam.png>
 
+Overfull \hbox (35.94502pt too wide) has occurred while \output is active
+  [] [][][][][][] [][] [][] [][] [][][][][]  
+ []
+
+
 Overfull \hbox (68.11044pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -2268,6 +2303,11 @@ Overfull \hbox (68.11044pt too wide) has occurred while \output is active
 [6
 
 ]
+Overfull \hbox (35.94502pt too wide) has occurred while \output is active
+  [] [][][][][][] [][] [][] [][] [][][][][]  
+ []
+
+
 Overfull \hbox (68.11044pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -2282,6 +2322,11 @@ Overfull \vbox (4.04659pt too high) detected at line 130
  []
 
 
+Overfull \hbox (35.94502pt too wide) has occurred while \output is active
+  [] [][][][][][] [][] [][] [][] [][][][][]  
+ []
+
+
 Overfull \hbox (68.11044pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -2289,6 +2334,18 @@ Overfull \hbox (68.11044pt too wide) has occurred while \output is active
 [8
 
 ]
+File: figures/zr02.png Graphic file (type bmp)
+<figures/zr02.png>
+
+Overfull \vbox (0.379pt too high) detected at line 139
+ []
+
+
+Overfull \hbox (35.94502pt too wide) has occurred while \output is active
+  [] [][][][][][] [][] [][] [][] [][][][][]  
+ []
+
+
 Overfull \hbox (68.11044pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -2296,6 +2353,18 @@ Overfull \hbox (68.11044pt too wide) has occurred while \output is active
 [9
 
 ]
+File: figures/zr03.png Graphic file (type bmp)
+<figures/zr03.png>
+
+Overfull \vbox (1.45668pt too high) detected at line 147
+ []
+
+
+Overfull \hbox (35.94502pt too wide) has occurred while \output is active
+  [] [][][][][][] [][] [][] [][] [][][][][]  
+ []
+
+
 Overfull \hbox (68.11044pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -2303,6 +2372,11 @@ Overfull \hbox (68.11044pt too wide) has occurred while \output is active
 [10
 
 ]
+Overfull \hbox (35.94502pt too wide) has occurred while \output is active
+  [] [][][][][][] [][] [][] [][] [][][][][]  
+ []
+
+
 Overfull \hbox (68.11044pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -2310,10 +2384,8 @@ Overfull \hbox (68.11044pt too wide) has occurred while \output is active
 [11
 
 ]
-File: figures/hamtts.JPG Graphic file (type bmp)
-<figures/hamtts.JPG>
-
-Overfull \vbox (21.10675pt too high) detected at line 180
+Overfull \hbox (35.94502pt too wide) has occurred while \output is active
+  [] [][][][][][] [][] [][] [][] [][][][][]  
  []
 
 
@@ -2322,6 +2394,37 @@ Overfull \hbox (68.11044pt too wide) has occurred while \output is active
  []
 
 [12
+
+]
+Overfull \hbox (35.94502pt too wide) has occurred while \output is active
+  [] [][][][][][] [][] [][] [][] [][][][][]  
+ []
+
+
+Overfull \hbox (68.11044pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[13
+
+]
+File: figures/hamtts.JPG Graphic file (type bmp)
+<figures/hamtts.JPG>
+
+Overfull \vbox (21.10675pt too high) detected at line 196
+ []
+
+
+Overfull \hbox (35.94502pt too wide) has occurred while \output is active
+  [] [][][][][][] [][] [][] [][] [][][][][]  
+ []
+
+
+Overfull \hbox (68.11044pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[14
 
 ])
 \tf@nav=\write6
@@ -2339,15 +2442,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 52.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 52.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 52.
 Package rerunfilecheck Info: File `Slide.out' has not changed.
-(rerunfilecheck)             Checksum: 1624BBEB14243FC4D025326A78062B22.
+(rerunfilecheck)             Checksum: 05E1097C96FC97CAF131AE29366A65CE.
  ) 
 Here is how much of TeX's memory you used:
- 36273 strings out of 492970
- 735786 string characters out of 6133939
- 819961 words of memory out of 5000000
- 39615 multiletter control sequences out of 15000+600000
+ 36291 strings out of 492970
+ 736004 string characters out of 6133939
+ 824515 words of memory out of 5000000
+ 39631 multiletter control sequences out of 15000+600000
  538946 words of font info for 94 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  57i,20n,76p,10413b,793s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on temp/Slide.pdf (12 pages).
+Output written on temp/Slide.pdf (14 pages).
