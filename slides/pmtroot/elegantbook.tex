@@ -54,7 +54,8 @@
 \tableofcontents
 %\mainmatter
 
-\chapter{General Introduction }
+\chapter{about the PMT testing raw data in root file}
+\section{contents of root file }
 For each PMT, the following information is available from a '.root' file:
 \begin{enumerate}
 	\item waveforms raw data @linght intensity about 0.1pe  
@@ -63,9 +64,6 @@ For each PMT, the following information is available from a '.root' file:
 \end{enumerate}
 
 If you are interested in the testing data of one specific PMT, you just need to process a root file which contains all testing raw data.
-\section{how to access one ROOT file}
-sever domain:
-data directory:
 %\begin{itemize}
 %	\item login to the PMT testing server 'login.pmt.ihep.ac.cn'  
 %	\item go to the directory:  
@@ -73,15 +71,19 @@ data directory:
 %\end{itemize}
 
 
+
 \section{structure of the root file}
+For each PMT test we have two sets of data, one with light intensity about 0.1pe and another about 1pe. Each test has about 24k waveforms recorded, and every waveform consists of 521 voltage values with unit mV. 
 \begin{definition}{增益计算}{it}
 \begin{equation}
    \label{e1}
 	\delta=\frac{Q_{out}}{q}=\frac{\overline{\int UT}}{Rq}.
 \end{equation}
 \end{definition}
-其中$Q_{out}$是放大之后波形的电荷量，q是未经放大的电荷量；我们假设每个事件的平均光电子数为500，也就是$q=500\times e$ 。\footnote{e是电子电荷量}
 
+\section{how to access one ROOT file}
+sever domain:
+data directory:
 
 %\begin{enumerate}[noitemsep]
 %   \item 添加一个简化风格（plain）的颜色主题。
