@@ -415,7 +415,6 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT figure/spefit.png
 INPUT figure/cnntags.png
 INPUT figure/cnnres.png
-INPUT figures/sys1_mass10244_channel122_snEA4828_lt2.png
 INPUT figures/SN_EA0283_pde1_dcr1_HV1_pv1_rt1_tag1.png
 INPUT figures/wave2d.png
 INPUT figures/mcpwave2d.png
