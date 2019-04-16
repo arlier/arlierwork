@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  16 APR 2019 16:58
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  16 APR 2019 18:44
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2186,18 +2186,60 @@ Overfull \vbox (0.95409pt too high) detected at line 81
 [3
 
 ]
+./Slide.tex:132: Illegal parameter number in definition of \iterate.
+<to be read again> 
+                    
+l.132 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Slide.tex:132: Illegal parameter number in definition of \iterate.
+<to be read again> 
+                    
+l.132 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Slide.tex:132: Illegal parameter number in definition of \beamer@doifinframe.
+<to be read again> 
+                    
+l.132 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Slide.tex:132: You can't use `macro parameter character #' in horizontal mode
+.
+<recently read> ##
+                  
+l.132 \end{frame}
+                 
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
 File: figure/cnntags.png Graphic file (type bmp)
 <figure/cnntags.png>
 File: figure/cnnres.png Graphic file (type bmp)
 <figure/cnnres.png>
- [4
+
+Overfull \vbox (0.41415pt too high) detected at line 132
+ []
+
+[4
 
 ]
 File: figures/sys1_mass10244_channel122_snEA4828_lt2.png Graphic file (type bmp
 )
 <figures/sys1_mass10244_channel122_snEA4828_lt2.png>
 
-Overfull \vbox (1.03523pt too high) detected at line 138
+Overfull \vbox (1.03523pt too high) detected at line 139
  []
 
 [5
@@ -2206,7 +2248,7 @@ Overfull \vbox (1.03523pt too high) detected at line 138
 File: figures/SN_EA0283_pde1_dcr1_HV1_pv1_rt1_tag1.png Graphic file (type bmp)
 <figures/SN_EA0283_pde1_dcr1_HV1_pv1_rt1_tag1.png>
 
-Overfull \vbox (8.84624pt too high) detected at line 147
+Overfull \vbox (8.84624pt too high) detected at line 148
  []
 
 [6
@@ -2217,7 +2259,7 @@ File: figures/wave2d.png Graphic file (type bmp)
 File: figures/mcpwave2d.png Graphic file (type bmp)
 <figures/mcpwave2d.png>
 
-Overfull \vbox (5.60168pt too high) detected at line 201
+Overfull \vbox (5.60168pt too high) detected at line 202
  []
 
 [7
@@ -2235,7 +2277,7 @@ File: figures/hamampspe.png Graphic file (type bmp)
 File: figures/mcpampspe.png Graphic file (type bmp)
 <figures/mcpampspe.png>
 
-Overfull \vbox (2.93672pt too high) detected at line 246
+Overfull \vbox (2.93672pt too high) detected at line 247
  []
 
 [9
@@ -2253,7 +2295,7 @@ File: figures/avewave.png Graphic file (type bmp)
 File: figures/mcpavewave.png Graphic file (type bmp)
 <figures/mcpavewave.png>
 
-Overfull \vbox (8.0499pt too high) detected at line 291
+Overfull \vbox (8.0499pt too high) detected at line 292
  []
 
 [11
@@ -2264,7 +2306,7 @@ File: figures/riseposition.png Graphic file (type bmp)
 File: figures/hitpositionmcp.png Graphic file (type bmp)
 <figures/hitpositionmcp.png>
 
-Overfull \vbox (5.50285pt too high) detected at line 313
+Overfull \vbox (5.50285pt too high) detected at line 314
  []
 
 [12
@@ -2275,7 +2317,7 @@ File: figures/hamampqdc.png Graphic file (type bmp)
 File: figures/mcpampqdc.png Graphic file (type bmp)
 <figures/mcpampqdc.png>
 
-Overfull \vbox (4.69559pt too high) detected at line 334
+Overfull \vbox (4.69559pt too high) detected at line 335
  []
 
 [13
@@ -2302,19 +2344,19 @@ File: figures/mucal.JPG Graphic file (type bmp)
  [17
 
 ]
-./Slide.tex:458: Missing number, treated as zero.
+./Slide.tex:459: Missing number, treated as zero.
 <to be read again> 
                    }
-l.458 \end{frame}
+l.459 \end{frame}
                  
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./Slide.tex:458: Illegal unit of measure (pt inserted).
+./Slide.tex:459: Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.458 \end{frame}
+l.459 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, bp, or sp; but yours is a new one!
@@ -2327,25 +2369,25 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 ]
 
-./Slide.tex:479: Package xcolor Error: Undefined color `Blue'.
+./Slide.tex:480: Package xcolor Error: Undefined color `Blue'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.479 \end{frame}
+l.480 \end{frame}
                  
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Slide.tex:479: Package xcolor Error: Undefined color `Blue'.
+./Slide.tex:480: Package xcolor Error: Undefined color `Blue'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.479 \end{frame}
+l.480 \end{frame}
                  
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2376,7 +2418,7 @@ File: figures/dcr_p.png Graphic file (type bmp)
 File: figures/hamtts.JPG Graphic file (type bmp)
 <figures/hamtts.JPG>
 
-Overfull \vbox (21.10675pt too high) detected at line 571
+Overfull \vbox (21.10675pt too high) detected at line 572
  []
 
 [25
@@ -2385,7 +2427,7 @@ Overfull \vbox (21.10675pt too high) detected at line 571
 File: figures/mcptts.JPG Graphic file (type bmp)
 <figures/mcptts.JPG>
 
-Overfull \vbox (20.378pt too high) detected at line 580
+Overfull \vbox (20.378pt too high) detected at line 581
  []
 
 [26
@@ -2449,13 +2491,13 @@ File: figures/vendorHV.png Graphic file (type bmp)
 
 ]
 
-./Slide.tex:815: LaTeX Error: File `drawerfactors' not found.
+./Slide.tex:816: LaTeX Error: File `drawerfactors' not found.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.815 \end{frame}
+l.816 \end{frame}
                  
 I could not locate the file with any of these extensions:
 .pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
@@ -2467,13 +2509,13 @@ If that doesn't work, type  X <return>  to quit.
 
 ]
 
-./Slide.tex:837: LaTeX Error: File `ref_sta' not found.
+./Slide.tex:838: LaTeX Error: File `ref_sta' not found.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.837 \end{frame}
+l.838 \end{frame}
                  
 I could not locate the file with any of these extensions:
 .pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
@@ -2485,13 +2527,13 @@ If that doesn't work, type  X <return>  to quit.
 
 ]
 
-./Slide.tex:845: LaTeX Error: File `ref_HV_sta' not found.
+./Slide.tex:846: LaTeX Error: File `ref_HV_sta' not found.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.845 \end{frame}
+l.846 \end{frame}
                  
 I could not locate the file with any of these extensions:
 .pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
@@ -2503,13 +2545,13 @@ If that doesn't work, type  X <return>  to quit.
 
 ]
 
-./Slide.tex:861: LaTeX Error: File `vendordcr_mcp' not found.
+./Slide.tex:862: LaTeX Error: File `vendordcr_mcp' not found.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.861 \end{frame}
+l.862 \end{frame}
                  
 I could not locate the file with any of these extensions:
 .pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
@@ -2518,13 +2560,13 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Slide.tex:861: LaTeX Error: File `vendordcr_hmp' not found.
+./Slide.tex:862: LaTeX Error: File `vendordcr_hmp' not found.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.861 \end{frame}
+l.862 \end{frame}
                  
 I could not locate the file with any of these extensions:
 .pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
@@ -2536,13 +2578,13 @@ If that doesn't work, type  X <return>  to quit.
 
 ]
 
-./Slide.tex:869: LaTeX Error: File `risetime' not found.
+./Slide.tex:870: LaTeX Error: File `risetime' not found.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.869 \end{frame}
+l.870 \end{frame}
                  
 I could not locate the file with any of these extensions:
 .pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
@@ -2551,13 +2593,13 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Slide.tex:869: LaTeX Error: File `falltime' not found.
+./Slide.tex:870: LaTeX Error: File `falltime' not found.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.869 \end{frame}
+l.870 \end{frame}
                  
 I could not locate the file with any of these extensions:
 .pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
@@ -2577,11 +2619,11 @@ If that doesn't work, type  X <return>  to quit.
 \tf@snm=\write8
 \openout8 = `Slide.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 918.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 918.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 919.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 919.
  (temp/Slide.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 918.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 918.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 919.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 919.
 Package rerunfilecheck Info: File `Slide.out' has not changed.
 (rerunfilecheck)             Checksum: 37FEBD4893A2EFD8A92D350C366167C9.
  ) 

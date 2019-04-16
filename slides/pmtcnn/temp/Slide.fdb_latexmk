@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1555405110 "Slide.tex" "temp/Slide.pdf" "Slide" 1555405131
+["pdflatex"] 1555411453 "Slide.tex" "temp/Slide.pdf" "Slide" 1555411474
   "/dev/null" 1554884813 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1480098689 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -232,7 +232,7 @@
   "/usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf" 1522066949 33362 cf75436e19743e94a92a6b1b9183c434 ""
   "/usr/local/texlive/2018/texmf-var/web2c/xetex/xelatex.fmt" 1552130843 3731942 6896b9129c8be84d817a5c866a9ee221 ""
   "/usr/local/texlive/2018/texmf.cnf" 1552130826 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "Slide.tex" 1555405098 30950 7f3ec57502516386b180a47abccd9db4 ""
+  "Slide.tex" 1555411452 31061 6ea7bc53f17c966de300208400e7f06d ""
   "drawerfactors" 0 -1 0 ""
   "falltime" 0 -1 0 ""
   "figure/cnnres.png" 1555403531 68488 391649ea2662d3640bd5b6a1c6970d89 ""
@@ -282,10 +282,10 @@
   "ref_HV_sta" 0 -1 0 ""
   "ref_sta" 0 -1 0 ""
   "risetime" 0 -1 0 ""
-  "temp/Slide.aux" 1555405131 9912 867747ca1bb2d4d48eb42bbeae0ee77b ""
-  "temp/Slide.nav" 1555405131 5184 8111060f8fadddfaf4390b037ce2d603 ""
-  "temp/Slide.out" 1555405131 747 37febd4893a2efd8a92d350c366167c9 ""
-  "temp/Slide.toc" 1555405131 232 e679d14b0231b59243a41d2cccc71719 ""
+  "temp/Slide.aux" 1555411474 9912 867747ca1bb2d4d48eb42bbeae0ee77b ""
+  "temp/Slide.nav" 1555411474 5184 8111060f8fadddfaf4390b037ce2d603 ""
+  "temp/Slide.out" 1555411474 747 37febd4893a2efd8a92d350c366167c9 ""
+  "temp/Slide.toc" 1555411474 232 e679d14b0231b59243a41d2cccc71719 ""
   "temp/drawerfactors" 0 -1 0 ""
   "temp/falltime" 0 -1 0 ""
   "temp/ref_HV_sta" 0 -1 0 ""
