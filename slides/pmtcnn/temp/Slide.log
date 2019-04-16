@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  16 APR 2019 15:56
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  16 APR 2019 16:58
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2128,37 +2128,76 @@ File: figure/logo.png Graphic file (type bmp)
 ] (temp/Slide.toc) [2
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 90.
+./Slide.tex:81: Illegal parameter number in definition of \iterate.
+<to be read again> 
+                    
+l.81 \end{frame}
+                
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
 
+./Slide.tex:81: Illegal parameter number in definition of \iterate.
+<to be read again> 
+                    
+l.81 \end{frame}
+                
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Slide.tex:81: Illegal parameter number in definition of \beamer@doifinframe.
+<to be read again> 
+                    
+l.81 \end{frame}
+                
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Slide.tex:81: You can't use `macro parameter character #' in horizontal mode.
+
+\beamer@doifinframe ...lculate the expected p.e ##
+                                                   by "cut" or "fiting" of c...
+l.81 \end{frame}
+                
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+File: figure/specut.png Graphic file (type bmp)
+<figure/specut.png>
+LaTeX Font Info:    Try loading font information for U+msa on input line 81.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 90.
+LaTeX Font Info:    Try loading font information for U+msb on input line 81.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in alignment at lines 90--90
-[][][] 
+File: figure/spefit.png Graphic file (type bmp)
+<figure/spefit.png>
+
+Overfull \vbox (0.95409pt too high) detected at line 81
  []
 
 [3
 
 ]
-File: figures/program.pdf Graphic file (type pdf)
-<use figures/program.pdf>
-
-Overfull \vbox (41.63126pt too high) detected at line 100
- []
-
-[4
+File: figure/cnntags.png Graphic file (type bmp)
+<figure/cnntags.png>
+File: figure/cnnres.png Graphic file (type bmp)
+<figure/cnnres.png>
+ [4
 
 ]
 File: figures/sys1_mass10244_channel122_snEA4828_lt2.png Graphic file (type bmp
 )
 <figures/sys1_mass10244_channel122_snEA4828_lt2.png>
 
-Overfull \vbox (1.03523pt too high) detected at line 107
+Overfull \vbox (1.03523pt too high) detected at line 138
  []
 
 [5
@@ -2167,17 +2206,10 @@ Overfull \vbox (1.03523pt too high) detected at line 107
 File: figures/SN_EA0283_pde1_dcr1_HV1_pv1_rt1_tag1.png Graphic file (type bmp)
 <figures/SN_EA0283_pde1_dcr1_HV1_pv1_rt1_tag1.png>
 
-Overfull \vbox (8.84624pt too high) detected at line 116
+Overfull \vbox (8.84624pt too high) detected at line 147
  []
 
 [6
-
-]
-File: figures/hamwave.png Graphic file (type bmp)
-<figures/hamwave.png>
-File: figures/mcpwave.png Graphic file (type bmp)
-<figures/mcpwave.png>
- [7
 
 ]
 File: figures/wave2d.png Graphic file (type bmp)
@@ -2185,17 +2217,17 @@ File: figures/wave2d.png Graphic file (type bmp)
 File: figures/mcpwave2d.png Graphic file (type bmp)
 <figures/mcpwave2d.png>
 
-Overfull \vbox (5.60168pt too high) detected at line 192
+Overfull \vbox (5.60168pt too high) detected at line 201
  []
 
-[8
+[7
 
 ]
 File: figures/hambaseline2d.png Graphic file (type bmp)
 <figures/hambaseline2d.png>
 File: figures/mcpbaseline2d.png Graphic file (type bmp)
 <figures/mcpbaseline2d.png>
- [9
+ [8
 
 ]
 File: figures/hamampspe.png Graphic file (type bmp)
@@ -2203,17 +2235,17 @@ File: figures/hamampspe.png Graphic file (type bmp)
 File: figures/mcpampspe.png Graphic file (type bmp)
 <figures/mcpampspe.png>
 
-Overfull \vbox (2.93672pt too high) detected at line 237
+Overfull \vbox (2.93672pt too high) detected at line 246
  []
 
-[10
+[9
 
 ]
 File: figures/hamaligned2d.png Graphic file (type bmp)
 <figures/hamaligned2d.png>
 File: figures/mcpaligned2d.png Graphic file (type bmp)
 <figures/mcpaligned2d.png>
- [11
+ [10
 
 ]
 File: figures/avewave.png Graphic file (type bmp)
@@ -2221,10 +2253,10 @@ File: figures/avewave.png Graphic file (type bmp)
 File: figures/mcpavewave.png Graphic file (type bmp)
 <figures/mcpavewave.png>
 
-Overfull \vbox (8.0499pt too high) detected at line 282
+Overfull \vbox (8.0499pt too high) detected at line 291
  []
 
-[12
+[11
 
 ]
 File: figures/riseposition.png Graphic file (type bmp)
@@ -2232,10 +2264,10 @@ File: figures/riseposition.png Graphic file (type bmp)
 File: figures/hitpositionmcp.png Graphic file (type bmp)
 <figures/hitpositionmcp.png>
 
-Overfull \vbox (5.50285pt too high) detected at line 304
+Overfull \vbox (5.50285pt too high) detected at line 313
  []
 
-[13
+[12
 
 ]
 File: figures/hamampqdc.png Graphic file (type bmp)
@@ -2243,46 +2275,46 @@ File: figures/hamampqdc.png Graphic file (type bmp)
 File: figures/mcpampqdc.png Graphic file (type bmp)
 <figures/mcpampqdc.png>
 
-Overfull \vbox (4.69559pt too high) detected at line 325
+Overfull \vbox (4.69559pt too high) detected at line 334
  []
 
-[14
+[13
 
 ]
 File: figures/hamrtft.png Graphic file (type bmp)
 <figures/hamrtft.png>
 File: figures/mcprtft.png Graphic file (type bmp)
 <figures/mcprtft.png>
- [15
+ [14
 
 ]
 File: figures/hamcharge.png Graphic file (type bmp)
 <figures/hamcharge.png>
 File: figures/mcpcharge.png Graphic file (type bmp)
 <figures/mcpcharge.png>
- [16
+ [15
 
-] [17
+] [16
 
 ]
 File: figures/mucal.JPG Graphic file (type bmp)
 <figures/mucal.JPG>
- [18
+ [17
 
 ]
-./Slide.tex:449: Missing number, treated as zero.
+./Slide.tex:458: Missing number, treated as zero.
 <to be read again> 
                    }
-l.449 \end{frame}
+l.458 \end{frame}
                  
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./Slide.tex:449: Illegal unit of measure (pt inserted).
+./Slide.tex:458: Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.449 \end{frame}
+l.458 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, bp, or sp; but yours is a new one!
@@ -2291,162 +2323,249 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-[19
+[18
 
 ]
 
-./Slide.tex:470: Package xcolor Error: Undefined color `Blue'.
+./Slide.tex:479: Package xcolor Error: Undefined color `Blue'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.470 \end{frame}
+l.479 \end{frame}
                  
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Slide.tex:470: Package xcolor Error: Undefined color `Blue'.
+./Slide.tex:479: Package xcolor Error: Undefined color `Blue'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.470 \end{frame}
+l.479 \end{frame}
                  
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[20
+[19
 
 ]
 File: figures/pde1pe.png Graphic file (type bmp)
 <figures/pde1pe.png>
 File: figures/pdemcp.png Graphic file (type bmp)
 <figures/pdemcp.png>
- [21
+ [20
 
 ]
 File: figures/sim.png Graphic file (type bmp)
 <figures/sim.png>
 File: figures/dcr_p.png Graphic file (type bmp)
 <figures/dcr_p.png>
- [22
+ [21
+
+] [22
 
 ] [23
 
 ] [24
 
-] [25
-
 ]
 File: figures/hamtts.JPG Graphic file (type bmp)
 <figures/hamtts.JPG>
 
-Overfull \vbox (21.10675pt too high) detected at line 562
+Overfull \vbox (21.10675pt too high) detected at line 571
  []
 
-[26
+[25
 
 ]
 File: figures/mcptts.JPG Graphic file (type bmp)
 <figures/mcptts.JPG>
 
-Overfull \vbox (20.378pt too high) detected at line 571
+Overfull \vbox (20.378pt too high) detected at line 580
  []
 
-[27
+[26
 
 ]
 File: figures/pde.png Graphic file (type bmp)
 <figures/pde.png>
- [28
+ [27
 
 ]
 File: figures/pdecomparation.png Graphic file (type bmp)
 <figures/pdecomparation.png>
 File: figures/pdedifference.png Graphic file (type bmp)
 <figures/pdedifference.png>
- [29
+ [28
 
 ]
 File: figures/dcr.png Graphic file (type bmp)
 <figures/dcr.png>
- [30
+ [29
 
 ]
 File: figures/gain.png Graphic file (type bmp)
 <figures/gain.png>
- [31
+ [30
 
 ]
 File: figures/pv.png Graphic file (type bmp)
 <figures/pv.png>
- [32
+ [31
 
 ]
 File: figures/rt.png Graphic file (type bmp)
 <figures/rt.png>
- [33
+ [32
 
 ]
 File: figures/ft.png Graphic file (type bmp)
 <figures/ft.png>
- [34
+ [33
 
 ]
 File: figures/fwhm.png Graphic file (type bmp)
 <figures/fwhm.png>
- [35
+ [34
 
 ]
 File: figures/res.png Graphic file (type bmp)
 <figures/res.png>
- [36
+ [35
 
 ]
 File: figures/snr.png Graphic file (type bmp)
 <figures/snr.png>
- [37
+ [36
 
 ]
 File: figures/vendorHV.png Graphic file (type bmp)
 <figures/vendorHV.png>
- [38
+ [37
 
 ]
-File: figure/drawerfactors.png Graphic file (type bmp)
-<figure/drawerfactors.png>
 
-Overfull \vbox (14.97041pt too high) detected at line 806
- []
+./Slide.tex:815: LaTeX Error: File `drawerfactors' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.815 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
+,.ps,.PS,.eps,.EPS,.mps,.MPS,.pz,.eps.Z,.ps.Z,.ps.gz,.eps.gz
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[38
+
+]
+
+./Slide.tex:837: LaTeX Error: File `ref_sta' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.837 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
+,.ps,.PS,.eps,.EPS,.mps,.MPS,.pz,.eps.Z,.ps.Z,.ps.gz,.eps.gz
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 [39
 
 ]
-File: figure/ref_sta.png Graphic file (type bmp)
-<figure/ref_sta.png>
- [40
+
+./Slide.tex:845: LaTeX Error: File `ref_HV_sta' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.845 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
+,.ps,.PS,.eps,.EPS,.mps,.MPS,.pz,.eps.Z,.ps.Z,.ps.gz,.eps.gz
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[40
 
 ]
-File: figure/ref_HV_sta.png Graphic file (type bmp)
-<figure/ref_HV_sta.png>
- [41
+
+./Slide.tex:861: LaTeX Error: File `vendordcr_mcp' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.861 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
+,.ps,.PS,.eps,.EPS,.mps,.MPS,.pz,.eps.Z,.ps.Z,.ps.gz,.eps.gz
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./Slide.tex:861: LaTeX Error: File `vendordcr_hmp' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.861 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
+,.ps,.PS,.eps,.EPS,.mps,.MPS,.pz,.eps.Z,.ps.Z,.ps.gz,.eps.gz
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[41
 
 ]
-File: figure/vendordcr_mcp.png Graphic file (type bmp)
-<figure/vendordcr_mcp.png>
-File: figure/vendordcr_hmp.png Graphic file (type bmp)
-<figure/vendordcr_hmp.png>
- [42
 
-]
-File: figure/risetime.png Graphic file (type bmp)
-<figure/risetime.png>
-File: figure/falltime.png Graphic file (type bmp)
-<figure/falltime.png>
- [43
+./Slide.tex:869: LaTeX Error: File `risetime' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
+,.ps,.PS,.eps,.EPS,.mps,.MPS,.pz,.eps.Z,.ps.Z,.ps.gz,.eps.gz
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./Slide.tex:869: LaTeX Error: File `falltime' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
+,.ps,.PS,.eps,.EPS,.mps,.MPS,.pz,.eps.Z,.ps.Z,.ps.gz,.eps.gz
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[42
 
 ]
 \tf@nav=\write6
@@ -2458,21 +2577,21 @@ File: figure/falltime.png Graphic file (type bmp)
 \tf@snm=\write8
 \openout8 = `Slide.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 909.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 909.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 918.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 918.
  (temp/Slide.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 909.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 909.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 918.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 918.
 Package rerunfilecheck Info: File `Slide.out' has not changed.
 (rerunfilecheck)             Checksum: 37FEBD4893A2EFD8A92D350C366167C9.
  ) 
 Here is how much of TeX's memory you used:
- 36573 strings out of 492970
- 743517 string characters out of 6133939
- 863330 words of memory out of 5000000
- 39861 multiletter control sequences out of 15000+600000
+ 36589 strings out of 492970
+ 743238 string characters out of 6133939
+ 862999 words of memory out of 5000000
+ 39843 multiletter control sequences out of 15000+600000
  541265 words of font info for 114 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  57i,20n,76p,10413b,793s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on temp/Slide.pdf (43 pages).
+Output written on temp/Slide.pdf (42 pages).

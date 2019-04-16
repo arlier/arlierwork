@@ -33,8 +33,8 @@
 \usepackage{url}
 \usepackage{natbib} % 参考文献
 %\title[Spatial Generalized Linear Mixed Models]{Spatial Generalized Linear Mixed Models with Application to Prevalence Mapping}
-\title{PDE Evaluation methods}
-%\subtitle{奖助金申请答辩}
+\title{Performance of CNN in PMT PDE Evaluation }
+\subtitle{-- based on the onsite PMT testing data}
 \author[Rong Zhao]{Email：zhaor25@mail2.sysu.edu.cn \and  } % \\ 专业：统计学 \\ 方向：数据分析与统计计算
 \institute[SYSU]{School of Physics\and } % 理学院\\
 \date[\today]{\includegraphics[width=.5\textwidth]{logo}}
@@ -57,45 +57,76 @@
 % \caption{20 inch PMT in JUNO CD}
 % \end{figure}
 % \end{frame}
-\begin{frame}{PMT testing data analysis --}
-%\textsf{例} \textbf{例}  \textit{例}
-% \texttt{例}  % 调出仿宋字体了
-We have tested \alert{5k HAMAMATSU PMTs} and about \alert{7k NNVT PMTs} in the container system. We can obtain the following  paramaters:
-\begin{table}[]
-\caption{PMT performance qualification standard}
-\resizebox{.8\textwidth}{!}{%
-\begin{tabular*}{.98\textwidth}{l|c|c}
-%\toprule
-\hline
-\hline
-parameter & HAMAMATSU PMT&NNVT PMT\\
-\hline
-HV@Gain=$10^7$ &  <2350 V&<2800V \\
- PDE & >24\%& >24\%\\
- DCR & <50kHz& <100kHz\\
- PV & >2.5& >2.5\\
- rise time & <8.5ns& --\\
- fall time & <12ns&-- \\
- FWHM & ----& --\\
- resolution & <0.4&<0.4 \\
-\hline
-\end{tabular*}
-}
-\end{table}
-\alert{The Main aim of testing data analysis is to evaluate theses parameters and check wave quality of one PMT.}
-%\begin{figure}
-%\centering
-%\includegraphics[width=0.78\textwidth]{typical_hittime} % 单图
-%\end{figure}
-\end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{Flowchart of analysis procedure}
-\vspace{-.5cm}
+\begin{frame}{traditional methods of PDE evaluation}
+Calculate the expected p.e # by "cut" or "fiting" of chagre spectrum.
+\begin{columns}
+\begin{column}{.485\textwidth}
 \begin{figure}
 \centering
-\includegraphics[width=0.94\textwidth]{figures/program.pdf} % 单图
-\caption{108}
+\includegraphics[width=\textwidth]{figure/specut.png} % 单图
+%\label{fig:wave2d}
+\caption{"cut" the charge spectrum to count pedestal events}
 \end{figure}
+\end{column}
+\begin{column}{.5\textwidth}
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{figure/spefit.png} % 单图
+%\includegraphics[width=\textwidth]{figures/baseline2d.png} % 单图
+\caption{fit using a PMT photon response model}
+\end{figure}
+\end{column}
+\end{columns}
+\end{frame}
+%\begin{frame}{waveform classification using CNN}
+%We have tested \alert{5k HAMAMATSU PMTs} and about \alert{7k NNVT PMTs} in the container system. We can obtain the following  paramaters:
+%\begin{table}[]
+%\caption{PMT performance qualification standard}
+%\resizebox{.8\textwidth}{!}{%
+%\begin{tabular*}{.98\textwidth}{l|c|c}
+%%\toprule
+%\hline
+%\hline
+%parameter & HAMAMATSU PMT&NNVT PMT\\
+%\hline
+%HV@Gain=$10^7$ &  <2350 V&<2800V \\
+% PDE & >24\%& >24\%\\
+% DCR & <50kHz& <100kHz\\
+% PV & >2.5& >2.5\\
+% rise time & <8.5ns& --\\
+% fall time & <12ns&-- \\
+% FWHM & ----& --\\
+% resolution & <0.4&<0.4 \\
+%\hline
+%\end{tabular*}
+%}
+%\end{table}
+%\alert{The Main aim of testing data analysis is to evaluate theses parameters and check wave quality of one PMT.}
+%%\begin{figure}
+%%\centering
+%%\includegraphics[width=0.78\textwidth]{typical_hittime} % 单图
+%%\end{figure}
+%\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}{Flowchart of analysis procedure}
+\begin{frame}{waveform classification using CNN}
+\begin{columns}
+\begin{column}{.485\textwidth}
+\begin{figure}
+\centering
+\includegraphics[width=0.94\textwidth]{figure/cnntags.png} % 单图
+\caption{tags of typical waveform from CNN}
+\end{figure}
+\end{column}
+\begin{column}{.485\textwidth}
+\begin{figure}
+\centering
+\includegraphics[width=0.94\textwidth]{figure/cnnres.png} % 单图
+\caption{classification of events in one test}
+\end{figure}
+\end{column}
+\end{columns}
 
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -145,28 +176,6 @@ We have generated testing report for each qualified PMT.
 %\caption{108抽屉的$drawer_{factor}$拟合结果}
 %\end{figure}
 %\end{frame}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{Typical waveform of PMT(@$gain=10^7$)}
-Typical signal waveform when working @$gain=10^7$
-\begin{columns}
-\begin{column}{.485\textwidth}
-\begin{figure}
-\centering
-\includegraphics[width=\textwidth]{figures/hamwave.png} % 单图
-%\label{fig:wave2d}
-\caption{single photon signal waveform of HAMAMATSU PMT}
-\end{figure}
-\end{column}
-\begin{column}{.5\textwidth}
-\begin{figure}
-\centering
-\includegraphics[width=\textwidth]{figures/mcpwave.png} % 单图
-%\includegraphics[width=\textwidth]{figures/baseline2d.png} % 单图
-\caption{single photon signal waveform of NNVT PMT}
-\end{figure}
-\end{column}
-\end{columns}
-\end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %~~!!!!!!!!!!!!!!!!!!put two figures to illustrate!!!!!
 \begin{frame}{Output waveforms of PMT @$Gain=10^7$}

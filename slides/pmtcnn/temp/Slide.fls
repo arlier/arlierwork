@@ -389,6 +389,7 @@ INPUT temp/Slide.nav
 INPUT figure/logo.png
 INPUT temp/Slide.toc
 INPUT temp/Slide.toc
+INPUT figure/specut.png
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
@@ -411,11 +412,13 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
-INPUT figures/program.pdf
+INPUT figure/spefit.png
+INPUT figure/cnntags.png
+INPUT figure/cnnres.png
 INPUT figures/sys1_mass10244_channel122_snEA4828_lt2.png
 INPUT figures/SN_EA0283_pde1_dcr1_HV1_pv1_rt1_tag1.png
-INPUT figures/hamwave.png
-INPUT figures/mcpwave.png
+INPUT figures/wave2d.png
+INPUT figures/mcpwave2d.png
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
@@ -427,8 +430,6 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm1
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT figures/wave2d.png
-INPUT figures/mcpwave2d.png
 INPUT figures/hambaseline2d.png
 INPUT figures/mcpbaseline2d.png
 INPUT figures/hamampspe.png
@@ -473,13 +474,6 @@ INPUT figures/fwhm.png
 INPUT figures/res.png
 INPUT figures/snr.png
 INPUT figures/vendorHV.png
-INPUT figure/drawerfactors.png
-INPUT figure/ref_sta.png
-INPUT figure/ref_HV_sta.png
-INPUT figure/vendordcr_mcp.png
-INPUT figure/vendordcr_hmp.png
-INPUT figure/risetime.png
-INPUT figure/falltime.png
 OUTPUT temp/Slide.nav
 OUTPUT temp/Slide.toc
 OUTPUT temp/Slide.snm
