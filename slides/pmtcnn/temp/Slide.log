@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  16 APR 2019 21:36
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  16 APR 2019 21:37
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2266,25 +2266,25 @@ File: figures/wave2d.png Graphic file (type bmp)
 File: figures/mcpwave2d.png Graphic file (type bmp)
 <figures/mcpwave2d.png>
 
-Overfull \vbox (5.60168pt too high) detected at line 210
+Overfull \vbox (5.60168pt too high) detected at line 212
  []
 
 [7
 
 ]
-./Slide.tex:256: Missing number, treated as zero.
+./Slide.tex:258: Missing number, treated as zero.
 <to be read again> 
                    }
-l.256 \end{frame}
+l.258 \end{frame}
                  
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./Slide.tex:256: Illegal unit of measure (pt inserted).
+./Slide.tex:258: Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.256 \end{frame}
+l.258 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, bp, or sp; but yours is a new one!
@@ -2297,25 +2297,25 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 ]
 
-./Slide.tex:277: Package xcolor Error: Undefined color `Blue'.
+./Slide.tex:279: Package xcolor Error: Undefined color `Blue'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.277 \end{frame}
+l.279 \end{frame}
                  
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Slide.tex:277: Package xcolor Error: Undefined color `Blue'.
+./Slide.tex:279: Package xcolor Error: Undefined color `Blue'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.277 \end{frame}
+l.279 \end{frame}
                  
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2332,7 +2332,7 @@ If that doesn't work, type  X <return>  to quit.
 File: figures/hamtts.JPG Graphic file (type bmp)
 <figures/hamtts.JPG>
 
-Overfull \vbox (21.10675pt too high) detected at line 325
+Overfull \vbox (21.10675pt too high) detected at line 327
  []
 
 [13
@@ -2341,7 +2341,7 @@ Overfull \vbox (21.10675pt too high) detected at line 325
 File: figures/mcptts.JPG Graphic file (type bmp)
 <figures/mcptts.JPG>
 
-Overfull \vbox (20.378pt too high) detected at line 334
+Overfull \vbox (20.378pt too high) detected at line 336
  []
 
 [14
@@ -2356,11 +2356,11 @@ Overfull \vbox (20.378pt too high) detected at line 334
 \tf@snm=\write8
 \openout8 = `Slide.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 336.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 336.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 338.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 338.
  (temp/Slide.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 336.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 336.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 338.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 338.
 Package rerunfilecheck Info: File `Slide.out' has not changed.
 (rerunfilecheck)             Checksum: B53E239FD88A764E4B78EA57CAFE4D96.
  ) 
