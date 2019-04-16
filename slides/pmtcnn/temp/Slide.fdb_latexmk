@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1555422399 "Slide.tex" "temp/Slide.pdf" "Slide" 1555422413
+["pdflatex"] 1555422864 "Slide.tex" "temp/Slide.pdf" "Slide" 1555422878
   "/dev/null" 1554884813 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1480098689 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -232,7 +232,7 @@
   "/usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf" 1522066949 33362 cf75436e19743e94a92a6b1b9183c434 ""
   "/usr/local/texlive/2018/texmf-var/web2c/xetex/xelatex.fmt" 1552130843 3731942 6896b9129c8be84d817a5c866a9ee221 ""
   "/usr/local/texlive/2018/texmf.cnf" 1552130826 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "Slide.tex" 1555422398 12810 fa66121c0c33c800e704c12ba8ee9575 ""
+  "Slide.tex" 1555422864 12819 fc644d9feacacdc56ee09438e168d946 ""
   "figure/cnnres.png" 1555403531 68488 391649ea2662d3640bd5b6a1c6970d89 ""
   "figure/cnntags.png" 1555404782 62920 30b964c3eeeb02115fa0a88b9ce33810 ""
   "figure/logo.png" 1555399113 44622 8a6b9554a933fedfb2f94afb9466fa71 ""
@@ -242,10 +242,10 @@
   "figures/mcptts.JPG" 1555399113 296530 e1baec88a2c0e1027e91f4c33a055ff4 ""
   "figures/mcpwave2d.png" 1555399113 569080 63ac1fd09553568e4ecb538a09f76811 ""
   "figures/wave2d.png" 1555399113 109865 a86e972df715fc61ad50a687e1ed4534 ""
-  "temp/Slide.aux" 1555422413 4190 e004532a356fc0a77a85383a89e8cb71 ""
-  "temp/Slide.nav" 1555422413 1969 870562ded93e1232ce31457abe98cd31 ""
-  "temp/Slide.out" 1555422413 379 b53e239fd88a764e4b78ea57cafe4d96 ""
-  "temp/Slide.toc" 1555422413 156 8c0e43282d9ed46927be0c6f512550cc ""
+  "temp/Slide.aux" 1555422878 4190 e004532a356fc0a77a85383a89e8cb71 ""
+  "temp/Slide.nav" 1555422878 1969 870562ded93e1232ce31457abe98cd31 ""
+  "temp/Slide.out" 1555422878 379 b53e239fd88a764e4b78ea57cafe4d96 ""
+  "temp/Slide.toc" 1555422878 156 8c0e43282d9ed46927be0c6f512550cc ""
   (generated)
   "temp/Slide.toc"
   "temp/Slide.aux"
