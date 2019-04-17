@@ -35,7 +35,7 @@
 %\title[Spatial Generalized Linear Mixed Models]{Spatial Generalized Linear Mixed Models with Application to Prevalence Mapping}
 \title{Performance of CNN in PMT PDE Evaluation }
 \subtitle{-- based on the onsite PMT testing data}
-\author[Rong Zhao]{Email：zhaor25@mail2.sysu.edu.cn \and  } % \\ 专业：统计学 \\ 方向：数据分析与统计计算
+\author[Rong Zhao & Li Tao]{Email：zhaor25@mail2.sysu.edu.cn \and  } % \\ 专业：统计学 \\ 方向：数据分析与统计计算
 \institute[SYSU]{School of Physics\and } % 理学院\\
 \date[\today]{\includegraphics[width=.5\textwidth]{logo}}
 \begin{document}
@@ -110,7 +110,7 @@ Calculate the expected p.e # by "cut" or "fiting" of chagre spectrum.
 %\end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\begin{frame}{Flowchart of analysis procedure}
-\begin{frame}{waveform classification using CNN}
+\begin{frame}{CNN}
 CNN can perform a powerful PSD and classify the waveforms, then we could get explicit p.e# during one test.   
 \begin{columns}
 \begin{column}{.485\textwidth}
@@ -170,18 +170,25 @@ However, if we know explicitly the photon number of specific event, the $\mu$ va
 \section{traing and test of CNN}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}{input of CNN}
-training data slecetion:
 \begin{columns}
-\begin{column}{.47\textwidth}
+\begin{column}{.49\textwidth}
+training data slecetion and pre-process:
 	\begin{itemize}
-		\item random selection from different PMTs\footnote{both NNVT and HAMAMATSU}
+		\item random selection from different PMTs
 		\item 1.5<QDC<1.7 for 1p.e
 		\item 3.1<QDC<3.3 for 2p.e
 		\item 4.7<QDC<4.9 for 3p.e
-		\item 81ns ROI \rightarrow 9$\times$9 2D map 
+		\item 81ns ROI \rightarrow 9$\times$9 2D image 
+		\item normalization
 	\end{itemize}
 \end{column}
-\begin{column}{.47\textwidth}
+\begin{column}{.49\textwidth}
+\begin{figure}[!h]
+\centering
+\includegraphics[width=.9\textwidth]{figure/onepe.png} % 单图
+%\label{fig:wave2d}
+\caption{PMT}
+\end{figure}
 \end{column}
 \end{columns}
 \end{frame}
@@ -196,23 +203,23 @@ training data slecetion:
 %\end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %~~!!!!!!!!!!!!!!!!!!put two figures to illustrate!!!!!
-\begin{frame}{Output waveforms of PMT @$Gain=10^7$}
-The 2-D waveform histogram contains all the recorded waveforms, we can clearly see the "delayed signals" of HAMMATSU PMT and "big signals" of NNVT PMTs.
+\begin{frame}{ CNN parameters}
+
 \begin{columns}
 \begin{column}{.47\textwidth}
-\begin{figure}
-\centering
-\includegraphics[width=\textwidth]{figures/wave2d.png} % 单图
-%\label{fig:wave2d}
-\caption{all frames of HAMAMATSU PMT}
-\end{figure}
+\begin{itemize}
+	\item 30k training waveform samples
+	\item 2 convolution layers
+	\item 4 output tags
+	\item accuracy$\simeq 0.95$
+	\end{itemize}
 \end{column}
 \begin{column}{.5\textwidth}
 \begin{figure}
 \centering
-\includegraphics[width=\textwidth]{figures/mcpwave2d.png} % 单图
+\includegraphics[width=\textwidth]{figure/PMT_sprite.jpg} % 单图
 %\includegraphics[width=\textwidth]{figures/baseline2d.png} % 单图
-\caption{all frames of NNVT PMT}
+\caption{input data}
 \end{figure}
 \end{column}
 \end{columns}
@@ -247,56 +254,90 @@ The 2-D waveform histogram contains all the recorded waveforms, we can clearly s
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{calculation of $PDE$}
-we can obtain the average photon number $\mu_{test}$ from charge spectrum, along with the $drawer_{factor}$\footnote{Calibrate the drawer factor using PMT tested in the drawer which has vendor QE value.}, the PDE result from container system is:
-\begin{equation}
-PDE_{c}=\mu_{test}\times drawer_{factor}
-\end{equation}
-Then we map the PDE from container to the final PDE value with the help of container $f_{cs}$\footnote{linear correlation factor}：
-\begin{equation}
-PDE=PDE_{c}.f_{cs}+constant
-\label{pde_formula}
-\end{equation}
-%根据公式\ref{pde_formula},通过$\mu_{test}$以及抽屉因子即可算出集装箱自己的PDE结果$PDE_c$。假设集装箱系统和扫描站对同一只PMT的测量结果是正比关系\footnote{参考王俊和王耀光的模拟结果},通过拟合线性参数$f_{cs}$可以算出最终的PDE。
-\vspace{.5cm}
-\hrule{\textwidth}
-\vspace{.5cm}
-
+%\begin{frame}{calculation of $PDE$}
+%we can obtain the average photon number $\mu_{test}$ from charge spectrum, along with the $drawer_{factor}$\footnote{Calibrate the drawer factor using PMT tested in the drawer which has vendor QE value.}, the PDE result from container system is:
+%\begin{equation}
+%PDE_{c}=\mu_{test}\times drawer_{factor}
+%\end{equation}
+%Then we map the PDE from container to the final PDE value with the help of container $f_{cs}$\footnote{linear correlation factor}：
+%\begin{equation}
+%PDE=PDE_{c}.f_{cs}+constant
+%\label{pde_formula}
+%\end{equation}
+%%根据公式\ref{pde_formula},通过$\mu_{test}$以及抽屉因子即可算出集装箱自己的PDE结果$PDE_c$。假设集装箱系统和扫描站对同一只PMT的测量结果是正比关系\footnote{参考王俊和王耀光的模拟结果},通过拟合线性参数$f_{cs}$可以算出最终的PDE。
+%\vspace{.5cm}
+%\hrule{\textwidth}
+%\vspace{.5cm}
+%
+%\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}{statistical results}
+%Mean value of parameters for HAMAMATSU-PMT and NNVT-PMT\footnote{For the parameter TTS, we need to test the internal time resolution firstly, since we found the TTS results is highly drawer related.}：
+%
+%\vspace{.5cm}
+%
+%\centering
+%\begin{tabular}{l|c|c}
+%\hline
+%\hline
+%parameters（mean）&  {\color{Blue} HAMAMATSU} & {\color{Blue}NNVT} \\\hline
+%DCR(kHz)&15.38&41.24\\
+%rise time(ns)&7.4& 3.2\\
+%fall time(ns)&10.36& 15.9\\
+%PV&3.39& 3.19\\
+%resolution&0.28& 0.35\\
+%HV@1E7(V)&1861& 1783\\
+%FWHM(ns)&9.08& 5.8\\
+%\hline
+%\end{tabular}
+%\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{results of cnn}
+\begin{figure}
+\centering
+\vspace{-.4cm}
+\includegraphics[width=0.968\textwidth]{cnnham} % 单图
+\caption{HAMAMATSU PMT}
+\end{figure}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{statistical results}
-Mean value of parameters for HAMAMATSU-PMT and NNVT-PMT\footnote{For the parameter TTS, we need to test the internal time resolution firstly, since we found the TTS results is highly drawer related.}：
-
-\vspace{.5cm}
-
+\begin{frame}{results of cnn}
+\begin{figure}
 \centering
-\begin{tabular}{l|c|c}
-\hline
-\hline
-parameters（mean）&  {\color{Blue} HAMAMATSU} & {\color{Blue}NNVT} \\\hline
-DCR(kHz)&15.38&41.24\\
-rise time(ns)&7.4& 3.2\\
-fall time(ns)&10.36& 15.9\\
-PV&3.39& 3.19\\
-resolution&0.28& 0.35\\
-HV@1E7(V)&1861& 1783\\
-FWHM(ns)&9.08& 5.8\\
-\hline
-\end{tabular}
+\vspace{-.4cm}
+\includegraphics[width=0.968\textwidth]{cnnmcp} % 单图
+	\caption{NNVT PMT}
+\end{figure}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Summary}
-\begin{frame}{summary}
+\begin{frame}{summary }
 \begin{itemize}
-\item  the charge and amplitude stability of HAMAMATSU PMT is better.
-\item  $\sim$6k NNVT PMTs and 5k HAMAMATSU PMTs has been tested in container system, test results and test reports are avaliable from PMTDataBase\footnote{pmtdb.juno.ihep.ac.cn}.
-\item we reject or accept one PMT according to its perfomance test results from container and scanning station.
-\item  {\color{red}we need to study the "delay signal" of HAMAMATSU PMT and "big signal" of NNVT PMT\footnote{especially when PMT working in the multi-photon case}} in detail\footnote{one option is to transport several PMTs to SYSU for detailed study}.
-\item the expected mean PDE value is 30.4\% and mean DCR value is $\sim$34kHz\footnote{will decrease after installation} in CD.
+\item PSD by CNN provide a new option for PDE evaluation.
+\item can achieve $sim 0.95$ acuuracy with the traditional method using simple NN. 
+\item  much faster than traditionl methods in PDE evaluation.
+\item  CNN can ectract more infromation from waveforms.
+%\item 保存重要的测试信息和输出结果到PMT数据库，所有测试结果\footnote{包含集装测试历史数据}可以直接通过http://pmtdb.juno.ihep.ac.cn/\footnote{Query::LPMT Tested Reports} 查询得到
+%\item 初步结论：目前现场5002支滨松PMT，382支外观检测不合格，5支HV不合格，2支波形较差，24支DCR不合格，9支PDE不合格。
+\end{itemize}
+to list:
+\begin{itemize}
+\item refine the training samples and network structure. 
+\item  compare the accuracy in more details, for example using the reference tubes in container system. 
+\item  improve the input data quality. 
 %\item 保存重要的测试信息和输出结果到PMT数据库，所有测试结果\footnote{包含集装测试历史数据}可以直接通过http://pmtdb.juno.ihep.ac.cn/\footnote{Query::LPMT Tested Reports} 查询得到
 %\item 初步结论：目前现场5002支滨松PMT，382支外观检测不合格，5支HV不合格，2支波形较差，24支DCR不合格，9支PDE不合格。
 \end{itemize}
 \end{frame}
+%\begin{frame}{to-do list }
+%\begin{itemize}
+%\item refine the training samples and network structure. 
+%\item  compare the accuracy in more details, for example using the reference tubes in container system. 
+%\item  improve the input data quality. 
+%%\item 保存重要的测试信息和输出结果到PMT数据库，所有测试结果\footnote{包含集装测试历史数据}可以直接通过http://pmtdb.juno.ihep.ac.cn/\footnote{Query::LPMT Tested Reports} 查询得到
+%%\item 初步结论：目前现场5002支滨松PMT，382支外观检测不合格，5支HV不合格，2支波形较差，24支DCR不合格，9支PDE不合格。
+%\end{itemize}
+%\end{frame}
 
 \begin{frame}
 \centering {\zihao{0} \color{red} {THANKS}}
@@ -324,22 +365,22 @@ FWHM(ns)&9.08& 5.8\\
 
 %\end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{TTS of HAMAMATSU PMT}
-\begin{figure}
-\centering
-\includegraphics[width=.8\textwidth]{figures/hamtts.JPG} % 单图
-%\label{fig:wave2d}
-\caption{hittime and trigger time}
-\end{figure}
-\end{frame}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{TTS calculation of NNVT PMT}
-\begin{figure}
-\centering
-\includegraphics[width=.8\textwidth]{figures/mcptts.JPG} % 单图
-%\label{fig:wave2d}
-\caption{hittime and trigger time}
-\end{figure}
-\end{frame}
+%\begin{frame}{TTS of HAMAMATSU PMT}
+%\begin{figure}
+%\centering
+%\includegraphics[width=.8\textwidth]{figures/hamtts.JPG} % 单图
+%%\label{fig:wave2d}
+%\caption{hittime and trigger time}
+%\end{figure}
+%\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}{TTS calculation of NNVT PMT}
+%\begin{figure}
+%\centering
+%\includegraphics[width=.8\textwidth]{figures/mcptts.JPG} % 单图
+%%\label{fig:wave2d}
+%\caption{hittime and trigger time}
+%\end{figure}
+%\end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{document}
