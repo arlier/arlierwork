@@ -419,6 +419,8 @@ INPUT figure/cnntags.png
 INPUT figure/cnnres.png
 INPUT figure/cnntags.png
 INPUT figure/cnnres.png
+INPUT figure/cnntags.png
+INPUT figure/cnnres.png
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm
