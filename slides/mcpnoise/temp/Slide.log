@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  19 APR 2019 15:09
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  19 APR 2019 15:15
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2217,51 +2217,10 @@ Overfull \hbox (18.02843pt too wide) has occurred while \output is active
 [3
 
 ]
-./Slide.tex:132: Illegal parameter number in definition of \iterate.
-<to be read again> 
-                    
-l.132 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-./Slide.tex:132: Illegal parameter number in definition of \iterate.
-<to be read again> 
-                    
-l.132 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-./Slide.tex:132: Illegal parameter number in definition of \beamer@doifinframe.
-<to be read again> 
-                    
-l.132 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-./Slide.tex:132: You can't use `macro parameter character #' in horizontal mode
-.
-<recently read> ##
-                  
-l.132 \end{frame}
-                 
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
 File: figure/cnntags.png Graphic file (type bmp)
 <figure/cnntags.png>
 File: figure/cnnres.png Graphic file (type bmp)
 <figure/cnnres.png>
-
-Overfull \vbox (0.41415pt too high) detected at line 132
- []
 
 ./Slide.tex:132: Misplaced alignment tab character &.
 \beamer@shortauthor ->Rong Zhao &
