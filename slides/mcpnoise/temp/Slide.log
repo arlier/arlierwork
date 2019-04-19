@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  19 APR 2019 15:58
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  19 APR 2019 17:20
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2174,10 +2174,10 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 81.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-File: figure/hamtail.png Graphic file (type bmp)
-<figure/hamtail.png>
-File: figure/mcptail.png Graphic file (type bmp)
-<figure/mcptail.png>
+File: figure/hamamp.png Graphic file (type bmp)
+<figure/hamamp.png>
+File: figure/mcpamp.png Graphic file (type bmp)
+<figure/mcpamp.png>
 
 ./Slide.tex:81: Misplaced alignment tab character &.
 \beamer@shortauthor ->Rong Zhao &
@@ -2194,18 +2194,15 @@ might try typing `S' now just to see what is salvageable.
 [3
 
 ]
-File: figure/specut.png Graphic file (type bmp)
-<figure/specut.png>
-File: figure/spefit.png Graphic file (type bmp)
-<figure/spefit.png>
+File: figure/hamtail.png Graphic file (type bmp)
+<figure/hamtail.png>
+File: figure/mcptail.png Graphic file (type bmp)
+<figure/mcptail.png>
 
-Overfull \vbox (14.138pt too high) detected at line 103
- []
-
-./Slide.tex:103: Misplaced alignment tab character &.
+./Slide.tex:104: Misplaced alignment tab character &.
 \beamer@shortauthor ->Rong Zhao &
                                   
-l.103 \end{frame}
+l.104 \end{frame}
                  
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2217,15 +2214,10 @@ might try typing `S' now just to see what is salvageable.
 [4
 
 ]
-File: figure/cnntags.png Graphic file (type bmp)
-<figure/cnntags.png>
-File: figure/cnnres.png Graphic file (type bmp)
-<figure/cnnres.png>
-
-./Slide.tex:153: Misplaced alignment tab character &.
+./Slide.tex:115: Misplaced alignment tab character &.
 \beamer@shortauthor ->Rong Zhao &
                                   
-l.153 \end{frame}
+l.115 \end{frame}
                  
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2237,15 +2229,18 @@ might try typing `S' now just to see what is salvageable.
 [5
 
 ]
-File: figure/cnntags.png Graphic file (type bmp)
-<figure/cnntags.png>
-File: figure/cnnres.png Graphic file (type bmp)
-<figure/cnnres.png>
+File: figure/specut.png Graphic file (type bmp)
+<figure/specut.png>
+File: figure/spefit.png Graphic file (type bmp)
+<figure/spefit.png>
 
-./Slide.tex:174: Misplaced alignment tab character &.
+Overfull \vbox (14.5541pt too high) detected at line 137
+ []
+
+./Slide.tex:137: Misplaced alignment tab character &.
 \beamer@shortauthor ->Rong Zhao &
                                   
-l.174 \end{frame}
+l.137 \end{frame}
                  
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2262,10 +2257,10 @@ File: figure/cnntags.png Graphic file (type bmp)
 File: figure/cnnres.png Graphic file (type bmp)
 <figure/cnnres.png>
 
-./Slide.tex:195: Misplaced alignment tab character &.
+./Slide.tex:187: Misplaced alignment tab character &.
 \beamer@shortauthor ->Rong Zhao &
                                   
-l.195 \end{frame}
+l.187 \end{frame}
                  
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2277,31 +2272,15 @@ might try typing `S' now just to see what is salvageable.
 [7
 
 ]
-./Slide.tex:211: Missing number, treated as zero.
-<to be read again> 
-                   }
-l.211 \end{frame}
-                 
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
+File: figure/cnntags.png Graphic file (type bmp)
+<figure/cnntags.png>
+File: figure/cnnres.png Graphic file (type bmp)
+<figure/cnnres.png>
 
-./Slide.tex:211: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.211 \end{frame}
-                 
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-./Slide.tex:211: Misplaced alignment tab character &.
+./Slide.tex:208: Misplaced alignment tab character &.
 \beamer@shortauthor ->Rong Zhao &
                                   
-l.211 \end{frame}
+l.208 \end{frame}
                  
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2313,32 +2292,15 @@ might try typing `S' now just to see what is salvageable.
 [8
 
 ]
-./Slide.tex:257: Missing $ inserted.
-<inserted text> 
-                $
-l.257 \end{frame}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+File: figure/cnntags.png Graphic file (type bmp)
+<figure/cnntags.png>
+File: figure/cnnres.png Graphic file (type bmp)
+<figure/cnnres.png>
 
-./Slide.tex:257: Missing $ inserted.
-<inserted text> 
-                $
-l.257 \end{frame}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-File: figure/onepe.png Graphic file (type bmp)
-<figure/onepe.png>
-
-Overfull \vbox (33.22028pt too high) detected at line 257
- []
-
-./Slide.tex:257: Misplaced alignment tab character &.
+./Slide.tex:229: Misplaced alignment tab character &.
 \beamer@shortauthor ->Rong Zhao &
                                   
-l.257 \end{frame}
+l.229 \end{frame}
                  
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2350,16 +2312,31 @@ might try typing `S' now just to see what is salvageable.
 [9
 
 ]
-File: figure/PMT_sprite.jpg Graphic file (type bmp)
-<figure/PMT_sprite.jpg>
+./Slide.tex:245: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.245 \end{frame}
+                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
 
-Overfull \vbox (0.84447pt too high) detected at line 289
- []
+./Slide.tex:245: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.245 \end{frame}
+                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
 
-./Slide.tex:289: Misplaced alignment tab character &.
+./Slide.tex:245: Misplaced alignment tab character &.
 \beamer@shortauthor ->Rong Zhao &
                                   
-l.289 \end{frame}
+l.245 \end{frame}
                  
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2371,16 +2348,32 @@ might try typing `S' now just to see what is salvageable.
 [10
 
 ]
-File: figure/cnnham.png Graphic file (type bmp)
-<figure/cnnham.png>
+./Slide.tex:291: Missing $ inserted.
+<inserted text> 
+                $
+l.291 \end{frame}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-Overfull \vbox (12.24005pt too high) detected at line 365
+./Slide.tex:291: Missing $ inserted.
+<inserted text> 
+                $
+l.291 \end{frame}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+File: figure/onepe.png Graphic file (type bmp)
+<figure/onepe.png>
+
+Overfull \vbox (33.22028pt too high) detected at line 291
  []
 
-./Slide.tex:365: Misplaced alignment tab character &.
+./Slide.tex:291: Misplaced alignment tab character &.
 \beamer@shortauthor ->Rong Zhao &
                                   
-l.365 \end{frame}
+l.291 \end{frame}
                  
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2392,16 +2385,16 @@ might try typing `S' now just to see what is salvageable.
 [11
 
 ]
-File: figure/cnnmcp.png Graphic file (type bmp)
-<figure/cnnmcp.png>
+File: figure/PMT_sprite.jpg Graphic file (type bmp)
+<figure/PMT_sprite.jpg>
 
-Overfull \vbox (12.24005pt too high) detected at line 374
+Overfull \vbox (0.84447pt too high) detected at line 323
  []
 
-./Slide.tex:374: Misplaced alignment tab character &.
+./Slide.tex:323: Misplaced alignment tab character &.
 \beamer@shortauthor ->Rong Zhao &
                                   
-l.374 \end{frame}
+l.323 \end{frame}
                  
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2413,10 +2406,16 @@ might try typing `S' now just to see what is salvageable.
 [12
 
 ]
-./Slide.tex:394: Misplaced alignment tab character &.
+File: figure/cnnham.png Graphic file (type bmp)
+<figure/cnnham.png>
+
+Overfull \vbox (12.24005pt too high) detected at line 399
+ []
+
+./Slide.tex:399: Misplaced alignment tab character &.
 \beamer@shortauthor ->Rong Zhao &
                                   
-l.394 \end{frame}
+l.399 \end{frame}
                  
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2428,10 +2427,16 @@ might try typing `S' now just to see what is salvageable.
 [13
 
 ]
-./Slide.tex:407: Misplaced alignment tab character &.
+File: figure/cnnmcp.png Graphic file (type bmp)
+<figure/cnnmcp.png>
+
+Overfull \vbox (12.24005pt too high) detected at line 408
+ []
+
+./Slide.tex:408: Misplaced alignment tab character &.
 \beamer@shortauthor ->Rong Zhao &
                                   
-l.407 \end{frame}
+l.408 \end{frame}
                  
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2443,10 +2448,10 @@ might try typing `S' now just to see what is salvageable.
 [14
 
 ]
-./Slide.tex:411: Misplaced alignment tab character &.
+./Slide.tex:428: Misplaced alignment tab character &.
 \beamer@shortauthor ->Rong Zhao &
                                   
-l.411 \end{frame}
+l.428 \end{frame}
                  
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2458,6 +2463,36 @@ might try typing `S' now just to see what is salvageable.
 [15
 
 ]
+./Slide.tex:441: Misplaced alignment tab character &.
+\beamer@shortauthor ->Rong Zhao &
+                                  
+l.441 \end{frame}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[16
+
+]
+./Slide.tex:445: Misplaced alignment tab character &.
+\beamer@shortauthor ->Rong Zhao &
+                                  
+l.445 \end{frame}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[17
+
+]
 \tf@nav=\write6
 \openout6 = `Slide.nav'.
 
@@ -2467,21 +2502,21 @@ might try typing `S' now just to see what is salvageable.
 \tf@snm=\write8
 \openout8 = `Slide.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 449.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 449.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 483.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 483.
  (temp/Slide.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 449.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 449.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 483.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 483.
 Package rerunfilecheck Info: File `Slide.out' has not changed.
 (rerunfilecheck)             Checksum: B53E239FD88A764E4B78EA57CAFE4D96.
  ) 
 Here is how much of TeX's memory you used:
- 36270 strings out of 492970
- 735379 string characters out of 6133939
- 823411 words of memory out of 5000000
- 39612 multiletter control sequences out of 15000+600000
+ 36296 strings out of 492970
+ 735957 string characters out of 6133939
+ 826956 words of memory out of 5000000
+ 39636 multiletter control sequences out of 15000+600000
  538586 words of font info for 93 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  57i,20n,76p,10413b,793s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on temp/Slide.pdf (15 pages).
+Output written on temp/Slide.pdf (17 pages).

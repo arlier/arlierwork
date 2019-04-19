@@ -420,6 +420,8 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+INPUT figure/hamamp.png
+INPUT figure/mcpamp.png
 INPUT figure/hamtail.png
 INPUT figure/mcptail.png
 INPUT figure/specut.png
