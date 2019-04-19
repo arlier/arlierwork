@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  19 APR 2019 18:29
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  19 APR 2019 18:37
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2233,6 +2233,9 @@ File: figure/noise0pe.png Graphic file (type bmp)
 <figure/noise0pe.png>
 File: figure/qdc0pe.png Graphic file (type bmp)
 <figure/qdc0pe.png>
+
+Overfull \vbox (17.43488pt too high) detected at line 138
+ []
 
 ./Slide.tex:138: Misplaced alignment tab character &.
 \beamer@shortauthor ->Rong Zhao &
