@@ -424,8 +424,8 @@ INPUT figure/hamamp.png
 INPUT figure/mcpamp.png
 INPUT figure/hamtail.png
 INPUT figure/mcptail.png
-INPUT figure/specut.png
-INPUT figure/spefit.png
+INPUT figure/noise0pe.png
+INPUT figure/qdc0pe.png
 INPUT figure/cnntags.png
 INPUT figure/cnnres.png
 INPUT figure/cnntags.png

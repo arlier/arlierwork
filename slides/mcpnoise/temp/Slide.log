@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  19 APR 2019 18:11
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  19 APR 2019 18:22
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2229,12 +2229,12 @@ might try typing `S' now just to see what is salvageable.
 [5
 
 ]
-File: figure/specut.png Graphic file (type bmp)
-<figure/specut.png>
-File: figure/spefit.png Graphic file (type bmp)
-<figure/spefit.png>
+File: figure/noise0pe.png Graphic file (type bmp)
+<figure/noise0pe.png>
+File: figure/qdc0pe.png Graphic file (type bmp)
+<figure/qdc0pe.png>
 
-Overfull \vbox (14.5541pt too high) detected at line 137
+Overfull \vbox (14.70485pt too high) detected at line 137
  []
 
 ./Slide.tex:137: Misplaced alignment tab character &.
@@ -2512,7 +2512,7 @@ Package rerunfilecheck Info: File `Slide.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  36296 strings out of 492970
- 735957 string characters out of 6133939
+ 735965 string characters out of 6133939
  826956 words of memory out of 5000000
  39636 multiletter control sequences out of 15000+600000
  538586 words of font info for 93 fonts, out of 8000000 for 9000
