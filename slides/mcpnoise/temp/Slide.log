@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  19 APR 2019 15:26
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  19 APR 2019 15:32
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2180,27 +2180,24 @@ Overfull \hbox (18.02843pt too wide) has occurred while \output is active
 [2
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 81.
+File: figure/cnntags.png Graphic file (type bmp)
+<figure/cnntags.png>
+LaTeX Font Info:    Try loading font information for U+msa on input line 80.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 81.
+LaTeX Font Info:    Try loading font information for U+msb on input line 80.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-File: figure/specut.png Graphic file (type bmp)
-<figure/specut.png>
-File: figure/spefit.png Graphic file (type bmp)
-<figure/spefit.png>
+File: figure/cnnres.png Graphic file (type bmp)
+<figure/cnnres.png>
 
-Overfull \vbox (14.138pt too high) detected at line 81
- []
-
-./Slide.tex:81: Misplaced alignment tab character &.
+./Slide.tex:80: Misplaced alignment tab character &.
 \beamer@shortauthor ->Rong Zhao &
                                   
-l.81 \end{frame}
+l.80 \end{frame}
                 
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2217,15 +2214,18 @@ Overfull \hbox (18.02843pt too wide) has occurred while \output is active
 [3
 
 ]
-File: figure/cnntags.png Graphic file (type bmp)
-<figure/cnntags.png>
-File: figure/cnnres.png Graphic file (type bmp)
-<figure/cnnres.png>
+File: figure/specut.png Graphic file (type bmp)
+<figure/specut.png>
+File: figure/spefit.png Graphic file (type bmp)
+<figure/spefit.png>
 
-./Slide.tex:131: Misplaced alignment tab character &.
+Overfull \vbox (14.138pt too high) detected at line 102
+ []
+
+./Slide.tex:102: Misplaced alignment tab character &.
 \beamer@shortauthor ->Rong Zhao &
                                   
-l.131 \end{frame}
+l.102 \end{frame}
                  
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
