@@ -2423,4 +2423,65 @@ here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
 up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
-might try typing `S' now just to see what is salva
+might try typing `S' now just to see what is salvageable.
+
+[13
+
+]
+./Slide.tex:406: Misplaced alignment tab character &.
+\beamer@shortauthor ->Rong Zhao &
+                                  
+l.406 \end{frame}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[14
+
+]
+./Slide.tex:410: Misplaced alignment tab character &.
+\beamer@shortauthor ->Rong Zhao &
+                                  
+l.410 \end{frame}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[15
+
+]
+\tf@nav=\write6
+\openout6 = `Slide.nav'.
+
+\tf@toc=\write7
+\openout7 = `Slide.toc'.
+
+\tf@snm=\write8
+\openout8 = `Slide.snm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 448.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 448.
+ (temp/Slide.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 448.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 448.
+Package rerunfilecheck Info: File `Slide.out' has not changed.
+(rerunfilecheck)             Checksum: B53E239FD88A764E4B78EA57CAFE4D96.
+ ) 
+Here is how much of TeX's memory you used:
+ 36270 strings out of 492970
+ 735379 string characters out of 6133939
+ 823411 words of memory out of 5000000
+ 39612 multiletter control sequences out of 15000+600000
+ 538586 words of font info for 93 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 57i,20n,76p,10413b,793s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on temp/Slide.pdf (15 pages).
