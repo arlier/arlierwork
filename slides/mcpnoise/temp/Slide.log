@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  18 APR 2019 16:18
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  19 APR 2019 15:07
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2123,7 +2123,7 @@ LaTeX Info: Redefining \selectfont on input line 41.
 (temp/Slide.nav)
 ./Slide.tex:41: Misplaced alignment tab character &.
 \beamer@shortauthor ->Rong Zhao &
-                                  Li Tao
+                                  
 l.41 \begin{document}
                      
 I can't figure out why you would want to use a tab mark
@@ -2134,7 +2134,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (19.45343pt too wide) in paragraph at lines 41--41
+Overfull \hbox (18.02843pt too wide) in paragraph at lines 41--41
  [][][][]  
  []
 
@@ -2142,7 +2142,7 @@ File: figure/logo.png Graphic file (type bmp)
 <figure/logo.png>
 ./Slide.tex:43: Misplaced alignment tab character &.
 \beamer@shortauthor ->Rong Zhao &
-                                  Li Tao
+                                  
 l.43 \maketitle
                
 I can't figure out why you would want to use a tab mark
@@ -2153,7 +2153,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (19.45343pt too wide) has occurred while \output is active
+Overfull \hbox (18.02843pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2162,7 +2162,7 @@ Overfull \hbox (19.45343pt too wide) has occurred while \output is active
 ] (temp/Slide.toc)
 ./Slide.tex:47: Misplaced alignment tab character &.
 \beamer@shortauthor ->Rong Zhao &
-                                  Li Tao
+                                  
 l.47 \end{frame}
                 
 I can't figure out why you would want to use a tab mark
@@ -2173,7 +2173,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (19.45343pt too wide) has occurred while \output is active
+Overfull \hbox (18.02843pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2237,7 +2237,7 @@ Overfull \vbox (0.95409pt too high) detected at line 81
 
 ./Slide.tex:81: Misplaced alignment tab character &.
 \beamer@shortauthor ->Rong Zhao &
-                                  Li Tao
+                                  
 l.81 \end{frame}
                 
 I can't figure out why you would want to use a tab mark
@@ -2248,7 +2248,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (19.45343pt too wide) has occurred while \output is active
+Overfull \hbox (18.02843pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2303,7 +2303,7 @@ Overfull \vbox (0.41415pt too high) detected at line 132
 
 ./Slide.tex:132: Misplaced alignment tab character &.
 \beamer@shortauthor ->Rong Zhao &
-                                  Li Tao
+                                  
 l.132 \end{frame}
                  
 I can't figure out why you would want to use a tab mark
@@ -2314,7 +2314,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (19.45343pt too wide) has occurred while \output is active
+Overfull \hbox (18.02843pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2344,7 +2344,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 ./Slide.tex:148: Misplaced alignment tab character &.
 \beamer@shortauthor ->Rong Zhao &
-                                  Li Tao
+                                  
 l.148 \end{frame}
                  
 I can't figure out why you would want to use a tab mark
@@ -2355,7 +2355,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (19.45343pt too wide) has occurred while \output is active
+Overfull \hbox (18.02843pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2386,7 +2386,7 @@ Overfull \vbox (33.22028pt too high) detected at line 194
 
 ./Slide.tex:194: Misplaced alignment tab character &.
 \beamer@shortauthor ->Rong Zhao &
-                                  Li Tao
+                                  
 l.194 \end{frame}
                  
 I can't figure out why you would want to use a tab mark
@@ -2397,7 +2397,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (19.45343pt too wide) has occurred while \output is active
+Overfull \hbox (18.02843pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2412,7 +2412,7 @@ Overfull \vbox (0.84447pt too high) detected at line 226
 
 ./Slide.tex:226: Misplaced alignment tab character &.
 \beamer@shortauthor ->Rong Zhao &
-                                  Li Tao
+                                  
 l.226 \end{frame}
                  
 I can't figure out why you would want to use a tab mark
@@ -2423,7 +2423,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (19.45343pt too wide) has occurred while \output is active
+Overfull \hbox (18.02843pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2438,7 +2438,7 @@ Overfull \vbox (12.24005pt too high) detected at line 302
 
 ./Slide.tex:302: Misplaced alignment tab character &.
 \beamer@shortauthor ->Rong Zhao &
-                                  Li Tao
+                                  
 l.302 \end{frame}
                  
 I can't figure out why you would want to use a tab mark
@@ -2449,7 +2449,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (19.45343pt too wide) has occurred while \output is active
+Overfull \hbox (18.02843pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2464,7 +2464,7 @@ Overfull \vbox (12.24005pt too high) detected at line 311
 
 ./Slide.tex:311: Misplaced alignment tab character &.
 \beamer@shortauthor ->Rong Zhao &
-                                  Li Tao
+                                  
 l.311 \end{frame}
                  
 I can't figure out why you would want to use a tab mark
@@ -2475,7 +2475,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (19.45343pt too wide) has occurred while \output is active
+Overfull \hbox (18.02843pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2484,7 +2484,7 @@ Overfull \hbox (19.45343pt too wide) has occurred while \output is active
 ]
 ./Slide.tex:331: Misplaced alignment tab character &.
 \beamer@shortauthor ->Rong Zhao &
-                                  Li Tao
+                                  
 l.331 \end{frame}
                  
 I can't figure out why you would want to use a tab mark
@@ -2495,7 +2495,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (19.45343pt too wide) has occurred while \output is active
+Overfull \hbox (18.02843pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2504,7 +2504,7 @@ Overfull \hbox (19.45343pt too wide) has occurred while \output is active
 ]
 ./Slide.tex:344: Misplaced alignment tab character &.
 \beamer@shortauthor ->Rong Zhao &
-                                  Li Tao
+                                  
 l.344 \end{frame}
                  
 I can't figure out why you would want to use a tab mark
@@ -2515,7 +2515,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (19.45343pt too wide) has occurred while \output is active
+Overfull \hbox (18.02843pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2524,7 +2524,7 @@ Overfull \hbox (19.45343pt too wide) has occurred while \output is active
 ]
 ./Slide.tex:348: Misplaced alignment tab character &.
 \beamer@shortauthor ->Rong Zhao &
-                                  Li Tao
+                                  
 l.348 \end{frame}
                  
 I can't figure out why you would want to use a tab mark
@@ -2535,7 +2535,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (19.45343pt too wide) has occurred while \output is active
+Overfull \hbox (18.02843pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -2562,7 +2562,7 @@ Package rerunfilecheck Info: File `Slide.out' has not changed.
 Here is how much of TeX's memory you used:
  36256 strings out of 492970
  735175 string characters out of 6133939
- 820122 words of memory out of 5000000
+ 820098 words of memory out of 5000000
  39600 multiletter control sequences out of 15000+600000
  538586 words of font info for 93 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
