@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1555665611 "Slide.tex" "temp/Slide.pdf" "Slide" 1555665627
+["pdflatex"] 1555668511 "Slide.tex" "temp/Slide.pdf" "Slide" 1555668527
   "/dev/null" 1554884813 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1480098689 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -230,7 +230,7 @@
   "/usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf" 1522066949 33362 cf75436e19743e94a92a6b1b9183c434 ""
   "/usr/local/texlive/2018/texmf-var/web2c/xetex/xelatex.fmt" 1552130843 3731942 6896b9129c8be84d817a5c866a9ee221 ""
   "/usr/local/texlive/2018/texmf.cnf" 1552130826 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "Slide.tex" 1555665611 17544 0f9c1d549bfb6f156d53243487386bdd ""
+  "Slide.tex" 1555668511 17597 6978691336ccfff5c8b9a03019676246 ""
   "figure/PMT_sprite.jpg" 1555575359 342504 a710d9be68d2470e329e75f993bd9ea1 ""
   "figure/cnnham.png" 1555575359 257943 21b06f3458be0f72078df7ea88117947 ""
   "figure/cnnmcp.png" 1555575359 282848 3825572050f70cb3f39d823c1ed8d1f9 ""
@@ -244,10 +244,10 @@
   "figure/onepe.png" 1555575359 39535 e584d4c1b06ac7c832c524e5a3004fcc ""
   "figure/specut.png" 1555575359 183376 6073a4098fa4ec40074c5655b5501f1b ""
   "figure/spefit.png" 1555575359 214012 f7b17c7d61b9a543f2d861aef89e1447 ""
-  "temp/Slide.aux" 1555665626 4591 82e49afde5a555c1ab3247a40daf7c30 ""
-  "temp/Slide.nav" 1555665626 2252 4058b2653e7ddcf4afd4f0a5e2274d33 ""
-  "temp/Slide.out" 1555665626 379 b53e239fd88a764e4b78ea57cafe4d96 ""
-  "temp/Slide.toc" 1555665626 157 6a9ee8dd2c6b847172ff50b2f07f5de0 ""
+  "temp/Slide.aux" 1555668526 4591 82e49afde5a555c1ab3247a40daf7c30 ""
+  "temp/Slide.nav" 1555668526 2252 4058b2653e7ddcf4afd4f0a5e2274d33 ""
+  "temp/Slide.out" 1555668526 379 b53e239fd88a764e4b78ea57cafe4d96 ""
+  "temp/Slide.toc" 1555668526 157 6a9ee8dd2c6b847172ff50b2f07f5de0 ""
   (generated)
   "temp/Slide.toc"
   "temp/Slide.snm"
