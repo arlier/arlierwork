@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  19 APR 2019 21:18
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  19 APR 2019 21:25
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2300,7 +2300,7 @@ File: figure/onepewave.png Graphic file (type bmp)
 File: figure/onepeqdc.png Graphic file (type bmp)
 <figure/onepeqdc.png>
 
-Overfull \vbox (6.26892pt too high) detected at line 233
+Overfull \vbox (19.86893pt too high) detected at line 233
  []
 
 ./Slide.tex:233: Misplaced alignment tab character &.
