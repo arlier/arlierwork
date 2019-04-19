@@ -1,3 +1,3 @@
 \beamer@sectionintoc {1}{Brief Introduction}{3}{0}{1}
-\beamer@sectionintoc {2}{traing and test of CNN}{11}{0}{2}
-\beamer@sectionintoc {3}{Summary}{15}{0}{3}
+\beamer@sectionintoc {2}{traing and test of CNN}{12}{0}{2}
+\beamer@sectionintoc {3}{Summary}{16}{0}{3}
