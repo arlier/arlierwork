@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  19 APR 2019 15:32
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  19 APR 2019 15:40
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2180,8 +2180,8 @@ Overfull \hbox (18.02843pt too wide) has occurred while \output is active
 [2
 
 ]
-File: figure/cnntags.png Graphic file (type bmp)
-<figure/cnntags.png>
+File: figure/hamtail.png Graphic file (type bmp)
+<figure/hamtail.png>
 LaTeX Font Info:    Try loading font information for U+msa on input line 80.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -2191,8 +2191,8 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 80.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-File: figure/cnnres.png Graphic file (type bmp)
-<figure/cnnres.png>
+File: figure/mcptail.png Graphic file (type bmp)
+<figure/mcptail.png>
 
 ./Slide.tex:80: Misplaced alignment tab character &.
 \beamer@shortauthor ->Rong Zhao &
@@ -2556,10 +2556,10 @@ Package rerunfilecheck Info: File `Slide.out' has not changed.
 (rerunfilecheck)             Checksum: B53E239FD88A764E4B78EA57CAFE4D96.
  ) 
 Here is how much of TeX's memory you used:
- 36262 strings out of 492970
- 735223 string characters out of 6133939
+ 36270 strings out of 492970
+ 735379 string characters out of 6133939
  823583 words of memory out of 5000000
- 39606 multiletter control sequences out of 15000+600000
+ 39612 multiletter control sequences out of 15000+600000
  538586 words of font info for 93 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  57i,20n,76p,10413b,793s stack positions out of 5000i,500n,10000p,200000b,80000s
