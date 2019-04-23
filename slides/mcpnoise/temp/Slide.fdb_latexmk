@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1556023198 "Slide.tex" "temp/Slide.pdf" "Slide" 1556023216
+["pdflatex"] 1556027370 "Slide.tex" "temp/Slide.pdf" "Slide" 1556027389
   "/dev/null" 1555820428 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1480098689 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -232,7 +232,7 @@
   "/usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf" 1522066949 33362 cf75436e19743e94a92a6b1b9183c434 ""
   "/usr/local/texlive/2018/texmf-var/web2c/xetex/xelatex.fmt" 1552130843 3731942 6896b9129c8be84d817a5c866a9ee221 ""
   "/usr/local/texlive/2018/texmf.cnf" 1552130826 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "Slide.tex" 1556023197 20241 e56d1f962e5cb85f22a4a8604c11931c ""
+  "Slide.tex" 1556027352 20422 7ea12a721fbe4c4f85bd1c9f15cb087a ""
   "figure/PMT_sprite.jpg" 1555575359 342504 a710d9be68d2470e329e75f993bd9ea1 ""
   "figure/cnnham.png" 1555575359 257943 21b06f3458be0f72078df7ea88117947 ""
   "figure/cnnmcp.png" 1555575359 282848 3825572050f70cb3f39d823c1ed8d1f9 ""
@@ -242,6 +242,7 @@
   "figure/logo.png" 1555575359 44622 8a6b9554a933fedfb2f94afb9466fa71 ""
   "figure/mcpamp.png" 1555664056 410213 8f8ae7fd96c20512c298e465b6067b08 ""
   "figure/mcpnoise.png" 1556003644 130278 fb190aac684d008ea407d0e0fc9b6694 ""
+  "figure/mcpqs.png" 1556027240 231019 cedf0269b951a3af9efc50529aa5b17e ""
   "figure/mcptail.png" 1555661027 161542 b1639af7b65f1f0d9e12ab6f58aa542d ""
   "figure/mpeqdc.png" 1556021131 182089 1e2a8bf28030759c23ce7147f6810a0c ""
   "figure/mpewave.png" 1556021248 484959 d234ba37f312b66b908d1d8fe3219d51 ""
@@ -254,10 +255,10 @@
   "figure/qdc0pe.png" 1555669254 130067 3e70f3b7378d7c149e83c0c4c27e8926 ""
   "figure/roiqdc.png" 1555682050 103070 8a157fe6f744e02cb33974db99fb6d60 ""
   "figure/roiwave.png" 1555682020 375834 224fe4842c583e13880c7cb501717bdd ""
-  "temp/Slide.aux" 1556023214 5103 f3eefb610991ddcf653bc053caec9b79 ""
-  "temp/Slide.nav" 1556023214 2530 17fb6579455980a24b1811157f0ea1de ""
-  "temp/Slide.out" 1556023214 379 b53e239fd88a764e4b78ea57cafe4d96 ""
-  "temp/Slide.toc" 1556023214 157 8017f149c76e5f65a4e246a1262daa2e ""
+  "temp/Slide.aux" 1556027387 5274 593f1bb2191452c01d1a1dd88ccdd9c9 ""
+  "temp/Slide.nav" 1556027387 2623 a98c39ec26bd90b59de6bb55c473a286 ""
+  "temp/Slide.out" 1556027387 379 b53e239fd88a764e4b78ea57cafe4d96 ""
+  "temp/Slide.toc" 1556027387 157 7a55a051aa4aabf922c73f14f7aecf30 ""
   (generated)
   "temp/Slide.log"
   "temp/Slide.pdf"
