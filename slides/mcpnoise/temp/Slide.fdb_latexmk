@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1556003993 "Slide.tex" "temp/Slide.pdf" "Slide" 1556004010
+["pdflatex"] 1556012043 "Slide.tex" "temp/Slide.pdf" "Slide" 1556012060
   "/dev/null" 1555820428 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1480098689 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -232,7 +232,7 @@
   "/usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf" 1522066949 33362 cf75436e19743e94a92a6b1b9183c434 ""
   "/usr/local/texlive/2018/texmf-var/web2c/xetex/xelatex.fmt" 1552130843 3731942 6896b9129c8be84d817a5c866a9ee221 ""
   "/usr/local/texlive/2018/texmf.cnf" 1552130826 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "Slide.tex" 1556003991 20086 8855f160a7c80f3e1167ed19480537a6 ""
+  "Slide.tex" 1556012042 20041 72888aa47d8d74a5f864f0b788d03222 ""
   "figure/PMT_sprite.jpg" 1555575359 342504 a710d9be68d2470e329e75f993bd9ea1 ""
   "figure/cnnham.png" 1555575359 257943 21b06f3458be0f72078df7ea88117947 ""
   "figure/cnnmcp.png" 1555575359 282848 3825572050f70cb3f39d823c1ed8d1f9 ""
@@ -252,10 +252,10 @@
   "figure/qdc0pe.png" 1555669254 130067 3e70f3b7378d7c149e83c0c4c27e8926 ""
   "figure/roiqdc.png" 1555682050 103070 8a157fe6f744e02cb33974db99fb6d60 ""
   "figure/roiwave.png" 1555682020 375834 224fe4842c583e13880c7cb501717bdd ""
-  "temp/Slide.aux" 1556004008 5103 f3eefb610991ddcf653bc053caec9b79 ""
-  "temp/Slide.nav" 1556004008 2530 17fb6579455980a24b1811157f0ea1de ""
-  "temp/Slide.out" 1556004008 379 b53e239fd88a764e4b78ea57cafe4d96 ""
-  "temp/Slide.toc" 1556004008 157 8017f149c76e5f65a4e246a1262daa2e ""
+  "temp/Slide.aux" 1556012058 5103 f3eefb610991ddcf653bc053caec9b79 ""
+  "temp/Slide.nav" 1556012058 2530 17fb6579455980a24b1811157f0ea1de ""
+  "temp/Slide.out" 1556012058 379 b53e239fd88a764e4b78ea57cafe4d96 ""
+  "temp/Slide.toc" 1556012058 157 8017f149c76e5f65a4e246a1262daa2e ""
   (generated)
   "temp/Slide.log"
   "temp/Slide.pdf"
