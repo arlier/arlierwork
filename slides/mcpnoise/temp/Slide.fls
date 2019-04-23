@@ -445,8 +445,8 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm1
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT figure/onepewave.png
 INPUT figure/onepeqdc.png
-INPUT figure/onepewave.png
-INPUT figure/onepeqdc.png
+INPUT figure/mpewave.png
+INPUT figure/mpeqdc.png
 INPUT figure/onepe.png
 INPUT figure/PMT_sprite.jpg
 INPUT figure/cnnham.png
