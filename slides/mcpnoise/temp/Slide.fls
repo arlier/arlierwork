@@ -447,13 +447,3 @@ INPUT figure/onepewave.png
 INPUT figure/onepeqdc.png
 INPUT figure/mpewave.png
 INPUT figure/mpeqdc.png
-INPUT figure/mcpqs.png
-INPUT figure/onepe.png
-INPUT figure/PMT_sprite.jpg
-INPUT figure/cnnham.png
-INPUT figure/cnnmcp.png
-OUTPUT temp/Slide.nav
-OUTPUT temp/Slide.toc
-OUTPUT temp/Slide.snm
-INPUT temp/Slide.aux
-INPUT temp/Slide.out
