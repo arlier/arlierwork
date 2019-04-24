@@ -284,6 +284,7 @@ To conclude  the above information, we find:
 		\item The "big signals" are slightly \alert{delayed(about several ns) in time.}
 	\end{itemize}
 \end{frame}
+\section{new response model of MCP}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}{ possible reason:cross talk of MCP}
 	From:JUNO-doc-4232-v2:
@@ -294,31 +295,35 @@ To conclude  the above information, we find:
 \end{figure}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{ new response moddel}
+\begin{frame}{ new response moddel with cross-talk effect}
 Based on the above features, we try to adapt the tradtional PMT respond model,which is
+%	\begin{equation}
+%		S_{idel}=P(n;\mu)\otimes G_{n}(x)=\sum_{n=0}^{\infty}\frac{\mu^{n}e^{-\mu}}{n!}\frac{1}{\sigma_{1}\sqrt{2\pi n}}exp(-\frac{(x-nQ_{1})^2}{2n\sigma_{1}^{2}})
+
+%	\end{equation}
+\begin{equation}\begin{aligned} S_{\text { ideal }}(x) &=P(n ; \mu) \otimes G_{n}(x) \\ &=\sum_{n=0}^{\infty} \frac{\mu^{n} \mathrm{e}^{-\mu}}{n !} \frac{1}{\sigma_{1} \sqrt{2 \pi n}} \exp \left(-\frac{\left(x-n Q_{1}\right)^{2}}{2 n \sigma_{1}^{2}}\right) \end{aligned}\end{equation}
+	A simple cross-talk model: \alert{Suppose for a single p.e it could be magnified with gain={$g_{1}$, $2\times g_{1}$, $3\times g_{1}$}, the corresponding possibility are p1,p2,p3},we could modify the above singnal model to:
 	\begin{equation}
-		S_{idel}=
-	\end{equation}
-\alert{Suppose for a single p.e it could be magnified with gain, 2$\times$gain, and $3\times$gain with possibility p1,p2,p3},we modify the above equationn to:
-	\begin{equation}
-		S_{idel}=
+		\begin{split}
+			S_{idel}=P(n;\mu)\otimes G_{n}(x)=\sum_{n=0}^{\infty}\frac{\mu^{n}e^{-\mu}}{n!}[\frac{1}{\sigma_{1}\sqrt{2\pi n}}exp(-\frac{(x-nQ_{1})^2}{2n\sigma_{1}^{2}})\\+{\color{red}p2*\frac{1}{\sigma_{2}\sqrt{2\pi n}}exp(-\frac{(x-2nQ_{1})^2}{2n\sigma_{2}^{2}})+p3*\frac{1}{\sigma_{3}\sqrt{2\pi n}}exp(-\frac{(x-3nQ_{1})^2}{2n\sigma_{1}^{3}})}]
+		\end{split}
 	\end{equation}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}{ the expected photon number}
-	If we do a "cut" is the charge spectrum@0.25 spe, the averager photon number $\mu$ can be acquired by\footnote{E. H. Bellamy et al /Nucl. Instr. and Meth. m Phys . Res. A 339 (1994) 468-476}
-\begin{equation}
-	\mu=-ln(\frac{N_{0}}{N})
-\end{equation}
-	where $N_{0}$ is the number of pedestal(0 p.e) events, N is the total event number.
-\vspace{.3cm}
-\hrule{\textwidth}
-\vspace{.3cm}
-However, if we know explicitly the photon number of specific event, the $\mu$ value is :
-\begin{equation}
-	\mu=1\times n_{1}+2\times n_{2}+\cdot\cdot\cdot+N\times n_{N}
-\end{equation}
-	where $n_{N}$ is the number of N p.e events.
+%\begin{equation}
+%	\mu=-ln(\frac{N_{0}}{N})
+%\end{equation}
+%	where $N_{0}$ is the number of pedestal(0 p.e) events, N is the total event number.
+%\vspace{.3cm}
+%\hrule{\textwidth}
+%\vspace{.3cm}
+%However, if we know explicitly the photon number of specific event, the $\mu$ value is :
+%\begin{equation}
+%	\mu=1\times n_{1}+2\times n_{2}+\cdot\cdot\cdot+N\times n_{N}
+%\end{equation}
+%	where $n_{N}$ is the number of N p.e events.
+
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\begin{frame}{PMT testing report-pass}
@@ -341,7 +346,6 @@ However, if we know explicitly the photon number of specific event, the $\mu$ va
 %\vspace{.5cm}
 %The advantage of this "self-calibration" method is that we could {\color{red}decrease the statistical error as much as possible}; and the remained fluctuation of drawer$_{factor}$ can be the system error.
 %\end{frame}
-\section{traing and test of CNN}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}{input of CNN}
 \begin{columns}
