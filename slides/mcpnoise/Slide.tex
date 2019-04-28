@@ -311,6 +311,7 @@ Based on the above features, we try to adapt the tradtional PMT respond model,wh
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}{ the expected photon number}
+	$P_2$ is the propobility of "2p.e." cross-talk event,$P_3$ is the propobility of "3p.e." cross-talk event. 
 \begin{figure}
 \centering
 \includegraphics[width=0.8\textwidth]{figure/illust.png}
@@ -350,24 +351,23 @@ Based on the above features, we try to adapt the tradtional PMT respond model,wh
 %\vspace{.5cm}
 %The advantage of this "self-calibration" method is that we could {\color{red}decrease the statistical error as much as possible}; and the remained fluctuation of drawer$_{factor}$ can be the system error.
 %\end{frame}
+\section{Performance of the model}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{input of CNN}
+\begin{frame}{fit example}
 \begin{columns}
 \begin{column}{.49\textwidth}
 training data slecetion and pre-process:
-	\begin{itemize}
-		\item random selection from different PMTs
-		\item 1.5<QDC<1.7 for 1p.e
-		\item 3.1<QDC<3.3 for 2p.e
-		\item 4.7<QDC<4.9 for 3p.e
-		\item 81ns ROI \rightarrow 9$\times$9 2D image 
-		\item normalization
-	\end{itemize}
+\begin{figure}[!h]
+\centering
+\includegraphics[width=.9\textwidth]{figure/hamfitexam.png} % 单图
+%\label{fig:wave2d}
+\caption{PMT}
+\end{figure}
 \end{column}
 \begin{column}{.49\textwidth}
 \begin{figure}[!h]
 \centering
-\includegraphics[width=.9\textwidth]{figure/onepe.png} % 单图
+\includegraphics[width=.9\textwidth]{figure/mcpfitexam.png} % 单图
 %\label{fig:wave2d}
 \caption{PMT}
 \end{figure}
