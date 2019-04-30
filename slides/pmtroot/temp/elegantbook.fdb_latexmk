@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1553838030 "elegantbook.tex" "temp/elegantbook.pdf" "elegantbook" 1553838032
-  "/dev/null" 1552277858 0 d41d8cd98f00b204e9800998ecf8427e ""
+["pdflatex"] 1553838030 "elegantbook.tex" "temp/elegantbook.pdf" "elegantbook" 1556589307
+  "/dev/null" 1556082248 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1480098689 1408 5937f58aa508ea2cea4901c07d10f5fe ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1480098689 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -283,9 +283,9 @@
   "temp/elegantbook.out" 1553838031 1804 09f3891ac54aac91a1138b309ee8aec2 ""
   "temp/elegantbook.toc" 1553838031 846 2a69679867804d05a3519b38c1ae6583 ""
   (generated)
-  "temp/elegantbook.pdf"
-  "temp/elegantbook.out"
-  "temp/elegantbook.log"
-  "temp/elegantbook.toc"
   "temp/elegantbook.thm"
+  "temp/elegantbook.toc"
+  "temp/elegantbook.pdf"
+  "temp/elegantbook.log"
   "temp/elegantbook.aux"
+  "temp/elegantbook.out"
