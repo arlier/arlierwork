@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  30 APR 2019 09:57
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  30 APR 2019 11:49
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -1148,13 +1148,6 @@ l.45 \newfontfamily{\FA}{FontAwesome}
 . 
 . Could not resolve font "FontAwesome/B" (it probably doesn't exist).
 .................................................
-/usr/local/texlive/2018/texmf-dist/tex/latex/fontawesome/fontawesome.sty:45: In
-terruption.
-\__fontspec_if_autofont:nnTF ...#2}{}}{\f@size pt}
-                                                  \str_if_eq_x:nnTF {\fontna...
-l.45 \newfontfamily{\FA}{FontAwesome}
-                                     
-? 
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -1175,15 +1168,13 @@ ntspec error: "font-not-found"
                                                   
 l.45 \newfontfamily{\FA}{FontAwesome}
                                      
-? 
-/usr/local/texlive/2018/texmf-dist/tex/latex/fontawesome/fontawesome.sty:45: In
-terruption.
-\__fontspec_make_font_shapes:Nnnnn ...tname:n {#1}
-                                                  \__fontspec_declare_shape:...
-l.45 \newfontfamily{\FA}{FontAwesome}
-                                     
-? q
-OK, entering \batchmode...
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| A font might not be found for many reasons.
+|  Check the spelling, where the font is installed etc. etc.
+| 
+|  When in doubt, ask someone for help!
+|...............................................
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !
@@ -1218,8 +1209,7 @@ l.45 \newfontfamily{\FA}{FontAwesome}
 .................................................
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-xe
-luatex.tex))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/iitem/iitem.sty
+luatex.tex)) (/usr/local/texlive/2018/texmf-dist/tex/latex/iitem/iitem.sty
 Package: iitem 2013/03/31 v1.0 Go a step deeper in lists using the new commands
  ``iitem'', ``iiitem'' and ``ivtem''.
 \c@iitemcounter=\count318
@@ -1234,8 +1224,7 @@ Package: ctex 2018/01/28 v2.4.12 Chinese adapter in LaTeX (CTEX)
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2018/02/21 LaTeX2e option processing using LaTeX3 keys
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/ctex/ctexhook.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/ctex/ctexhook.sty
 Package: ctexhook 2018/01/28 v2.4.12 Document and package hooks (CTEX)
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/ctex/ctexpatch.sty
@@ -1260,7 +1249,6 @@ File: ctexopts.cfg 2018/01/28 v2.4.12 Option configuration file (CTEX)
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
 File: ctex-engine-xetex.def 2018/01/28 v2.4.12 XeLaTeX adapter (CTEX)
-
 (/usr/local/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
 Package: xeCJK 2018/04/07 v3.7.0 Typesetting CJK scripts with XeLaTeX
 
@@ -1562,8 +1550,7 @@ Package: xtemplate 2018/02/21 L3 Experimental prototype document functions
 . 
 . Redefining command \fontfamily with sig. 'm' on line 4628.
 .................................................
-
-(/usr/local/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
+ (/usr/local/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
 File: xeCJK.cfg 2018/04/07 v3.7.0 Configuration file for xeCJK package
 ))
 (/usr/local/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJKfntef.sty
@@ -1776,8 +1763,7 @@ File: zhnumber-utf8.cfg 2018/01/28 v2.6 Chinese numerals with UTF8 encoding
 ef
 File: ctex-scheme-chinese.def 2018/01/28 v2.4.12 Chinese scheme for generic (CT
 EX)
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
 File: ctex-name-utf8.cfg 2018/01/28 v2.4.12 Caption with encoding UTF8 (CTEX)
 ))
 .................................................
@@ -1794,6 +1780,7 @@ File: ctex-name-utf8.cfg 2018/01/28 v2.4.12 Caption with encoding UTF8 (CTEX)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-fandol.
 def
 File: ctex-fontset-fandol.def 2018/01/28 v2.4.12 Fandol fonts definition (CTEX)
+
 
 *************************************************
 * fontspec warning: "script-not-exist"
@@ -1838,8 +1825,7 @@ ai-Regular}].
 . 
 . Defining command \kaishu with sig. '' on line 117.
 .................................................
-))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/ctex/config/ctex.cfg
+)) (/usr/local/texlive/2018/texmf-dist/tex/latex/ctex/config/ctex.cfg
 File: ctex.cfg 2018/01/28 v2.4.12 Configuration file (CTEX)
 )
 \g__fontspec_family_Lato_int=\count339
@@ -1908,7 +1894,7 @@ LaTeX Info: Redefining \cite on input line 694.
 . - 'bold' (bx/n) with NFSS spec.: <->"[FandolHei-Bold.otf]/OT"
 . - 'bold small caps'  (bx/sc) with NFSS spec.: 
 .................................................
- (temp/Slide.aux)
+(temp/Slide.aux)
 \openout1 = `Slide.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
@@ -1931,6 +1917,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1965,7 +1952,7 @@ LaTeX Font Info:    ... okay on input line 40.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- ABD: EveryShipout initializing macros
+ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box81
 Package hyperref Info: Link coloring OFF on input line 40.
 
@@ -1980,7 +1967,8 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 40.
 LaTeX Info: Redefining \pageref on input line 40.
 LaTeX Info: Redefining \nameref on input line 40.
- (temp/Slide.out) (temp/Slide.out)
+
+(temp/Slide.out) (temp/Slide.out)
 \@outlinefile=\write5
 \openout5 = `Slide.out'.
 
@@ -2121,196 +2109,131 @@ LaTeX Info: Redefining \selectfont on input line 40.
 . 
 . Redefining command \Pifont with sig. 'm' on line 40.
 .................................................
- (temp/Slide.nav)
+
+(temp/Slide.nav)
 File: figure/logo.png Graphic file (type bmp)
 <figure/logo.png>
  [1
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 87.
+./Slide.tex:88: Illegal parameter number in definition of \iterate.
+<to be read again> 
+                   +
+l.88 \end{frame}
+                
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
 
+./Slide.tex:88: Illegal parameter number in definition of \iterate.
+<to be read again> 
+                   +
+l.88 \end{frame}
+                
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Slide.tex:88: Illegal parameter number in definition of \iterate.
+<to be read again> 
+                   +
+l.88 \end{frame}
+                
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Slide.tex:88: Illegal parameter number in definition of \iterate.
+<to be read again> 
+                   +
+l.88 \end{frame}
+                
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Slide.tex:88: Illegal parameter number in definition of \beamer@doifinframe.
+<to be read again> 
+                   +
+l.88 \end{frame}
+                
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Slide.tex:88: Illegal parameter number in definition of \beamer@doifinframe.
+<to be read again> 
+                   +
+l.88 \end{frame}
+                
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 88.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 87.
+LaTeX Font Info:    Try loading font information for U+msb on input line 88.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [2
-
-]
-./Slide.tex:96: Missing number, treated as zero.
-<to be read again> 
-                   }
-l.96 \end{frame}
+)
+./Slide.tex:88: You can't use `macro parameter character #' in horizontal mode.
+<recently read> ##
+                  
+l.88 \end{frame}
                 
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./Slide.tex:96: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.96 \end{frame}
-                
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
- [3
-
-]
-./Slide.tex:106: Missing number, treated as zero.
-<to be read again> 
-                   }
-l.106 \end{frame}
-                 
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./Slide.tex:106: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.106 \end{frame}
-                 
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
- [4
-
-]
-File: figure/pat5.png Graphic file (type bmp)
-<figure/pat5.png>
-
-Overfull \vbox (13.96709pt too high) detected at line 114
- []
-
- [5
-
-]
-./Slide.tex:123: Illegal parameter number in definition of \iterate.
-<to be read again> 
-                   }
-l.123 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-./Slide.tex:123: Illegal parameter number in definition of \iterate.
-<to be read again> 
-                   }
-l.123 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-./Slide.tex:123: Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   }
-l.123 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-./Slide.tex:123: Illegal parameter number in definition of \reserved@b.
-<to be read again> 
-                   }
-l.123 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-./Slide.tex:123: Illegal parameter number in definition of \insertframetitle.
-<to be read again> 
-                   \ifnum 
-l.123 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-./Slide.tex:123: Illegal parameter number in definition of \beamer@frametitle.
-<to be read again> 
-                   }
-l.123 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-./Slide.tex:123: Illegal parameter number in definition of \beamer@shortframeti
-tle.
-<to be read again> 
-                   }
-l.123 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-File: figure/pat3.png Graphic file (type bmp)
-<figure/pat3.png>
-./Slide.tex:123: You can't use `macro parameter character #' in horizontal mode
-.
-\insertframetitle ...or}$ vs. PMT number drawer ##
-                                                  \ifnum \beamer@autobreakco...
-l.123 \end{frame}
-                 
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
+./Slide.tex:88: You can't use `macro parameter character #' in horizontal mode.
+<recently read> ##
+                  
+l.88 \end{frame}
+                
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
 
-Overfull \vbox (6.48975pt too high) detected at line 123
- []
+[2
 
+]
+File: figure/rootfile.png Graphic file (type bmp)
+<figure/rootfile.png>
+ [3
+
+]
+File: figure/pmtdataclass.png Graphic file (type bmp)
+<figure/pmtdataclass.png>
+ [4
+
+] [5
+
+]
+File: figure/ttswave.png Graphic file (type bmp)
+<figure/ttswave.png>
+File: figure/mu1pe.png Graphic file (type bmp)
+<figure/mu1pe.png>
  [6
 
 ]
-File: figure/pat4.png Graphic file (type bmp)
-<figure/pat4.png>
-
-Overfull \vbox (36.91602pt too high) detected at line 132
- []
-
- [7
-
-]
-File: figure/pat4.png Graphic file (type bmp)
-<figure/pat4.png>
-
-Overfull \vbox (21.49277pt too high) detected at line 141
- []
-
- [8
-
-]
-./Slide.tex:150: Missing number, treated as zero.
+./Slide.tex:143: Missing number, treated as zero.
 <to be read again> 
                    }
-l.150 \end{frame}
+l.143 \end{frame}
                  
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./Slide.tex:150: Illegal unit of measure (pt inserted).
+./Slide.tex:143: Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.150 \end{frame}
+l.143 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, bp, or sp; but yours is a new one!
@@ -2319,36 +2242,14 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
- [9
-
-]
-./Slide.tex:158: Missing number, treated as zero.
-<to be read again> 
-                   }
-l.158 \end{frame}
-                 
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./Slide.tex:158: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.158 \end{frame}
-                 
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
- [10
+[7
 
 ]
 LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
-(Font)              scaled to size 60.70688pt on input line 165.
- [11
+(Font)              scaled to size 60.70688pt on input line 150.
+ [8
+
+] [9
 
 ]
 \tf@nav=\write6
@@ -2360,21 +2261,21 @@ LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
 \tf@snm=\write8
 \openout8 = `Slide.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 211.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 211.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 172.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 172.
  (temp/Slide.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 211.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 211.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 172.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 172.
 Package rerunfilecheck Info: File `Slide.out' has not changed.
-(rerunfilecheck)             Checksum: B0A25E306172566F315503872C187646.
+(rerunfilecheck)             Checksum: 538D5D983B2FD7D4896BC758D9FA26D3.
  ) 
 Here is how much of TeX's memory you used:
- 36168 strings out of 492970
- 733573 string characters out of 6133939
- 817346 words of memory out of 5000000
- 39512 multiletter control sequences out of 15000+600000
- 541667 words of font info for 111 fonts, out of 8000000 for 9000
+ 36141 strings out of 492970
+ 733037 string characters out of 6133939
+ 818094 words of memory out of 5000000
+ 39497 multiletter control sequences out of 15000+600000
+ 538996 words of font info for 91 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  57i,20n,76p,10413b,793s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on temp/Slide.pdf (11 pages).
+Output written on temp/Slide.pdf (9 pages).

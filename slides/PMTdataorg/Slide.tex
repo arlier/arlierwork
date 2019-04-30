@@ -83,73 +83,58 @@
 		\item raw testing data path: /pmtfs/disk01/container\_data/Meassurements\_DAQ
 		\item output ROOT file path: /pmtfs/disk01/container\_data/rawdata 
 		\item file size: about 500Mb for one PMT each test.
+		\item name rule: container#+drawer#+SN
 	\end{enumerate}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}{inside one ROOT file}
-	one can get 13 trees and one TObject "Pmtdata"
-\vspace{.5cm}
-\hrule{\textwidth}
-\vspace{.5cm}
-a unique ID indicate the key info
-\vspace{.5cm}
+One can get 13 trees and one TObject "Pmtdata" from the ROOT file
+\begin{figure}
+\centering
+\includegraphics[width=0.78\textwidth]{rootfile} % 单图
+\end{figure}
 \end{frame}
 \section{calibration of drawer}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{how to calibrate}
-The HAMAMATSU company has provided us with QE value of part of the PMTs, If we suppose the collection efficiency is same for all the HAMAMATSU PMTs we could use these QE values to calibrate drawers in the container.
-
-\vspace{.5cm}
-\hrule{\textwidth}
-\vspace{.5cm}
-In order to make sure the PDE-$\mu_{test}$ fitting results reasonable, only the PMT pass the test will be used for fitting.
-\end{frame}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{fitting example using 30 tubes}
+\begin{frame}{TObject:Pmtdata}
+The custom class "Pmtdta" is inherited from TObject, and it store the auxiliary information of one pmttest such as: SN,test-date,HV,base .etc.
 \begin{figure}
 \centering
-\includegraphics[width=0.58\textwidth]{pat5} % 单图
+\includegraphics[width=0.88\textwidth]{pmtdataclass} % 单图
 \end{figure}
-results of more drawers can be found in the back-up part.
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %~~!!!!!!!!!!!!!!!!!!put two figures to illustrate!!!!!
-\begin{frame}{drawer$_{factor}$ vs. PMT number drawer ###}
-\begin{figure}
-\centering
-\includegraphics[width=0.58\textwidth]{pat3} % 单图
-\end{figure}
-more results can be found in the back-up part.
+\begin{frame}{waveform data}
+There are 11 trees for the storage of testing waveform:
+	\begin{itemize}
+\item mu1pe$\rightarrow$ with the LED light intensity @ $\mu \simeq 1$.
+\item mup1pe$\rightarrow$   with the LED light intensity @ $\mu \simeq 0.1$.
+\item gain...$\rightarrow$ with the LED light intensity @ $\mu \simeq 0.1$ and HV=vendor HV+\{-150V,-100V,-50V,0V,50V,100V,150V\}. 
+\item TTSdata$\rightarrow$ waveforms for TTS test.
+\item TTStrig$\rightarrow$ waveforms for the trig signals of TTS test.
+	\end{itemize}
+Each waveform is a "TVector" with length 500, and the value is in mV unit.
+
+	\vspace{.5cm}
+Also, the "DCR" tree is for dark count rate data and "AP" tree is for afterpulse data. The values are accumulated DCRs with 1s step. 
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{discuss the results}
-the relative error $e_{r}=\frac{f_{i}-f_{r}}{f_r}$ of one draw:
+\begin{frame}{simple test for the ROOT file}
+read the TTS and mu1pe waveform from ROOT :
 \begin{figure}
 \centering
-\includegraphics[width=0.58\textwidth]{pat4} % 单图
+\includegraphics[width=0.68\textwidth]{ttswave} % 单图
 \end{figure}
-define the first number that $|e_r|<1\%$ as $N_0$, we could get the $N_0$ value for each drawer.
-\end{frame}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{discuss the results}
 \begin{figure}
 \centering
-\includegraphics[width=0.58\textwidth]{pat4} % 单图
+\includegraphics[width=0.68\textwidth]{mu1pe} % 单图
 \end{figure}
-This means we need to calibrate each drawer with  at least 30 PMTs to get a reliable drawer$_{factor}$.
 \end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{ JUNO offline}
-compare detector performance with the different PMT paterns, especially the time and energy resolution and reconstruction results.
-
-\hrule{\textwidth}
-
-how to:add method to the PMT class then each PMT can get its performance according to the layout pattern and its own ID. 
-\end{frame}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{PMT orientation}
+%\section{PMT orientation}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}{HAMAMATSU PMTs}
 the PDE uniformity of HAMAMATSU PMTs are not so good
@@ -160,8 +145,15 @@ we can artificially correct the PDE if these PMTs have fixed orientation and we 
 
 
 \begin{frame}
-\centering {\zihao{0} \color{red} \calligra{Thank You}}
+\centering {\zihao{0} \color{red} \calligra{Back-Up}}
 
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{load the Pmtdata class}
+	to use the shared library:\\
+CINT mode: gSystem->Load("/home/pmthome/zhaor/zhaorong/cont\_v1/pmttest\_cc.so");\\
+in script: R\_\_LOAD\_LIBRARY(/home/pmthome/zhaor/zhaorong/cont\_v1/\\
+	pmttest\_cc.so);
 \end{frame}
 
 
@@ -176,37 +168,6 @@ we can artificially correct the PDE if these PMTs have fixed orientation and we 
 
 \section*{附录}
 
-%\begin{frame}{Softwares and Tools}
-
-%\includegraphics[width=.2\textwidth]{software/r}\qquad
-%\includegraphics[width=.16\textwidth]{software/stan} \\ 
-%\includegraphics[width=.45\textwidth]{software/bioconductor}
-%\includegraphics[width=.45\textwidth]{software/PyMC3} 
-
-%\end{frame}
-%% OpenBUGS  WinBUGS  JAGS
-% library(R2OpenBUGS) # 2017-2-20 version 3.2-3.2
-% library(R2WinBUGS) # 2015-07-29 version 2.1-21
-% library(rjags) # 2016-02-19 version 4-6
-% library(BRugs) # OpenBUGS 2017-06-26  version 0.9-0
-% library(glmmBUGS) # Generalised Linear Mixed Models with BUGS and JAGS 2016-09-22 version 2.4.0
-% library(R2jags) # Using R to Run 'JAGS'  2015-08-23	 version 0.5-7
-
-% network
-	% diagram DiagrammeR DiagrammeRsvg
- % library(help=graph)
-
- % library(help=Rgraphviz)
- % library(help=igraph)
-
-
-%\begin{frame}{Ack}
-%\begin{itemize}
-%\item[\faGithub] \href{https://github.com/Cloud2016}{Cloud2016} \faAt Github
-%\item[\aiOverleaf] \href{https://www.overleaf.com/}{Xiangyun} \faAt Overleaf
-%\item[\aiarXiv] \href{https://arxiv.org/}{arXiv}
-%\end{itemize}
-%\end{frame}
 
 \end{document} 
 
