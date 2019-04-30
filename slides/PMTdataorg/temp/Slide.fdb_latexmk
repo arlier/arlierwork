@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1556589448 "Slide.tex" "temp/Slide.pdf" "Slide" 1556589448
+["pdflatex"] 1556589448 "Slide.tex" "temp/Slide.pdf" "Slide" 1556589482
   "/dev/null" 1556082248 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1480098689 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -237,14 +237,14 @@
   "figure/pat3.png" 1552731702 156216 4292ff432dce153c652121d5ffb153d8 ""
   "figure/pat4.png" 1552731702 165277 71fa4f322d0f36211af8bfc121cf7b8a ""
   "figure/pat5.png" 1552731702 166262 cfcf6a965738f3c4d1eef6d60d0a3538 ""
-  "temp/Slide.aux" 1556589448 3634 49cf15f77d85d348f9d3241e26516254 ""
-  "temp/Slide.nav" 1556589448 1745 fb51d47ecdd1f081cc5e291afe12e5df ""
-  "temp/Slide.out" 1556589448 378 b0a25e306172566f315503872c187646 ""
+  "temp/Slide.aux" 1556589478 3634 49cf15f77d85d348f9d3241e26516254 ""
+  "temp/Slide.nav" 1556589478 1745 fb51d47ecdd1f081cc5e291afe12e5df ""
+  "temp/Slide.out" 1556589478 378 b0a25e306172566f315503872c187646 ""
   (generated)
-  "temp/Slide.nav"
+  "temp/Slide.out"
+  "temp/Slide.pdf"
   "temp/Slide.log"
   "temp/Slide.snm"
-  "temp/Slide.pdf"
   "temp/Slide.aux"
-  "temp/Slide.out"
   "temp/Slide.toc"
+  "temp/Slide.nav"
