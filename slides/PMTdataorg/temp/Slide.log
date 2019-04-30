@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  30 APR 2019 09:40
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  30 APR 2019 09:45
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2116,31 +2116,31 @@ File: figure/logo.png Graphic file (type bmp)
  [1
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 85.
+LaTeX Font Info:    Try loading font information for U+msa on input line 86.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 85.
+LaTeX Font Info:    Try loading font information for U+msb on input line 86.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [2
 
 ]
-./Slide.tex:94: Missing number, treated as zero.
+./Slide.tex:95: Missing number, treated as zero.
 <to be read again> 
                    }
-l.94 \end{frame}
+l.95 \end{frame}
                 
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./Slide.tex:94: Illegal unit of measure (pt inserted).
+./Slide.tex:95: Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.94 \end{frame}
+l.95 \end{frame}
                 
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, bp, or sp; but yours is a new one!
@@ -2152,19 +2152,19 @@ two letters. (See Chapter 27 of The TeXbook.)
 [3
 
 ]
-./Slide.tex:104: Missing number, treated as zero.
+./Slide.tex:105: Missing number, treated as zero.
 <to be read again> 
                    }
-l.104 \end{frame}
+l.105 \end{frame}
                  
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./Slide.tex:104: Illegal unit of measure (pt inserted).
+./Slide.tex:105: Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.104 \end{frame}
+l.105 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, bp, or sp; but yours is a new one!
@@ -2179,71 +2179,71 @@ two letters. (See Chapter 27 of The TeXbook.)
 File: figure/pat5.png Graphic file (type bmp)
 <figure/pat5.png>
 
-Overfull \vbox (13.96709pt too high) detected at line 112
+Overfull \vbox (13.96709pt too high) detected at line 113
  []
 
 [5
 
 ]
-./Slide.tex:121: Illegal parameter number in definition of \iterate.
+./Slide.tex:122: Illegal parameter number in definition of \iterate.
 <to be read again> 
                    }
-l.121 \end{frame}
+l.122 \end{frame}
                  
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-./Slide.tex:121: Illegal parameter number in definition of \iterate.
+./Slide.tex:122: Illegal parameter number in definition of \iterate.
 <to be read again> 
                    }
-l.121 \end{frame}
+l.122 \end{frame}
                  
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-./Slide.tex:121: Illegal parameter number in definition of \reserved@a.
+./Slide.tex:122: Illegal parameter number in definition of \reserved@a.
 <to be read again> 
                    }
-l.121 \end{frame}
+l.122 \end{frame}
                  
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-./Slide.tex:121: Illegal parameter number in definition of \reserved@b.
+./Slide.tex:122: Illegal parameter number in definition of \reserved@b.
 <to be read again> 
                    }
-l.121 \end{frame}
+l.122 \end{frame}
                  
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-./Slide.tex:121: Illegal parameter number in definition of \insertframetitle.
+./Slide.tex:122: Illegal parameter number in definition of \insertframetitle.
 <to be read again> 
                    \ifnum 
-l.121 \end{frame}
+l.122 \end{frame}
                  
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-./Slide.tex:121: Illegal parameter number in definition of \beamer@frametitle.
+./Slide.tex:122: Illegal parameter number in definition of \beamer@frametitle.
 <to be read again> 
                    }
-l.121 \end{frame}
+l.122 \end{frame}
                  
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-./Slide.tex:121: Illegal parameter number in definition of \beamer@shortframeti
+./Slide.tex:122: Illegal parameter number in definition of \beamer@shortframeti
 tle.
 <to be read again> 
                    }
-l.121 \end{frame}
+l.122 \end{frame}
                  
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -2251,11 +2251,11 @@ are all screwed up? I'm going to assume that you meant ##.
 
 File: figure/pat3.png Graphic file (type bmp)
 <figure/pat3.png>
-./Slide.tex:121: You can't use `macro parameter character #' in horizontal mode
+./Slide.tex:122: You can't use `macro parameter character #' in horizontal mode
 .
 \insertframetitle ...or}$ vs. PMT number drawer ##
                                                   \ifnum \beamer@autobreakco...
-l.121 \end{frame}
+l.122 \end{frame}
                  
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2263,7 +2263,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-Overfull \vbox (6.48975pt too high) detected at line 121
+Overfull \vbox (6.48975pt too high) detected at line 122
  []
 
 [6
@@ -2272,7 +2272,7 @@ Overfull \vbox (6.48975pt too high) detected at line 121
 File: figure/pat4.png Graphic file (type bmp)
 <figure/pat4.png>
 
-Overfull \vbox (36.91602pt too high) detected at line 130
+Overfull \vbox (36.91602pt too high) detected at line 131
  []
 
 [7
@@ -2281,25 +2281,25 @@ Overfull \vbox (36.91602pt too high) detected at line 130
 File: figure/pat4.png Graphic file (type bmp)
 <figure/pat4.png>
 
-Overfull \vbox (21.49277pt too high) detected at line 139
+Overfull \vbox (21.49277pt too high) detected at line 140
  []
 
 [8
 
 ]
-./Slide.tex:148: Missing number, treated as zero.
+./Slide.tex:149: Missing number, treated as zero.
 <to be read again> 
                    }
-l.148 \end{frame}
+l.149 \end{frame}
                  
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./Slide.tex:148: Illegal unit of measure (pt inserted).
+./Slide.tex:149: Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.148 \end{frame}
+l.149 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, bp, or sp; but yours is a new one!
@@ -2311,19 +2311,19 @@ two letters. (See Chapter 27 of The TeXbook.)
 [9
 
 ]
-./Slide.tex:156: Missing number, treated as zero.
+./Slide.tex:157: Missing number, treated as zero.
 <to be read again> 
                    }
-l.156 \end{frame}
+l.157 \end{frame}
                  
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./Slide.tex:156: Illegal unit of measure (pt inserted).
+./Slide.tex:157: Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.156 \end{frame}
+l.157 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, bp, or sp; but yours is a new one!
@@ -2336,7 +2336,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 ]
 LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
-(Font)              scaled to size 60.70688pt on input line 163.
+(Font)              scaled to size 60.70688pt on input line 164.
  [11
 
 ]
@@ -2349,11 +2349,11 @@ LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
 \tf@snm=\write8
 \openout8 = `Slide.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 209.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 209.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 210.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 210.
  (temp/Slide.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 209.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 209.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 210.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 210.
 Package rerunfilecheck Info: File `Slide.out' has not changed.
 (rerunfilecheck)             Checksum: B0A25E306172566F315503872C187646.
  ) 
