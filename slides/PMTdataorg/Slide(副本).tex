@@ -31,7 +31,7 @@
 \usepackage{url}					
 \usepackage{natbib} % 参考文献
 %\title[Spatial Generalized Linear Mixed Models]{Spatial Generalized Linear Mixed Models with Application to Prevalence Mapping}
-\title{Reorganize the Container PMT Testing Data}
+\title{Container PMT Testing Data in ROOT format}
 %\subtitle{奖助金申请答辩}
 \author[Rong. Zhao]{Email：zhaor25@mail2.sysu.edu.cn \and  } % \\ 专业：统计学 \\ 方向：数据分析与统计计算
 \institute[Sun Yat-Sen University]{School of Physics\and } % 理学院\\
@@ -49,13 +49,13 @@
 
 %\subsection{研究意义}
 
-\begin{frame}{motivation}
-%\textsf{例} \textbf{例}  \textit{例} 
-% \texttt{例}  % 调出仿宋字体了
-	Due to complex of PMT testing procedure and upgrades of hardware and software, the raw data of PMT testing is not user-frinedly.
-\vspace{.5cm}
-
-	\alert{It is a good choice to produce a uniform structure to re-organize and store the raw data.}
+%\begin{frame}{motivation}
+%%\textsf{例} \textbf{例}  \textit{例} 
+%% \texttt{例}  % 调出仿宋字体了
+%	Due to complex of PMT testing procedure and upgrades of hardware and software, the raw data of PMT testing is not user-frinedly.
+%\vspace{.5cm}
+%
+%	\alert{It is a good choice to produce a uniform structure to re-organize and store the raw data.}
 %\begin{table}[]  
 %\caption{PMT typical performance}  
 %\resizebox{.8\textwidth}{!}{%
@@ -75,20 +75,19 @@
 %\centering
 %\includegraphics[width=0.78\textwidth]{typical_hittime} % 单图
 %\end{figure}
-\end{frame}
+%\end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{priliminary consideration}
-	The minimum "object" of our container testing is \alert{drawer-test} rather than a spefcific PMT\footnote{since one PMT could be tested several times in different drawers due to failure of peformance test}.\\	
-\vspace{.5cm}
-the propertites:
+\begin{frame}{ introduction }
 	\begin{enumerate}
-		\item  uniq \underline{testing number}
-		\item validity of the data
+		\item Onsite server:login.pmt.ihep.ac.cn  \footnote{https://juno.ihep.ac.cn/mediawiki/index.php/Onsite\_computing/IT}
+		\item raw testing data path: /pmtfs/disk01/container\_data/Meassurements\_DAQ
+		\item output ROOT file path: /pmtfs/disk01/container\_data/rawdata 
+		\item file size: about 500Mb for one PMT each test.
 	\end{enumerate}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{calibration of each drawer}
-one root filesore the raw data, with branches: 0.1pewave,1pewave,ttswave,ttstrig,dcr,
+\begin{frame}{inside one ROOT file}
+	one can get 13 trees and one TObject "Pmtdata"
 \vspace{.5cm}
 \hrule{\textwidth}
 \vspace{.5cm}
