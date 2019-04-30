@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  16 MAR 2019 19:33
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  30 APR 2019 09:31
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2362,7 +2362,7 @@ Package rerunfilecheck Info: File `Slide.out' has not changed.
 Here is how much of TeX's memory you used:
  36176 strings out of 492970
  733767 string characters out of 6133939
- 817396 words of memory out of 5000000
+ 817402 words of memory out of 5000000
  39520 multiletter control sequences out of 15000+600000
  541667 words of font info for 111 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
