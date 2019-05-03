@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1556437282 "Slide.tex" "temp/Slide.pdf" "Slide" 1556848618
+["pdflatex"] 1556437282 "Slide.tex" "temp/Slide.pdf" "Slide" 1556848652
   "/dev/null" 1556082248 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1480098689 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -262,10 +262,10 @@
   "temp/Slide.out" 1556437302 566 6eb484cdd1606515c97ccdda8c97a6d6 ""
   "temp/Slide.toc" 1556437302 221 a6e7d581af180061370b596225f1989d ""
   (generated)
+  "temp/Slide.snm"
+  "temp/Slide.log"
+  "temp/Slide.pdf"
   "temp/Slide.nav"
   "temp/Slide.out"
-  "temp/Slide.pdf"
-  "temp/Slide.log"
-  "temp/Slide.snm"
-  "temp/Slide.toc"
   "temp/Slide.aux"
+  "temp/Slide.toc"
