@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  3 MAY 2019 21:24
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  3 MAY 2019 21:25
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2450,12 +2450,32 @@ might try typing `S' now just to see what is salvageable.
 [16
 
 ]
-File: figure/PMT_sprite.jpg Graphic file (type bmp)
-<figure/PMT_sprite.jpg>
 
-Overfull \vbox (16.57364pt too high) detected at line 408
- []
+LaTeX Warning: File `figure/mcpfit.jpg' not found on input line 408.
 
+./Slide.tex:408: Unable to load picture or PDF file 'figure/mcpfit.jpg'.
+<to be read again> 
+                   }
+l.408 \end{frame}
+                 
+The requested image couldn't be read because
+it was not a recognized image format.
+
+
+./Slide.tex:408: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.408 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+File: figure/mcpfit.jpg Graphic file (type bmp)
+<figure/mcpfit.jpg>
 ./Slide.tex:408: Misplaced alignment tab character &.
 \beamer@shortauthor ->Rong Zhao &
                                   
@@ -2576,8 +2596,8 @@ Package rerunfilecheck Info: File `Slide.out' has not changed.
 (rerunfilecheck)             Checksum: 6EB484CDD1606515C97CCDDA8C97A6D6.
  ) 
 Here is how much of TeX's memory you used:
- 36394 strings out of 492970
- 738039 string characters out of 6133939
+ 36393 strings out of 492970
+ 738017 string characters out of 6133939
  838975 words of memory out of 5000000
  39711 multiletter control sequences out of 15000+600000
  541249 words of font info for 112 fonts, out of 8000000 for 9000
