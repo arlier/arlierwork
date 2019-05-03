@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1556890663 "Slide.tex" "temp/Slide.pdf" "Slide" 1556890680
+["pdflatex"] 1556891041 "Slide.tex" "temp/Slide.pdf" "Slide" 1556891059
   "/dev/null" 1556082248 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1480098689 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -232,7 +232,7 @@
   "/usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf" 1522066949 33362 cf75436e19743e94a92a6b1b9183c434 ""
   "/usr/local/texlive/2018/texmf-var/web2c/xetex/xelatex.fmt" 1552130843 3731942 6896b9129c8be84d817a5c866a9ee221 ""
   "/usr/local/texlive/2018/texmf.cnf" 1552130826 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "Slide.tex" 1556890644 22065 e7e48f0d7787acbb43a440591d6ef081 ""
+  "Slide.tex" 1556891041 22198 a3e310d68acc532e04ac67e038a24c38 ""
   "figure/hamamp.png" 1555662873 166893 8dcc98cf851fa272c20528125cea1a75 ""
   "figure/hamfit.png" 1556436222 187784 e93c9b6c76b03e654a9853adf8419133 ""
   "figure/hamnoise.png" 1556003612 114011 63d0aa93f358c04f41a4f6cc18c86bf6 ""
@@ -254,10 +254,10 @@
   "figure/qdc0pe.png" 1555669254 130067 3e70f3b7378d7c149e83c0c4c27e8926 ""
   "figure/roiqdc.png" 1555682050 103070 8a157fe6f744e02cb33974db99fb6d60 ""
   "figure/roiwave.png" 1555682020 375834 224fe4842c583e13880c7cb501717bdd ""
-  "temp/Slide.aux" 1556890680 5429 8742bf4fd23b0c3f3053bb1c535b0311 ""
-  "temp/Slide.nav" 1556890680 2720 71d3ec400af0306b43a30c7086e1160b ""
-  "temp/Slide.out" 1556890680 566 6eb484cdd1606515c97ccdda8c97a6d6 ""
-  "temp/Slide.toc" 1556890680 221 bb704863db04d4e71703e29de425e0f8 ""
+  "temp/Slide.aux" 1556891058 5429 8742bf4fd23b0c3f3053bb1c535b0311 ""
+  "temp/Slide.nav" 1556891058 2720 71d3ec400af0306b43a30c7086e1160b ""
+  "temp/Slide.out" 1556891058 566 6eb484cdd1606515c97ccdda8c97a6d6 ""
+  "temp/Slide.toc" 1556891058 221 bb704863db04d4e71703e29de425e0f8 ""
   (generated)
   "temp/Slide.snm"
   "temp/Slide.log"
