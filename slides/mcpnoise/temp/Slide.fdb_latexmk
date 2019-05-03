@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1556889927 "Slide.tex" "temp/Slide.pdf" "Slide" 1556889946
+["pdflatex"] 1556890397 "Slide.tex" "temp/Slide.pdf" "Slide" 1556890416
   "/dev/null" 1556082248 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1480098689 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -232,7 +232,7 @@
   "/usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf" 1522066949 33362 cf75436e19743e94a92a6b1b9183c434 ""
   "/usr/local/texlive/2018/texmf-var/web2c/xetex/xelatex.fmt" 1552130843 3731942 6896b9129c8be84d817a5c866a9ee221 ""
   "/usr/local/texlive/2018/texmf.cnf" 1552130826 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "Slide.tex" 1556889925 22048 fa6d199861d07f0f9e4ccba17fd7995e ""
+  "Slide.tex" 1556890395 22048 f7ac997039bf98ca155487cf5afa008d ""
   "figure/cnnham.png" 1555575359 257943 21b06f3458be0f72078df7ea88117947 ""
   "figure/cnnmcp.png" 1555575359 282848 3825572050f70cb3f39d823c1ed8d1f9 ""
   "figure/hamamp.png" 1555662873 166893 8dcc98cf851fa272c20528125cea1a75 ""
@@ -242,7 +242,6 @@
   "figure/illust.png" 1556112438 1331115 f06c52648e8bbac8531ee5e4f2d34d2b ""
   "figure/logo.png" 1555575359 44622 8a6b9554a933fedfb2f94afb9466fa71 ""
   "figure/mcpamp.png" 1555664056 410213 8f8ae7fd96c20512c298e465b6067b08 ""
-  "figure/mcpfit.jpg" 0 -1 0 ""
   "figure/mcpfit.png" 1556436141 269913 fafad0f20bfd3f18d5fdfbaa74e5c473 ""
   "figure/mcpnoise.png" 1556003644 130278 fb190aac684d008ea407d0e0fc9b6694 ""
   "figure/mcpqs.png" 1556027240 231019 cedf0269b951a3af9efc50529aa5b17e ""
@@ -257,10 +256,10 @@
   "figure/qdc0pe.png" 1555669254 130067 3e70f3b7378d7c149e83c0c4c27e8926 ""
   "figure/roiqdc.png" 1555682050 103070 8a157fe6f744e02cb33974db99fb6d60 ""
   "figure/roiwave.png" 1555682020 375834 224fe4842c583e13880c7cb501717bdd ""
-  "temp/Slide.aux" 1556889944 5769 492d58ed22285ce262c6e9aa50cad396 ""
-  "temp/Slide.nav" 1556889944 2904 a32116b0510f1b0bacdea8a95d2f9788 ""
-  "temp/Slide.out" 1556889944 566 6eb484cdd1606515c97ccdda8c97a6d6 ""
-  "temp/Slide.toc" 1556889944 221 a6e7d581af180061370b596225f1989d ""
+  "temp/Slide.aux" 1556890415 5769 492d58ed22285ce262c6e9aa50cad396 ""
+  "temp/Slide.nav" 1556890415 2904 a32116b0510f1b0bacdea8a95d2f9788 ""
+  "temp/Slide.out" 1556890415 566 6eb484cdd1606515c97ccdda8c97a6d6 ""
+  "temp/Slide.toc" 1556890415 221 a6e7d581af180061370b596225f1989d ""
   (generated)
   "temp/Slide.snm"
   "temp/Slide.log"
