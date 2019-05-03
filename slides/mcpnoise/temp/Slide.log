@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  3 MAY 2019 21:33
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  3 MAY 2019 21:37
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2468,48 +2468,6 @@ might try typing `S' now just to see what is salvageable.
 [17
 
 ]
-File: figure/cnnham.png Graphic file (type bmp)
-<figure/cnnham.png>
-
-Overfull \vbox (12.24005pt too high) detected at line 484
- []
-
-./Slide.tex:484: Misplaced alignment tab character &.
-\beamer@shortauthor ->Rong Zhao &
-                                  
-l.484 \end{frame}
-                 
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-[18
-
-]
-File: figure/cnnmcp.png Graphic file (type bmp)
-<figure/cnnmcp.png>
-
-Overfull \vbox (12.24005pt too high) detected at line 493
- []
-
-./Slide.tex:493: Misplaced alignment tab character &.
-\beamer@shortauthor ->Rong Zhao &
-                                  
-l.493 \end{frame}
-                 
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-[19
-
-]
 ./Slide.tex:513: Misplaced alignment tab character &.
 \beamer@shortauthor ->Rong Zhao &
                                   
@@ -2522,7 +2480,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[20
+[18
 
 ]
 ./Slide.tex:526: Misplaced alignment tab character &.
@@ -2537,7 +2495,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[21
+[19
 
 ]
 ./Slide.tex:530: Misplaced alignment tab character &.
@@ -2552,7 +2510,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[22
+[20
 
 ]
 \tf@nav=\write6
@@ -2573,12 +2531,12 @@ Package rerunfilecheck Info: File `Slide.out' has not changed.
 (rerunfilecheck)             Checksum: 6EB484CDD1606515C97CCDDA8C97A6D6.
  ) 
 Here is how much of TeX's memory you used:
- 36389 strings out of 492970
- 737945 string characters out of 6133939
- 838975 words of memory out of 5000000
- 39708 multiletter control sequences out of 15000+600000
+ 36377 strings out of 492970
+ 737765 string characters out of 6133939
+ 835437 words of memory out of 5000000
+ 39698 multiletter control sequences out of 15000+600000
  541249 words of font info for 112 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  57i,20n,76p,10413b,793s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on temp/Slide.pdf (22 pages).
+Output written on temp/Slide.pdf (20 pages).

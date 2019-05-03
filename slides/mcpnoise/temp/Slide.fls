@@ -452,8 +452,6 @@ INPUT figure/illust.png
 INPUT figure/hamfit.png
 INPUT figure/mcpfit.png
 INPUT figure/mcpfit.png
-INPUT figure/cnnham.png
-INPUT figure/cnnmcp.png
 OUTPUT temp/Slide.nav
 OUTPUT temp/Slide.toc
 OUTPUT temp/Slide.snm
