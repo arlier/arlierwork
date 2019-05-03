@@ -33,7 +33,7 @@
 \usepackage{url}
 \usepackage{natbib} % 参考文献
 %\title[Spatial Generalized Linear Mixed Models]{Spatial Generalized Linear Mixed Models with Application to Prevalence Mapping}
-\title{Photon Response Model of MCP-PMT}
+\title{Gain Variation  of MCP-PMT}
 \subtitle{-- based on the onsite PMT testing data}
 \author[Rong Zhao & ]{Email：zhaor25@mail2.sysu.edu.cn \and  } % \\ 专业：统计学 \\ 方向：数据分析与统计计算
 \institute[SYSU]{School of Physics\and } % 理学院\\
@@ -408,51 +408,28 @@ Based on the above features, we try to adapt the tradtional PMT respond model,wh
 \end{columns}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{"cross-talk" coefficient}
+If one photon was magnified with two or times of the normal gain, the output signal can not be distinguished with the two photons event; this is really a bad news to PMT. 
+\vspace{.5cm}
+\hrule{\textwidth}
+\vspace{.5cm}
+	we define a parameter $\delta$ to describe the proportion of "cross-talk" signal as:
+\begin{equation}
+	\begin{split}
+		\delta&=\frac{\alpha}{1+\alpha}\\
+		&=\frac{2\times P_{2}+3\times P_{3}}{1+2\times P_{2}+3\times P_{3}}
+	\end{split}
+\end{equation}
+	where $\alpha=2\times P_{2}+3\times P_{3}$ is the total number of unreasonable events.
+\end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\section{参数计算和结果分析}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%~~!!!!!!!!!!!!!!!!!!put two figures to illustrate!!!!!
-%\begin{frame}{抽屉刻度结果分析\footnote{拟合出的抽屉因子与现场所使用的抽屉因子的关联见back-up部分}}
-%\begin{columns}
-%\begin{column}{.5\textwidth}
-%\begin{figure}
-%\centering
-%\includegraphics[width=\textwidth]{lt101} % 单图
-%\end{figure}
-%\end{column}
-%\begin{column}{.45\textwidth}
-%101抽屉一直放置参考PMT EA0419，抽屉因子$drawer_{factor}$拟合的结果随着时间漂移，这存在两种可能：
-%\vspace{.5cm}
-%
-%\hrule{\textwidth}
-%\vspace{.5cm}
-%
-%另一方面，这样的刻度方法可以用来监控系统的稳定性。因为如果系统稳定工作，拟合系数应该随机涨落。
-%
-%\end{column}
-%\end{columns}
-%\end{frame}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\begin{frame}{calculation of $PDE$}
-%we can obtain the average photon number $\mu_{test}$ from charge spectrum, along with the $drawer_{factor}$\footnote{Calibrate the drawer factor using PMT tested in the drawer which has vendor QE value.}, the PDE result from container system is:
-%\begin{equation}
-%PDE_{c}=\mu_{test}\times drawer_{factor}
-%\end{equation}
-%Then we map the PDE from container to the final PDE value with the help of container $f_{cs}$\footnote{linear correlation factor}：
-%\begin{equation}
-%PDE=PDE_{c}.f_{cs}+constant
-%\label{pde_formula}
-%\end{equation}
-%%根据公式\ref{pde_formula},通过$\mu_{test}$以及抽屉因子即可算出集装箱自己的PDE结果$PDE_c$。假设集装箱系统和扫描站对同一只PMT的测量结果是正比关系\footnote{参考王俊和王耀光的模拟结果},通过拟合线性参数$f_{cs}$可以算出最终的PDE。
+\begin{frame}{distribution of  $\delta$}
+
 %\vspace{.5cm}
 %\hrule{\textwidth}
 %\vspace{.5cm}
 %
-%\end{frame}
+\end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\begin{frame}{statistical results}
 %Mean value of parameters for HAMAMATSU-PMT and NNVT-PMT\footnote{For the parameter TTS, we need to test the internal time resolution firstly, since we found the TTS results is highly drawer related.}：
@@ -496,7 +473,7 @@ Based on the above features, we try to adapt the tradtional PMT respond model,wh
 \section{Summary}
 \begin{frame}{summary }
 \begin{itemize}
-\item PSD by CNN provide a new option for PDE evaluation.
+\item the cross-talk signal proportion of MCP PMT is about....
 \item can achieve $sim 0.95$ acuuracy with the traditional method using simple NN. 
 \item  much faster than traditionl methods in PDE evaluation.
 \item  CNN can ectract more infromation from waveforms.

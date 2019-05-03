@@ -1,4 +1,4 @@
 \beamer@sectionintoc {1}{Brief Introduction}{3}{0}{1}
 \beamer@sectionintoc {2}{new response model of MCP}{13}{0}{2}
 \beamer@sectionintoc {3}{Performance of the model}{16}{0}{3}
-\beamer@sectionintoc {4}{Summary}{18}{0}{4}
+\beamer@sectionintoc {4}{Summary}{20}{0}{4}
