@@ -1,0 +1,4 @@
+PWD /media/tao/_dde_data/arlierwork/slides/mcpnoise
+INPUT /usr/local/texlive/2018/texmf.cnf
+INPUT /usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2018/texmf-var/web2c/xetex/xelatex.fmt
