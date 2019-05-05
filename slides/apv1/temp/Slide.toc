@@ -1,4 +1,4 @@
 \beamer@sectionintoc {1}{Brief Introduction}{3}{0}{1}
-\beamer@sectionintoc {2}{Waveform and Charge Spectrum}{7}{0}{2}
-\beamer@sectionintoc {3}{Statistical Sesults of Paramaters}{19}{0}{3}
-\beamer@sectionintoc {4}{Summary}{23}{0}{4}
+\beamer@sectionintoc {2}{new response model of MCP}{14}{0}{2}
+\beamer@sectionintoc {3}{Performance of the model}{17}{0}{3}
+\beamer@sectionintoc {4}{Summary}{21}{0}{4}
