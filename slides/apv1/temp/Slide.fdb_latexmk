@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1557033347 "Slide.tex" "temp/Slide.pdf" "Slide" 1557033366
+["pdflatex"] 1557057281 "Slide.tex" "temp/Slide.pdf" "Slide" 1557057299
   "/dev/null" 1556082248 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1480098689 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -232,7 +232,7 @@
   "/usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf" 1522066949 33362 cf75436e19743e94a92a6b1b9183c434 ""
   "/usr/local/texlive/2018/texmf-var/web2c/xetex/xelatex.fmt" 1552130843 3731942 6896b9129c8be84d817a5c866a9ee221 ""
   "/usr/local/texlive/2018/texmf.cnf" 1552130826 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "Slide.tex" 1557033346 20899 b01a0e8b3ded01f4142e529a721ae5b8 ""
+  "Slide.tex" 1557057279 20995 c45e6b51804caadac04b0e482761a18d ""
   "figure/hamamp.png" 1557032624 166893 8dcc98cf851fa272c20528125cea1a75 ""
   "figure/hamfit.png" 1557032624 187784 e93c9b6c76b03e654a9853adf8419133 ""
   "figure/hamnoise.png" 1557032624 114011 63d0aa93f358c04f41a4f6cc18c86bf6 ""
@@ -254,10 +254,10 @@
   "figure/qdc0pe.png" 1557032624 130067 3e70f3b7378d7c149e83c0c4c27e8926 ""
   "figure/roiqdc.png" 1557032624 103070 8a157fe6f744e02cb33974db99fb6d60 ""
   "figure/roiwave.png" 1557032624 375834 224fe4842c583e13880c7cb501717bdd ""
-  "temp/Slide.aux" 1557033366 5940 b15c1481b881e7885ffa897919322f47 ""
-  "temp/Slide.nav" 1557033366 2997 00ab826c94ea8115447b5e000570ff2d ""
-  "temp/Slide.out" 1557033366 566 6eb484cdd1606515c97ccdda8c97a6d6 ""
-  "temp/Slide.toc" 1557033366 221 41b2568348f71e634cbe970696aa444c ""
+  "temp/Slide.aux" 1557057299 5940 b15c1481b881e7885ffa897919322f47 ""
+  "temp/Slide.nav" 1557057299 2997 00ab826c94ea8115447b5e000570ff2d ""
+  "temp/Slide.out" 1557057299 566 6eb484cdd1606515c97ccdda8c97a6d6 ""
+  "temp/Slide.toc" 1557057299 221 41b2568348f71e634cbe970696aa444c ""
   (generated)
   "temp/Slide.pdf"
   "temp/Slide.nav"
