@@ -35,7 +35,7 @@
 %\title[Spatial Generalized Linear Mixed Models]{Spatial Generalized Linear Mixed Models with Application to Prevalence Mapping}
 \title{Afterpulse Results Update}
 %\subtitle{-- based on the onsite PMT testing data}
-\author[Rong Zhao & Yu Chen ]{Email：zhaor25@mail2.sysu.edu.cn \and  } % \\ 专业：统计学 \\ 方向：数据分析与统计计算
+\author[Yu Chen&& Rong Zhao ]{Email：zhaor25@mail2.sysu.edu.cn \and  } % \\ 专业：统计学 \\ 方向：数据分析与统计计算
 \institute[SYSU]{School of Physics\and } % 理学院\\
 \date[\today]{\includegraphics[width=.5\textwidth]{logo}}
 \begin{document}
@@ -50,447 +50,404 @@
 
 %\subsection{研究意义}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
- \begin{frame}{20 inch PMT}
-0. current state and stratages for AP test ,file size
-1.two sections: HAM and MCP
-2.2D hist;time interval , rise time position distribution
-3.DCR spectrum,DCR reduction
-4.consistant with different light intensity?
-5.details about the AP analysis.
- \end{frame}
+% \begin{frame}{20 inch PMT}
+%0. current state and stratages for AP test ,file size
+%1.two sections: HAM and MCP
+%2.2D hist;time interval , rise time position distribution
+%3.DCR spectrum,DCR reduction
+%4.consistant with different light intensity?
+%5.details about the AP analysis.
+% \end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\begin{frame}{Flowchart of analysis procedure}
 \begin{frame}{the "big signals" of MCP PMT}
-	The typical waveforms \footnote{gain= 1E7,$\mu\simeq 0.1$} of MCP PMT,compared with dynode PMT. 
 %	From the JUNO PMT testing data, we found thay when illumiated with single p.e phtons\footnote{3e}[$\mu=0.1$],MCP PMT will, typicaly ,output more multi-pe signals than dynode PMT. This phenomenon is depicted in the bellow figures as the "long tail " in the charge spectrum. the MCP manification factor is not so stable.
+\vspace{-1.3cm}
 \begin{columns}
 \begin{column}{.485\textwidth}
 \begin{figure}
 \centering
-\includegraphics[width=0.94\textwidth]{figure/hamamp.png} % 单图
-\caption{waveforms of HAMAMATSU PMT}
+	\includegraphics[width=1.049\textwidth]{figure/PA1901-5048_avewave}
 \end{figure}
 \end{column}
 \begin{column}{.485\textwidth}
 \begin{figure}
 \centering
-\includegraphics[width=0.94\textwidth]{figure/mcpamp.png} % 单图
-\caption{waveforms of MCP PMT}
+\includegraphics[width=1.049\textwidth]{figure/EA0863_avewave.png} % 单图
 \end{figure}
 \end{column}
 \end{columns}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\begin{frame}{Flowchart of analysis procedure}
-\begin{frame}{the "big signals" of MCP PMT}
-	The "long tail" in charge spectrum\footnote{gain= 1E7,$\mu\simeq 0.1$} of MCP PMT,compared with dynode PMT. 
-%	From the JUNO PMT testing data, we found thay when illumiated with single p.e phtons\footnote{3e}[$\mu=0.1$],MCP PMT will, typicaly ,output more multi-pe signals than dynode PMT. This phenomenon is depicted in the bellow figures as the "long tail " in the charge spectrum. the MCP manification factor is not so stable.
-\begin{columns}
-\begin{column}{.485\textwidth}
+\begin{frame}{afterpulse of MCP PMT }
 \begin{figure}
 \centering
-\includegraphics[width=0.94\textwidth]{figure/hamtail.png} % 单图
-\caption{SPE of HAMAMATSU PMT}
+	\includegraphics[width=0.99\textwidth]{figure/PA1901-5048_apstats}
 \end{figure}
-\end{column}
-\begin{column}{.485\textwidth}
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{afterpulse of HAMAMATSU PMT }
 \begin{figure}
 \centering
-\includegraphics[width=0.94\textwidth]{figure/mcptail.png} % 单图
-\caption{SPE of MCP PMT}
+	\includegraphics[width=0.99\textwidth]{figure/EA0863_apstats}
 \end{figure}
-\end{column}
-\end{columns}
+
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%
-\begin{frame}{photon response characters of MCP PMT }
-Based on the container testing data, we can acquire wavefroms of  the MCP PMT in 5 different illumination levels:
+\begin{frame}{photon response characters of MCP PMT.}
 	\begin{enumerate}
-	\item dark noise mode [no light incident]
-	\item non-trigger window @1 p.e
-	\item $\mu\simeq$0.1 p.e
-	\item $\mu\simeq$1p.e
-	\item $\mu=$multi-p.e [by laser]
+	\item the light intensity is too large and saturation appeared.
+	\item MCP afterpulse position: 0.3$\mu s$,1.3$\mu s$,3.5$\mu s$,4.7$\mu s$ after the primary pulse.
+	\item  HAMAMATSU afterpulse position 4$\mu s$,15$\mu s$
+	\item MCP PMT has larger DCR.
 	\end{enumerate}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{photon response characters of MCP PMT }
-	case 1:[dark noise]\\ The typical waveform and charge spectrum of MCP PMT@gain =$10^7$. \\
-%	we  can see clearly signals with charge more than 1p.e.
-	If we suppose all the dark counts is caused by single thermal electron, then those fake multi-p.e events are caused by the magnification of MCP. 
-\begin{columns}
-\begin{column}{.485\textwidth}
-\begin{figure}
-\centering
-\includegraphics[width=\textwidth]{figure/noise0pe.png} % 单图
-%\label{fig:wave2d}
-%\caption{"cut" the charge spectrum to count pedestal events}
-\end{figure}
-\end{column}
-\begin{column}{.5\textwidth}
-\begin{figure}
-\centering
-\includegraphics[width=\textwidth]{figure/qdc0pe.png} % 单图
-%\includegraphics[width=\textwidth]{figures/baseline2d.png} % 单图
-%\caption{fit using a PMT photon response model}
-\end{figure}
-\end{column}
-\end{columns}
-\end{frame}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{photon response characters of MCP PMT }
-	case 1:[dark noise]\\ The typical  charge spectrum of HAMAMATSU and MCP PMT@gain =$10^7$, with time window 521ns. \\
-\begin{columns}
-\begin{column}{.485\textwidth}
-\begin{figure}
-\centering
-\includegraphics[width=\textwidth]{figure/hamnoise.png} % 单图
-%\label{fig:wave2d}
-%\caption{"cut" the charge spectrum to count pedestal events}
-\end{figure}
-\end{column}
-\begin{column}{.5\textwidth}
-\begin{figure}
-\centering
-\includegraphics[width=\textwidth]{figure/mcpnoise.png} % 单图
-%\caption{fit using a PMT photon response model}
-\end{figure}
-\end{column}
-\end{columns}
-\end{frame}
-%\begin{frame}{waveform classification using CNN}
-%We have tested \alert{5k HAMAMATSU PMTs} and about \alert{7k NNVT PMTs} in the container system. We can obtain the following  paramaters:
-%\begin{table}[]
-%\caption{PMT performance qualification standard}
-%\resizebox{.8\textwidth}{!}{%
-%\begin{tabular*}{.98\textwidth}{l|c|c}
-%%\toprule
-%\hline
-%\hline
-%parameter & HAMAMATSU PMT&NNVT PMT\\
-%\hline
-%HV@Gain=$10^7$ &  <2350 V&<2800V \\
-% PDE & >24\%& >24\%\\
-% DCR & <50kHz& <100kHz\\
-% PV & >2.5& >2.5\\
-% rise time & <8.5ns& --\\
-% fall time & <12ns&-- \\
-% FWHM & ----& --\\
-% resolution & <0.4&<0.4 \\
-%\hline
-%\end{tabular*}
-%}
-%\end{table}
-%\alert{The Main aim of testing data analysis is to evaluate theses parameters and check wave quality of one PMT.}
+%\begin{frame}{photon response characters of MCP PMT }
+%	case 1:[dark noise]\\ The typical  charge spectrum of HAMAMATSU and MCP PMT@gain =$10^7$, with time window 521ns. \\
+%\begin{columns}
+%\begin{column}{.485\textwidth}
+%\begin{figure}
+%\centering
+%\includegraphics[width=\textwidth]{figure/hamnoise.png} % 单图
+%%\label{fig:wave2d}
+%%\caption{"cut" the charge spectrum to count pedestal events}
+%\end{figure}
+%\end{column}
+%\begin{column}{.5\textwidth}
+%\begin{figure}
+%\centering
+%\includegraphics[width=\textwidth]{figure/mcpnoise.png} % 单图
+%%\caption{fit using a PMT photon response model}
+%\end{figure}
+%\end{column}
+%\end{columns}
+%\end{frame}
+%%\begin{frame}{waveform classification using CNN}
+%%We have tested \alert{5k HAMAMATSU PMTs} and about \alert{7k NNVT PMTs} in the container system. We can obtain the following  paramaters:
+%%\begin{table}[]
+%%\caption{PMT performance qualification standard}
+%%\resizebox{.8\textwidth}{!}{%
+%%\begin{tabular*}{.98\textwidth}{l|c|c}
+%%%\toprule
+%%\hline
+%%\hline
+%%parameter & HAMAMATSU PMT&NNVT PMT\\
+%%\hline
+%%HV@Gain=$10^7$ &  <2350 V&<2800V \\
+%% PDE & >24\%& >24\%\\
+%% DCR & <50kHz& <100kHz\\
+%% PV & >2.5& >2.5\\
+%% rise time & <8.5ns& --\\
+%% fall time & <12ns&-- \\
+%% FWHM & ----& --\\
+%% resolution & <0.4&<0.4 \\
+%%\hline
+%%\end{tabular*}
+%%}
+%%\end{table}
+%%\alert{The Main aim of testing data analysis is to evaluate theses parameters and check wave quality of one PMT.}
+%%%\begin{figure}
+%%%\centering
+%%%\includegraphics[width=0.78\textwidth]{typical_hittime} % 单图
+%%%\end{figure}
+%%\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%\begin{frame}{Flowchart of analysis procedure}
+%\begin{frame}{photon response characters of MCP PMT }
+%select the time interval before "trigger window",we can see similar QDC spectrum with dark noise case.
+%\begin{columns}
+%\begin{column}{.495\textwidth}
+%\begin{figure}
+%\centering
+%\includegraphics[width=0.94\textwidth]{figure/roiwave.png} % 单图
+%\caption{slect non-trigger ROI}
+%\end{figure}
+%\end{column}
+%\begin{column}{.475\textwidth}
+%\begin{figure}
+%\centering
+%\includegraphics[width=0.94\textwidth]{figure/roiqdc.png} % 单图
+%\caption{QDC of non-trigger ROI}
+%\end{figure}
+%\end{column}
+%\end{columns}
+%\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%\begin{frame}{Flowchart of analysis procedure}
+%\begin{frame}{photon response characters of MCP PMT @$\mu\simeq 0.1$ }
+%	case 3: $\mu\simeq 0.1$\\
+%	In the trigger window, we can still see those "big signals" with charge >3p.e.
+%\begin{columns}
+%\begin{column}{.495\textwidth}
+%\begin{figure}
+%\centering
+%\includegraphics[width=0.94\textwidth]{figure/p1pewave.png} % 单图
+%\caption{waeforms @ $\mu\simeq  0.1$}
+%\end{figure}
+%\end{column}
+%\begin{column}{.475\textwidth}
+%\begin{figure}
+%\centering
+%\includegraphics[width=0.94\textwidth]{figure/p1peqdc.png} % 单图
+%\caption{QDC @ $\mu\simeq  0.1$}
+%\end{figure}
+%\end{column}
+%\end{columns}
+%\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%\begin{frame}{Flowchart of analysis procedure}
+%\begin{frame}{photon response characters of MCP PMT @$\mu\simeq 1$ }
+%	case 4: $\mu\simeq 1$\\
+%	When the light intensity increase to $\mu\simeq 1$ we can see a continuous "long tail " with charge >5p.e; this is a clear clue that MCP will magnify little part of electrons  with abnornal large gain. 
+%\begin{columns}
+%\begin{column}{.495\textwidth}
+%\begin{figure}
+%\centering
+%\includegraphics[width=0.97\textwidth]{figure/onepewave.png} % 单图
+%\caption{waeforms @ $\mu\simeq  1$}
+%\end{figure}
+%\end{column}
+%\begin{column}{.475\textwidth}
+%\begin{figure}
+%\centering
+%\includegraphics[width=0.94\textwidth]{figure/onepeqdc.png} % 单图
+%\caption{waeforms @ $\mu\simeq  1$}
+%\end{figure}
+%\end{column}
+%\end{columns}
+%\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%\begin{frame}{Flowchart of analysis procedure}
+%\begin{frame}{photon response characters of MCP PMT @$\mu >2$ }
+%	case 5: $\mu >2p.e.$\\
+%with $\mu=3.48$,  we can get signals with almost > 15p.e. 
+%\begin{columns}
+%\begin{column}{.495\textwidth}
+%\begin{figure}
+%\centering
+%\includegraphics[width=0.97\textwidth]{figure/mpewave.png} % 单图
+%\caption{waeforms @ $\mu\simeq  1$}
+%\end{figure}
+%\end{column}
+%\begin{column}{.475\textwidth}
+%\begin{figure}
+%\centering
+%\includegraphics[width=0.94\textwidth]{figure/mpeqdc.png} % 单图
+%\caption{waeforms @ $\mu\simeq  1$}
+%\end{figure}
+%\end{column}
+%\end{columns}
+%\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}{what we found}
+%To conclude  the above information, we find:
+%	\begin{itemize}
+%		\item \alert{The Gain of MCP-PMT is not stable enough}, It has small propobilty to magnify single p.e to unreasonable large charge. 
+%%	\item when the intensity of incident light increase, the "big signals" also increase its charge and amplitude.
+%		\item \alert{the charge of "big signals" is proportional to incident light.}the more incident phtons, the more "bgi signals". So, the charge of "bigsignals" is closely related to the light intensty rather and a fix charge sum.
+%		\item The "big signals" are slightly \alert{delayed(about several ns) in time.}
+%		\item Compared with HAMAMATSU PMT, the "big signal" of MCP PMT have no obvious physical meaning and need to be handled carefully. 
+%	\end{itemize}
+%\end{frame}
+%\section{new response model of MCP}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}{ possible reason:cross talk of MCP}
+%	From:JUNO-doc-4232-v2:
+%	If the second electrons from surface film hit more than one micro-channel, It may generate cross-talk signal. 
+%\begin{figure}
+%\centering
+%	\includegraphics[width=0.7\textwidth]{figure/mcpqs}
+%\end{figure}
+%\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}{ new response moddel with cross-talk effect}
+%Based on the above features, we try to adapt the tradtional PMT respond model,which is
+%%	\begin{equation}
+%%		S_{idel}=P(n;\mu)\otimes G_{n}(x)=\sum_{n=0}^{\infty}\frac{\mu^{n}e^{-\mu}}{n!}\frac{1}{\sigma_{1}\sqrt{2\pi n}}exp(-\frac{(x-nQ_{1})^2}{2n\sigma_{1}^{2}})
+%
+%%	\end{equation}
+%\begin{equation}\begin{aligned} S_{\text { ideal }}(x) &=P(n ; \mu) \otimes G_{n}(x) \\ &=\sum_{n=0}^{\infty} \frac{\mu^{n} \mathrm{e}^{-\mu}}{n !} \frac{1}{\sigma_{1} \sqrt{2 \pi n}} \exp \left(-\frac{\left(x-n Q_{1}\right)^{2}}{2 n \sigma_{1}^{2}}\right) \end{aligned}\end{equation}
+%	A simple cross-talk model: \alert{Suppose for a single p.e it could be magnified with gain={$g_{1}$, $2\times g_{1}$, $3\times g_{1}$}, the corresponding possibility are p1,p2,p3},we could modify the above singnal model to:
+%	\begin{equation}
+%		\begin{split}
+%			S_{idel}=P(n;\mu)\otimes G_{n}(x)=\sum_{n=0}^{\infty}\frac{\mu^{n}e^{-\mu}}{n!}[\frac{1}{\sigma_{1}\sqrt{2\pi n}}exp(-\frac{(x-nQ_{1})^2}{2n\sigma_{1}^{2}})\\+{\color{red}p2*\frac{1}{\sigma_{2}\sqrt{2\pi n}}exp(-\frac{(x-2nQ_{1})^2}{2n\sigma_{2}^{2}})+p3*\frac{1}{\sigma_{3}\sqrt{2\pi n}}exp(-\frac{(x-3nQ_{1})^2}{2n\sigma_{1}^{3}})}]
+%		\end{split}
+%	\end{equation}
+%\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}{ the expected photon number}
+%	$P_2$ is the propobility of "2p.e." cross-talk event,$P_3$ is the propobility of "3p.e." cross-talk event. 
+%\begin{figure}
+%\centering
+%\includegraphics[width=0.8\textwidth]{figure/illust.png}
+%\end{figure}
+%%\begin{equation}
+%%	\mu=-ln(\frac{N_{0}}{N})
+%%\end{equation}
+%%	where $N_{0}$ is the number of pedestal(0 p.e) events, N is the total event number.
+%%\vspace{.3cm}
+%%\hrule{\textwidth}
+%%\vspace{.3cm}
+%%However, if we know explicitly the photon number of specific event, the $\mu$ value is :
+%%\begin{equation}
+%%	\mu=1\times n_{1}+2\times n_{2}+\cdot\cdot\cdot+N\times n_{N}
+%%\end{equation}
+%%	where $n_{N}$ is the number of N p.e events.
+%
+%\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%\begin{frame}{PMT testing report-pass}
+%%We have generated testing report for each qualified PMT.
+%%\vspace{-.2cm}
 %%\begin{figure}
 %%\centering
-%%\includegraphics[width=0.78\textwidth]{typical_hittime} % 单图
+%%\includegraphics[width=1.0\textwidth]{figures/SN_EA0283_pde1_dcr1_HV1_pv1_rt1_tag1.png}
 %%\end{figure}
-%\end{frame}
+%%\end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\begin{frame}{Flowchart of analysis procedure}
-\begin{frame}{photon response characters of MCP PMT }
-select the time interval before "trigger window",we can see similar QDC spectrum with dark noise case.
-\begin{columns}
-\begin{column}{.495\textwidth}
-\begin{figure}
-\centering
-\includegraphics[width=0.94\textwidth]{figure/roiwave.png} % 单图
-\caption{slect non-trigger ROI}
-\end{figure}
-\end{column}
-\begin{column}{.475\textwidth}
-\begin{figure}
-\centering
-\includegraphics[width=0.94\textwidth]{figure/roiqdc.png} % 单图
-\caption{QDC of non-trigger ROI}
-\end{figure}
-\end{column}
-\end{columns}
-\end{frame}
+%%\begin{frame}{calibration of each drawer}
+%%Generally, we put several PMTs with known PDE value\footnote{or QE value}  into one drawer and linearly fit the PDE-$\mu_{test}$ data to get \alert{drawer$_{factor}$}.
+%%\vspace{.5cm}
+%%\hrule{\textwidth}
+%%\vspace{.5cm}
+%%
+%%While an alternative way to access the drawer$_{factor}$ is fitting PDE-$\mu_{test}$ data {\color{red}from all the PMTs tested in one drawer rather than the mannual selected ones.} Then once we finish one PMT test in a drawer we will get one more statistical sample in the PDE-$\mu_{test}$ fitting, and we could expect that the fitted drawer$_{factor}$ will get more stable as we testing more PMTs.
+%%
+%%\vspace{.5cm}
+%%The advantage of this "self-calibration" method is that we could {\color{red}decrease the statistical error as much as possible}; and the remained fluctuation of drawer$_{factor}$ can be the system error.
+%%\end{frame}
+%\section{Performance of the model}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\begin{frame}{Flowchart of analysis procedure}
-\begin{frame}{photon response characters of MCP PMT @$\mu\simeq 0.1$ }
-	case 3: $\mu\simeq 0.1$\\
-	In the trigger window, we can still see those "big signals" with charge >3p.e.
-\begin{columns}
-\begin{column}{.495\textwidth}
-\begin{figure}
-\centering
-\includegraphics[width=0.94\textwidth]{figure/p1pewave.png} % 单图
-\caption{waeforms @ $\mu\simeq  0.1$}
-\end{figure}
-\end{column}
-\begin{column}{.475\textwidth}
-\begin{figure}
-\centering
-\includegraphics[width=0.94\textwidth]{figure/p1peqdc.png} % 单图
-\caption{QDC @ $\mu\simeq  0.1$}
-\end{figure}
-\end{column}
-\end{columns}
-\end{frame}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\begin{frame}{Flowchart of analysis procedure}
-\begin{frame}{photon response characters of MCP PMT @$\mu\simeq 1$ }
-	case 4: $\mu\simeq 1$\\
-	When the light intensity increase to $\mu\simeq 1$ we can see a continuous "long tail " with charge >5p.e; this is a clear clue that MCP will magnify little part of electrons  with abnornal large gain. 
-\begin{columns}
-\begin{column}{.495\textwidth}
-\begin{figure}
-\centering
-\includegraphics[width=0.97\textwidth]{figure/onepewave.png} % 单图
-\caption{waeforms @ $\mu\simeq  1$}
-\end{figure}
-\end{column}
-\begin{column}{.475\textwidth}
-\begin{figure}
-\centering
-\includegraphics[width=0.94\textwidth]{figure/onepeqdc.png} % 单图
-\caption{waeforms @ $\mu\simeq  1$}
-\end{figure}
-\end{column}
-\end{columns}
-\end{frame}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\begin{frame}{Flowchart of analysis procedure}
-\begin{frame}{photon response characters of MCP PMT @$\mu >2$ }
-	case 5: $\mu >2p.e.$\\
-with $\mu=3.48$,  we can get signals with almost > 15p.e. 
-\begin{columns}
-\begin{column}{.495\textwidth}
-\begin{figure}
-\centering
-\includegraphics[width=0.97\textwidth]{figure/mpewave.png} % 单图
-\caption{waeforms @ $\mu\simeq  1$}
-\end{figure}
-\end{column}
-\begin{column}{.475\textwidth}
-\begin{figure}
-\centering
-\includegraphics[width=0.94\textwidth]{figure/mpeqdc.png} % 单图
-\caption{waeforms @ $\mu\simeq  1$}
-\end{figure}
-\end{column}
-\end{columns}
-\end{frame}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{what we found}
-To conclude  the above information, we find:
-	\begin{itemize}
-		\item \alert{The Gain of MCP-PMT is not stable enough}, It has small propobilty to magnify single p.e to unreasonable large charge. 
-%	\item when the intensity of incident light increase, the "big signals" also increase its charge and amplitude.
-		\item \alert{the charge of "big signals" is proportional to incident light.}the more incident phtons, the more "bgi signals". So, the charge of "bigsignals" is closely related to the light intensty rather and a fix charge sum.
-		\item The "big signals" are slightly \alert{delayed(about several ns) in time.}
-		\item Compared with HAMAMATSU PMT, the "big signal" of MCP PMT have no obvious physical meaning and need to be handled carefully. 
-	\end{itemize}
-\end{frame}
-\section{new response model of MCP}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{ possible reason:cross talk of MCP}
-	From:JUNO-doc-4232-v2:
-	If the second electrons from surface film hit more than one micro-channel, It may generate cross-talk signal. 
-\begin{figure}
-\centering
-	\includegraphics[width=0.7\textwidth]{figure/mcpqs}
-\end{figure}
-\end{frame}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{ new response moddel with cross-talk effect}
-Based on the above features, we try to adapt the tradtional PMT respond model,which is
-%	\begin{equation}
-%		S_{idel}=P(n;\mu)\otimes G_{n}(x)=\sum_{n=0}^{\infty}\frac{\mu^{n}e^{-\mu}}{n!}\frac{1}{\sigma_{1}\sqrt{2\pi n}}exp(-\frac{(x-nQ_{1})^2}{2n\sigma_{1}^{2}})
-
-%	\end{equation}
-\begin{equation}\begin{aligned} S_{\text { ideal }}(x) &=P(n ; \mu) \otimes G_{n}(x) \\ &=\sum_{n=0}^{\infty} \frac{\mu^{n} \mathrm{e}^{-\mu}}{n !} \frac{1}{\sigma_{1} \sqrt{2 \pi n}} \exp \left(-\frac{\left(x-n Q_{1}\right)^{2}}{2 n \sigma_{1}^{2}}\right) \end{aligned}\end{equation}
-	A simple cross-talk model: \alert{Suppose for a single p.e it could be magnified with gain={$g_{1}$, $2\times g_{1}$, $3\times g_{1}$}, the corresponding possibility are p1,p2,p3},we could modify the above singnal model to:
-	\begin{equation}
-		\begin{split}
-			S_{idel}=P(n;\mu)\otimes G_{n}(x)=\sum_{n=0}^{\infty}\frac{\mu^{n}e^{-\mu}}{n!}[\frac{1}{\sigma_{1}\sqrt{2\pi n}}exp(-\frac{(x-nQ_{1})^2}{2n\sigma_{1}^{2}})\\+{\color{red}p2*\frac{1}{\sigma_{2}\sqrt{2\pi n}}exp(-\frac{(x-2nQ_{1})^2}{2n\sigma_{2}^{2}})+p3*\frac{1}{\sigma_{3}\sqrt{2\pi n}}exp(-\frac{(x-3nQ_{1})^2}{2n\sigma_{1}^{3}})}]
-		\end{split}
-	\end{equation}
-\end{frame}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{ the expected photon number}
-	$P_2$ is the propobility of "2p.e." cross-talk event,$P_3$ is the propobility of "3p.e." cross-talk event. 
-\begin{figure}
-\centering
-\includegraphics[width=0.8\textwidth]{figure/illust.png}
-\end{figure}
-%\begin{equation}
-%	\mu=-ln(\frac{N_{0}}{N})
-%\end{equation}
-%	where $N_{0}$ is the number of pedestal(0 p.e) events, N is the total event number.
-%\vspace{.3cm}
-%\hrule{\textwidth}
-%\vspace{.3cm}
-%However, if we know explicitly the photon number of specific event, the $\mu$ value is :
-%\begin{equation}
-%	\mu=1\times n_{1}+2\times n_{2}+\cdot\cdot\cdot+N\times n_{N}
-%\end{equation}
-%	where $n_{N}$ is the number of N p.e events.
-
-\end{frame}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\begin{frame}{PMT testing report-pass}
-%We have generated testing report for each qualified PMT.
-%\vspace{-.2cm}
-%\begin{figure}
+%\begin{frame}{fit example}
+%	Using the same model to fit charge spectrum of two types of PMTs, we can see the difference clearly.
+%\begin{columns}
+%\begin{column}{.49\textwidth}
+%\begin{figure}[!h]
 %\centering
-%\includegraphics[width=1.0\textwidth]{figures/SN_EA0283_pde1_dcr1_HV1_pv1_rt1_tag1.png}
-%\end{figure}
-%\end{frame}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\begin{frame}{calibration of each drawer}
-%Generally, we put several PMTs with known PDE value\footnote{or QE value}  into one drawer and linearly fit the PDE-$\mu_{test}$ data to get \alert{drawer$_{factor}$}.
-%\vspace{.5cm}
-%\hrule{\textwidth}
-%\vspace{.5cm}
-%
-%While an alternative way to access the drawer$_{factor}$ is fitting PDE-$\mu_{test}$ data {\color{red}from all the PMTs tested in one drawer rather than the mannual selected ones.} Then once we finish one PMT test in a drawer we will get one more statistical sample in the PDE-$\mu_{test}$ fitting, and we could expect that the fitted drawer$_{factor}$ will get more stable as we testing more PMTs.
-%
-%\vspace{.5cm}
-%The advantage of this "self-calibration" method is that we could {\color{red}decrease the statistical error as much as possible}; and the remained fluctuation of drawer$_{factor}$ can be the system error.
-%\end{frame}
-\section{Performance of the model}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{fit example}
-	Using the same model to fit charge spectrum of two types of PMTs, we can see the difference clearly.
-\begin{columns}
-\begin{column}{.49\textwidth}
-\begin{figure}[!h]
-\centering
-\includegraphics[width=.9\textwidth]{figure/hamfit.png} % 单图
-%\label{fig:wave2d}
-\caption{HAMAMATSU PMT}
-\end{figure}
-\end{column}
-\begin{column}{.49\textwidth}
-\begin{figure}[!h]
-\centering
-\includegraphics[width=.9\textwidth]{figure/mcpfit.png} % 单图
-%\label{fig:wave2d}
-\caption{MCP PMT}
-\end{figure}
-\end{column}
-\end{columns}
-\end{frame}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\begin{frame}{一个抽屉的刻度结果}
-%随着测试PMT数量的增加，拟合统计误差逐渐减小,$drawer_{factor}$的拟合结果趋于稳定(更多抽屉拟合结果见back-up部分)。
-%\begin{figure}
-%\centering
-%\includegraphics[width=0.98\textwidth]{sta101-7} % 单图
-%\caption{108抽屉的$drawer_{factor}$拟合结果}
-%\end{figure}
-%\end{frame}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%~~!!!!!!!!!!!!!!!!!!put two figures to illustrate!!!!!
-\begin{frame}{fitting results}
-	distribution of parameter $P_{2},P_{3}$
-\begin{columns}
-\begin{column}{.47\textwidth}
-\begin{itemize}
-	\item 30k training waveform samples
-	\item 2 convolution layers
-	\item 4 output tags
-	\item accuracy$\simeq 0.95$
-	\end{itemize}
-\end{column}
-\begin{column}{.5\textwidth}
-\begin{figure}
-\centering
-\includegraphics[width=\textwidth]{figure/mcpfit.png} % 单图
-%\includegraphics[width=\textwidth]{figures/baseline2d.png} % 单图
-\caption{input data}
-\end{figure}
-\end{column}
-\end{columns}
-\end{frame}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{"cross-talk" coefficient}
-If one photon was magnified with two or times of the normal gain, the output signal can not be distinguished with the two photons event; this is really a bad news to PMT. 
-\vspace{.5cm}
-\hrule{\textwidth}
-\vspace{.5cm}
-	we define a parameter $\delta$ to describe the proportion of "cross-talk" signal as:
-\begin{equation}
-	\begin{split}
-		\delta&=\frac{\alpha}{1+\alpha}\\
-		&=\frac{2\times P_{2}+3\times P_{3}}{1+2\times P_{2}+3\times P_{3}}
-	\end{split}
-\end{equation}
-	where $\alpha=2\times P_{2}+3\times P_{3}$ is the total number of unreasonable events.
-\end{frame}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{distribution of  $\delta$}
-
-%\vspace{.5cm}
-%\hrule{\textwidth}
-%\vspace{.5cm}
-%
-\end{frame}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\begin{frame}{statistical results}
-%Mean value of parameters for HAMAMATSU-PMT and NNVT-PMT\footnote{For the parameter TTS, we need to test the internal time resolution firstly, since we found the TTS results is highly drawer related.}：
-%
-%\vspace{.5cm}
-%
-%\centering
-%\begin{tabular}{l|c|c}
-%\hline
-%\hline
-%parameters（mean）&  {\color{Blue} HAMAMATSU} & {\color{Blue}NNVT} \\\hline
-%DCR(kHz)&15.38&41.24\\
-%rise time(ns)&7.4& 3.2\\
-%fall time(ns)&10.36& 15.9\\
-%PV&3.39& 3.19\\
-%resolution&0.28& 0.35\\
-%HV@1E7(V)&1861& 1783\\
-%FWHM(ns)&9.08& 5.8\\
-%\hline
-%\end{tabular}
-%\end{frame}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\begin{frame}{results of cnn}
-%\begin{figure}
-%\centering
-%\vspace{-.4cm}
-%\includegraphics[width=0.968\textwidth]{cnnham} % 单图
+%\includegraphics[width=.9\textwidth]{figure/hamfit.png} % 单图
+%%\label{fig:wave2d}
 %\caption{HAMAMATSU PMT}
 %\end{figure}
+%\end{column}
+%\begin{column}{.49\textwidth}
+%\begin{figure}[!h]
+%\centering
+%\includegraphics[width=.9\textwidth]{figure/mcpfit.png} % 单图
+%%\label{fig:wave2d}
+%\caption{MCP PMT}
+%\end{figure}
+%\end{column}
+%\end{columns}
 %\end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\begin{frame}{results of cnn}
+%%\begin{frame}{一个抽屉的刻度结果}
+%%随着测试PMT数量的增加，拟合统计误差逐渐减小,$drawer_{factor}$的拟合结果趋于稳定(更多抽屉拟合结果见back-up部分)。
+%%\begin{figure}
+%%\centering
+%%\includegraphics[width=0.98\textwidth]{sta101-7} % 单图
+%%\caption{108抽屉的$drawer_{factor}$拟合结果}
+%%\end{figure}
+%%\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%~~!!!!!!!!!!!!!!!!!!put two figures to illustrate!!!!!
+%\begin{frame}{fitting results}
+%	distribution of parameter $P_{2},P_{3}$
+%\begin{columns}
+%\begin{column}{.47\textwidth}
+%\begin{itemize}
+%	\item 30k training waveform samples
+%	\item 2 convolution layers
+%	\item 4 output tags
+%	\item accuracy$\simeq 0.95$
+%	\end{itemize}
+%\end{column}
+%\begin{column}{.5\textwidth}
 %\begin{figure}
 %\centering
-%\vspace{-.4cm}
-%\includegraphics[width=0.968\textwidth]{cnnmcp} % 单图
-%	\caption{NNVT PMT}
+%\includegraphics[width=\textwidth]{figure/mcpfit.png} % 单图
+%%\includegraphics[width=\textwidth]{figures/baseline2d.png} % 单图
+%\caption{input data}
 %\end{figure}
+%\end{column}
+%\end{columns}
 %\end{frame}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Summary}
-\begin{frame}{summary }
-\begin{itemize}
-\item the cross-talk signal proportion of MCP PMT is about....
-\item can achieve $sim 0.95$ acuuracy with the traditional method using simple NN. 
-\item  much faster than traditionl methods in PDE evaluation.
-\item  CNN can ectract more infromation from waveforms.
-%\item 保存重要的测试信息和输出结果到PMT数据库，所有测试结果\footnote{包含集装测试历史数据}可以直接通过http://pmtdb.juno.ihep.ac.cn/\footnote{Query::LPMT Tested Reports} 查询得到
-%\item 初步结论：目前现场5002支滨松PMT，382支外观检测不合格，5支HV不合格，2支波形较差，24支DCR不合格，9支PDE不合格。
-\end{itemize}
-to list:
-\begin{itemize}
-\item refine the training samples and network structure. 
-\item  compare the accuracy in more details, for example using the reference tubes in container system. 
-\item  improve the input data quality. 
-%\item 保存重要的测试信息和输出结果到PMT数据库，所有测试结果\footnote{包含集装测试历史数据}可以直接通过http://pmtdb.juno.ihep.ac.cn/\footnote{Query::LPMT Tested Reports} 查询得到
-%\item 初步结论：目前现场5002支滨松PMT，382支外观检测不合格，5支HV不合格，2支波形较差，24支DCR不合格，9支PDE不合格。
-\end{itemize}
-\end{frame}
-%\begin{frame}{to-do list }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}{"cross-talk" coefficient}
+%If one photon was magnified with two or times of the normal gain, the output signal can not be distinguished with the two photons event; this is really a bad news to PMT. 
+%\vspace{.5cm}
+%\hrule{\textwidth}
+%\vspace{.5cm}
+%	we define a parameter $\delta$ to describe the proportion of "cross-talk" signal as:
+%\begin{equation}
+%	\begin{split}
+%		\delta&=\frac{\alpha}{1+\alpha}\\
+%		&=\frac{2\times P_{2}+3\times P_{3}}{1+2\times P_{2}+3\times P_{3}}
+%	\end{split}
+%\end{equation}
+%	where $\alpha=2\times P_{2}+3\times P_{3}$ is the total number of unreasonable events.
+%\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}{distribution of  $\delta$}
+%
+%%\vspace{.5cm}
+%%\hrule{\textwidth}
+%%\vspace{.5cm}
+%%
+%\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%\begin{frame}{statistical results}
+%%Mean value of parameters for HAMAMATSU-PMT and NNVT-PMT\footnote{For the parameter TTS, we need to test the internal time resolution firstly, since we found the TTS results is highly drawer related.}：
+%%
+%%\vspace{.5cm}
+%%
+%%\centering
+%%\begin{tabular}{l|c|c}
+%%\hline
+%%\hline
+%%parameters（mean）&  {\color{Blue} HAMAMATSU} & {\color{Blue}NNVT} \\\hline
+%%DCR(kHz)&15.38&41.24\\
+%%rise time(ns)&7.4& 3.2\\
+%%fall time(ns)&10.36& 15.9\\
+%%PV&3.39& 3.19\\
+%%resolution&0.28& 0.35\\
+%%HV@1E7(V)&1861& 1783\\
+%%FWHM(ns)&9.08& 5.8\\
+%%\hline
+%%\end{tabular}
+%%\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%\begin{frame}{results of cnn}
+%%\begin{figure}
+%%\centering
+%%\vspace{-.4cm}
+%%\includegraphics[width=0.968\textwidth]{cnnham} % 单图
+%%\caption{HAMAMATSU PMT}
+%%\end{figure}
+%%\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%\begin{frame}{results of cnn}
+%%\begin{figure}
+%%\centering
+%%\vspace{-.4cm}
+%%\includegraphics[width=0.968\textwidth]{cnnmcp} % 单图
+%%	\caption{NNVT PMT}
+%%\end{figure}
+%%\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section{Summary}
+%\begin{frame}{summary }
+%\begin{itemize}
+%\item the cross-talk signal proportion of MCP PMT is about....
+%\item can achieve $sim 0.95$ acuuracy with the traditional method using simple NN. 
+%\item  much faster than traditionl methods in PDE evaluation.
+%\item  CNN can ectract more infromation from waveforms.
+%%\item 保存重要的测试信息和输出结果到PMT数据库，所有测试结果\footnote{包含集装测试历史数据}可以直接通过http://pmtdb.juno.ihep.ac.cn/\footnote{Query::LPMT Tested Reports} 查询得到
+%%\item 初步结论：目前现场5002支滨松PMT，382支外观检测不合格，5支HV不合格，2支波形较差，24支DCR不合格，9支PDE不合格。
+%\end{itemize}
+%to list:
 %\begin{itemize}
 %\item refine the training samples and network structure. 
 %\item  compare the accuracy in more details, for example using the reference tubes in container system. 
@@ -499,6 +456,15 @@ to list:
 %%\item 初步结论：目前现场5002支滨松PMT，382支外观检测不合格，5支HV不合格，2支波形较差，24支DCR不合格，9支PDE不合格。
 %\end{itemize}
 %\end{frame}
+%%\begin{frame}{to-do list }
+%%\begin{itemize}
+%%\item refine the training samples and network structure. 
+%%\item  compare the accuracy in more details, for example using the reference tubes in container system. 
+%%\item  improve the input data quality. 
+%%%\item 保存重要的测试信息和输出结果到PMT数据库，所有测试结果\footnote{包含集装测试历史数据}可以直接通过http://pmtdb.juno.ihep.ac.cn/\footnote{Query::LPMT Tested Reports} 查询得到
+%%%\item 初步结论：目前现场5002支滨松PMT，382支外观检测不合格，5支HV不合格，2支波形较差，24支DCR不合格，9支PDE不合格。
+%%\end{itemize}
+%%\end{frame}
 
 \begin{frame}
 \centering {\zihao{0} \color{red} {THANKS}}
