@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  8 MAY 2019 14:46
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  9 MAY 2019 14:39
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2201,34 +2201,20 @@ might try typing `S' now just to see what is salvageable.
 [2
 
 ]
-File: figure/PA1901-5048_avewave.png Graphic file (type bmp)
-<figure/PA1901-5048_avewave.png>
-
-Overfull \hbox (8.13399pt too wide) in paragraph at lines 81--81
- [] 
- []
-
-LaTeX Font Info:    Try loading font information for U+msa on input line 81.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+LaTeX Font Info:    Try loading font information for U+msa on input line 60.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 81.
+LaTeX Font Info:    Try loading font information for U+msb on input line 60.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-File: figure/EA0863_avewave.png Graphic file (type bmp)
-<figure/EA0863_avewave.png>
-
-Overfull \hbox (8.13399pt too wide) in paragraph at lines 81--81
- [] 
- []
-
-./Slide.tex:81: Misplaced alignment tab character &.
+./Slide.tex:60: Misplaced alignment tab character &.
 <recently read> &
                  
-l.81 \end{frame}
-                
+l.60  \end{frame}
+                 
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -2236,11 +2222,11 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-./Slide.tex:81: Misplaced alignment tab character &.
+./Slide.tex:60: Misplaced alignment tab character &.
 \beamer@shortauthor ->Yu Chen&&
                                 Rong Zhao 
-l.81 \end{frame}
-                
+l.60  \end{frame}
+                 
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -2251,16 +2237,24 @@ might try typing `S' now just to see what is salvageable.
 [3
 
 ]
-File: figure/PA1901-5048_apstats.png Graphic file (type bmp)
-<figure/PA1901-5048_apstats.png>
+File: figure/PA1711-1263_avewave.png Graphic file (type bmp)
+<figure/PA1711-1263_avewave.png>
 
-Overfull \vbox (72.82161pt too high) detected at line 89
+Overfull \hbox (8.13399pt too wide) in paragraph at lines 81--81
+ [] 
  []
 
-./Slide.tex:89: Misplaced alignment tab character &.
+File: figure/EA1500_avewave.png Graphic file (type bmp)
+<figure/EA1500_avewave.png>
+
+Overfull \hbox (8.13399pt too wide) in paragraph at lines 81--81
+ [] 
+ []
+
+./Slide.tex:81: Misplaced alignment tab character &.
 <recently read> &
                  
-l.89 \end{frame}
+l.81 \end{frame}
                 
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2269,10 +2263,10 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-./Slide.tex:89: Misplaced alignment tab character &.
+./Slide.tex:81: Misplaced alignment tab character &.
 \beamer@shortauthor ->Yu Chen&&
                                 Rong Zhao 
-l.89 \end{frame}
+l.81 \end{frame}
                 
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2284,17 +2278,25 @@ might try typing `S' now just to see what is salvageable.
 [4
 
 ]
-File: figure/EA0863_apstats.png Graphic file (type bmp)
-<figure/EA0863_apstats.png>
+File: figure/PA1705-261_avewave.png Graphic file (type bmp)
+<figure/PA1705-261_avewave.png>
 
-Overfull \vbox (72.82161pt too high) detected at line 97
+Overfull \hbox (8.13399pt too wide) in paragraph at lines 101--101
+ [] 
  []
 
-./Slide.tex:97: Misplaced alignment tab character &.
+File: figure/EA4149_avewave.png Graphic file (type bmp)
+<figure/EA4149_avewave.png>
+
+Overfull \hbox (8.13399pt too wide) in paragraph at lines 101--101
+ [] 
+ []
+
+./Slide.tex:101: Misplaced alignment tab character &.
 <recently read> &
                  
-l.97 \end{frame}
-                
+l.101 \end{frame}
+                 
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -2302,11 +2304,11 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-./Slide.tex:97: Misplaced alignment tab character &.
+./Slide.tex:101: Misplaced alignment tab character &.
 \beamer@shortauthor ->Yu Chen&&
                                 Rong Zhao 
-l.97 \end{frame}
-                
+l.101 \end{frame}
+                 
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -2317,10 +2319,24 @@ might try typing `S' now just to see what is salvageable.
 [5
 
 ]
-./Slide.tex:106: Misplaced alignment tab character &.
+File: figure/PA1901-5048_avewave.png Graphic file (type bmp)
+<figure/PA1901-5048_avewave.png>
+
+Overfull \hbox (8.13399pt too wide) in paragraph at lines 121--121
+ [] 
+ []
+
+File: figure/EA0863_avewave.png Graphic file (type bmp)
+<figure/EA0863_avewave.png>
+
+Overfull \hbox (8.13399pt too wide) in paragraph at lines 121--121
+ [] 
+ []
+
+./Slide.tex:121: Misplaced alignment tab character &.
 <recently read> &
                  
-l.106 \end{frame}
+l.121 \end{frame}
                  
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2329,10 +2345,10 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-./Slide.tex:106: Misplaced alignment tab character &.
+./Slide.tex:121: Misplaced alignment tab character &.
 \beamer@shortauthor ->Yu Chen&&
                                 Rong Zhao 
-l.106 \end{frame}
+l.121 \end{frame}
                  
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2344,10 +2360,16 @@ might try typing `S' now just to see what is salvageable.
 [6
 
 ]
-./Slide.tex:471: Misplaced alignment tab character &.
+File: figure/PA1711-1263_apstats.png Graphic file (type bmp)
+<figure/PA1711-1263_apstats.png>
+
+Overfull \vbox (6.18385pt too high) detected at line 129
+ []
+
+./Slide.tex:129: Misplaced alignment tab character &.
 <recently read> &
                  
-l.471 \end{frame}
+l.129 \end{frame}
                  
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2356,10 +2378,10 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-./Slide.tex:471: Misplaced alignment tab character &.
+./Slide.tex:129: Misplaced alignment tab character &.
 \beamer@shortauthor ->Yu Chen&&
                                 Rong Zhao 
-l.471 \end{frame}
+l.129 \end{frame}
                  
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2371,10 +2393,16 @@ might try typing `S' now just to see what is salvageable.
 [7
 
 ]
-./Slide.tex:475: Misplaced alignment tab character &.
+File: figure/PA1705-261_apstats.png Graphic file (type bmp)
+<figure/PA1705-261_apstats.png>
+
+Overfull \vbox (6.18385pt too high) detected at line 138
+ []
+
+./Slide.tex:138: Misplaced alignment tab character &.
 <recently read> &
                  
-l.475 \end{frame}
+l.138 \end{frame}
                  
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2383,10 +2411,10 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-./Slide.tex:475: Misplaced alignment tab character &.
+./Slide.tex:138: Misplaced alignment tab character &.
 \beamer@shortauthor ->Yu Chen&&
                                 Rong Zhao 
-l.475 \end{frame}
+l.138 \end{frame}
                  
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2398,6 +2426,153 @@ might try typing `S' now just to see what is salvageable.
 [8
 
 ]
+File: figure/EA1500_apstats.png Graphic file (type bmp)
+<figure/EA1500_apstats.png>
+
+Overfull \vbox (6.18385pt too high) detected at line 147
+ []
+
+./Slide.tex:147: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.147 \end{frame}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./Slide.tex:147: Misplaced alignment tab character &.
+\beamer@shortauthor ->Yu Chen&&
+                                Rong Zhao 
+l.147 \end{frame}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[9
+
+]
+File: figure/EA4149_apstats.png Graphic file (type bmp)
+<figure/EA4149_apstats.png>
+
+Overfull \vbox (6.18385pt too high) detected at line 156
+ []
+
+./Slide.tex:156: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.156 \end{frame}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./Slide.tex:156: Misplaced alignment tab character &.
+\beamer@shortauthor ->Yu Chen&&
+                                Rong Zhao 
+l.156 \end{frame}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[10
+
+]
+./Slide.tex:166: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.166 \end{frame}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./Slide.tex:166: Misplaced alignment tab character &.
+\beamer@shortauthor ->Yu Chen&&
+                                Rong Zhao 
+l.166 \end{frame}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[11
+
+]
+./Slide.tex:531: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.531 \end{frame}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./Slide.tex:531: Misplaced alignment tab character &.
+\beamer@shortauthor ->Yu Chen&&
+                                Rong Zhao 
+l.531 \end{frame}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[12
+
+]
+./Slide.tex:535: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.535 \end{frame}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./Slide.tex:535: Misplaced alignment tab character &.
+\beamer@shortauthor ->Yu Chen&&
+                                Rong Zhao 
+l.535 \end{frame}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[13
+
+]
 \tf@nav=\write6
 \openout6 = `Slide.nav'.
 
@@ -2407,21 +2582,21 @@ might try typing `S' now just to see what is salvageable.
 \tf@snm=\write8
 \openout8 = `Slide.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 513.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 513.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 573.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 573.
  (temp/Slide.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 513.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 513.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 573.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 573.
 Package rerunfilecheck Info: File `Slide.out' has not changed.
-(rerunfilecheck)             Checksum: A6DB2B34461C5D26FA527D6EE46D5462.
+(rerunfilecheck)             Checksum: 47949AC7C3DCEDDDEEFE3CD50587DDA1.
  ) 
 Here is how much of TeX's memory you used:
- 36140 strings out of 492970
- 732869 string characters out of 6133939
- 815799 words of memory out of 5000000
- 39506 multiletter control sequences out of 15000+600000
+ 36183 strings out of 492970
+ 733874 string characters out of 6133939
+ 818032 words of memory out of 5000000
+ 39543 multiletter control sequences out of 15000+600000
  536324 words of font info for 75 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  57i,20n,76p,10413b,793s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on temp/Slide.pdf (8 pages).
+Output written on temp/Slide.pdf (13 pages).

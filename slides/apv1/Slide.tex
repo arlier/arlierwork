@@ -46,22 +46,62 @@
 \tableofcontents
 \end{frame}
 
-\section{Brief Introduction}
+\section{Introduction}
 
 %\subsection{研究意义}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \begin{frame}{20 inch PMT}
-%0. current state and stratages for AP test ,file size
-%1.two sections: HAM and MCP
-%2.2D hist;time interval , rise time position distribution
-%3.DCR spectrum,DCR reduction
-%4.consistant with different light intensity?
-%5.details about the AP analysis.
-% \end{frame}
+ \begin{frame}{details about the AP test}
+\begin{itemize}
+       \item  four light intensity:\\dark noise, setpoint1000,setpoint2000,setpoint3000;
+       \item raw data file size(binary): 8Gb for each PMT.
+       \item raw data path:\textbf{login.pmt.ihep.ac.cn:/pmtfs/disk01/pmthome/aptest/}
+	\item frame length: 21$\mu s$, 40000 events recorded for one test. 
+\end{itemize}
+ \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\begin{frame}{Flowchart of analysis procedure}
-\begin{frame}{the "big signals" of MCP PMT}
+\begin{frame}{waveform of afterpulse}
+%	From the JUNO PMT testing data, we found thay when illumiated with single p.e phtons\footnote{3e}[$\mu=0.1$],MCP PMT will, typicaly ,output more multi-pe signals than dynode PMT. This phenomenon is depicted in the bellow figures as the "long tail " in the charge spectrum. the MCP manification factor is not so stable.
+\vspace{-1.3cm}
+\begin{columns}
+\begin{column}{.485\textwidth}
+\begin{figure}
+\centering
+	\includegraphics[width=1.049\textwidth]{figure/PA1711-1263_avewave}
+\end{figure}
+\end{column}
+\begin{column}{.485\textwidth}
+\begin{figure}
+\centering
+\includegraphics[width=1.049\textwidth]{figure/EA1500_avewave.png} % 单图
+\end{figure}
+\end{column}
+\end{columns}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}{Flowchart of analysis procedure}
+\begin{frame}{waveform of afterpulse}
+%	From the JUNO PMT testing data, we found thay when illumiated with single p.e phtons\footnote{3e}[$\mu=0.1$],MCP PMT will, typicaly ,output more multi-pe signals than dynode PMT. This phenomenon is depicted in the bellow figures as the "long tail " in the charge spectrum. the MCP manification factor is not so stable.
+\vspace{-1.3cm}
+\begin{columns}
+\begin{column}{.485\textwidth}
+\begin{figure}
+\centering
+	\includegraphics[width=1.049\textwidth]{figure/PA1705-261_avewave}
+\end{figure}
+\end{column}
+\begin{column}{.485\textwidth}
+\begin{figure}
+\centering
+\includegraphics[width=1.049\textwidth]{figure/EA4149_avewave.png} % 单图
+\end{figure}
+\end{column}
+\end{columns}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}{Flowchart of analysis procedure}
+\begin{frame}{waveform of afterpulse}
 %	From the JUNO PMT testing data, we found thay when illumiated with single p.e phtons\footnote{3e}[$\mu=0.1$],MCP PMT will, typicaly ,output more multi-pe signals than dynode PMT. This phenomenon is depicted in the bellow figures as the "long tail " in the charge spectrum. the MCP manification factor is not so stable.
 \vspace{-1.3cm}
 \begin{columns}
@@ -80,28 +120,48 @@
 \end{columns}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{afterpulse of MCP PMT }
+\begin{frame}{MCP PMT PA1711-1263 }
+\vspace{-.4cm}
 \begin{figure}
 \centering
-	\includegraphics[width=0.99\textwidth]{figure/PA1901-5048_apstats}
+	\includegraphics[width=0.79\textwidth]{figure/PA1711-1263_apstats}
+\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{MCP PMT PA1705-261 }
+\vspace{-.4cm}
+\begin{figure}
+\centering
+	\includegraphics[width=0.79\textwidth]{figure/PA1705-261_apstats}
 \end{figure}
 
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{afterpulse of HAMAMATSU PMT }
+\begin{frame}{HAMAMATSU PMT EA1500}
+\vspace{-.4cm}
 \begin{figure}
 \centering
-	\includegraphics[width=0.99\textwidth]{figure/EA0863_apstats}
+	\includegraphics[width=0.79\textwidth]{figure/EA1500_apstats}
+\end{figure}
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{HAMAMATSU PMT EA4149}
+\vspace{-.4cm}
+\begin{figure}
+\centering
+	\includegraphics[width=0.79\textwidth]{figure/EA4149_apstats}
 \end{figure}
 
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%
-\begin{frame}{photon response characters of MCP PMT.}
+\begin{frame}{summary}
 	\begin{enumerate}
-	\item the light intensity is too large and saturation appeared.
-	\item MCP afterpulse position: 0.3$\mu s$,1.3$\mu s$,3.5$\mu s$,4.7$\mu s$ after the primary pulse.
-	\item  HAMAMATSU afterpulse position 4$\mu s$,15$\mu s$
-	\item MCP PMT has larger DCR.
+	\item  already finished 11 HAMAMATSU PMTs and 22 MCP PMTs;
+	\item the light intensity is too large and saturation appeared.\\ \textbf{we need to bypass amplifier while testing after-pulse;}
+%	\item MCP afterpulse position: 0.3$\mu s$,1.3$\mu s$,3.5$\mu s$,4.7$\mu s$ after the primary pulse.
+%	\item  prilimary analysis show consistant results with the previous results;
+	\item the waveform of MCP PMT is strange, and we need to study more details to check the existance of "after pulses";
 	\end{enumerate}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

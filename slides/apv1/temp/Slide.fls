@@ -389,7 +389,6 @@ INPUT temp/Slide.nav
 INPUT figure/logo.png
 INPUT temp/Slide.toc
 INPUT temp/Slide.toc
-INPUT figure/PA1901-5048_avewave.png
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
@@ -412,9 +411,16 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+INPUT figure/PA1711-1263_avewave.png
+INPUT figure/EA1500_avewave.png
+INPUT figure/PA1705-261_avewave.png
+INPUT figure/EA4149_avewave.png
+INPUT figure/PA1901-5048_avewave.png
 INPUT figure/EA0863_avewave.png
-INPUT figure/PA1901-5048_apstats.png
-INPUT figure/EA0863_apstats.png
+INPUT figure/PA1711-1263_apstats.png
+INPUT figure/PA1705-261_apstats.png
+INPUT figure/EA1500_apstats.png
+INPUT figure/EA4149_apstats.png
 OUTPUT temp/Slide.nav
 OUTPUT temp/Slide.toc
 OUTPUT temp/Slide.snm

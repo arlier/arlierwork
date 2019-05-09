@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  30 APR 2019 12:02
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.3.9)  9 MAY 2019 14:27
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2220,12 +2220,14 @@ File: figure/mu1pe.png Graphic file (type bmp)
 <figure/mu1pe.png>
  [6
 
+] [7
+
 ]
 LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
-(Font)              scaled to size 60.70688pt on input line 150.
- [7
+(Font)              scaled to size 60.70688pt on input line 152.
+ [8
 
-] [8
+] [9
 
 ]
 \tf@nav=\write6
@@ -2237,21 +2239,21 @@ LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
 \tf@snm=\write8
 \openout8 = `Slide.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 172.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 172.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 174.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 174.
  (temp/Slide.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 172.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 172.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 174.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 174.
 Package rerunfilecheck Info: File `Slide.out' has not changed.
 (rerunfilecheck)             Checksum: 538D5D983B2FD7D4896BC758D9FA26D3.
  ) 
 Here is how much of TeX's memory you used:
- 36139 strings out of 492970
- 733021 string characters out of 6133939
- 817050 words of memory out of 5000000
- 39495 multiletter control sequences out of 15000+600000
+ 36141 strings out of 492970
+ 733037 string characters out of 6133939
+ 818094 words of memory out of 5000000
+ 39497 multiletter control sequences out of 15000+600000
  538996 words of font info for 91 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  57i,20n,76p,10413b,793s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on temp/Slide.pdf (8 pages).
+Output written on temp/Slide.pdf (9 pages).
